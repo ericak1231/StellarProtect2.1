@@ -1,0 +1,6 @@
+[submodule "en-us/SharedResources/Legal"]
+	path = en-us/SharedResources/Legal
+	url = git@adc.github.trendmicro.com:HIE-ELIXIR/Legal.git
+[submodule "en-us/SharedResources/TechnicalSupportChapter"]
+	path = en-us/SharedResources/TechnicalSupportChapter
+	url = git@adc.github.trendmicro.com:HIE-ELIXIR/TechnicalSupportChapter.git
