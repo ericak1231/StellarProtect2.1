@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-F4AD6A7E-1798-4E63-A9FE-531434B42DD9" xml:lang="en-us">
+    <title id="GUID-2CCB340C-94E1-4FAE-9863-1741742B3F2B">Installation</title>
+    <conbody>
+        <p>This chapter shows how to install the TXOne <ph
+                conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph> agent.
+            The <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+            agent provides several
+            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>local<?oxy_custom_end?>
+            installation types including
+                <b><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>attended
+                installation<?oxy_custom_end?></b> and <b>silent installation</b>.</p>
+        <?oxy_comment_start author="erica_txone" timestamp="20221121T163813+0800" comment="ICS installation (max. procedures) --&gt; add notes indicating parts that Kiosk &amp; OEM don&apos;t have"?>
+        <p><?oxy_comment_end?>Topics in this chapter include:</p>
+        <ul id="ul_bs4_b1y_fp">
+            <li>
+                <p><xref
+                        href="../topics/system_requirements_sp_agent=20221121165729.xml"
+                    /></p>
+            </li>
+            <li>
+                <p><xref
+                        href="../topics/installation_flow_sp_agent=20221121164810.xml"
+                    /></p>
+            </li>
+            <li>
+                <p><xref
+                        href="../topics/get_agent_package=20221121173747.xml"
+                    /></p>
+            </li>
+            <li>
+                <p><xref
+                        href="../topics/local_installation_sp_agent=20221121172423.xml"
+                    /></p>
+            </li>
+            <li>
+                <p/>
+            </li>
+        </ul>
+    </conbody>
+</concept>

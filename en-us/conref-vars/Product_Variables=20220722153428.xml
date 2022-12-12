@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-9B1F4613-F003-47D2-ADAD-A0B5FC242EAA" xml:lang="en-us">
+<title id="GUID-B6B76404-7B0F-4E29-94B8-0B09F864578D">Product Variables</title>
+<conbody>
+<p><draft-comment translate="no">This variable file uses the “keys” value of:</draft-comment> PRODvars</p>
+        <table colsep="1" frame="all" rowsep="1" id="table_phb_3qg_bx">
+            <title id="GUID-5444A223-965D-4EF1-BF8C-61996C5BA63C">Standard Product Variables</title>
+            <tgroup cols="4" colsep="1" outputclass="Properties" rowsep="1">
+                <colspec colname="1" colnum="1" colwidth="19*"/>
+                <colspec colname="2" colnum="2" colwidth="19*"/>
+                <colspec colname="3" colnum="3" colwidth="43*"/>
+                <colspec colname="4" colnum="4" colwidth="19*"/>
+                <thead>
+                    <row rowsep="1">
+                        <entry colname="1">Placeholder</entry>
+                        <entry colname="2">Value</entry>
+                        <entry colname="3">Use</entry>
+                        <entry colname="4">id</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row rowsep="1">
+                        <entry colname="1"><ph
+                                conref="#GUID-9B1F4613-F003-47D2-ADAD-A0B5FC242EAA/COMPANY_NAME_TM_PRODUCT_LONG_NAME_TM"
+                                >COMPANY_NAME_TM_PRODUCT_LONG_NAME_TM</ph></entry>
+                        <entry colname="2"><ph id="COMPANY_NAME_TM_PRODUCT_LONG_NAME_TM"><tm
+                                    tmtype="tm">TXOne</tm>
+                                <tm tmtype="tm">StellarOne</tm></ph></entry>
+                        <entry colname="3">
+                            <draft-comment translate="no">Official full product name with TXOne and
+                                trademarks included</draft-comment>
+                        </entry>
+                        <entry colname="4">COMPANY_NAME_TM_PRODUCT_LONG_NAME_TM</entry>
+                    </row>
+                    <row rowsep="1">
+                        <entry colname="1"><ph
+                                conref="#GUID-9B1F4613-F003-47D2-ADAD-A0B5FC242EAA/COMPANY_NAME_PRODUCT_LONG_NAME"
+                                >COMPANY_NAME_PRODUCT_LONG_NAME</ph></entry>
+                        <entry colname="2"><ph id="COMPANY_NAME_PRODUCT_LONG_NAME">TXOne <tm
+                                    tmtype="tm">StellarOne</tm></ph></entry>
+                        <entry colname="3">
+                            <draft-comment translate="no">Official full product name with TXOne and
+                                trademarks included</draft-comment>
+                        </entry>
+                        <entry colname="4">COMPANY_NAME_PRODUCT_LONG_NAME_TM</entry>
+                    </row>
+                    <row rowsep="1">
+                        <entry colname="1"><ph
+                                conref="#GUID-9B1F4613-F003-47D2-ADAD-A0B5FC242EAA/OFFICIAL_PRODUCT_NAME"
+                                >OFFICIAL_PRODUCT_NAME</ph></entry>
+                        <entry colname="2"><ph id="OFFICIAL_PRODUCT_NAME">StellarOne </ph></entry>
+                        <entry colname="3">
+                            <draft-comment translate="no">Official full product name without Trend Micro
+                                included</draft-comment>
+                            <p>
+                                <draft-comment translate="no">
+                                    <note id="GUID-C4468377-86CE-4691-8FBD-6B2D3D38DE08">If Trend
+                                        Micro precedes the product name, use the company_name
+                                        variable in the
+                                            <filepath>Trend_Micro_variables.xml</filepath>
+                                        file.</note>
+                                </draft-comment>
+                            </p>
+                        </entry>
+                        <entry colname="4">OFFICIAL_PRODUCT_NAME</entry>
+                    </row>
+                    <row rowsep="1">
+                        <entry colname="1"><ph
+                                conref="#GUID-9B1F4613-F003-47D2-ADAD-A0B5FC242EAA/PRODUCT_SHORT_NAME"
+                                >PRODUCT_SHORT_NAME</ph></entry>
+                        <entry colname="2"><ph id="PRODUCT_SHORT_NAME">StellarOne </ph></entry>
+                        <entry colname="3">
+                            <p>
+                                <draft-comment translate="no">Short product name</draft-comment>
+                            </p>
+                            <p>
+                                <draft-comment translate="no">
+                                    <note id="GUID-A7EFED6A-E224-48A1-BBCB-8F8B726ED3A0">Use the
+                                        official full product name if a short name does not
+                                        exist.</note>
+                                </draft-comment>
+                            </p>
+                        </entry>
+                        <entry colname="4">PRODUCT_SHORT_NAME</entry>
+                    </row>
+                    <row rowsep="1">
+                        <entry colname="1"><ph
+                                conref="#GUID-9B1F4613-F003-47D2-ADAD-A0B5FC242EAA/PRODUCT_NAME_TRADEMARKED"
+                                >PRODUCT_NAME_TRADEMARKED</ph></entry>
+                        <entry colname="2"><ph id="PRODUCT_NAME_TRADEMARKED"><tm tmtype="tm"
+                                    >StellarOne</tm>
+                            </ph></entry>
+                        <entry colname="3">
+                            <p>
+                                <draft-comment translate="no">Trademarked product name</draft-comment>
+                            </p>
+                            <p>
+                                <draft-comment translate="no">
+                                    <note id="GUID-EF3D15B8-DE42-4092-94FD-D5C26D682B1B">Include the
+                                        &lt;tm&gt; element within the &lt;ph&gt; element. Not all
+                                        products use trademarks the same way.</note>
+                                </draft-comment>
+                            </p>
+                        </entry>
+                        <entry colname="4">PRODUCT_NAME_TRADEMARKED</entry>
+                    </row>
+                    <row rowsep="1">
+                        <entry colname="1"><ph
+                                conref="#GUID-9B1F4613-F003-47D2-ADAD-A0B5FC242EAA/PRODUCT_ACRONYM"
+                                >PRODUCT_ACRONYM</ph></entry>
+                        <entry colname="2"><ph id="PRODUCT_ACRONYM">TXSO </ph></entry>
+                        <entry colname="3">
+                            <p>
+                                <draft-comment translate="no">Product acronym</draft-comment>
+                            </p>
+                            <p>
+                                <draft-comment translate="no">
+                                    <note id="GUID-00EB1475-3E64-4D5C-A79C-5758D4AA45FA">Include
+                                        only if the product uses an official acronym.</note>
+                                </draft-comment>
+                            </p>
+                        </entry>
+                        <entry colname="4">PRODUCT_ACRONYM</entry>
+                    </row>
+                    <row rowsep="1">
+                        <entry colname="1"><ph
+                                conref="#GUID-9B1F4613-F003-47D2-ADAD-A0B5FC242EAA/PRODUCT_VERSION"
+                                >PRODUCT_VERSION</ph></entry>
+                        <entry colname="2"><ph id="PRODUCT_VERSION">2.0</ph></entry>
+                        <entry colname="3">
+                            <p>
+                                <draft-comment translate="no">Product version</draft-comment>
+                            </p>
+                            <p>
+                                <draft-comment translate="no">
+                                    <note id="GUID-7E277090-EF52-4E8A-AEB3-208A8D5C1844">The current
+                                        version for this release. Include the SP or Patch
+                                        information as well.</note>
+                                </draft-comment>
+                            </p>
+                        </entry>
+                        <entry colname="4">PRODUCT_VERSION</entry>
+                    </row>
+                    <row rowsep="0">
+                        <entry colname="1"><ph
+                                conref="#GUID-9B1F4613-F003-47D2-ADAD-A0B5FC242EAA/PRODUCT_ALTERNATIVE_NAME"
+                                >PRODUCT_ALTERNATIVE_NAME</ph></entry>
+                        <entry colname="2"><ph id="PRODUCT_ALTERNATIVE_NAME">StellarOne</ph></entry>
+                        <entry colname="3">
+                            <p>
+                                <draft-comment translate="no">Alternate product name</draft-comment>
+                            </p>
+                            <p>
+                                <draft-comment translate="no">
+                                    <note id="GUID-315BC9B9-1EC5-4B6A-B06C-D9EBD9E83F3B">Include
+                                        only if the product uses an alternative name.</note>
+                                </draft-comment>
+                            </p>
+                        </entry>
+                        <entry colname="4">PRODUCT_ALTERNATIVE_NAME</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+</conbody>
+</concept>

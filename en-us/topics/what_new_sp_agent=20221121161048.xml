@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_zl2_q3r_c5b">
+    <title>What's New</title>
+    <refbody>
+        <section id="section_t4c_v3r_c5b">
+            <p>TXOne <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+                <ph conkeyref="LEGALvars/product_version">PRODUCT_VERSION</ph> provides following
+                new features and enhancements.</p>
+            <table frame="all" rowsep="1" colsep="1" id="table_p4k_djr_c5b">
+                <title>What's New in TXOne <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                        >OFFICIAL_PRODUCT_NAME</ph>
+                    <ph conkeyref="LEGALvars/product_version">PRODUCT_VERSION</ph></title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1.78*"/>
+                    <thead>
+                        <row valign="middle">
+                            <entry>
+                                <p>Feature</p>
+                            </entry>
+                            <entry>
+                                <p>Benefit</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p>Self-management status</p>
+                            </entry>
+                            <entry>
+                                <p>The self-management status shown on the agent's console allows
+                                    users to know whether the agent is following <ph
+                                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>'s
+                                    policy settings.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>License reset tool</p>
+                            </entry>
+                            <entry>
+                                <p>The license reset tool allows users to renew license more
+                                    efficiently for the agent that had once been connected to
+                                    StellarOne server but have been disconnected for a long
+                                    time.</p>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </refbody>
+</reference>

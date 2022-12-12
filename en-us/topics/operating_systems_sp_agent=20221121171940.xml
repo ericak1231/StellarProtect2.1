@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_x3v_hd1_pvb">
+    <title>Operating Systems</title>
+    <refbody>
+        <section id="section_zcq_md1_pvb">
+            <title>Windows Client:</title>
+            <ul id="ul_ev1_4d1_pvb">
+                <li>
+                    <p>Windows 7 (NoSP/SP1) [Professional/Enterprise/Ultimate] (32/64bit)</p>
+                </li>
+                <li>
+                    <p>Windows 8 (NoSP) [Pro/Enterprise] (32/64bit)</p>
+                </li>
+                <li>
+                    <p>Windows 10 [Pro/Enterprise/IoT Enterprise] (32/64bit) Anniversary Update,
+                        Creators Update, Fall Creators Update, April 2018 Update, November 2018
+                        Update, May 2019 Update, November 2019 Update, May 2020 Update, October 2020
+                        Update, May 2021 Update, November 2021 Update, 2022 Update</p>
+                </li>
+                <li>
+                    <p>Windows 11 (NoSP) [Pro/Enterprise] (64bit) 2022 Update</p>
+                </li>
+                <li>
+                    <p>Windows Embedded POSReady 7 (NoSP) (32/64bit)</p>
+                </li>
+                <li>
+                    <p>Windows Embedded 8 Industry (NoSP) [Pro/Enterprise] (32/64bit)</p>
+                </li>
+                <li>
+                    <p>Windows Embedded 8.1 Industry (NoSP) [Pro/Enterprise/Sideloading]
+                        (32/64bit)</p>
+                </li>
+            </ul>
+        </section>
+        <section id="section_gnw_rd1_pvb">
+            <title>Windows Server:</title>
+            <ul id="ul_uwk_td1_pvb">
+                <li>
+                    <p>Windows Server 2008 (SP1/SP2) [Standard/Enterprise/ Storage] (32/64bit)</p>
+                </li>
+                <li>
+                    <p>Windows Server 2008 R2 (SP1) (Standard/Enterprise/Storage] (64bit)</p>
+                </li>
+                <li>
+                    <p>Windows Server 2012 (No SP) (Essentials/Standard] (64bit)</p>
+                </li>
+                <li>
+                    <p>Windows Server 2012 R2 (No SP) (Essentials/Standard] (64bit)</p>
+                </li>
+                <li>
+                    <p>Windows Server 2016 (NoSP) [Standard] (64bit)</p>
+                </li>
+                <li>
+                    <p>Windows Server 2019 (NoSP) [Standard] (64bit)</p>
+                </li>
+                <li>
+                    <p>Windows Server 2022 (NoSP) [Standard] (64bit)</p>
+                </li>
+                <li>
+                    <p>Windows Storage Server 2012 (NoSP) [Standard] (64bit)</p>
+                </li>
+                <?oxy_comment_start author="erica_txone" timestamp="20221207T154232+0800" comment="2022/12/7 added 2016 version"?>
+                <li>
+                    <p>Windows Storage Server 2016 (NoSP) [Standard] (64bit)</p>
+                </li><?oxy_comment_end?>
+            </ul>
+        </section>
+    </refbody>
+</reference>

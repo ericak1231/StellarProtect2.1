@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="local_installation_sp_agent_20221121172423">
+    <title>Using the Agent Console</title>
+    <conbody>
+        <p>This chapter describes how to operate TXOne <ph
+                conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>'s
+            various functions using the agent console on the endpoint. </p>
+        <p>Topics in this chapter include:</p>
+        <ul id="ul_s5c_z1m_tvb">
+            <li>
+                <p><xref href="overview_console_sp_agent=20221208133853.xml"/></p>
+            </li>
+            <li>
+                <p><xref href="settings_console_sp_agent=20221208134527.xml"/></p>
+            </li>
+        </ul>
+    </conbody>
+</concept>

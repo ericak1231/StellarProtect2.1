@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_cl4_cb1_pvb">
+    <title>Software and Hardware Requirements</title>
+    <refbody>
+        <section id="section_d2s_jb1_pvb">
+            <p>TXOne <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+                does not have specific hardware requirements beyond those specified by the operating
+                system, with the following exceptions:</p>
+        </section>
+        <table frame="all" id="table_nrw_vb1_pvb">
+            <title>Required Software for <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                    >OFFICIAL_PRODUCT_NAME</ph></title>
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>
+                            <p>Software</p>
+                        </entry>
+                        <entry>
+                            <p>Description</p>
+                        </entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>
+                            <p><filepath>.NET</filepath> framework</p>
+                        </entry>
+                        <entry>
+                            <p>Version 3.5 SP1 or 4.0 available</p>
+                        </entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <table frame="all" id="table_ijd_dc1_pvb">
+            <title>Required Hardware for <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                    >OFFICIAL_PRODUCT_NAME</ph></title>
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>
+                            <p>Hardware</p>
+                        </entry>
+                        <entry>
+                            <p>Description</p>
+                        </entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>
+                            <p>Available disk space</p>
+                        </entry>
+                        <entry>
+                            <p>350MB minimum</p>
+                            <p>400MB recommended</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <p>Monitor resolution</p>
+                        </entry>
+                        <entry>
+                            <p>640 x 480</p>
+                        </entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <section id="section_pjk_jc1_pvb">
+            <p>By default, <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                    >OFFICIAL_PRODUCT_NAME</ph> uses port 14336, which is sometimes blocked by
+                firewalls. Please make sure this port is kept open for <ph
+                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>'s
+                use.</p>
+            <note id="note_wbw_lc1_pvb" type="important">
+                <p>
+                    <ol id="ol_gll_rc1_pvb">
+                        <li>
+                            <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                    >OFFICIAL_PRODUCT_NAME</ph> cannot be installed on a system that
+                                already runs one of the following:<ul id="ul_uzr_nc1_pvb">
+                                    <li>
+                                        <p>Trend Micro OfficeScan</p>
+                                    </li>
+                                    <li>
+                                        <p>Trend Micro Titanium</p>
+                                    </li>
+                                    <li>
+                                        <p>Other Trend Micro endpoint solutions</p>
+                                    </li>
+                                    <li>
+                                        <p>Other antivirus products</p>
+                                    </li>
+                                </ul></p>
+                        </li>
+                        <li>
+                            <p>Ensure that the following root certification authority (CA)
+                                certificates are installed with intermediate CAs, which are found in
+                                StellarProtectSetup.exe and StellarProtect.exe. These root CAs
+                                should be installed on the <ph
+                                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                    >OFFICIAL_PRODUCT_NAME</ph> agent environment to communicate
+                                with <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>.<ul
+                                    id="ul_rxy_5c1_pvb">
+                                    <li>
+                                        <p>Intermediate Symantec Class 3 SHA256 Code Signing CA</p>
+                                    </li>
+                                    <li>
+                                        <p>Root VeriSign Class 3 Public Primary Certification
+                                            Authority - G5</p>
+                                    </li>
+                                </ul>To check root CAs, refer to the <xref
+                                    href="https://technet.microsoft.com/en-us/library/cc754841.aspx"
+                                    format="html" scope="external">Microsoft support
+                                site</xref>.</p>
+                        </li>
+                    </ol>
+                </p>
+            </note>
+        </section>
+    </refbody>
+</reference>

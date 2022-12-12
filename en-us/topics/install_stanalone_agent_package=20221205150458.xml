@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_m5t_sf1_pvb">
+    <title>License Activation for Standalone Agent</title>
+    <taskbody>
+        <context>
+            <p>This section describes the license activation procedures during the installation
+                process for standalone <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                    >OFFICIAL_PRODUCT_NAME</ph> agents.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Launch the agent's Installer and go through the procedures until the
+                        <wintitle>Administrator Password &amp; License Activaiton</wintitle> window
+                    appears. After inputing and confirming the administrator password, click the
+                        <uicontrol>New License</uicontrol> button.</cmd>
+            </step>
+            <step>
+                <cmd>A pop-up <wintitle>License Activation</wintitle> window appears. Choose one of
+                    the ways to activate the license based on the license data available from your
+                    support provider:</cmd>
+                <choices id="choices_c5m_ltg_pvb">
+                    <choice>Click <uicontrol>License Key</uicontrol><ul id="ul_sh5_qtg_pvb">
+                            <li>
+                                <p>Specify the License Key in the text field.</p>
+                                <note id="note_xcy_xtg_pvb">
+                                    <p>If the agent's installer package is downloaded from <ph
+                                            conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>,
+                                        the License Key will be automatically generated. Check if it
+                                        matches the license data provided by your support
+                                        provider.</p>
+                                </note>
+                            </li>
+                            <li>
+                                <p>Click <uicontrol>Save</uicontrol>.</p>
+                            </li>
+                        </ul></choice>
+                    <choice>Click <uicontrol>License File</uicontrol><ul id="ul_xz3_dvg_pvb">
+                            <li>
+                                <p>Select the License File (an <filepath>.txt</filepath> file) to
+                                    import.</p>
+                            </li>
+                            <li>
+                                <p>Specify the Product Serial Number in the text field.</p>
+                                <note id="note_t5q_1xg_pvb">
+                                    <ul id="ul_gc5_5dh_pvb">
+                                        <li>
+                                            <p>If the agent's installer package is downloaded from
+                                                  <ph
+                                                  conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"
+                                                />, the License File and Product Serial Number will
+                                                be automatically generated. Check if they match the
+                                                license data provided by your support provider.</p>
+                                        </li>
+                                        <li>
+                                            <p> If you don't have the License File and Product
+                                                Serial Number on hand, refer to <xref
+                                                  href="../topics/license_file_standalone_agents=20221122162502.xml"
+                                                /> for detailed instructions.</p>
+                                        </li>
+                                    </ul>
+                                </note>
+                            </li>
+                            <li>
+                                <p>Click <uicontrol>Save</uicontrol>.</p>
+                                <note id="note_bxt_dhh_pvb">
+                                    <p>If a license file expiration error message appears and the
+                                        agent's installer package was downloaded from <ph
+                                            conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>,
+                                        you should get the latest License File and Product Serial
+                                        Number from <ph
+                                            conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>.
+                                        Refer to <xref
+                                            href="../topics/license_file_update_agents=20221122162307.xml"
+                                        /></p>
+                                </note>
+                            </li>
+                        </ul></choice>
+                </choices>
+            </step>
+            <step>
+                <cmd>A success message indicating
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>valid
+                    license<?oxy_custom_end?> appears. Click <uicontrol>Next</uicontrol> to proceed
+                    to next procedure (the Step 6 in <xref
+                        href="install_agent_package=20221121180034.xml"/>) for the
+                    installation.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

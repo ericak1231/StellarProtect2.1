@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_m5t_sf1_pvb">
+    <title>Attended Installation</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Launch the installer
+                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><ph
+                        conkeyref="PRODvars/INSTALLER"/><?oxy_custom_end?>.</cmd>
+                <info>
+                    <note id="note_ip2_lg1_pvb">
+                        <p>To register <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                >OFFICIAL_PRODUCT_NAME</ph> agent to a specific group during
+                            installation, after downloading the <filepath>Group.ini</filepath> file
+                            on <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> console,
+                            the file must be placed as the top-level file in the agent's Installer
+                            Package before starting the installation.</p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Next</uicontrol> to start the installation.</cmd>
+                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                <stepxmp>
+                    <fig id="fig_o3k_xh1_pvb">
+                        <title>StellarProtect Setup Screenshot</title>
+                    </fig>
+                </stepxmp><?oxy_custom_end?>
+                <?oxy_comment_start author="erica_txone" timestamp="20221121T175415+0800" comment="add screenshot for &quot;single&quot; installer"?>
+            </step><?oxy_comment_end?>
+            <step>
+                <cmd>The <wintitle>End-User License Agreement</wintitle> (EULA) window appears.
+                    Please read the content carefully, and then check <uicontrol>I accept the terms
+                        of the license agreement</uicontrol> and click
+                    <uicontrol>Next</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Create an administrator password. </cmd>
+                <info>
+                    <note id="note_u42_dzw_svb">
+                        <p>Please use a strong administrator password with good quality in 8 to 64
+                            alphanumeric characters. The following characteres are not supported: |
+                            > " : &lt; \ spaces</p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>A success message indicating
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>valid
+                    license<?oxy_custom_end?> appears. Click <uicontrol>Next</uicontrol> to
+                    continue.</cmd>
+                <info>
+                    <note id="note_kvs_vzw_svb">
+                        <ul id="ul_q3h_gbx_svb">
+                            <li>
+                                <p>For agents who have registered to <ph
+                                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> and
+                                    whose installer package is downloaded from <ph
+                                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>, the
+                                    installer will automatically check and complete the license
+                                    activation.</p>
+                            </li>
+                            <li>
+                                <p>For standalone agents, refer to <xref
+                                        href="install_stanalone_agent_package=20221205150458.xml"
+                                    />.</p>
+                            </li>
+                        </ul>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>Specify the asset information of the installed device with correct
+                    ICS/OT-relative information such as vendor name, model, location and a
+                    description.</cmd>
+            </step>
+            <step>
+                <cmd>Confirm the installation settings including installation directory and optional
+                    component settings.</cmd>
+                <info>
+                    <note id="note_lls_4k1_pvb">
+                        <p>Users can choose to whether or not add an icon to the start menu, create
+                            a desktop icon, or create a system tray icon.</p>
+                    </note>
+                    <note id="note_ny2_qk1_pvb" type="important">
+                        <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+                        <p>We suggest that users should check <uicontrol>Enable Trusted OT
+                                Certificates</uicontrol>. This feature ensures that <ph
+                                conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                >OFFICIAL_PRODUCT_NAME</ph> can sync up trusted ICS/OT certificates
+                            and enhance ICS/OT applications, thus those installers can always be
+                            recognized by <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                >OFFICIAL_PRODUCT_NAME</ph>.</p><?oxy_custom_end?>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>If <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                        >OFFICIAL_PRODUCT_NAME</ph> detects the incompatible software on the
+                    endpoint, it will display a message shown as below. If not, this message won't
+                    appear.</cmd>
+                <info>
+                    <note id="note_dfn_yhx_svb">
+                        <p>Incompatible software means some TrendMicro product such as OfficeScan
+                            series, ApexOne, Worry-Free Business Security, Worry-Free Business
+                            Security Service. <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                >OFFICIAL_PRODUCT_NAME</ph> will try to uninstall them to avoid any
+                            possible incompatible issue.</p>
+                    </note>
+                </info>
+                <stepxmp>
+                    <?oxy_comment_start author="erica_txone" timestamp="20221121T181824+0800" comment="screenshot update needed"?>
+                    <fig id="fig_ebv_1l1_pvb">
+                        <title>Incompatible Software Detected</title>
+                    </fig><?oxy_comment_end?>
+                </stepxmp>
+                <substeps id="substeps_c25_c3x_svb">
+                    <substep>
+                        <cmd>During the uninstallation of the incompatible software, a progress bar
+                            appears and indicates the status.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>(Optional but highly recommended) Click the <uicontrol>Scan</uicontrol> button
+                    to start the prescan task. If you choose <uicontrol>Do Not Scan</uicontrol>, go
+                    to step 10 for next procedure.</cmd>
+                <info>
+                    <note id="note_dzl_xl1_pvb" type="important">
+                        <ul id="ul_p2y_p2f_pvb">
+                            <li>
+                                <p>It is advisory to perform the Prescan for the agent to detect
+                                    potential security threat and learn the ICS/OT applications
+                                    installed on the endpoint before completing the installation
+                                    process.</p>
+                            </li>
+                            <li>
+                                <p>If you skip the Prescan, <ph
+                                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> will not be able to recognize
+                                    the ICS/OT applications before it resumes production, and will
+                                    need to learn them as they are executed for the first time; this
+                                    may cause delays in the ICS/OT application runtime.</p>
+                            </li>
+                            <li>
+                                <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> provides a more time efficient
+                                    option <uicontrol>HIGH</uicontrol> that will require higher CPU
+                                    usage during the Prescan. If no other vital applications are
+                                    running on the system, you can select the option
+                                        <uicontrol>HIGH</uicontrol> to significantly reduce scan
+                                    time.</p>
+                            </li>
+                        </ul>
+                    </note>
+                </info>
+                <substeps id="substeps_g45_b3f_pvb">
+                    <substep>
+                        <cmd>(Optional) The <uicontrol>Creating the Approved List</uicontrol> window
+                            appears. Click <uicontrol>OK</uicontrol> to proceed.
+                            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>If
+                            you click <uicontrol>No</uicontrol>, you will go back to the previous
+                            procedure.<?oxy_custom_end?></cmd>
+                        <info>
+                            <note id="note_acn_tkf_pvb">
+                                <ul id="ul_rgg_ykf_pvb">
+                                    <li>
+                                        <p>The Approved List is created for the Application Lockdown
+                                            "Detect" mode. Once the Application Lockdown "Detect"
+                                            mode is enabled, the system will send notifications if
+                                            applications not in the Approved List launch.</p>
+                                    </li>
+                                    <li>
+                                        <p>Since the StellarKiosk license edition does not support
+                                            the Application Lockdown function, this procedure will
+                                            not appear in its installation process.</p>
+                                    </li>
+                                </ul>
+                            </note>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Before the Prescan starts, the installer will perform a component
+                            update based on the chosen configuration. The update process will
+                            display a message as shown below.</cmd>
+                        <info>
+                            <note id="note_zvq_33f_pvb">
+                                <p>For the standalone agents to perform the update successfully, it
+                                    is required to allow them to access the Internet for connecting
+                                    to the Active Update server. If they can't have the Internet
+                                    connection, the component update will fail; however, users can
+                                    still choose to proceed to the next step. </p>
+                            </note>
+                        </info>
+                        <stepxmp>
+                            <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+                            <fig id="fig_hxw_g3f_pvb">
+                                <title>Updating Pattern before Prescan</title>
+                            </fig><?oxy_custom_end?>
+                        </stepxmp>
+                    </substep>
+                    <substep>
+                        <cmd>View the scan settings and click the <uicontrol>Start </uicontrol>
+                            button to start the prescan.</cmd>
+                        <stepxmp>
+                            <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+                            <fig id="fig_t2m_slf_pvb">
+                                <title>Scan Settings before Prescan</title>
+                            </fig><?oxy_custom_end?>
+                        </stepxmp>
+                        <info>
+                            <note id="note_xvs_5lf_pvb">
+                                <p>Scan settings are described as follows:<ul id="ul_uwx_xlf_pvb">
+                                        <li>
+                                            <p><uicontrol>Scan:</uicontrol> This is the default
+                                                anti-virus scan, following our template</p>
+                                        </li>
+                                        <li>
+                                            <p><uicontrol>Scan Removable Drives:</uicontrol>
+                                                Selected removable drives are scanned</p>
+                                        </li>
+                                        <li>
+                                            <p><uicontrol>Exclusion:</uicontrol> Which files or
+                                                folders won’t be scanned</p>
+                                        </li>
+                                        <li>
+                                            <p><uicontrol>Scan Compressed Files:</uicontrol> Scan up
+                                                to 20 layers of compression</p>
+                                        </li>
+                                        <li>
+                                            <p><uicontrol>Skip Files:</uicontrol> Specific files
+                                                that will be skipped</p>
+                                        </li>
+                                        <li>
+                                            <p><uicontrol>CPU Usage:</uicontrol> CPU resources that
+                                                pre-scan occupied.</p>
+                                        </li>
+                                        <li>
+                                            <p><uicontrol>Build Approved List:</uicontrol> Whether
+                                                the creation of Approved List is enabled or not</p>
+                                        </li>
+                                    </ul></p>
+                            </note>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>The progress bar shows the status of the prescan.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>After the prescan, results will be shown for review.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>If a threat is detected, the user can choose from two options:</cmd>
+                        <info>
+                            <ul id="ul_vhv_mmf_pvb">
+                                <li>
+                                    <p><uicontrol>Quarantine:</uicontrol> Quarantine the threat.</p>
+                                </li>
+                                <li>
+                                    <p><uicontrol>Continue:</uicontrol> Take no action at this
+                                        time.</p>
+                                </li>
+                            </ul>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>The results of adding applications in the Approved List will be shown
+                            for review.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>The prescan and the creation of Approved List are complete, click
+                                <uicontrol>Next</uicontrol>.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>The <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                        >OFFICIAL_PRODUCT_NAME</ph> application will be installed.</cmd>
+            </step>
+            <step>
+                <cmd>When the installation is complete, the <uicontrol>StellarProtect has been
+                        successfully installed</uicontrol> window appears. Click
+                        <uicontrol>Finish</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Run <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                        >OFFICIAL_PRODUCT_NAME</ph> and log on with your password.</cmd>
+            </step>
+            <step>
+                <cmd>Upon logging on <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                        >OFFICIAL_PRODUCT_NAME</ph> successfully, this window will display.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

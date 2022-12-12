@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_m5t_sf1_pvb">
+    <title>Getting the Standalone Agent's Installer Package</title>
+    <taskbody>
+        <context id="context_kgv_tyg_pvb">
+            <p>For standalone agents, follow instructions below to get the agent's installer
+                package.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Go to our <xref
+                        href="https://www.trendmicro.com/en_us/business/products/downloads.html"
+                        format="html" scope="external">Software Download Center</xref>.</cmd>
+            </step>
+            <step>
+                <cmd>Find <uicontrol>StellarProtect</uicontrol> and click it. You will be directed
+                    to the web page with the latest firmware version for StellarProtect.</cmd>
+            </step>
+            <step>
+                <cmd>Be sure you are on the <uicontrol>Product Download/Update</uicontrol> tab
+                    page.</cmd>
+            </step>
+            <step>
+                <cmd>Find the file name starting with <filepath>txsp-</filepath> and click it to
+                    download the <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                        >OFFICIAL_PRODUCT_NAME</ph> installer package.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

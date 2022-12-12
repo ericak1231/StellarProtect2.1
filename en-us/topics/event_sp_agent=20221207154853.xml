@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="local_installation_sp_agent_20221121172423">
+    <title>Events</title>
+    <conbody>
+        <p>This chapter describes events as they will be recorded within the TXOne <ph
+                conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph> Agent.
+            Topics in this chapter include:</p>
+        <ul id="ul_s5c_z1m_tvb">
+            <li>
+                <p><xref
+                        href="../topics/overview_event_sp_agent=20221207155322.xml"
+                    /></p>
+            </li>
+            <li>
+                <p><xref
+                        href="../topics/access_event_sp_agent=20221207163453.xml"
+                    /></p>
+            </li>
+            <li>
+                <p><xref
+                        href="../conref-vars/sPagentEventLogDescription=20220808105743.xml"
+                    /></p>
+            </li>
+        </ul>
+    </conbody>
+</concept>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"[]>
+
+<map xml:lang="en-us" id="GUID-1ECA0072-F533-416E-9722-726DBC89C79B" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+	<title id="GUID-54C9CE99-220D-41F2-9AB3-2ABB55D05ADE">Preface</title>
+    <topicref href="../conref-vars/preface_intro=20221121155017.xml">
+        <topicref href="../conref-vars/Documentation=20220721170208.xml"/>
+        <topicref href="../topics/audience_sp=20221121154840.xml"/>
+        <topicref href="../conref-vars/Document_Conventions=20220722155128.xml"/>
+        <topicref href="../conref-vars/Terminology=20220721165336.xml"/>
+    </topicref>
+</map>

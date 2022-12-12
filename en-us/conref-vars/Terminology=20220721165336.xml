@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-65441838-6FAD-40BB-8753-84AC811C8F3A" xml:lang="en-us">
+<title id="GUID-11ABB854-6A2A-4FF7-8DF7-83EFDE9C68B3">Terminology</title>
+<refbody><section id="GUID-01F66FA5-5D29-4FB0-AA84-0CA2AA9A500F"><p>The following table provides the official terminology used throughout the <ph
+                    conkeyref="PRODvars/COMPANY_NAME_PRODUCT_NAME_TM"/> documentation:</p></section>
+<table colsep="1" frame="all" rowsep="1">
+<tgroup cols="2" colsep="1" outputclass="Properties" rowsep="1">
+<colspec colname="1" colnum="1" colwidth="34*"/>
+<colspec colname="2" colnum="2" colwidth="66*"/>
+<thead>
+<row rowsep="1">
+<entry colname="1"><p>Terminology</p></entry>
+<entry colname="2"><p>Description</p></entry>
+</row>
+</thead>
+<tbody>
+<row rowsep="1">
+<entry colname="1">
+                            <p>server</p>
+                        </entry>
+<entry colname="2"><p>The StellarOne console server program</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"><p>server endpoint</p></entry>
+<entry colname="2"><p>The host where the StellarOne server is installed</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"><p>agents</p></entry>
+<entry colname="2"><p>The host running the StellarProtect program</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1">
+                            <p>managed agents</p>
+                            <p>managed endpoints</p>
+</entry>
+<entry colname="2">
+                            <p>The hosts running the StellarProtect program that are known to the
+                                StellarOne server program</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"><p>target endpoints</p></entry>
+<entry colname="2"><p>The hosts where the StellarOne managed agents will be installed</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"><p>Administrator (or StellarOne administrator)</p></entry>
+<entry colname="2">
+                            <p>The person managing the StellarOne server</p>
+                        </entry>
+</row>
+<row rowsep="1">
+<entry colname="1"><p>StellarOne console</p></entry>
+<entry colname="2"><p>The user interface for configuring and managing StellarOne settings and the agents managed by
+                                StellarOne</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"><p>CLI</p></entry>
+<entry colname="2"><p>Command Line Interface</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"><p>license activation</p></entry>
+<entry colname="2">
+                            <p>Includes the type of StellarOne server installation and the allowed
+                                period of usage that you can use the application</p>
+                        </entry>
+</row>
+                    <row>
+                        <entry colname="1">
+                            <p>agent installation folder</p>
+                        </entry>
+                        <entry colname="2">
+                            <p>The folder on the host that contains the StellarProtect agent files.
+                                If you accept the default settings during installation, you will
+                                find the installation folder at one of the followinglocations:</p>
+                            <p><filepath>C:\Program Files\TXOne\StellarProtect</filepath></p>
+                            <p><filepath>C:\Program Files\TXOne\StellarProtect (Legacy
+                                    Mode)</filepath></p>
+                        </entry>
+                    </row>
+</tbody>
+</tgroup></table></refbody></reference>

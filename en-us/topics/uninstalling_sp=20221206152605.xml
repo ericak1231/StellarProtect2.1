@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Uninstalling <ph
+            conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph></title>
+    <taskbody>
+        <context id="context_ncj_b5y_g5b">
+            <p><indexterm>uninstalling <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                    /></indexterm>Follow the instructions to uninstall <ph
+                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>.</p>
+            <note id="note_syv_js2_tvb">
+                <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"/>'s administrator password
+                    is required to uninstall <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                        >OFFICIAL_PRODUCT_NAME</ph> from an endpoint.</p>
+            </note>
+            <note id="note_d2g_ns2_tvb" type="important">
+                <p>Please make sure the <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"/> UI is
+                    not open.</p>
+            </note>
+        </context>
+        <steps id="steps_wvw_g5y_g5b">
+            <step>
+                <cmd>On an endpoint with the <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"/>
+                    agent installed, launch
+                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><ph
+                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"/>
+                    Setup.<?oxy_custom_end?></cmd>
+            </step>
+            <step>
+                <cmd>Follow one of the procedures listed below according to your operating
+                    system:</cmd>
+            </step>
+            <stepsection>
+                <table frame="all" id="table_hrc_gw2_tvb">
+                    <tgroup cols="2">
+                        <colspec colname="c1" colnum="1" colwidth="1*"/>
+                        <colspec colname="c2" colnum="2" colwidth="1*"/>
+                        <thead>
+                            <row>
+                                <entry>
+                                    <p>Operating System</p>
+                                </entry>
+                                <entry>
+                                    <p>Procedure</p>
+                                </entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>
+                                    <ul id="ul_wyz_3w2_tvb">
+                                        <li>
+                                            <p>Windows 10 Professional</p>
+                                        </li>
+                                        <li>
+                                            <p>Windows 10 Enterprise</p>
+                                        </li>
+                                        <li>
+                                            <p>Windows 10 IoT Enterprise</p>
+                                        </li>
+                                        <li>
+                                            <p>Windows 10 Fall Creators Update (Redstone 3)</p>
+                                        </li>
+                                        <li>
+                                            <p>Windows 10 April 2018 Update (Redstone 4)</p>
+                                        </li>
+                                        <li>
+                                            <p>Windows 10 November 2018 Update (Redstone 5)</p>
+                                        </li>
+                                        <li>
+                                            <p>Windows 11 Professional</p>
+                                        </li>
+                                    </ul>
+                                </entry>
+                                <entry>
+                                    <ol id="ol_lm5_sw2_tvb">
+                                        <li>
+                                            <p>Go to <menucascade>
+                                                  <uicontrol>Start</uicontrol>
+                                                  <uicontrol>Settings</uicontrol>
+                                                </menucascade>.</p>
+                                        </li>
+                                        <li>
+                                            <p>Depending on your version of Windows 10, locate the
+                                                  <b><wintitle>Apps &amp; Features</wintitle></b>
+                                                section under one of the following categories:<ul
+                                                  id="ul_jcw_yw2_tvb">
+                                                  <li>
+                                                  <p><uicontrol>System</uicontrol></p>
+                                                  </li>
+                                                  <li>
+                                                  <p><uicontrol>Apps</uicontrol></p>
+                                                  </li>
+                                                </ul></p>
+                                        </li>
+                                        <li>
+                                            <p>On the left pane, click <uicontrol>Apps &amp;
+                                                  Features</uicontrol></p>
+                                        </li>
+                                        <li>
+                                            <p>In the list, click
+                                                  <uicontrol>StellarProtect</uicontrol>.</p>
+                                        </li>
+                                        <li>
+                                            <p>Click <uicontrol>Uninstall</uicontrol>.</p>
+                                        </li>
+                                    </ol>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <ul id="ul_e1v_4w2_tvb">
+                                        <li>
+                                            <p>Windows 7</p>
+                                        </li>
+                                        <li>
+                                            <p>Windows 8</p>
+                                        </li>
+                                        <li>
+                                            <p>Windows Server 2012</p>
+                                        </li>
+                                        <li>
+                                            <p>Windows Server 2016</p>
+                                        </li>
+                                        <li>
+                                            <p>Windows Server 2022</p>
+                                        </li>
+                                        <li>
+                                            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                                            <?oxy_comment_start author="erica_txone" timestamp="20221206T165509+0800" comment="add 2012 version" mid="2"?>
+                                            <p>Windows Storage Server
+                                            2012</p><?oxy_custom_end?><?oxy_comment_end mid="2"?>
+                                        </li>
+                                        <li>
+                                            <p>Windows Storage Server 2016</p>
+                                        </li>
+                                    </ul>
+                                </entry>
+                                <entry>
+                                    <ol id="ol_bxx_fx2_tvb">
+                                        <li>
+                                            <p>Go to <menucascade>
+                                                  <uicontrol>Start</uicontrol>
+                                                  <uicontrol>Control Panel</uicontrol>
+                                                  <uicontrol>Program and Features</uicontrol>
+                                                </menucascade></p>
+                                        </li>
+                                        <li>In the list, double-click <uicontrol>TXOne
+                                                StellarProtect</uicontrol>.</li>
+                                    </ol>
+                                </entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </stepsection>
+            <step>
+                <cmd>After the <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                        >OFFICIAL_PRODUCT_NAME</ph> Setup opens, click
+                    <uicontrol>Next</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Enter in the <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                        >OFFICIAL_PRODUCT_NAME</ph> administrator password and click
+                        <uicontrol>Next</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Make sure <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                        >OFFICIAL_PRODUCT_NAME</ph>'s UI is completely closed before clicking
+                        <uicontrol>OK</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>The message box indicating <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                        >OFFICIAL_PRODUCT_NAME</ph> being successfully removed will appear. Click
+                        <uicontrol>Finish</uicontrol>.</cmd>
+                <info>
+                    <note id="note_btd_cy2_tvb">
+                        <p>For Windows 7 and Windows Server 2016+ platforms, the installation of <ph
+                                conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                >OFFICIAL_PRODUCT_NAME</ph> requires disabling Windows Defender
+                            first. After uninstalling <ph
+                                conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                >OFFICIAL_PRODUCT_NAME</ph>, it is advisory to manually enable
+                            Windows Defender for security reasons.</p>
+                    </note>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

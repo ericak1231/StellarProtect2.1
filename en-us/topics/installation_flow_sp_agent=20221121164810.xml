@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094"><ph
+            conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph> Installation
+        Flow</title>
+    <taskbody>
+        <context id="context_ncj_b5y_g5b">
+            <p><indexterm>installation flow</indexterm>The installation of <ph
+                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+                requires performing following tasks:</p>
+        </context>
+        <steps id="steps_wvw_g5y_g5b">
+            <step>
+                <cmd>Get the agent's installer package from the <ph
+                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> web console.</cmd>
+                <info>
+                    <note id="note_lz1_23b_svb">
+                        <p>For standalone agents, get the installer package from the <xref
+                                href="https://www.trendmicro.com/en_us/business/products/downloads.html"
+                                format="html" scope="external">Software Download Center</xref>.</p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>(Optional) Download the <filepath>group.ini</filepath> file for registering the
+                    agent to <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> during the
+                    installation process.</cmd>
+            </step>
+            <step>
+                <cmd>Determine the installation method:</cmd>
+                <info>
+                    <ul id="ul_m32_wdg_pvb">
+                        <li>
+                            <p><xref
+                                    href="../../../../../../../Library/CloudStorage/OneDrive-TXOneNetworksInc/Documents/3.%20Project/2.1/StellarProtect/en-us/topics/install_agent_package=20221121180034.xml"
+                                /></p>
+                        </li>
+                        <li>
+                            <p><xref
+                                    href="../../../../../../../Library/CloudStorage/OneDrive-TXOneNetworksInc/Documents/3.%20Project/2.1/StellarProtect/en-us/topics/silent_installation_intro_sp_agent=20221122135932.xml"
+                                /></p>
+                        </li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Launch the <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                        >OFFICIAL_PRODUCT_NAME</ph> installer on the endpoint.</cmd>
+                <substeps id="substeps_fnw_yzz_4vb">
+                    <substep>
+                        <cmd>Check to accept the EULA (End-User License Agreement)</cmd>
+                    </substep>
+                    <substep>
+                        <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+                        <cmd>Specify the Administrator password and activate the
+                            license<?oxy_custom_end?></cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Determine the asset information and installation settings</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Check to remove the detected incompatible software and residual
+                            files</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>(Optional but recommended) Prescan for malware scanning and OT
+                            application identification</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>(Optional but recommended) Create Approved List and enable Application
+                            Lockdown "Detect" mode</cmd>
+                    </substep>
+                </substeps>
+                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                <info>
+                    <note id="note_ezb_tyr_tvb">
+                        <ul id="ul_ob4_hps_tvb">
+                            <li>
+                                <p>Since the StellarOEM license edition does not support Real-Time
+                                    Malware Scan, step 4.e should not appear during the installation
+                                    process.</p>
+                            </li>
+                            <li>
+                                <p>Since the StellarKiosk license edition does not support
+                                    Application Lockdown, step 4.f should not appear during the
+                                    installation process.</p>
+                            </li>
+                        </ul>
+                    </note>
+                </info><?oxy_custom_end?>
+            </step>
+        </steps>
+    </taskbody>
+</task>

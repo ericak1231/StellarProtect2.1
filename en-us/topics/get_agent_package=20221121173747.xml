@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_m5t_sf1_pvb">
+    <title>Getting the Agent's Installer Package via StellarOne</title>
+    <taskbody>
+        <context id="context_kgv_tyg_pvb">
+            <p>For agents managed by the <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>
+                web console, follow instructions below to get the agent's installer package.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Log on the <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> web
+                    console.</cmd>
+                <info>
+                    <note id="note_ip2_lg1_pvb">
+                        <p>If this is the first time the StellarOne console being logged on, refer
+                            to <xref format="pdf" scope="external"
+                                href="https://docs.trendmicro.com/all/ent/txone-sp/v2.1/en-us/txso_2.1_ig.pdf"
+                                >StellarOne Installation Guide</xref> for detailed instructions on
+                            the initial settings.</p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Administration</uicontrol>
+                        <uicontrol>Downloads/Updates</uicontrol>
+                    </menucascade> to download the agent's Installer Package.</cmd>
+                <info>
+                    <note id="note_vgk_kh1_pvb">
+                        <p>The Installer Package is packed by <ph
+                                conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> and can be
+                            used for <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                >OFFICIAL_PRODUCT_NAME</ph> and <ph
+                                conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                >OFFICIAL_PRODUCT_NAME</ph> installations.</p>
+                    </note>
+                </info>
+                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                <stepxmp>
+                    <fig id="fig_o3k_xh1_pvb">
+                        <title>Downloading Installer Package</title>
+                    </fig>
+                </stepxmp><?oxy_custom_end?>
+                <?oxy_comment_start author="erica_txone" timestamp="20221121T175415+0800" comment="add screenshot for &quot;single&quot; installer"?>
+            </step><?oxy_comment_end?>
+            <step>
+                <cmd>(Optional) To register agents to a group during installation, users can also
+                    download the <filepath>Group.ini</filepath> file.</cmd>
+            </step>
+            <step>
+                <cmd>(Optional) Select a group for the target agent and click
+                        <uicontrol>Download</uicontrol>. A file named <filepath>Group.ini</filepath>
+                    is downloaded. Place the <filepath>Group.ini</filepath> file as the top-level
+                    file in the agent’s installer package.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

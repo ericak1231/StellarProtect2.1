@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-863DEBEC-C3A7-4441-88EE-BA7F4BC0CBBE" xml:lang="en-us" outputclass="legal">
+ <title id="GUID-1B4C75D4-D403-4C7D-A980-25FB78E01ED7">Privacy and Personal Data Collection
+  Disclosure</title>
+ <conbody>
+  <p id="ppdc_intro">Certain features available in <ph conkeyref="LEGALvars/company_name"
+    >company_name</ph> products collect and send feedback regarding product usage and detection
+   information to <ph conkeyref="LEGALvars/company_name">company_name</ph>. Some of this data is
+   considered personal in certain jurisdictions and under certain regulations. If you do not want
+    <ph conkeyref="LEGALvars/company_name">company_name</ph> to collect personal data, you must
+   ensure that you disable the related features.</p>
+  <p id="ppdc_kb_intro">The following link outlines the types of data that <ph
+        conkeyref="LEGALvars/related_product_list">company_name</ph> collect and provides detailed
+      instructions on how to disable the specific features that feedback the information.</p>
+  <p><xref format="html" scope="external"
+    href="https://success.trendmicro.com/data-collection-disclosure"/></p>
+  <p>Data collected by <ph conkeyref="LEGALvars/company_name">company_name</ph> is subject to the
+   conditions stated in the <ph conkeyref="LEGALvars/company_name">company_name</ph> Privacy
+   Notice:</p>
+  <p><xref href="https://www.txone.com/privacy-policy/" format="html" scope="external"/></p>
+ </conbody>
+</concept>

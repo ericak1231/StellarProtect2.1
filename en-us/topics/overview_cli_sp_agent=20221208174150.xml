@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_ntt_lkg_pvb">
+    <title>Overview of <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+            >OFFICIAL_PRODUCT_NAME</ph> CLI</title>
+    <refbody>
+        <section id="section_q2x_4kg_pvb">
+            <p><indexterm>Command Line Interface (CLI)<indexterm>Overview</indexterm></indexterm>The
+                CLI provides a POSIX-style command line interface. The general usage is as
+                follows:</p>
+            <p><userinput/></p>
+            <p>C:> opcmd.exe [global-options] [command [options]]</p>
+            <p>The global-options are options that affect all commands, and must come before the
+                command. A command consists of one or more words, followed by any options that are
+                specific to that command. If an option requires an argument, you may specify the
+                argument in one of the following syntaxes:</p>
+        </section>
+        <section id="section_mp1_zxt_tvb">
+            <title>Options</title>
+            <p>Separate long option and argument with an equal sign:</p>
+            <p><userinput>--option=&lt;argument></userinput></p>
+            <p>Argument follows the option character immediately:</p>
+            <p><userinput>-o&lt;argument></userinput></p>
+            <p>If the argument is not optional, you may also separate the option and argument with a
+                space:</p>
+            <p><userinput>-o &lt;argument></userinput></p>
+            <note id="note_c1w_fyt_tvb" type="important">
+                <p>All options are optional, including global options and command-specific options.
+                    In the commands below, if it says an argument is required, it means the argument
+                    is required when that option is used.</p>
+            </note>
+            <p>For the short forms of options, multiple option characters can be combined in one
+                word as long as the option with argument comes last. For example, the following
+                commands are equivalent:<ul id="ul_hts_3yt_tvb">
+                    <li>
+                        <p><userinput>opcmd.exe foo -a -b 15 -c</userinput></p>
+                    </li>
+                    <li>
+                        <p><userinput>opcmd.exe foo -ac -b15</userinput></p>
+                    </li>
+                    <li>
+                        <p><userinput>opcmd.exe foo -cab 15</userinput></p>
+                    </li>
+                    <li>
+                        <p><userinput>opcmd.exe foo -acb15</userinput></p>
+                    </li>
+                </ul></p>
+        </section>
+        <section id="section_n52_zts_tvb">
+            <title>Global Options</title>
+            <ul id="ul_qm4_fzt_tvb">
+                <li>
+                    <p>Global Option: <userinput>-h</userinput>, <userinput>--help</userinput></p>
+                    <p>Description: When used alone, shows a brief summary of how to use the CLI.
+                        When used with a command, shows help text for that command.</p>
+                    <p>Argument: No</p>
+                </li>
+                <li>
+                    <p>Global Option: <userinput>-p</userinput>, <userinput>--password
+                            [&lt;password>]</userinput></p>
+                    <p>Description: Specifies the administrator password for executing protected
+                        commands. The <codeph>-p</codeph> option is mandatory for protected
+                        commands. If you don't provide an administrator password with this option on
+                        protected commands, the CLI asks for a password before executing the command
+                        and may not execute command if the password is incorrect. If you need to run
+                        protected commands from a batch file, provide your password with -p and make
+                        the batch file readable only to authorized users.<note id="note_ud3_xyt_tvb">
+                            <p>To prevent your administrator password from leaking accidently, use
+                                    <codeph>-p</codeph> without argument to avoid the shell
+                                    (<filepath>cmd.exe</filepath>) from recording your password in
+                                the command history.</p>
+                        </note></p>
+                    <p>Argument: Optional. Password in plain text.</p>
+                </li>
+                <li>
+                    <p>Global Option: <userinput>-v</userinput>,
+                        <userinput>--version</userinput></p>
+                    <p>Description: Show CLI program version.</p>
+                    <p>Argument: No</p>
+                </li>
+            </ul>
+        </section>
+    </refbody>
+</reference>

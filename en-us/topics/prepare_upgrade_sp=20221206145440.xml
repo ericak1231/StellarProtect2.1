@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_ntt_lkg_pvb">
+    <title>Preparing the Agent for Upgrade to a Later Version</title>
+    <refbody>
+        <section id="section_q2x_4kg_pvb">
+            <p>This version of <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                    >OFFICIAL_PRODUCT_NAME</ph> supports upgrade from the following version:</p>
+            <ul id="ul_ynb_1n2_tvb">
+                <li>
+                    <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                            >OFFICIAL_PRODUCT_NAME</ph> 1.0</p>
+                </li>
+                <li>
+                    <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                            >OFFICIAL_PRODUCT_NAME</ph> 1.1</p>
+                </li>
+                <li>
+                    <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                            >OFFICIAL_PRODUCT_NAME</ph> 1.2</p>
+                </li>
+                <li>
+                    <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                            >OFFICIAL_PRODUCT_NAME</ph> 1.2 Patch 1</p>
+                </li>
+                <li>
+                    <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                            >OFFICIAL_PRODUCT_NAME</ph> 2.0</p>
+                </li>
+            </ul>
+            <p>The latest updates can be downloaded from the <ph
+                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+                <xref href="https://www.trendmicro.com/en_us/business/products/downloads.html"
+                    format="html" scope="external">Software Download Center</xref>.</p>
+            <note id="note_nr1_3n2_tvb" type="important">
+                <p>Before upgrading, take the appropriate actions below as noted for your chosen
+                    installation method and the version of your installed <ph
+                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+                    agent.</p>
+            </note>
+            <table frame="all" id="table_gfp_tlg_pvb">
+                <title>Fresh Installation of the <ph
+                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+                    Agent</title>
+                <tgroup cols="4">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c3" colnum="3" colwidth="1*"/>
+                    <colspec colname="c4" colnum="4" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>
+                                <p>Installation Method</p>
+                            </entry>
+                            <entry>
+                                <p>Installed Agent Version</p>
+                            </entry>
+                            <entry>
+                                <p>Required Action</p>
+                            </entry>
+                            <entry>
+                                <p>Settings Retained</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p>Local installation using Windows installer</p>
+                            </entry>
+                            <entry>
+                                <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> 1.0 / 1.1 / 1.2 / 1.2 Patch 1 /
+                                    2.0</p>
+                            </entry>
+                            <entry>
+                                <p>Manually uninstall</p>
+                            </entry>
+                            <entry>
+                                <p>No settings retained</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Local installation using command line interface installer</p>
+                            </entry>
+                            <entry>
+                                <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> 1.0 / 1.1 / 1.2 / 1.2 Patch 1 /
+                                    2.0</p>
+                            </entry>
+                            <entry>
+                                <p>Manually uninstall</p>
+                            </entry>
+                            <entry>
+                                <p>No settings retained</p>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <table frame="all" id="table_oty_x42_tvb">
+                <title>Post-Installation Agent Upgrade</title>
+                <tgroup cols="4">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c3" colnum="3" colwidth="1*"/>
+                    <colspec colname="c4" colnum="4" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>
+                                <p>Installation Method</p>
+                            </entry>
+                            <entry>
+                                <p>Installed Agent Version</p>
+                            </entry>
+                            <entry>
+                                <p>Required Action</p>
+                            </entry>
+                            <entry>
+                                <p>Settings Retained</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p>Extract patch zip file and patching by running
+                                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><filepath>txone_sp_full_patch_win_en.exe</filepath><?oxy_custom_end?></p>
+                            </entry>
+                            <entry>
+                                <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> 1.0 / 1.1 / 1.2 / 1.2 Patch 1 /
+                                    2.0</p>
+                            </entry>
+                            <entry>
+                                <p>No preparation needed</p>
+                            </entry>
+                            <entry>
+                                <p>Compatible settings retained</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Remote Installation</p>
+                            </entry>
+                            <entry>
+                                <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> 1.0 / 1.1 / 1.2 / 1.2 Patch 1 /
+                                    2.0</p>
+                                <note id="note_yj2_kp2_tvb">
+                                    <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                            >OFFICIAL_PRODUCT_NAME</ph> 1.0 supports only local
+                                        installation.</p>
+                                </note>
+                            </entry>
+                            <entry>
+                                <p><ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> 2.0
+                                    console or above</p>
+                            </entry>
+                            <entry>
+                                <p>Compatible settings retained</p>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </refbody>
+</reference>

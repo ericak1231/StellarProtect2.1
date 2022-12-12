@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_ntt_lkg_pvb">
+    <title>Side Navigation Menu of <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+            >OFFICIAL_PRODUCT_NAME</ph> Console</title>
+    <refbody>
+        <section id="section_q2x_4kg_pvb">
+            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+            <fig id="fig_fld_hss_tvb">
+                <title>Overview of <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                        >OFFICIAL_PRODUCT_NAME</ph> Console</title>
+            </fig><?oxy_custom_end?>
+            <p><indexterm>Side Navigation Menu<indexterm>Overview</indexterm></indexterm>The
+                    <uicontrol>Overview</uicontrol> serves as the portal as well as one of the side
+                navigation options on <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                    >OFFICIAL_PRODUCT_NAME</ph> console. It displays the current status of the <ph
+                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+                system. The green check indicates the endpoint is under the protection of Real-time
+                Malware Scan and/or Application Lockdown, while the red cross indicates the endpoint
+                is at risk.</p>
+            <p>For <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+                agent with StellarICS license edition, below the green check or red cross icon, a
+                shield-shape icon with a toggle on the left indicates whether the endpoint is
+                currently protected by StellarProtect's Real-time Malware Scan; and a lock-shape
+                icon with a toggle on the right indicates whether the Application Lockdown "Enforce"
+                mode is enabled</p>
+            <p>For <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+                agent with StellarKiosk license edition, below the green check or red cross icon, a
+                shield-shape icon with the toggle indicates whether the endpoint is currently
+                protected by StellarProtect's Real-time Malware Scan.</p>
+            <p>For <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+                agent with StellarOEM license edition, below the green check or red cross icon, a
+                lock-shape icon with a toggle on the right indicates whether the Application
+                Lockdown "Enforce" mode is enabled.</p>
+            <p>The following current information about endpoint protection will be shown:<ul
+                    id="ul_mbr_vss_tvb">
+                    <li>
+                        <p><b>StellarOne registration</b>: Green check indicates the <ph
+                                conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                >OFFICIAL_PRODUCT_NAME</ph> agent is successfully registered to a
+                            designated group via <ph
+                                conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> web console;
+                            red cross indicates registration to certain group is failed.</p>
+                    </li>
+                    <li>
+                        <p><b>StellarOne group name</b>: This item shows the group name the agent
+                            belongs to. When users mouse over the name of the group, information
+                            about group name, group ID, and policy version will appear.</p>
+                    </li>
+                    <li>
+                        <p><b>Number of OT Apps</b>: This item shows how many OT applications are in
+                            the endpoint.</p>
+                    </li>
+                    <li>
+                        <p><b>Last OT inventory updated on</b>: This item shows the date and time
+                            the OT Inventory was last updated on this endpoint.</p>
+                    </li>
+                    <li>
+                        <p><b>Number of approved Apps</b>: This item shows the number of the
+                            applications that have been added in the Approved List on this
+                            endpoint.</p>
+                    </li>
+                    <li>
+                        <p><b>Last approved list updated on</b>: The last time the Approve List was
+                            updated.</p>
+                    </li>
+                    <li>
+                        <p><b>Last component updated on</b>: The last time component was
+                            updated.</p>
+                    </li>
+                    <li>
+                        <p><b>Last blocked event</b>: Clicking the link shows the recent 1000
+                            blocked events.</p>
+                    </li>
+                    <li>
+                        <p><b>License expires on</b>: This item shows when <ph
+                                conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                >OFFICIAL_PRODUCT_NAME</ph>’s current license will expire.</p>
+                    </li>
+                    <li>
+                        <p><b>Device Information</b>: Clicking the link shows the endpoint's device
+                            information including Vendor, Model, Location, and Remark.</p>
+                    </li>
+                </ul></p>
+        </section>
+        <section id="section_n52_zts_tvb">
+            <title>OT Applications</title>
+            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+            <fig id="fig_q5n_zts_tvb">
+                <title>OT Applications</title>
+            </fig><?oxy_custom_end?>
+            <p><indexterm>Side Navigation Menu<indexterm>OT Applications</indexterm></indexterm>This
+                function lists all OT/ICS application systems recognized by <ph
+                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph> on
+                this endpoint, and lists the software name, vendor name, product version and
+                installation path of each application system.</p>
+            <p>The number of OT/ICS application systems that <ph
+                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph> can
+                recognize will continue to increase with updates to the OT/ICS Application
+                Inventory, which is maintained by the TXOne research laboratory based on OT/ICS
+                product analysis.</p>
+            <p>This information will be synchronized to the <ph
+                    conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> backend for device
+                management.</p>
+        </section>
+        <section id="section_lgs_25s_tvb">
+            <title>OT Certificates</title>
+            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+            <fig id="fig_k42_f5s_tvb">
+                <title>OT Certificates</title>
+            </fig><?oxy_custom_end?>
+            <p><indexterm>Side Navigation Menu<indexterm>OT Certificates</indexterm></indexterm></p>
+            <p>Digital signature is currently the most secure software product identification
+                technology, which can ensure that the signed software component is not illegally
+                modified, and can identify that the software was released by the original
+                manufacturer.</p>
+            <p>The number of OT/ICS certificates that <ph
+                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph> can
+                recognize will increasewith updates from the OT/ICS Application Inventory. This
+                inventory is producedby the TXOne research laboratory and based on OT/ICS product
+                analysis.</p>
+            <p>This information will be synchronized to the <ph
+                    conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> backend for
+                management.</p>
+        </section>
+        <section id="section_gpy_n5s_tvb">
+            <title>Approved List</title>
+            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+            <fig id="fig_tyg_45s_tvb">
+                <title>Approved List</title>
+            </fig><?oxy_custom_end?>
+            <p><indexterm>Side Navigation Menu<indexterm>Approved
+                List</indexterm></indexterm>Applications found
+                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>during
+                prescan<?oxy_custom_end?> are added in the Approved List. Users can add and search
+                for applications in this window. Users can also import or export trusted hashes by
+                clicking the three-dot dropdown menu.</p>
+        </section>
+        <section id="section_zvb_t5s_tvb">
+            <title>Scan Components</title>
+            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+            <fig id="fig_dfq_t5s_tvb">
+                <title>Scan Components</title>
+            </fig><?oxy_custom_end?>
+            <p><indexterm>Side Navigation Menu<indexterm>Scan Components</indexterm></indexterm>This
+                navigation option list all critical scan engines and patterns with versions used by
+                    <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                >OFFICIAL_PRODUCT_NAME</ph>.</p>
+        </section>
+        <section id="section_f4j_3vs_tvb">
+            <title>Password</title>
+            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+            <fig id="fig_qqp_jvs_tvb">
+                <title>Password</title>
+            </fig><?oxy_custom_end?>
+            <p><indexterm>Side Navigation Menu<indexterm>Password</indexterm></indexterm>This
+                navigation option functions as the <ph
+                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+                administrator password change. The user must enter the correct old password, enter
+                the same new password
+                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>twice<?oxy_custom_end?>,
+                confirm that the length of the new password meets the requirements, and press
+                    <uicontrol>Save</uicontrol> to complete the change.</p>
+        </section>
+        <section id="section_rgx_mxs_tvb">
+            <title>Settings</title>
+            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+            <fig id="fig_u2h_nxs_tvb">
+                <title>Settings</title>
+            </fig><?oxy_custom_end?>
+            <p><indexterm>Side Navigation Menu<indexterm>Settings</indexterm></indexterm>This
+                section mainly describes the <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                    >OFFICIAL_PRODUCT_NAME</ph> configuration options. Refer to <xref
+                    href="../../../../../../../Library/CloudStorage/OneDrive-TXOneNetworksInc/Documents/3.%20Project/2.1/StellarProtect/en-us/topics/settings_console_sp_agent=20221208134527.xml"
+                /> for the introduction of the seven main protection functions. Each function has a
+                switch that can be turned on or off.</p>
+        </section>
+        <section id="section_rld_txs_tvb">
+            <title>About</title>
+            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+            <fig id="fig_agn_txs_tvb">
+                <title>About</title>
+            </fig><?oxy_custom_end?>
+            <p><indexterm>Side Navigation Menu<indexterm>About</indexterm></indexterm>This includes
+                    <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+                product information, version and build number, as well as third-party license
+                information.</p>
+        </section>
+    </refbody>
+</reference>

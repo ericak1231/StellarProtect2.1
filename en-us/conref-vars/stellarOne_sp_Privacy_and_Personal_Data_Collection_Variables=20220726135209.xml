@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-201E7B6A-A8D8-4457-926B-366CE0B056BE" xml:lang="en-us">
+ <title id="GUID-3C8E2F41-D99A-4C6B-B4A0-7263EA023574">Privacy and Personal Data Collection
+  Variables</title>
+ <conbody>
+  <p>This variable file uses the keys value: PPDC_vars</p>
+  <table colsep="1" frame="all" id="table_iph_xvn_1db" rowsep="1">
+   <tgroup cols="4">
+    <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+    <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+    <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+    <colspec colname="c4" colnum="4" colwidth="1.0*"/>
+    <thead>
+     <row>
+      <entry>
+       <p>Placeholder</p>
+      </entry>
+      <entry>
+       <p>Value</p>
+      </entry>
+      <entry>
+       <p>Description</p>
+      </entry>
+      <entry>
+       <p>ID</p>
+      </entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry><ph conref="#GUID-201E7B6A-A8D8-4457-926B-366CE0B056BE/product_name"
+       >product_name</ph></entry>
+      <entry><ph id="product_name">TXOne StellarOne for StellarProtect</ph></entry>
+      <entry>
+       <p>The full product name that implements the topic without TXOne Networks added
+        unless it is part of the official name</p>
+      </entry>
+      <entry>product_name</entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+ </conbody>
+</concept>

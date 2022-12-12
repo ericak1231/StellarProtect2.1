@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-E049C3C6-2628-4A45-A678-1F3070A54E84" xml:lang="en-us">
+<title id="GUID-980DA452-AFE6-46C3-8B9B-5A63FBE5F506">Threat Encyclopedia</title>
+<conbody><p>Most malware today consists of blended threats, which combine two or more technologies, to bypass
+            computer security protocols. Trend Micro and TXOne combats this complex malware with
+            products that create a custom defense strategy. The Threat Encyclopedia provides a
+            comprehensive list of names and symptoms for various blended threats, including known
+            malware, spam, malicious URLs, and known vulnerabilities. </p>
+        <p>Go to <xref conkeyref="TSXrefvars/threatEncyclopedia"/> and <xref
+                href="https://www.encyclopedia.txone.com/" format="html" scope="external"/> to learn
+            more about:</p>
+<ul id="GUID-A3D06474-C279-4054-BAF4-4DA7EEC09FC7"><li><p>Malware and malicious mobile code currently active or "in the wild"</p></li>
+<li><p>Correlated threat information pages to form a complete web
+attack story</p></li>
+<li><p>Internet threat advisories about targeted attacks and security
+threats</p></li>
+<li><p>Web attack and online trend information</p></li>
+<li><p>Weekly malware reports</p></li></ul></conbody></concept>

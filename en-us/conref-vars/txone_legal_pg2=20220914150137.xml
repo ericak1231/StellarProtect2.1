@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd"[]>
+
+<reference id="GUID-93ca25ea-8f4d-4c4c-9fc6-097f5425feca">
+<title></title>
+<refbody><section><draft-comment>This topic uses variables based
+on the ../bp_legal_vars.xml file. Update that file to modify output.
+Please do not change anything in this topic or rename the file.
+It is boilerplate and should have a 100% match with L10n translation
+memory. If you need to modify this topic, then it is no longer boilerplate
+and the translation memory is compared product version to version
+and not shared commonly across all products. If you change the file,
+please rename it too. </draft-comment><p>This documentation introduces the main features of the product and/or provides installation
+                instructions for a production environment. Read through the documentation before
+                installing or using the product. </p><p>TXOne Networks always seeks to improve its documentation. If you have questions, comments, or
+                suggestions about this or any TXOne Networks document, please contact us at <xref
+                    href="mailto:docs@txone-networks.com" id="supportEmail" format="html"
+                    scope="external">docs@txone-networks.com</xref>.</p></section></refbody></reference>

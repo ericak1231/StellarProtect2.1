@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-CE8FE737-83A8-457D-BB47-5B27E4126F8B" xml:lang="en-us">
+<title id="GUID-F28747CC-23F0-4D5C-B15A-138DC88B62DB">Legal Variables</title>
+<refbody><section id="GUID-844C3859-F255-4E40-9DBB-459E7111F0B6"><p>The “keys” value for this file is: LEGALvars</p><ol id="GUID-9FCE8FF6-B01A-4D81-A479-97CBBB324F87">
+<li><p>Read the <uicontrol>Use</uicontrol> column for an explanation
+of each variable and an example of how to use it.</p></li>
+<li><p>Change the value of the <uicontrol>Display Value </uicontrol>table
+entry for each variable to match your product.</p></li></ol></section>
+<section id="GUID-8901C259-5DBB-4CFD-B13C-AEA72EF181F0"><table frame="all" colsep="1" rowsep="1"><title id="GUID-D6295882-E6D2-44B6-AD9E-CC0E99DA7058">Legal
+Page Variables</title>
+<tgroup cols="4" colsep="1" rowsep="1" outputclass="Properties">
+<colspec colnum="1" colname="1" colwidth="21*"/>
+<colspec colnum="2" colname="2" colwidth="22*"/>
+<colspec colnum="3" colname="3" colwidth="36*"/>
+<colspec colnum="4" colname="4" colwidth="22*"/>
+<thead>
+<row rowsep="1">
+<entry colname="1">Placeholder</entry>
+<entry colname="2">Display Value</entry>
+<entry colname="3">Use</entry>
+<entry colname="4">id</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep="1">
+<entry colname="1"><ph>TXOne Networks Incorporated</ph></entry>
+<entry colname="2"><ph id="INC_COMPANY_NAME">TXOne Networks Incorporated</ph></entry>
+<entry colname="3"><p><draft-comment translate="no">Incorporated company name </draft-comment></p><ul id="GUID-B5941653-C024-4267-A80E-6E49C25B540C">
+<li><p>TXOne Networks Incorporated</p></li></ul></entry>
+<entry colname="4">inc_company_name</entry>
+</row>
+<row rowsep="1">
+<entry colname="1"><ph>TXOne Networks</ph></entry>
+<entry colname="2"><ph id="COMPANY_NAME">TXOne Networks</ph></entry>
+<entry colname="3"><p><draft-comment translate="no">Short name for company</draft-comment></p><ul id="GUID-73BF2481-36A4-4BBC-9F5D-1DD3C4144E31">
+<li><p>TXOne Networks</p></li></ul></entry>
+<entry colname="4">company_name</entry>
+</row>
+<row rowsep="1">
+<entry colname="1"><ph conkeyref="LEGALvars/RELATED_PRODUCT_LIST">related_product_list</ph></entry>
+<entry colname="2"><ph id="RELATED_PRODUCT_LIST">Trend Micro, the Trend Micro t-ball
+                                    logo, Trend Micro Apex One, Worry-Free, and
+                                TrendLabs</ph></entry>
+<entry colname="3"><p><draft-comment translate="no">List of referenced trademarked
+products. </draft-comment></p><ul id="GUID-582ECE76-2981-4D7A-9ED7-C6D7DA2A899F"><li><p>Trend Micro, the Trend
+Micro t-ball logo, Control Manager, eManager, and ScanMail</p></li></ul></entry>
+<entry colname="4">related_product_list</entry>
+</row>
+<row rowsep="1">
+<entry colname="1"><ph conkeyref="LEGALvars/COPYRIGHT_DATE">copyright_date</ph></entry>
+<entry colname="2"><ph id="COPYRIGHT_DATE">2022</ph></entry>
+<entry colname="3"><p><draft-comment translate="no">Copyright date</draft-comment></p><ul id="GUID-37DB7564-CAFE-4EE4-92DA-F3777797F705">
+<li><p>2012</p></li></ul></entry>
+<entry colname="4">copyright_date</entry>
+</row>
+<row rowsep="1">
+<entry colname="1"><ph>StellarOne</ph></entry>
+<entry colname="2"><ph id="LONG_PRODUCT_NAME">StellarOne</ph></entry>
+<entry colname="3"><p><draft-comment translate="no">Full product name</draft-comment></p><ul id="GUID-BCF43D0A-E462-46B1-9576-C6B391907AF2">
+<li><p> ScanMail <cite>for Microsoft Exchange</cite></p></li></ul></entry>
+<entry colname="4">long_product_name</entry>
+</row>
+<row rowsep="1">
+<entry colname="1"><ph><tm tmtype="tm">TXOne Network StellarOne</tm></ph></entry>
+<entry colname="2"><ph id="TRADEMARK_LONG_PRODUCT_NAME"><tm tmtype="tm">TXOne Network
+                                        StellarOne</tm></ph>
+                            </entry>
+<entry colname="3"><p><draft-comment translate="no">Product name with trademarks</draft-comment></p><ul id="GUID-E630F1C1-061B-4AF6-B15D-8973FBD06562">
+<li><p><tm tmtype="tm">ScanMail</tm> <cite>for <tm tmtype="tm">Microsoft</tm> Exchange</cite></p></li></ul></entry>
+<entry colname="4">trademark_long_product_name</entry>
+</row>
+<row rowsep="1">
+<entry colname="1"><ph conkeyref="LEGALvars/DOCUMENT_PART_NUMBER">document_part_number</ph></entry>
+<entry colname="2"><ph id="DOCUMENT_PART_NUMBER">APEM69527/220520</ph></entry>
+<entry colname="3"><p><draft-comment translate="no">Document release version. See
+note on next page about multiple document sets.</draft-comment></p><ul id="GUID-FB9F5806-E6E1-4795-AAA9-4765B9D8661B">
+<li><p>SMEM104607/100822</p></li></ul></entry>
+<entry colname="4">document_part_number</entry>
+</row>
+<row rowsep="1">
+<entry colname="1"><ph>October 2022</ph></entry>
+<entry colname="2"><ph id="RELEASE_DATE">October 2022</ph></entry>
+<entry colname="3"><p><draft-comment translate="no">Release date</draft-comment></p><ul id="GUID-3201FC79-E05B-485D-8470-09889239493E">
+<li><p>June 2012</p></li></ul></entry>
+<entry colname="4">release_date</entry>
+</row>
+<row rowsep="1">
+<entry colname="1"><ph>product_version</ph></entry>
+<entry colname="2"><ph id="PRODUCT_VERSION"/></entry>
+<entry colname="3"><p><draft-comment translate="no">Product release version</draft-comment></p><ul id="GUID-5A2017A3-FDE4-4012-BDCB-2C90EE1B82BE">
+<li><p>10.2 SP2</p></li></ul></entry>
+<entry colname="4">product_version</entry>
+</row>
+<row rowsep="1">
+<entry colname="1"><xref href="http://docs.trendmicro.com/en-us/enterprise.aspx" format="html"
+                                    scope="external"/></entry>
+<entry colname="2"><xref href="http://docs.trendmicro.com/en-us/enterprise.aspx" scope="external"
+                                    id="OHC_URL" format="html"
+                                    >http://docs.trendmicro.com/en-us/enterprise.aspx</xref></entry>
+<entry colname="3"><p><draft-comment translate="no">Product landing page at the
+online help center. Update to your product’s URL.</draft-comment></p></entry>
+<entry colname="4"><xref href="http://docs.trendmicro.com/en-us/enterprise.aspx" format="html"
+                                    scope="external"/></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"><ph conkeyref="LEGALvars/PATENT_NO">patent_no</ph></entry>
+<entry colname="2"><ph id="PATENT_NO">Patents pending.</ph></entry>
+<entry colname="3"><p><draft-comment translate="no">All relevant patent numbers.
+Separate each patent number with a semicolon.</draft-comment></p><ul id="GUID-D6EE35D9-FC16-4BCB-BC42-760CD9FB91FF">
+<li><p>5,951,698; 5,951,698 </p></li></ul></entry>
+<entry colname="4">patent_no</entry>
+</row>
+<row rowsep="0">
+<entry colname="1"><ph conkeyref="LEGALvars/PRODUCT_SERVICE">product_or_service</ph></entry>
+<entry colname="2"><ph id="PRODUCT_SERVICE">product</ph></entry>
+<entry colname="3"><draft-comment translate="no">Define whether this documentation
+is about a product or service. The default is product/service.</draft-comment><ul id="GUID-F00D87BB-7D5D-4234-B85E-0D895432971B">
+<li><p>product</p></li>
+<li><p>service</p></li></ul></entry>
+<entry colname="4">product/service</entry>
+</row>
+</tbody>
+</tgroup></table></section>
+<section id="GUID-ABAA5C94-534B-4724-9C24-197D77006815"><p>Using the same variable file for a multiple document
+set:</p><p>Conditional processing is your friend. Inside the <ph conkeyref="LEGALvars/DOCUMENT_PART_NUMBER"/>display value
+&lt;ph&gt; element, use &lt;text&gt; elements to separate different document
+part numbers. Set the outputclass of each &lt;text&gt; element to the
+value in the ditaval file. Look at the structure of this example: <ph/>.</p><ul id="GUID-771D38A5-9BAB-4FCF-9AC6-36E990A6D451">
+<li><p>Open attributes for the top &lt;text&gt; element. The id is
+null, but the otherprops attribute is AG.</p></li>
+<li><p>Open attributes for the bottom &lt;text&gt; element. Same as
+above, but otherprops is set to IG.</p></li></ul><note id="GUID-8C6F42BE-38E1-4041-B02E-840FE78D1E30"><p>The &lt;ph&gt;
+tag would usually have an id of document_part_number, but the id
+has been removed so that there is no interference with this variable
+file.</p></note></section></refbody></reference>

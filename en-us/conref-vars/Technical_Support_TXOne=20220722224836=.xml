@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-1D06CD5C-54A0-48E9-9D9A-B9E7F1B79F10" xml:lang="en-us">
+ <title id="GUID-56732140-2FF8-4DD6-8C01-CF2F19CBE2B7">Technical Support</title>
+ <conbody>
+  <p>Support for TXOne Networks products is provided mutually by TXOne Networks and Trend Micro. All
+   technical support goes through TXone and Trend Micro engineers.</p>
+  <p>Learn about the following topics:</p>
+  <ul id="GUID-D233F3D0-62B8-4D30-9B3E-81214CDB7CFA" otherprops="PRINT">
+   <li>
+    <p><xref href="Troubleshooting_Resources=20220902171322.xml"/></p>
+   </li>
+   <li>
+    <p><xref href="Contacting_Trend_Micro=20220902171621.xml">Contacting Trend Micro and
+      TXOne</xref></p>
+   </li>
+   <li>
+    <p><xref
+      href="../SharedResources/TechnicalSupportChapter/Sending_Suspicious_Content_to_Trend_Micro=GUID-394515B1-CDAA-48C9-8C95-773E8F644D12=1=en-us=.xml#GUID-394515B1-CDAA-48C9-8C95-773E8F644D12"
+      format="dita"/></p>
+   </li>
+   <li>
+    <p><xref
+      href="../SharedResources/TechnicalSupportChapter/Other_Resources=GUID-C3A498C4-5FED-4A15-9D49-041D33150119=1=en-us=.xml#GUID-C3A498C4-5FED-4A15-9D49-041D33150119"
+      format="dita"/></p>
+   </li>
+  </ul>
+ </conbody>
+</concept>

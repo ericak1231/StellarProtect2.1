@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_lyr_vqg_pvb">
+    <title>Replicating Installation for Multiple Standalone Agents</title>
+    <taskbody>
+        <context>
+            <p>This section introduces a more efficient method to replicate installation for
+                multiple standalone agents with the same license file and product serial number.</p>
+        </context>
+        <steps id="steps_kcd_3lh_pvb">
+            <step>
+                <cmd>Refer to <xref
+                        href="../../../../../../../Library/CloudStorage/OneDrive-TXOneNetworksInc/Documents/3.%20Project/2.1/StellarProtect/en-us/topics/license_file_standalone_agents=20221122162502.xml"
+                    /> for getting the license file and product serial number.</cmd>
+            </step>
+            <step>
+                <cmd>Place the license file as the top-level file in the agent's Installer
+                    Package.</cmd>
+                <info>
+                    <note id="note_iyw_1mh_pvb">
+                        <p>Ensure the file extension is <filepath>.txt</filepath></p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>Open the <ph conkeyref="PRODvars/SETUP_FILE"/> file in the Installer Package
+                    and specify the value for the <codeph>product_serial_number</codeph>
+                    parameter.</cmd>
+            </step>
+            <step>
+                <cmd>Save the Installer Package in the target endpoints for installation.</cmd>
+            </step>
+            <step>
+                <cmd>Launch the Installer. The License File and the Product Serial Number will be
+                    automatically generated in the <uicontrol>License Activation</uicontrol>
+                    procedure.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

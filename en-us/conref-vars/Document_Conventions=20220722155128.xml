@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-EFE97F92-B420-421B-9163-B1364742125D" xml:lang="en-us">
+<title id="GUID-82E52FFF-9829-4F60-A680-7354C9B6500F">Document Conventions</title>
+<refbody>
+<section id="GUID-FAF40283-DF70-4396-BA7A-9987232ED470">
+<p>The following table provides the official terminology used throughout the <ph
+                    conkeyref="PRODvars/COMPANY_NAME_PRODUCT_NAME_TM"/> documentation:</p>
+<table>
+<title id="GUID-5C0BD81A-69F8-46CF-A7A4-011A50D04031">Document Conventions</title>
+<tgroup cols="2">
+<colspec colwidth="30*"/>
+<colspec colwidth="70*"/>
+<thead>
+<row>
+<entry>
+<p>Convention</p>
+</entry>
+<entry>
+<p>Description</p>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<p>UPPER CASE</p>
+</entry>
+<entry>
+<p>Acronyms, abbreviations, and names of certain commands and keys on the keyboard</p>
+</entry>
+</row>
+<row>
+<entry>
+<b>Bold</b>
+</entry>
+<entry>
+<p>Menus and menu commands, command buttons, tabs, and options</p>
+</entry>
+</row>
+<row>
+<entry>
+<p>
+<i>Italics</i>
+</p>
+</entry>
+<entry>
+<p>References to other documents</p>
+</entry>
+</row>
+<row>
+<entry>
+<p>
+<codeph>Monospace</codeph>
+</p>
+</entry>
+<entry>
+<p>Sample command lines, program code, web URLs, file names, and program output</p>
+</entry>
+</row>
+<row>
+<entry>
+<p>
+<menucascade>
+<uicontrol>Navigation</uicontrol>
+<uicontrol>Path</uicontrol>
+</menucascade>
+</p>
+</entry>
+<entry>
+<p>The navigation path to reach a particular screen</p>
+<p>For example, <menucascade><uicontrol>File</uicontrol><uicontrol>Save</uicontrol></menucascade> means, click <uicontrol>File</uicontrol> and then click <uicontrol>Save</uicontrol> on the interface</p>
+</entry>
+</row>
+<row>
+<entry>
+<note id="GUID-DA39E130-9F85-407A-9AA5-76F395E5CAC5">
+<p/>
+</note>
+</entry>
+<entry>
+<p>Configuration notes</p>
+</entry>
+</row>
+<row>
+<entry>
+<note type="tip" id="GUID-5B407DD0-EE01-4065-B839-18EB984179DE">
+<p/>
+</note>
+</entry>
+<entry>
+<p>Recommendations or suggestions</p>
+</entry>
+</row>
+<row>
+<entry>
+<note type="important" id="GUID-4A171175-090C-4D78-8510-E64DF3F9B28B">
+<p/>
+</note>
+</entry>
+<entry>
+<p>Information regarding required or default configuration settings and product limitations</p>
+</entry>
+</row>
+<row>
+<entry>
+<note type="warning" id="GUID-DFC0BC9A-7088-4417-92AF-DD95D06E8159">
+<p/>
+</note>
+</entry>
+<entry>
+<p>Critical actions and configuration options</p>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+</refbody>
+</reference>

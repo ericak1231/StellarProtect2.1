@@ -1,0 +1,1274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd"[]>
+
+<reference id="GUID-09957805-70E7-401F-A691-F587FCE2CB8B" xml:lang="en-us">
+  <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">Agent Event Log Descriptions for <ph
+      conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph></title>
+  <refbody>
+    <section id="GUID-3A481E02-9073-4F55-B437-517CA325F21D">
+      <p>This table details the Windows event log descriptions for <ph
+          conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>.</p>
+      <table frame="all" id="table_uqw_xlp_l5b">
+        <tgroup cols="5">
+          <colspec colname="c1" colnum="1" colwidth="1*"/>
+          <colspec colname="c2" colnum="2" colwidth="1*"/>
+          <colspec colname="c3" colnum="3" colwidth="1*"/>
+          <colspec colname="c4" colnum="4" colwidth="1*"/>
+          <colspec colname="c5" colnum="5" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry>
+                <p>Event ID</p>
+              </entry>
+              <entry>
+                <p>Level</p>
+              </entry>
+              <entry>
+                <p>Category</p>
+              </entry>
+              <entry>
+                <p>Event Description</p>
+              </entry>
+              <entry>
+                <p>Event Details</p>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <p>256</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Service Started</p>
+              </entry>
+              <entry>
+                <p>The service has started.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>257</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Policy Applied Successfully (Version: %version%)</p>
+              </entry>
+              <entry>
+                <p>Policy has been applied successfully.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>258</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Patch Applied. File Name: %file_name%</p>
+              </entry>
+              <entry>
+                <p>Patch has been applied successfully.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>259</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Patching in Progress </p>
+              </entry>
+              <entry>
+                <p>Patching is in progress. After the earlier-applied patch has been completely
+                  updated, the system will automatically try to apply this patch:
+                  %deferred_file_name%.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>513</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>intelli_av</p>
+              </entry>
+              <entry>
+                <p>ICS Inventory List Update Succeeded</p>
+              </entry>
+              <entry>
+                <p>The ICS Inventory List has been updated successfully.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>514</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>intelli_av</p>
+              </entry>
+              <entry>
+                <p>Real Time Scan Enabled</p>
+              </entry>
+              <entry>
+                <p>The real-time scan is enabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>515</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>intelli_av</p>
+              </entry>
+              <entry>
+                <p>Scheduled Scan Started</p>
+              </entry>
+              <entry>
+                <p>The scheduled scan has started.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+                <p>516</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>intelli_av</p>
+              </entry>
+              <entry>
+                <p>Scheduled Scan Ended</p>
+              </entry>
+              <entry>
+                <p>A scheduled scan has ended.</p>
+                <p>[Details]</p>
+                <p>Folders scanned: %1</p>
+                <p>Symbolic links: %2</p>
+                <p>Regular files: %3</p>
+                <p>Files scanned: %4</p>
+                <p>Files passed: %5</p>
+                <p>Threats detected: %6</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>517</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>intelli_av</p>
+              </entry>
+              <entry>
+                <p>On-Demand Scan Started</p>
+              </entry>
+              <entry>
+                <p>The manually launched scan has started.</p>
+              </entry>
+            </row>
+            <row>
+              <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+              <entry>
+                <p>518</p>
+              </entry><?oxy_custom_end?>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>intelli_av</p>
+              </entry>
+              <entry>
+                <p>On-Demand Scan Ended</p>
+              </entry>
+              <entry>
+                <p>A manually launched scan has ended.</p>
+                <p>[Details]</p>
+                <p>Folders scanned: %1</p>
+                <p>Symbolic links: %2</p>
+                <p>Regular files: %3</p>
+                <p>Files scanned: %4</p>
+                <p>Files passed: %5</p>
+                <p>Threats detected: %6</p>
+              </entry>
+            </row>
+            <row>
+              <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+              <entry>
+                <p>519</p>
+              </entry><?oxy_custom_end?>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>intelli_av</p>
+              </entry>
+              <entry>
+                <p>Scheduled Scan Enabled</p>
+              </entry>
+              <entry>
+                <p>A scheduled scan has been enabled. Next scan will be on %NextScan%.</p>
+              </entry>
+            </row>
+            <row>
+              <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+              <entry>
+                <p>520</p>
+              </entry><?oxy_custom_end?>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>intelli_av</p>
+              </entry>
+              <entry>
+                <p>Scheduled Scan Disabled</p>
+              </entry>
+              <entry>
+                <p>A scheduled scan has been disabled.</p>
+              </entry>
+            </row>
+            <row>
+              <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+              <entry>
+                <p>521</p>
+              </entry><?oxy_custom_end?>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>intelli_av</p>
+              </entry>
+              <entry>
+                <p>Manual Scan Started</p>
+              </entry>
+              <entry>
+                <p>A scan manually launched by local user has started.</p>
+              </entry>
+            </row>
+            <row>
+              <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+              <entry>
+                <p>522</p>
+              </entry><?oxy_custom_end?>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>intelli_av</p>
+              </entry>
+              <entry>
+                <p>Manual Scan Ended</p>
+              </entry>
+              <entry>
+                <p>A scan manually launched by local user has ended.</p>
+                <p>[Details]</p>
+                <p>Folders scanned: %1</p>
+                <p>Symbolic links: %2</p>
+                <p>Regular files: %3</p>
+                <p>Files scanned: %4</p>
+                <p>Files passed: %5</p>
+                <p>Threats detected: %6</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>768</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>anomaly_detect</p>
+              </entry>
+              <entry>
+                <p>Operations Behavior Anomaly Detection Enabled</p>
+              </entry>
+              <entry>
+                <p>Mode: %Mode% </p>
+                <p>Level: %Level%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>769</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>anomaly_detect</p>
+              </entry>
+              <entry>
+                <p>Approved Operation Added to  Operations Behavior Anomaly Detection</p>
+              </entry>
+              <entry>
+                <p>Access User: %USERNAME%</p>
+                <p>ID: %ID%</p>
+                <p>Target Process: %PATH% %ARGUMENT% </p>
+                <p>Parent Process 1: %PATH% %ARGUMENT%</p>
+                <p> Parent Process 2: %PATH% %ARGUMENT% </p>
+                <p>Parent Process 3: %PATH% %ARGUMENT%</p>
+                <p> Parent Process 4: %PATH% %ARGUMENT%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>770</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>anomaly_detect</p>
+              </entry>
+              <entry>
+                <p>Operations Behavior Anomaly Detection Removed from Approved Operation</p>
+              </entry>
+              <entry>
+                <p>ID: %ID%</p>
+                <p>Target Process: %PATH% %ARGUMENT% </p>
+                <p>Parent Process 1: %PATH% %ARGUMENT%</p>
+                <p> Parent Process 2: %PATH% %ARGUMENT% </p>
+                <p>Parent Process 3: %PATH% %ARGUMENT%</p>
+                <p> Parent Process 4: %PATH% %ARGUMENT%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>784</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>anomaly_detect</p>
+              </entry>
+              <entry>
+                <p>DLL Injection Prevention Enabled</p>
+              </entry>
+              <entry>
+                <p>The DLL Injection Prevention has been enabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1280</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>device_control</p>
+              </entry>
+              <entry>
+                <p>Device Control Enabled</p>
+              </entry>
+              <entry>
+                <p>The Device Control has been enabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1281</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>device_control</p>
+              </entry>
+              <entry>
+                <p>Trusted USB Device Added</p>
+              </entry>
+              <entry>
+                <p>Vendor ID: %HEX%</p>
+                <p>Product ID: %HEX%</p>
+                <p>Serial Number: %STRING%</p>
+                <p>Type: permanent or one time</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1282</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>device_control</p>
+              </entry>
+              <entry>
+                <p>Trusted USB Device Removed</p>
+              </entry>
+              <entry>
+                <p>Vendor ID: %HEX%</p>
+                <p>Product ID: %HEX%</p>
+                <p>Serial Number: %STRING%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1792</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>lockdown</p>
+              </entry>
+              <entry>
+                <p>File Access Allowed: %PATH%</p>
+              </entry>
+              <entry>
+                <p>Access Image Path: %PATH%</p>
+                <p>Access User: %USERNAME%</p>
+                <p>Mode: %MODE%</p>
+                <p>List: %LIST%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1793</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>lockdown</p>
+              </entry>
+              <entry>
+                <p>Added to Approved List in Maintenance Mode</p>
+              </entry>
+              <entry>
+                <p>Path: %PATH%</p>
+                <p>Hash: %SHA256_HEXSTR%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1794</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>lockdown</p>
+              </entry>
+              <entry>
+                <p>Approved List Updated in Maintenance Mode</p>
+              </entry>
+              <entry>
+                <p>Path: %PATH%</p>
+                <p>Hash: %SHA256_HEXSTR%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1795</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>lockdown</p>
+              </entry>
+              <entry>
+                <p>Approved List Initialization Started</p>
+              </entry>
+              <entry>
+                <p>Approved List initialization started</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1796</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>lockdown</p>
+              </entry>
+              <entry>
+                <p>Approved List Initialization Completed</p>
+              </entry>
+              <entry>
+                <p>Approved List initialization completed</p>
+                <p>Count: %COUNT%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1797</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>lockdown</p>
+              </entry>
+              <entry>
+                <p>Application Lockdown Enabled</p>
+              </entry>
+              <entry>
+                <p>Application Lockdown enabled</p>
+                <p>Mode: %MODE%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1798</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>lockdown</p>
+              </entry>
+              <entry>
+                <p>DLL/Driver Lockdown Enabled</p>
+              </entry>
+              <entry>
+                <p>DLL/Driver Lockdown enabled</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1799</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>lockdown</p>
+              </entry>
+              <entry>
+                <p>Script Lockdown Enabled</p>
+              </entry>
+              <entry>
+                <p>Script Lockdown enabled</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1800</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>lockdown</p>
+              </entry>
+              <entry>
+                <p>Intelligent Runtime Learning Enabled</p>
+              </entry>
+              <entry>
+                <p>Intelligent Runtime Learning enabled</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2048</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>update</p>
+              </entry>
+              <entry>
+                <p>Component Update Started</p>
+              </entry>
+              <entry>
+                <p>Component update has started</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2049</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>update</p>
+              </entry>
+              <entry>
+                <p>Component Update Ended</p>
+              </entry>
+              <entry>
+                <p>Component update has ended.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2050</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>update</p>
+              </entry>
+              <entry>
+                <p>Scheduled Component Update Enabled, Next Update Will Be On
+                  %NEXT_UPDATE_LOCAL_TIME_STR% (agent's local system time).</p>
+              </entry>
+              <entry>
+                <p>Scheduled component update has been enabled. Next update will be on
+                  %NEXT_UPDATE_LOCAL_TIME_STR% (agent's local system time).</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2051</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>update</p>
+              </entry>
+              <entry>
+                <p>Scheduled Component Update Disabled.</p>
+              </entry>
+              <entry>
+                <p>Scheduled component update has been disabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>4352</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>system</p>
+              </entry>
+              <entry>
+                <p>Service Stopped</p>
+              </entry>
+              <entry>
+                <p>The service has stopped.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>4353</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>system</p>
+              </entry>
+              <entry>
+                <p>Unable to Apply Policy (Version: %version%)</p>
+              </entry>
+              <entry>
+                <p>The policy can not be applied.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>4354</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>system</p>
+              </entry>
+              <entry>
+                <p>Unable to Update File: %dst_path%</p>
+              </entry>
+              <entry>
+                <p>Unable to update file.</p>
+                <p>Source Path: %src_path%</p>
+                <p>Destination Path: %dst_path%</p>
+                <p>Error Code: %err_code%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>4355</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>system</p>
+              </entry>
+              <entry>
+                <p>Unable to Apply Patch. File Name: %file_name%</p>
+              </entry>
+              <entry>
+                <p>Unable to apply patch.</p>
+                <p>File Name: %file_name%</p>
+                <p>Error Code: %err_code%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>4609</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>intelli_av</p>
+              </entry>
+              <entry>
+                <p>Incoming Files Scanned, Action Taken by Antivirus: %PATH%</p>
+              </entry>
+              <entry>
+                <p>Incoming files were scanned by antivirus. Actions were taken according to
+                  settings.</p>
+                <p>File Path: %PATH%</p>
+                <p>File Hash: %STRING%</p>
+                <p>Threat Type: %STRING%</p>
+                <p>Threat Name: %STRING%</p>
+                <p>Action Result: %INTEGER% </p>
+                <p>Quarantine Path: %PATH%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>4610</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>intelli_av</p>
+              </entry>
+              <entry>
+                <p>Incoming Files Scanned, Action Taken by Next-Generation Antivirus: %PATH%</p>
+              </entry>
+              <entry>
+                <p>Incoming files were scanned by next-generation antivirus. Actions were taken
+                  according to settings.</p>
+                <p>File Path: %PATH%</p>
+                <p>File Hash: %STRING%</p>
+                <p>Threat Type: %STRING%</p>
+                <p>Threat Name: %STRING%</p>
+                <p>Action Result: %INTEGER% </p>
+                <p>Quarantine Path: %PATH%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>4611</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>intelli_av</p>
+              </entry>
+              <entry>
+                <p>Local Files Scanned, Action Taken by Antivirus: %PATH%</p>
+              </entry>
+              <entry>
+                <p>Local files were scanned by antivirus. Actions were taken according to
+                  settings.</p>
+                <p>File Path: %PATH%</p>
+                <p>File Hash: %STRING%</p>
+                <p>Threat Type: %STRING%</p>
+                <p>Threat Name: %STRING%</p>
+                <p>Action Result: %INTEGER%</p>
+                <p>Quarantine Path: %PATH%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>4612</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>intelli_av</p>
+              </entry>
+              <entry>
+                <p>Local Files Scanned, Action Taken by Next-Generation Antivirus: %PATH%</p>
+              </entry>
+              <entry>
+                <p>Local files were scanned by next-generation antivirus. Actions were taken
+                  according to settings.</p>
+                <p>File Path: %PATH%</p>
+                <p>File Hash: %STRING%</p>
+                <p>Threat Type: %STRING%</p>
+                <p>Threat Name: %STRING%</p>
+                <p>Action Result: %INTEGER% </p>
+                <p>Quarantine Path: %PATH%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>4613</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>intelli_av</p>
+              </entry>
+              <entry>
+                <p>Suspicious Program Execution Blocked: %PATH%</p>
+              </entry>
+              <entry>
+                <p>Suspicious program execution was blocked.</p>
+                <p>File Path: %PATH%</p>
+                <p>File Hash: %STRING%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>4614</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>intelli_av</p>
+              </entry>
+              <entry>
+                <p>Suspicious Program Currently Running: %PATH%</p>
+              </entry>
+              <entry>
+                <p>Suspicious program is currently running.</p>
+                <p>Process ID: %PID%</p>
+                <p>File Path: %PATH%</p>
+                <p>File Hash: %STRING%</p>
+                <p>File Credibility: %STRING%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>4615</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>intelli_av</p>
+              </entry>
+              <entry>
+                <p>Application Execution Blocked By Antivirus: %PATH%</p>
+              </entry>
+              <entry>
+                <p>Application execution was blocked by antivirus.</p>
+                <p>Target Process: %PATH%</p>
+                <p>File Hash: %STRING%</p>
+                <p>Threat Type: %STRING%</p>
+                <p>Threat Name: %STRING%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>4617</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>intelli_av</p>
+              </entry>
+              <entry>
+                <p>Application Execution Blocked By Next-Generation Antivirus: %PATH%</p>
+              </entry>
+              <entry>
+                <p>Application execution was blocked by next-generation antivirus.</p>
+                <p>Target Process: %PATH%</p>
+                <p>File Hash: %STRING%</p>
+                <p>Threat Type: %STRING%</p>
+                <p>Threat Name: %STRING%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>4864</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>anomaly_detect</p>
+              </entry>
+              <entry>
+                <p>Operations Behavior Anomaly Detection Disabled</p>
+              </entry>
+              <entry>
+                <p>Operations Behavior Anomaly Detection has been disabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>4865</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>anomaly_detect</p>
+              </entry>
+              <entry>
+                <p>Process Allowed by Operations Behavior Anomaly Detection: %PATH% %ARGUMENT%</p>
+              </entry>
+              <entry>
+                <p>Access User: %USERNAME%</p>
+                <p>Parent Process 1: %PATH% %ARGUMENT%</p>
+                <p> Parent Process 2: %PATH% %ARGUMENT% </p>
+                <p>Parent Process 3: %PATH% %ARGUMENT%</p>
+                <p> Parent Process 4: %PATH% %ARGUMENT%</p>
+                <p>Mode: %Mode%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>4866</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>anomaly_detect</p>
+              </entry>
+              <entry>
+                <p>Process Blocked by Operations Behavior Anomaly Detection: %PATH% %ARGUMENT%</p>
+              </entry>
+              <entry>
+                <p>Access User: %USERNAME%</p>
+                <p>Parent Process 1: %PATH% %ARGUMENT%</p>
+                <p> Parent Process 2: %PATH% %ARGUMENT% </p>
+                <p>Parent Process 3: %PATH% %ARGUMENT%</p>
+                <p> Parent Process 4: %PATH% %ARGUMENT%</p>
+                <p>Mode: %Mode%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>4880</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>anomaly_detect</p>
+              </entry>
+              <entry>
+                <p>DLL Injection Prevention Disabled</p>
+              </entry>
+              <entry>
+                <p>DLL Injection Prevention has been disabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>5120</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>change_control</p>
+              </entry>
+              <entry>
+                <p>ICS File Change Blocked by SafeGuard: %PATH%</p>
+              </entry>
+              <entry>
+                <p>ICS files changed to executable files were blocked by SafeGuard. </p>
+                <p>Blocked Process: %PATH%</p>
+                <p>Target File: %PATH%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>5121</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>change_control</p>
+              </entry>
+              <entry>
+                <p>ICS Process Manipulation Blocked by SafeGuard: %PATH%</p>
+              </entry>
+              <entry>
+                <p>ICS Process Manipulation was blocked by SafeGuard.</p>
+                <p>Blocked Process: %PATH%</p>
+                <p> Target Process: %PATH%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>5376</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>device_control</p>
+              </entry>
+              <entry>
+                <p>Device Control Disabled</p>
+              </entry>
+              <entry>
+                <p>Device Control has been disabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>5377</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>device_control</p>
+              </entry>
+              <entry>
+                <p>USB Access Blocked: %PATH%</p>
+              </entry>
+              <entry>
+                <p>Access Image Path: %PATH%</p>
+                <p>Access User: %USERNAME%</p>
+                <p>Vendor ID: %HEX%</p>
+                <p>Product ID: %HEX%</p>
+                <p>Serial Number: %STRING%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>5888</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>lockdown</p>
+              </entry>
+              <entry>
+                <p>File Access Allowed: %PATH%</p>
+              </entry>
+              <entry>
+                <p>Access Image Path: %PATH%</p>
+                <p>Access User: %USERNAME%</p>
+                <p>Mode: %MODE%</p>
+                <p>Reason: %ALLOWED_REASON%</p>
+                <p>File hash allowed: %SHA256_HEXSTR%%THROTTLING_INFO_MSG%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>5889</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>lockdown</p>
+              </entry>
+              <entry>
+                <p>File Access Blocked: %PATH%</p>
+              </entry>
+              <entry>
+                <p>Access Image Path: %PATH%</p>
+                <p>Access User: %USERNAME%</p>
+                <p>Mode: %MODE%</p>
+                <p>Reason: %BLOCKED_REASON%</p>
+                <p>File hash blocked: %SHA256_HEXSTR%%THROTTLING_INFO_MSG%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>5890</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>lockdown</p>
+              </entry>
+              <entry>
+                <p>Unable to Add to or Update Approved List: %PATH%</p>
+              </entry>
+              <entry>
+                <p>Unable to add to or update Approved List: %PATH%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>5891</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>lockdown</p>
+              </entry>
+              <entry>
+                <p>Application Lockdown Disabled</p>
+              </entry>
+              <entry>
+                <p>Application Lockdown disabled</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>5892</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>lockdown</p>
+              </entry>
+              <entry>
+                <p>DLL/Driver Lockdown Disabled</p>
+              </entry>
+              <entry>
+                <p>DLL/Driver Lockdown disabled</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>5893</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>lockdown</p>
+              </entry>
+              <entry>
+                <p>Script Lockdown Disabled</p>
+              </entry>
+              <entry>
+                <p>Script Lockdown disabled</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>5894</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>lockdown</p>
+              </entry>
+              <entry>
+                <p>Intelligent Runtime Learning Disabled</p>
+              </entry>
+              <entry>
+                <p>Intelligent Runtime Learning disabled</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>5895</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>lockdown</p>
+              </entry>
+              <entry>
+                <p>Approved List Initialization Canceled</p>
+              </entry>
+              <entry>
+                <p>Approved List initialization canceled</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>8706</p>
+              </entry>
+              <entry>
+                <p>Critical</p>
+              </entry>
+              <entry>
+                <p>intelli_av</p>
+              </entry>
+              <entry>
+                <p>Real Time Scan Disabled</p>
+              </entry>
+              <entry>
+                <p>The Real-Time Scan has been disabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>9216</p>
+              </entry>
+              <entry>
+                <p>Critical</p>
+              </entry>
+              <entry>
+                <p>change_control</p>
+              </entry>
+              <entry>
+                <p>Maintenance Mode Started</p>
+              </entry>
+              <entry>
+                <p>The Maintenance Mode has started.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>9217</entry>
+              <entry>
+                <p>Critical</p>
+              </entry>
+              <entry>
+                <p>change_control</p>
+              </entry>
+              <entry>
+                <p>Maintenance Mode Ended</p>
+              </entry>
+              <entry>
+                <p>The Maintenance Mode has ended.</p>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

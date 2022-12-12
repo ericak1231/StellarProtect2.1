@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Using the Agent Command Line Interface (CLI)</title>
+    <topicref href="../topics/cli_intro_sp_agent=20221208174007.xml">
+        <topicref href="../topics/opcmd_cli_sp_agent=20221208174350.xml"/>
+        <topicref href="../topics/overview_cli_sp_agent=20221208174150.xml"/>
+        <topicref href="../topics/cli_list_sp=20221208151252.xml"/>
+    </topicref>
+</map>

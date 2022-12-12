@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-9B1F4613-F003-47D2-ADAD-A0B5FC242EAA" xml:lang="en-us">
+<title id="GUID-B6B76404-7B0F-4E29-94B8-0B09F864578D">Product Variables</title>
+<conbody>
+<p><draft-comment translate="no">This variable file uses the “keys” value of:</draft-comment> PRODvars</p>
+        <table colsep="1" frame="all" rowsep="1" id="table_phb_3qg_bx">
+            <title id="GUID-5444A223-965D-4EF1-BF8C-61996C5BA63C">Standard Product Variables</title>
+            <tgroup cols="4" colsep="1" outputclass="Properties" rowsep="1">
+                <colspec colname="1" colnum="1" colwidth="19*"/>
+                <colspec colname="2" colnum="2" colwidth="19*"/>
+                <colspec colname="3" colnum="3" colwidth="43*"/>
+                <colspec colname="4" colnum="4" colwidth="19*"/>
+                <thead>
+                    <row rowsep="1">
+                        <entry colname="1">Placeholder</entry>
+                        <entry colname="2">Value</entry>
+                        <entry colname="3">Use</entry>
+                        <entry colname="4">id</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row rowsep="1">
+                        <entry colname="1"><ph conkeyref="PRODvars/COMPANY_NAME_PRODUCT_NAME_TM"
+                            /></entry>
+                        <entry colname="2"><ph id="COMPANY_NAME_PRODUCT_NAME_TM">TXOne <tm
+                                    tmtype="tm">StellarOne</tm></ph></entry>
+                        <entry colname="3">
+                            <draft-comment translate="no">Official full product name with trademark
+                                and TXOne company name included</draft-comment>
+                        </entry>
+                        <entry colname="4">
+                            <p>COMPANY_NAME_PRODUCT_NAME_TM</p>
+                        </entry>
+                    </row>
+                    <row rowsep="1">
+                        <entry colname="1"><ph conkeyref="PRODvars/PRODUCT_SERVER_NAME_TM"
+                                >COMPANY_NAME_PRODUCT_LONG_NAME</ph></entry>
+                        <entry colname="2"><ph id="PRODUCT_SERVER_NAME_TM">
+                                <tm tmtype="tm">StellarOne</tm>
+                            </ph></entry>
+                        <entry colname="3">
+                            <draft-comment translate="no">Official server product name with
+                                trademark included</draft-comment>
+                        </entry>
+                        <entry colname="4">
+                            <p>PRODUCT_SERVER_NAME_TM</p>
+                        </entry>
+                    </row>
+                    <row rowsep="1">
+                        <entry colname="1"><ph conkeyref="PRODvars/PRODUCT_AGENT_SP_NAME_TM"
+                                >OFFICIAL_PRODUCT_NAME</ph></entry>
+                        <entry colname="2"><ph id="PRODUCT_AGENT_SP_NAME_TM"><tm tmtype="tm"
+                                    >StellarProtect </tm></ph></entry>
+                        <entry colname="3">
+                            <draft-comment translate="no">Official agent (sp) product name with
+                                trademark included</draft-comment>
+                        </entry>
+                        <entry colname="4">PRODUCT_AGENT_SP_NAME_TM</entry>
+                    </row>
+                    <row rowsep="1">
+                        <entry colname="1"><ph conkeyref="PRODvars/PRODUCT_AGENT_SPLM_NAME_TM"
+                                >PRODUCT_SHORT_NAME</ph></entry>
+                        <entry colname="2"><ph id="PRODUCT_AGENT_SPLM_NAME_TM"><tm tmtype="tm"
+                                    >StellarProtect (Legacy Model) </tm></ph></entry>
+                        <entry colname="3">
+                            <draft-comment translate="no">Official agent (splm) product name with
+                                trademark included</draft-comment>
+                        </entry>
+                        <entry colname="4">PRODUCT_AGENT_SPLM_NAME_TM</entry>
+                    </row>
+                    <row>
+                        <entry colname="1"><ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"
+                            /></entry>
+                        <entry colname="2"><ph id="PRODUCT_SERVER_ALTERNATIVE_NAME"
+                            >StellarOne</ph></entry>
+                        <entry colname="3">
+                            <draft-comment author="erica_txone">Alternate product (server)
+                                name</draft-comment>
+                        </entry>
+                        <entry colname="4">PRODUCT_SERVER_ALTERNATIVE_NAME</entry>
+                    </row>
+                    <row rowsep="0">
+                        <entry colname="1"><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                >OFFICIAL_PRODUCT_NAME</ph></entry>
+                        <entry colname="2"><ph id="PRODUCT_SP_ALTERNATIVE_NAME"
+                            >StellarProtect</ph></entry>
+                        <entry colname="3">
+                            <p>
+                                <draft-comment translate="no">Alternate product (agent)
+                                    name</draft-comment>
+                            </p>
+                            <p>
+                                <draft-comment translate="no">
+                                    <note id="GUID-315BC9B9-1EC5-4B6A-B06C-D9EBD9E83F3B">Include
+                                        only if the product uses an alternative name.</note>
+                                </draft-comment>
+                            </p>
+                        </entry>
+                        <entry colname="4">PRODUCT_SP_ALTERNATIVE_NAME</entry>
+                    </row>
+                    <row>
+                        <entry colname="1"><ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                >OFFICIAL_PRODUCT_NAME</ph></entry>
+                        <entry colname="2"><ph id="PRODUCT_SPLM_ALTERNATIVE_NAME">StellarProtect
+                                (Legacy Mode)</ph></entry>
+                        <entry colname="3">
+                            <p>
+                                <draft-comment translate="no">Alternate product (agent)
+                                    name</draft-comment>
+                            </p>
+                        </entry>
+                        <entry colname="4">PRODUCT_SPLM_ALTERNATIVE_NAME</entry>
+                    </row>
+                    <row>
+                        <entry colname="1"><ph conkeyref="PRODvars/PRODUCT_SPLM_PREVIOUS_NAME"
+                            /></entry>
+                        <entry colname="2"><ph id="PRODUCT_SPLM_PREVIOUS_NAME"
+                            >StellarEnforce</ph></entry>
+                        <entry colname="3">
+                            <draft-comment translate="no">Alternate product (agent)
+                                name</draft-comment>
+                        </entry>
+                        <entry colname="4">PRODUCT_SPLM_PREVIOUS_NAME</entry>
+                    </row>
+                    <row>
+                        <entry colname="1"><ph conkeyref="PRODvars/IG_PREFACE"/></entry>
+                        <entry colname="2"><ph id="IG_PREFACE">This Installation Guide introduces
+                                TXOne <tm tmtype="tm">StellarOne</tm> and guides administrators
+                                through installation and deployment.</ph></entry>
+                        <entry colname="3">
+                            <p>
+                                <draft-comment translate="no">IG opening sentence in
+                                    Preface</draft-comment>
+                            </p>
+                        </entry>
+                        <entry colname="4">IG_PREFACE</entry>
+                    </row>
+                    <row>
+                        <entry colname="1"><ph conkeyref="PRODvars/AG_PREFACE"/></entry>
+                        <entry colname="2"><ph id="AG_PREFACE">This Administrator's Guide introduces
+                                TXOne <tm tmtype="tm">StellarOne</tm> and covers all aspects of
+                                product management.</ph></entry>
+                        <entry colname="3">
+                            <p>
+                                <draft-comment translate="no">AG opening sentence in
+                                    Preface</draft-comment>
+                            </p>
+                        </entry>
+                        <entry colname="4">AG_PREFACE</entry>
+                    </row>
+                    <row>
+                        <entry><ph conkeyref="PRODvars/POLICY"/></entry>
+                        <entry><ph id="POLICY">Navigate to the target agent or group, and then go to
+                                its <uicontrol>Policy</uicontrol> page.</ph></entry>
+                        <entry>
+                            <draft-comment author="erica_txone">simple procedures of goint to the
+                                Policy screen</draft-comment>
+                        </entry>
+                        <entry>POLICY</entry>
+                    </row>
+                    <row>
+                        <entry><ph conkeyref="PRODvars/INSTALLER"/></entry>
+                        <entry><ph id="INSTALLER"
+                            ><filepath>StellarProtectSetup.exe</filepath></ph></entry>
+                        <entry>
+                            <draft-comment author="erica_txone">name of the agent's installer
+                                package (sp/splm → single installer)</draft-comment>
+                        </entry>
+                        <entry>INSTALLER</entry>
+                    </row>
+                    <row>
+                        <entry><ph conkeyref="PRODvars/SETUP_FILE"/></entry>
+                        <entry><ph id="SETUP_FILE"
+                            ><filepath>StellarSetup.ini</filepath></ph></entry>
+                        <entry>
+                            <draft-comment author="erica_txone">setup file in installer
+                                package</draft-comment>
+                        </entry>
+                        <entry>SETUP_FILE</entry>
+                    </row>
+                    <row>
+                        <entry><ph conkeyref="PRODvars/LICENSE_FILE"/></entry>
+                        <entry><ph id="LICENSE_FILE"
+                                    ><filepath>Stellar&lt;license>Edition_xxxxxxxxxxxxx.txt</filepath></ph></entry>
+                        <entry>
+                            <draft-comment author="erica_txone">name of the license file in
+                                installer package</draft-comment>
+                        </entry>
+                        <entry>LICENSE_FILE</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+</conbody>
+</concept>

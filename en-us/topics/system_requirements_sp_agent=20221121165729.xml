@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_pyd_d3r_c5b">
+    <title>System Requirements</title>
+    <conbody>
+        <p><indexterm>system requirements</indexterm>This section introduces the system requirements
+            for StellarProtect, including hardware and OS requirements.</p>
+    </conbody>
+</concept>

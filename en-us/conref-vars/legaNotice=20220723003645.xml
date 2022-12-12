@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-64CF07BB-513B-4148-9E1D-769D91030D74" outputclass="legal" xml:lang="en-us">
+  <title id="GUID-86EE8C11-4B8E-4D8F-9525-E52062BD029D"/>
+  <refbody>
+    <section id="GUID-99AFDBF8-3920-4C95-845D-748EA1923E4E">
+      <draft-comment>This topic uses variables based on the bp_legal_vars.xml file. Update that file
+        to modify output. Please do not change anything in this topic or rename the file. It is
+        boilerplate and should have a 100% match with L10n translation memory. If you need to modify
+        this topic, then it is no longer boilerplate and the translation memory is compared product
+        version to version and not shared commonly across all products. If you change the file,
+        please rename it too. </draft-comment>
+      <p><ph
+          conref="StellarOneIgLegal_Variables=20220722220437.xml#GUID-7DCB1831-4695-461E-BE49-E4F3C77EF3A1/inc_company_name"
+          >inc_company_name</ph> reserves the right to make changes to this document and to the
+        product described herein without notice. Before installing and using the product, review the
+        readme files, release notes, and/or the latest version of the applicable documentation,
+        which are available at:</p>
+      <p><xref href="http://docs.trendmicro.com/en-us/enterprise/txone-stellarprotect.aspx"
+          format="html" scope="external"/></p>
+      <p><ph
+          conref="StellarOneIgLegal_Variables=20220722220437.xml#GUID-7DCB1831-4695-461E-BE49-E4F3C77EF3A1/related_product_list"
+          >related_product_list</ph> are trademarks or registered trademarks of <ph
+          conref="StellarOneIgLegal_Variables=20220722220437.xml#GUID-7DCB1831-4695-461E-BE49-E4F3C77EF3A1/inc_company_name"
+          >inc_company_name</ph>. All other product or company names may be trademarks or registered
+        trademarks of their owners.</p>
+      <p>Copyright © <ph
+          conref="StellarOneIgLegal_Variables=20220722220437.xml#GUID-7DCB1831-4695-461E-BE49-E4F3C77EF3A1/copyright_date"
+          >copyright_date</ph>. <ph
+          conref="StellarOneIgLegal_Variables=20220722220437.xml#GUID-7DCB1831-4695-461E-BE49-E4F3C77EF3A1/inc_company_name"
+          >inc_company_name</ph>. All rights reserved.</p>
+      <p>Document Part No.: <ph conkeyref="LEGALvars/document_part_number"
+        >document_part_number</ph></p>
+      <p>Release Date: <ph conkeyref="LEGALvars/release_date">release_date</ph></p>
+      <p>Protected by U.S. Patent No.: <ph
+          conref="StellarOneIgLegal_Variables=20220722220437.xml#GUID-7DCB1831-4695-461E-BE49-E4F3C77EF3A1/patent_no"
+          >patent_no</ph></p>
+    </section>
+  </refbody>
+</reference>

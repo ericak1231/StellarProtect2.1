@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_ntt_lkg_pvb">
+    <title>Access  <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+        Event Logs</title>
+    <refbody>
+        <section id="section_q2x_4kg_pvb">
+            <p>TXOne <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+                leverages the <tm tmtype="tm">Windows</tm> Event Viewer to display the <b>ALL</b>
+                <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+                event log. Access the Event Viewer at <menucascade>
+                    <uicontrol>Start</uicontrol>
+                    <uicontrol>Control Panel</uicontrol>
+                    <uicontrol>Administrative Tools</uicontrol>
+                </menucascade>.</p>
+            <fig id="fig_own_ckm_tvb">
+                <title>Windows Event Viewer</title>
+            </fig>
+            <p>TXOne <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+                Agent Console is another entry that allows users to check the <ph
+                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+                <b>BLOCKED</b> event log. Access the agent blocked event at <menucascade>
+                    <uicontrol>op_ui.exe</uicontrol>
+                    <uicontrol>Overview</uicontrol>
+                    <uicontrol>Information</uicontrol>
+                    <uicontrol>Last blocked event</uicontrol>
+                </menucascade>.</p>
+            <fig id="fig_rkm_kkm_tvb">
+                <title>Check BLOCKED Events on<ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                        >OFFICIAL_PRODUCT_NAME</ph> Console</title>
+            </fig>
+        </section>
+    </refbody>
+</reference>

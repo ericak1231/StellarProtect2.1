@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<val>
+    <prop action="include" att="otherprops" val="PRINT"/>
+    <prop action="exclude" att="otherprops" val="OLH"/>
+    <prop action="exclude" att="otherprops" val="UMBRACO"/>
+    <prop action="include" att="otherprops" val="IG"/>
+    <prop action="exclude" att="otherprops" val="AG"/>
+</val>

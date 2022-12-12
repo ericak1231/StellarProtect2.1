@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_m5t_sf1_pvb">
+    <title>Using OPCmd at the Command Line Interface (CLI)</title>
+    <taskbody>
+        <context id="context_ob3_1dg_pvb"><indexterm>Command Line Interface (CLI)<indexterm>Using
+                    OPCmd at CLI</indexterm></indexterm>Administrators can work with TXOne <ph
+                conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph> directly
+            from the command line interface (CLI) using the <filepath>OPCmd.exe</filepath>
+            program.</context>
+        <steps id="steps_yvn_3mg_pvb">
+            <step>
+                <cmd>Open a command prompt window with Windows administrator privileges.</cmd>
+            </step>
+            <step>
+                <cmd>Navigate to the TXOne <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                        >OFFICIAL_PRODUCT_NAME</ph> installation folder using the
+                        <codeph>cd</codeph> command.</cmd>
+                <stepxmp>
+                    <p>For example, type the following command to reach the default location:</p>
+                    <p><userinput>cd /d "c:\Program Files\TXOne\StellarProtect\"</userinput></p>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>Type <userinput>OPCmd.exe -h</userinput> to get usage information for an
+                    individual command.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

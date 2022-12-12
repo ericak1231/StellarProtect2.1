@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-F5980085-1FCB-4C9C-8E48-82462CFACB48" xml:lang="en-us">
+<title id="GUID-7EA807F2-14DF-418A-B14B-4EAAD52518C0">Download Center</title>
+<conbody><p>From time to time, TXOne may release a patch for a reported known issue or an upgrade that
+                                    applies to a specific product or service. To find out whether
+                                    any patches are available, go to:</p>
+<p><xref conkeyref="TSXrefvars/downloadCenter"/></p>
+<p>If a patch has not been applied (patches are dated), open the Readme file to determine whether it
+            is relevant to your environment. The Readme file also contains installation
+            instructions.</p></conbody></concept>

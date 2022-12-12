@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_ntt_lkg_pvb">
+    <title>Proxy Settings</title>
+    <refbody>
+        <section id="section_q2x_4kg_pvb">
+            <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph> use a
+                proxy for both communication with <ph
+                    conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> and scan component
+                updates.</p>
+            <p>It is configurable using <ph conkeyref="PRODvars/SETUP_FILE"/> before installation
+                and the command line interface afterwards.</p>
+            <ul id="ul_ynb_1n2_tvb">
+                <li>
+                    <p>For more information about using <ph conkeyref="PRODvars/SETUP_FILE"/> to
+                        configure the proxy settings before installation, refer to <xref
+                            href="silent_install_configuration=20221122140149.xml"/>.</p>
+                </li>
+                <li>
+                    <p>For more information about using command line interface to configure the
+                        proxy settings after installation, refer to <xref
+                            href="cli_list_sp=20221208151252.xml"/></p>
+                </li>
+            </ul>
+        </section>
+    </refbody>
+</reference>

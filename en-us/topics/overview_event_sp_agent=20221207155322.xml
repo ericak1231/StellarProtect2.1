@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_ntt_lkg_pvb">
+    <title>Overview of <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+            >OFFICIAL_PRODUCT_NAME</ph> Event Logs</title>
+    <refbody>
+        <section id="section_q2x_4kg_pvb">
+            <p>The <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+                agent logs events within three classifications.</p>
+            <ul id="ul_ynb_1n2_tvb">
+                <li>
+                    <p><b>Level 0: Information</b> logs important tasks</p>
+                </li>
+                <li>
+                    <p><b>Level 1: Warning</b> logs incidents</p>
+                </li>
+                <li>
+                    <p><b>Level 2: Critical</b> logs when critical functions are turned on or
+                        off</p>
+                </li>
+            </ul>
+        </section>
+    </refbody>
+</reference>

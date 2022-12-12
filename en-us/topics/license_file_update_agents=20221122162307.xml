@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_lyr_vqg_pvb">
+    <title>Getting the Latest License File from <ph
+            conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/></title>
+    <taskbody>
+        <context>
+            <p>When you use a license file for activating certain standalone agents with the
+                installer package downloaded from <ph
+                    conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>, if a license expiration
+                error message appears, follow the instructions below to get the latest license file
+                and PSN (Product Serial Number) from <ph
+                    conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>To get the latest license file, go to <ph
+                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>
+                    <menucascade>
+                        <uicontrol>Administration</uicontrol>
+                        <uicontrol>License</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Download the latest license file</uicontrol> at the bottom of
+                    the <wintitle>License</wintitle> page.</cmd>
+            </step>
+            <step>
+                <cmd>The license file (a <filepath>.txt</filepath> file) has been downloaded to your
+                    Downloads folder.</cmd>
+            </step>
+            <step>
+                <cmd>To get the PSN, go to <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>
+                    <uicontrol>About</uicontrol> page.</cmd>
+            </step>
+            <step>
+                <cmd>Find and copy the product serial number.</cmd>
+                <info>
+                    <fig id="fig_eqd_nk2_tvb">
+                        <title>Get Product Serial Number from <ph
+                                conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/></title>
+                        <image
+                            href="../../../../../../../Library/CloudStorage/OneDrive-TXOneNetworksInc/Documents/3.%20Project/2.1/StellarProtect/en-us/images/psn_stellarone=20221206143840.png"
+                            id="image_osg_4k2_tvb"/>
+                    </fig>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

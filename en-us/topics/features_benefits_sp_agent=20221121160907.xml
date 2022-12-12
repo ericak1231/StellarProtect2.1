@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_zl2_q3r_c5b">
+    <title>Key Features and Benefits</title>
+    <refbody>
+        <section id="section_t4c_v3r_c5b">
+            <p>The <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+                provides following features and benefits.</p>
+            <table frame="all" rowsep="1" colsep="1" id="table_p4k_djr_c5b">
+                <title>Features and Benefits</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="3.18*"/>
+                    <thead>
+                        <row valign="middle">
+                            <entry>
+                                <p>Feature</p>
+                            </entry>
+                            <entry>
+                                <p>Benefit</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row valign="middle">
+                            <entry>
+                                <p>Application Lockdown</p>
+                            </entry>
+                            <entry>
+                                <p>Prevents malware attacks and increases protection level by
+                                    allowing only the files defined in an Approved List to be
+                                    executed</p>
+                            </entry>
+                        </row>
+                        <row valign="middle">
+                            <entry>
+                                <p>Industrial-Grade Next-Generation Antivirus</p>
+                            </entry>
+                            <entry>
+                                <p>OT/ICS root of trust and advanced threat scan secure OT/ICS
+                                    assets with no interruption to operations</p>
+                            </entry>
+                        </row>
+                        <row valign="middle">
+                            <entry>
+                                <p>Operations Behavior Anomaly Detection</p>
+                            </entry>
+                            <entry>
+                                <p>Detects abnormal operations and exercises least privilege-based
+                                    control to prevent malware-free attacks</p>
+                            </entry>
+                        </row>
+                        <row valign="middle">
+                            <entry>
+                                <p>OT Application Safeguard</p>
+                            </entry>
+                            <entry>
+                                <p>Intelligently locates and secures the integrity of the OT/ICS
+                                    process from OT/ICS targeted attacks by device</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Device Control </p>
+                            </entry>
+                            <entry>
+                                <p>Prevents insider threats by only allowing usage of USB ports on a
+                                    case-by-case administrator reviewed basis</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Maintenance Mode </p>
+                            </entry>
+                            <entry>
+                                <p>To perform file updates on endpoints, users can configure
+                                    Maintenance Mode settings to define a period when <ph
+                                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> allows all file executions and
+                                    adds all files that are created, executed, or modified to the
+                                    Approved List.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Compatibility with Trend Micro Portable Security 2 and 3</p>
+                            </entry>
+                            <entry>
+                                <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> is compatible with Trend Micro
+                                    Portable Security products.</p>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </refbody>
+</reference>

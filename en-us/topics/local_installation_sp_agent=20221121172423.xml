@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="local_installation_sp_agent_20221121172423">
+    <title>Local Installation</title>
+    <conbody>
+        <p>This section mainly explains the steps for installing <ph
+                conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>,
+            including downloading the installation file from <ph
+                conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>, running the installer, doing
+            setup, and uninstalling <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                >OFFICIAL_PRODUCT_NAME</ph>.</p>
+    </conbody>
+</concept>

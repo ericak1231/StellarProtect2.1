@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_ntt_lkg_pvb">
+    <title>List of All Commands</title>
+    <refbody>
+        <section id="section_q2x_4kg_pvb">
+            <p><indexterm>Command Line Interface (CLI)<indexterm>List of All
+                    Commands</indexterm></indexterm></p>
+            <table frame="all" id="table_gfp_tlg_pvb">
+                <title>List of All Commands</title>
+                <tgroup cols="3">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c3" colnum="3" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>
+                                <p>Command</p>
+                            </entry>
+                            <entry>
+                                <p>Description</p>
+                            </entry>
+                            <entry>
+                                <p>Options</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+                        <row><?oxy_custom_end?>
+                            <entry>
+                                <p><codeph>opcmd.exe about components</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>You can browse versions of components from the GUI program, or
+                                    you can get the list in YAML format with this command.</p>
+                            </entry>
+                            <entry>
+                                <p>None</p>
+                            </entry>
+                            <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+                        </row><?oxy_custom_end?>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p appinv make</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>The <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> service will re-detect installed
+                                    OT/ICS applications when your scheduled maintenance mode ends.
+                                    You can also use this command to perform the detection manually
+                                    at any time.</p>
+                            </entry>
+                            <entry>
+                                <p>None</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe appinv list</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>You can browse the list of detected OT/ICS applications from the
+                                    GUI program oy use this command to get the list in YAML
+                                    format.</p>
+                            </entry>
+                            <entry>
+                                <p>None</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p config decrypt [-i INPUT-FILE][-o
+                                        OUTPUT-FILE]</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Decrypts an encrypted configuration file and outputs decrypted
+                                    plaintext.</p>
+                                <note id="note_bdv_gcz_tvb">
+                                    <p>The data security of this command is designed for the
+                                        protection of configuration files. Do not rely on this
+                                        command to protect personal privacy data.</p>
+                                </note>
+                            </entry>
+                            <entry>
+                                <p><codeph>-i</codeph>, <codeph>--input</codeph>
+                                    <codeph>INPUT - FILE</codeph>: The required argument to specify
+                                    the filename of an input file. If it's omitted, the program will
+                                    read from standard input.</p>
+                                <p><codeph>-o</codeph>, <codeph>--output</codeph>
+                                    <codeph>OUTPUT - FILE</codeph>: The required argument to specify
+                                    the filename of an output file. If it's omitted, the program
+                                    will write to standard output.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p config encrypt [-i INPUT-FILE][-o
+                                        OUTPUT-FILE]</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Encrypts a plaintext configuration file and outputs encrypted
+                                    ciphertext.</p>
+                                <note id="note_mqc_ldz_tvb">
+                                    <p>The data security of this command is designed for protection
+                                        of configuration files. Do not rely on this command to
+                                        protect any personal privacy data.</p>
+                                </note>
+                            </entry>
+                            <entry>
+                                <p><codeph>-i</codeph>, <codeph>--input</codeph>
+                                    <codeph>INPUT-FILE</codeph>: The required argument to specify
+                                    the filename of an input file. If it's omitted, the program will
+                                    read from standard input.</p>
+                                <p><codeph>-o</codeph>, <codeph>--output</codeph>
+                                    <codeph>OUTPUT-FILE</codeph>: The required argument to specify
+                                    the filename of an output file. If it's omitted, the program
+                                    will write to standard output.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p config export OUTPUT-FOLDER</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Exports product configuration settings to the specified
+                                    folder.</p>
+                            </entry>
+                            <entry>
+                                <p>None</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p config import INPUT-FOLDER</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Imports product configuration settings from the specified
+                                    folder.</p>
+                            </entry>
+                            <entry>
+                                <p><codeph>-n</codeph>, <codeph>--no_ptn</codeph></p>
+                                <note id="note_tz2_n2z_tvb">
+                                    <p>Do not import pattern files.</p>
+                                </note>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p dip disable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Disables the DLL Injection Prevention function.</p>
+                            </entry>
+                            <entry>
+                                <p>None</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p dip enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Enables the DLL Injection Prevention function.</p>
+                            </entry>
+                            <entry>
+                                <p>None</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p lock appinv disable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Disables OT Application Safeguard</p>
+                            </entry>
+                            <entry>
+                                <p>None</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p lock appinv enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Enables OT Application Safeguard</p>
+                            </entry>
+                            <entry>
+                                <p>None</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p lock disable [-d DURATION] [-s
+                                        START-TIME]</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Disables the OT Application Safeguard to allow file changes on
+                                    protected files. You can also specify a duration and start time
+                                    to schedule a maintenance mode that allows file changes and
+                                    enable protection automatically.</p>
+                                <p>If <codeph>-d</codeph> is not specified, the OT Application
+                                    Safeguard remains disabled until it is enabled.</p>
+                                <p>If <codeph>-s</codeph> is not specified, the OT Application
+                                    Safeguard should be disabled immediately.</p>
+                                <note id="note_f4h_yhz_tvb">
+                                    <p>Only one maintenance mode can be scheduled at a time; new
+                                        settings configured via the CLI or <ph
+                                            conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>
+                                        policy settings will always overwrite previous settings.</p>
+                                </note>
+                            </entry>
+                            <entry>
+                                <p><codeph>-d</codeph>, <codeph>--duration</codeph>
+                                    <codeph>DURATION</codeph>: The required argument to specify the
+                                    duration of maintenance mode. The Change Control module is
+                                    restored to its current setting after the duration has elapsed.
+                                    A duration can be specified in hours, minutes, or both. (e.g.,
+                                        <codeph>-d 30m</codeph>, <codeph>-d 2h</codeph>, <codeph>-d
+                                        2h30m</codeph>) The letter 'm' can be omitted if you just
+                                    want to specify a duration in minutes.</p>
+                                <p><codeph>-s</codeph>, <codeph>--start</codeph>
+                                    <codeph>START-TIME</codeph>: The required argument to specify
+                                    the start time of maintenance mode. The
+                                        <codeph>START-TIME</codeph> is in ISO8601 format without
+                                    time zone. (e.g., <codeph>-s 2021-04-14T18:00:00</codeph>)</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p lockdown approvedlist info</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Shows Application Lockdown Approved List information.</p>
+                            </entry>
+                            <entry>
+                                <p>None</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p lockdown approvedlist init [--
+                                        overwrite]</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Initializes Appplication Lockdown Approved List.</p>
+                            </entry>
+                            <entry>
+                                <p><codeph>-o</codeph>, <codeph>--overwrite</codeph>: This command
+                                    is used to overwrite existing Application Lockdown Approved
+                                    List.</p>
+                                <p>If <codeph>-o</codeph> is not specified, detected applications
+                                    will be added to existing Appplication Lockdown Approved
+                                    List.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p lockdown approvedlist add -p PATH
+                                        [--recursive]</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Adds the specified file to the Application Lockdown Approved
+                                    List</p>
+                            </entry>
+                            <entry><codeph>-p</codeph>, <codeph>--path</codeph>
+                                <codeph>PATH</codeph>: Adds the specified file to the Application
+                                Lockdown Approved List<p><codeph>-r</codeph>,
+                                        <codeph>--recursive</codeph>: Includes the specified folder
+                                    and related subfolders</p></entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p lockdown enable -m MODE</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Enables Application Lockdown</p>
+                            </entry>
+                            <entry>
+                                <p><codeph>-m</codeph>, <codeph>--mode</codeph>
+                                    <codeph>MODE</codeph>: Specifies the mode (Detect or Enforce)
+                                    for Application Lockdown</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p lockdown disable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Disables Application Lockdown</p>
+                            </entry>
+                            <entry>
+                                <p>None</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p lockdown exceptionpath -t TYPE -p PATH
+                                        (--add|-- remove)</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Adds or removes an Application Lockdown exception path</p>
+                            </entry>
+                            <entry>
+                                <p><codeph>-t</codeph>, <codeph>--type</codeph>
+                                    <codeph>TYPE</codeph>: Specifies type of exception path (file,
+                                    folder, folder and subfolder,
+                                    <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>ecmascript_regexp<?oxy_custom_end?>).</p>
+                                <p><codeph>-p</codeph>, <codeph>--path</codeph>
+                                    <codeph>PATH</codeph>: Specifies exception path or
+                                    <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?><?oxy_comment_start author="erica_txone" timestamp="20221212T150705+0800" comment="Regular expression (abbreviation: regex, regexp, or RE)" mid="4"?>regexp<?oxy_custom_end?><?oxy_comment_end mid="4"?>.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p lockdown info</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Shows Application Lockdown information</p>
+                            </entry>
+                            <entry>
+                                <p>None</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p lockdown script info</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Display all Application Lockdown script rules</p>
+                            </entry>
+                            <entry>
+                                <p>None</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p lockdown script add -e EXTENSION -p
+                                        INTERPRETER [-p INTERPRETER2] ...</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Adds the specified script extension and the interpreter required
+                                    to execute the script</p>
+                            </entry>
+                            <entry>
+                                <p><codeph>-e</codeph>, <codeph>--ext</codeph>
+                                    <codeph>EXTENSION</codeph>: Specifies script extension</p>
+                                <p><codeph>-p</codeph>, <codeph>--proc</codeph>
+                                    <codeph>INTERPRETER</codeph>: Specifies name of script
+                                    interpreter</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p lockdown script remove -e EXTENSION [-p
+                                        INTERPRETER] ...</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Removes the specified script extension and the interpreter
+                                    required to execute the script</p>
+                            </entry>
+                            <entry>
+                                <p><codeph>-e</codeph>, <codeph>--ext</codeph>
+                                    <codeph>EXTENSION</codeph>: Specifies script extension</p>
+                                <p><codeph>-p</codeph>, <codeph>--proc</codeph>
+                                    <codeph>INTERPRETER</codeph>: Specifies name of script
+                                    interpreter</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p lockdown subfeature -f SUBFEATURE
+                                        (--enable|-- disable)</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Toggles sub-feature of Application Lockdown</p>
+                            </entry>
+                            <entry>
+                                <p><codeph>-f</codeph>, <codeph>--feature</codeph><codeph>
+                                        SUBFEATURE</codeph>: Specifies sub-feature (dll_driver,
+                                    script, intelligent_runtime_learning)</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p lockdown trustedhash -h HASH
+                                        (--add|--remove)</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Adds or removes an Application Lockdown trusted hash</p>
+                            </entry>
+                            <entry>
+                                <p><codeph>-h</codeph>, <codeph>--hash</codeph>
+                                    <codeph>HASH</codeph>: Specifies trusted hash<note
+                                        id="note_yxn_4k5_5vb">
+                                        <p>Only <filepath>SHA-256</filepath> is supported.</p>
+                                    </note>
+                                </p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p lock enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Enables OT Application Safeguard to prevent file changes on
+                                    protected files. If OT Application Safeguard is disabled by a
+                                    scheduled maintenance mode, this command will end the
+                                    maintenance mode immediately.</p>
+                            </entry>
+                            <entry>
+                                <p>None</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p maintenance start</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Starts or schedules maintenance mode. You can specify a duration
+                                    and start time to schedule maintenance mode that allows file
+                                    changes and restores protection automatically</p>
+                            </entry>
+                            <entry>
+                                <p><codeph>-d</codeph>, <codeph>--duration</codeph>
+                                    <codeph>DURATION</codeph>: Specifies a duration of maintenance
+                                    mode. A duration can be specified in minutes, hours, or both
+                                    (for example, -d30, -d2h, - d2h30m). The letter 'm' can be
+                                    omitted if you want to specify a duration only in minutes.</p>
+                                <p><codeph>-s</codeph>, <codeph>--start</codeph>
+                                    <codeph>START-TIME</codeph>: Specifies the start time of
+                                    maintenance mode. The <codeph>START-TIME</codeph> is in ISO8601
+                                    format without time zone, e.g., <codeph>-s 2021-04-
+                                        14T18:00:00</codeph>).</p>
+                                <p><codeph>-r</codeph>, <codeph>--activate-rts</codeph>
+                                    <codeph>ACTIVATE-REALTIME-SCAN</codeph>: Enables real-time scan
+                                    during maintenance mode.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p maintenance stop</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Stops running maintenance mode or cancels scheduled maintenance
+                                    mode</p>
+                            </entry>
+                            <entry>
+                                <p>None</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p maintenance info</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Shows maintenance mode information</p>
+                            </entry>
+                            <entry>
+                                <p>None</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p oad disable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Disables Operations Behavior Anomaly Detection</p>
+                            </entry>
+                            <entry>
+                                <p>None</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p oad enable -m MODE [-l LEVEL]</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Enables Operations Behavior Anomaly Detection</p>
+                            </entry>
+                            <entry>
+                                <p><codeph>-m</codeph>, <codeph>--mode</codeph>
+                                    <codeph>MODE</codeph>: The required argument to enable
+                                    Operations Behavior Anomaly Detection as a specific mode
+                                        (<codeph>learn</codeph>, <codeph>detect</codeph>,
+                                        <codeph>enforce</codeph>).</p>
+                                <p><codeph>-l</codeph>, <codeph>--level</codeph>
+                                    <codeph>LEVEL</codeph>: The required argument to set the scan to
+                                    be <codeph>normal</codeph> or <codeph>aggressive</codeph>.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p oad info</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Shows information about Operations Behavior Anomaly Detection</p>
+                            </entry>
+                            <entry>
+                                <p>None</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p oad remove -i ID</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Removes approved operations from Operations Behavior Anomaly
+                                    Detection</p>
+                            </entry>
+                            <entry>
+                                <p><codeph>-i</codeph>, <codeph>--id</codeph>
+                                    <codeph>ID</codeph>: The required argument to remove approved
+                                    operations</p>
+                                <note id="note_jyy_jzv_5vb">
+                                    <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+                                    <p>The approved operations IDs are represented as
+                                    integers.</p><?oxy_custom_end?>
+                                </note>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe password</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Allows administrator to change the administrator password via
+                                    CLI. You are required to enter the old password before setting a
+                                    new password.</p>
+                            </entry>
+                            <entry>
+                                <p>None</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p proxy get</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Shows proxy server settings</p>
+                            </entry>
+                            <entry>
+                                <p>None</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p proxy set [-h HOST -p PORT [-u USERNAME] [-P
+                                        PASSWORD]]</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Sets proxy server settings</p>
+                                <note id="note_k1x_xq5_5vb">
+                                    <p>To disable proxy use only, use this command without inputing
+                                        any options.</p>
+                                </note>
+                            </entry>
+                            <entry>
+                                <p><codeph>-h</codeph>, <codeph>--host</codeph>
+                                    <codeph>HOST</codeph>: The required argument to specify the
+                                    FQDN, hostname, or IP address of the proxy server.</p>
+                                <p><codeph>-p</codeph>, <codeph>--port</codeph>
+                                    <codeph>PORT</codeph>: The required argument to specify the port
+                                    number of the proxy server.</p>
+                                <p><codeph>-u</codeph>, <codeph>--username</codeph>
+                                    <codeph>USERNAME</codeph>: The required argument to specify the
+                                    username for proxy server authentication.</p>
+                                <p><codeph>-P</codeph>, <codeph>--password</codeph>
+                                    <codeph>PASSWORD</codeph>: The required argument to specify the
+                                    password for proxy server authentication.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p regexp test -s STRING -p
+                                    PATTERN</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Checks if the regular expression matches the string.</p>
+                            </entry>
+                            <entry>
+                                <p>None</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p scan-task -s START-TIME --daily --weekly
+                                        --monthly</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Schedules a recurring scan task at specified start time.</p>
+                            </entry>
+                            <entry>
+                                <p><codeph>-s</codeph>, <codeph>--start</codeph>
+                                    <codeph>START-TIME</codeph>: The required argument to specify
+                                    the start time of a scheduled scan. The
+                                        <codeph>START-TIME</codeph> is in ISO8601 format without
+                                    time zone, e.g., <codeph>-s 2021-04-14T18:00:00</codeph></p>
+                                <p><codeph>--daily</codeph>: Sets the scheduled scan to run
+                                    daily</p>
+                                <p><codeph>--weekly</codeph>: Sets the scheduled scan to run
+                                    weekly</p>
+                                <p><codeph>--monthly</codeph>: Sets the scheduled scan to run
+                                    monthly</p>
+                                <p><codeph>--remove</codeph>: Removes the scheduled scan</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p service start</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>After installation, the <ph
+                                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> service will automatically start
+                                    when your system is powered on. If your<ph
+                                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> service was stopped for some
+                                    reason, you can use this command to start the <ph
+                                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> service manually.</p>
+                            </entry>
+                            <entry>
+                                <p>None</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p service stop</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>This stops <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> service until the system is
+                                    powered off. If you need to stop <ph
+                                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> service, you can use this
+                                    command to stop <ph
+                                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> service manually.</p>
+                            </entry>
+                            <entry>
+                                <p>None</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe update [-s SOURCE]</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Updates product components.</p>
+                            </entry>
+                            <entry>
+                                <p><codeph>-s</codeph>, <codeph>--source</codeph>
+                                    <codeph>SOURCE</codeph>: The required argumen to specify the URL
+                                    of the update source, e.g., <codeph>-s http://tmut.contoso.com /
+                                        iau_server</codeph></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p update stop</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Stops the currently running update</p>
+                            </entry>
+                            <entry>
+                                <p>None</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p usb add [-v VID -p PID -s SN]
+                                    [-o]</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Adds a trusted USB device</p>
+                            </entry>
+                            <entry>
+                                <p><codeph>-v</codeph>, <codeph>--vid</codeph> VID: The required
+                                    argument to specify Vendor ID by hexadecimal string</p>
+                                <p><codeph>-p</codeph>, <codeph>--pid</codeph>
+                                    <codeph>PID</codeph>: The required argument to specify Product
+                                    ID by hexadecimal string</p>
+                                <p><codeph>-s</codeph>
+                                    <codeph>--sn</codeph>
+                                    <codeph>SN</codeph>: The required argument to specify Serial
+                                    Number</p>
+                                <p><codeph>-o</codeph>, <codeph>--onetime</codeph>: Grants onetime
+                                    access to a USB device</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p usb enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Enables USB Device Control</p>
+                            </entry>
+                            <entry>
+                                <p>None</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p usb disable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Disables USB Device Control</p>
+                            </entry>
+                            <entry>
+                                <p>None</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p usb info -d DRIVE</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Show USB information of the specified drive</p>
+                            </entry>
+                            <entry>
+                                <p><codeph>-d</codeph>, <codeph>--drive</codeph>
+                                    <codeph>DRIVE</codeph>: The required argument to specify the
+                                    path to a drive, e.g., <filepath>E:</filepath></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p usb list</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Lists trusted USB devices</p>
+                            </entry>
+                            <entry>
+                                <p>None</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p usb remove [-v VID -p PID -s
+                                    SN]</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Removes a trusted USB device</p>
+                            </entry>
+                            <entry>
+                                <p><codeph>-v</codeph>, <codeph>--vid</codeph>
+                                    <codeph>VID</codeph>: The required argument to specify Vendor ID
+                                    by hexadecimal string</p>
+                                <p><codeph>-p</codeph>, <codeph>--pid</codeph>
+                                    <codeph>PID</codeph>: The required argument to specify Product
+                                    ID by hexadecimal string</p>
+                                <p><codeph>-s</codeph>
+                                    <codeph>--sn</codeph>
+                                    <codeph>SN</codeph>: The required argument to specify Serial
+                                    Number</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p usb status</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Shows USB Device Control status</p>
+                            </entry>
+                            <entry>
+                                <p>None</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p quarantine show</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Shows the list of quarantined files</p>
+                            </entry>
+                            <entry>
+                                <p>None</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p quarantine restore
+                                    [QUARANTINENAME]</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Restores the specified quarantined file</p>
+                            </entry>
+                            <entry>
+                                <p>None</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p udso list</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Lists user-defined suspicious objects</p>
+                            </entry>
+                            <entry>
+                                <p><codeph>-a</codeph>, <codeph>--all</codeph>: Lists all types of
+                                    suspicious objects.</p>
+                                <p><codeph>-p</codeph>, <codeph>--file-path</codeph>: Lists file
+                                    path to the suspicious objects</p>
+                                <p><codeph>-h</codeph>, <codeph>--file-sha1</codeph>: Lists file
+                                    SHA1 of the suspicious objects.</p>
+                                <p><codeph>-H</codeph>, <codeph>--file-sha2</codeph>: Lists file
+                                    SHA2 of the suspicious objects</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p udso scan</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Scans existing processes for user-defined suspicious objects</p>
+                            </entry>
+                            <entry>
+                                <p>You'll be asked for confirmation before terminating these
+                                    suspicious processes.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>opcmd.exe -p update-task</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Schedules a recurring update task at specified start time and
+                                    interval</p>
+                            </entry>
+                            <entry>
+                                <p><codeph>--time</codeph>
+                                    <codeph>START-TIME</codeph>: Specifies the start time (HH:MM) of
+                                    scheduled update.</p>
+                                <p><codeph>--daily</codeph>: Specifies the scheduled update to run
+                                    daily.</p>
+                                <p><codeph>--weekly</codeph>
+                                    <codeph>DAY-OF-WEEK</codeph>: Specifies the scheduled update to
+                                    run weekly on a given day of a week. Only Sunday, Monday,
+                                    Tuesday, Wednesday, Thursday, Friday, Saturday are valid.</p>
+                                <p><codeph>--monthly</codeph>
+                                    <codeph>DAY-OF-MONTH</codeph>: Specifies the scheduled update to
+                                    run monthly on a given day of a month (1-31). Specifies
+                                        <codeph>-1</codeph> to run the update on the last day of a
+                                    month.</p>
+                                <p><codeph>--remove</codeph>: Removes the scheduled update</p>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </refbody>
+</reference>

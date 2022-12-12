@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-9511BAF7-68D8-4105-A39D-24A46AD5EF32" xml:lang="en-us">
+    <title id="GUID-41588B55-9C96-4AF0-85A9-A80854C6FF3B">About the Documentation</title>
+    <refbody>
+        <section id="GUID-C4C14E4D-EDAF-4170-95FE-371FE04262D0">
+            <p>TXOne Networks <ph conkeyref="PRODvars/PRODUCT_AGENT_SP_NAME_TM"
+                    >OFFICIAL_PRODUCT_NAME</ph> documentation includes the following:</p>
+            <table frame="all" colsep="1" rowsep="1">
+                <tgroup cols="2" colsep="1" rowsep="1" outputclass="Properties">
+                    <colspec colnum="1" colname="1" colwidth="3*"/>
+                    <colspec colnum="2" colname="2" colwidth="7*"/>
+                    <thead>
+                        <row rowsep="1">
+                            <entry colname="1">
+                                <p>Documentation</p>
+                            </entry>
+                            <entry colname="2">
+                                <p>Description</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row rowsep="1">
+                            <entry colname="1">
+                                <p>Readme file</p>
+                            </entry>
+                            <entry colname="2">
+                                <p>Contains a list of known issues and basic installation steps. It
+                                    may also contain late-breaking product information not found in
+                                    the other documents.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry colname="1">Installation and Administrator's Guide</entry>
+                            <entry colname="2">A PDF document that discusses requirements and
+                                procedures for installing and managing <ph
+                                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                    >OFFICIAL_PRODUCT_NAME</ph>.</entry>
+                        </row>
+                        <row rowsep="0">
+                            <entry colname="1">
+                                <p>Knowledge Base</p>
+                            </entry>
+                            <entry colname="2">
+                                <p>An online database of problem-solving and troubleshooting
+                                    information. It provides the latest information about known
+                                    product issues. To access the Knowledge Base, go to the
+                                    following websites:</p>
+                                <p><xref href="http://success.trendmicro.com" format="html"
+                                        scope="external"/></p>
+                                <p><xref href="https://kb.txone.com/" format="html" scope="external"
+                                    /></p>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </refbody>
+</reference>
