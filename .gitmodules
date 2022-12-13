@@ -4,3 +4,6 @@
 [submodule "en-us/SharedResources/TechnicalSupportChapter"]
 	path = en-us/SharedResources/TechnicalSupportChapter
 	url = git@adc.github.trendmicro.com:HIE-ELIXIR/TechnicalSupportChapter.git
+[submodule "en-us/SharedResources/StandardVariables"]
+	path = en-us/SharedResources/StandardVariables
+	url = git@adc.github.trendmicro.com:HIE-ELIXIR/StandardVariables.git

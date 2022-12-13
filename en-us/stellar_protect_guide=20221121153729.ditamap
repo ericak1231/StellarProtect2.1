@@ -14,39 +14,37 @@
     </bookmeta>
     <frontmatter>
         <keydef
-            href="../../../../../../../../OneDrive%20-%20TXOne%20Networks%20Inc/Documents/3.%20Project/2.1/StellarProtect/en-us/conref-vars/Product_Variables_sp=20221122142845.xml"
+            href="conref-vars/Product_Variables_sp=20221122142845.xml"
             keys="PRODvars"/>
         <keydef
             href="SharedResources/StandardVariables/TXOne_Networks_Variables=GUID-5D6BFEF9-D904-4EF1-B1E6-E3DE19C3053F=5=en-us=.xml"
-            keys="TRENDvars">
-            <keydef href="conref-vars/stellarOne_LegalVariables=20221012175458.xml" keys="LEGALvars"
-            />
-        </keydef>
+            keys="TRENDvars"/>
+        <keydef href="conref-vars/stellarOne_LegalVariables=20221012175458.xml" keys="LEGALvars"/>
         <keydef
             href="conref-vars/stellarOne_sp_Privacy_and_Personal_Data_Collection_Variables=20220726135209.xml"
             keys="PPDC_vars"/>
         <mapref href="conref-vars/legalMap=20220725120644.ditamap" format="ditamap"/>
         <preface
-            href="../../../../../../../../OneDrive%20-%20TXOne%20Networks%20Inc/Documents/3.%20Project/2.1/StellarProtect/en-us/maps/preface=20221121153520.ditamap"
+            href="maps/preface=20221121153520.ditamap"
             format="ditamap"/>
     </frontmatter>
     <chapter
-        href="../../../../../../../../OneDrive%20-%20TXOne%20Networks%20Inc/Documents/3.%20Project/2.1/StellarProtect/en-us/maps/intro_sp_agent=20221121160129.ditamap"
+        href="maps/intro_sp_agent=20221121160129.ditamap"
         format="ditamap"/>
     <chapter
-        href="../../../../../../../../OneDrive%20-%20TXOne%20Networks%20Inc/Documents/3.%20Project/2.1/StellarProtect/en-us/maps/installation_sp_agent=20221121163423.ditamap"
+        href="maps/installation_sp_agent=20221121163423.ditamap"
         format="ditamap"/>
     <chapter
-        href="../../../../../../../../OneDrive%20-%20TXOne%20Networks%20Inc/Documents/3.%20Project/2.1/StellarProtect/en-us/maps/uninstall_agent=20221122180132.ditamap"
+        href="maps/uninstall_agent=20221122180132.ditamap"
         format="ditamap"/>
     <chapter
-        href="../../../../../../../../OneDrive%20-%20TXOne%20Networks%20Inc/Documents/3.%20Project/2.1/StellarProtect/en-us/maps/using_agent_console=20221122180257.ditamap"
+        href="maps/using_agent_console=20221122180257.ditamap"
         format="ditamap"/>
     <chapter
-        href="../../../../../../../../OneDrive%20-%20TXOne%20Networks%20Inc/Documents/3.%20Project/2.1/StellarProtect/en-us/maps/using_agent_cli=20221207135745.ditamap"
+        href="maps/using_agent_cli=20221207135745.ditamap"
         format="ditamap"/>
     <chapter
-        href="../../../../../../../../OneDrive%20-%20TXOne%20Networks%20Inc/Documents/3.%20Project/2.1/StellarProtect/en-us/maps/events_agent=20221122180649.ditamap"
+        href="maps/events_agent=20221122180649.ditamap"
         format="ditamap"/>
     <chapter href="maps/Technical_Support_TXOne=20220722223813.ditamap" format="ditamap"/>
 </bookmap>
