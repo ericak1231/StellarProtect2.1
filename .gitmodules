@@ -7,3 +7,6 @@
 [submodule "en-us/SharedResources/StandardVariables"]
 	path = en-us/SharedResources/StandardVariables
 	url = git@adc.github.trendmicro.com:HIE-ELIXIR/StandardVariables.git
+[submodule "en-us/SharedResources/StellarOne"]
+	path = en-us/SharedResources/StellarOne
+	url = git@adc.github.trendmicro.com:HIE-ELIXIR/StellarOne.git
