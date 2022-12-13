@@ -5,10 +5,10 @@
     <conbody>
         <p>For agents managed by the <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> web
             console, refer to <xref
-                href="../../../../../../../Library/CloudStorage/OneDrive-TXOneNetworksInc/Documents/3.%20Project/2.1/StellarProtect/en-us/topics/get_agent_package=20221121173747.xml"
+                href="../topics/get_agent_package=20221121173747.xml"
             />.</p>
         <p>For standalone agents, refer to <xref
-                href="../../../../../../../Library/CloudStorage/OneDrive-TXOneNetworksInc/Documents/3.%20Project/2.1/StellarProtect/en-us/topics/get_standalone_agent_package=20221122155337.xml"
+                href="../topics/get_standalone_agent_package=20221122155337.xml"
             />.</p>
     </conbody>
 </concept>

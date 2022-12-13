@@ -171,7 +171,7 @@
             <p><indexterm>Side Navigation Menu<indexterm>Settings</indexterm></indexterm>This
                 section mainly describes the <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
                     >OFFICIAL_PRODUCT_NAME</ph> configuration options. Refer to <xref
-                    href="../../../../../../../Library/CloudStorage/OneDrive-TXOneNetworksInc/Documents/3.%20Project/2.1/StellarProtect/en-us/topics/settings_console_sp_agent=20221208134527.xml"
+                    href="../topics/settings_console_sp_agent=20221208134527.xml"
                 /> for the introduction of the seven main protection functions. Each function has a
                 switch that can be turned on or off.</p>
         </section>
