@@ -4,7 +4,8 @@
     <title>What's New</title>
     <refbody>
         <section id="section_t4c_v3r_c5b">
-            <p>TXOne <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+            <p><indexterm>introduction<index-base>what's new</index-base></indexterm>TXOne <ph
+                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
                 <ph conkeyref="LEGALvars/product_version">PRODUCT_VERSION</ph> provides following
                 new features and enhancements.</p>
             <table frame="all" rowsep="1" colsep="1" id="table_p4k_djr_c5b">
@@ -25,7 +26,8 @@
                         </row>
                     </thead>
                     <tbody>
-                        <row>
+                        <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                        <row otherprops="2.2">
                             <entry>
                                 <p>Self-management status</p>
                             </entry>
@@ -35,16 +37,39 @@
                                         conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>'s
                                     policy settings.</p>
                             </entry>
+                        </row><?oxy_custom_end?>
+                        <row>
+                            <entry>
+                                <p>Single installer package</p>
+                            </entry>
+                            <entry>
+                                <p>A single installer package for the Agent – <ph
+                                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> and <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> is available now. After being
+                                    invoked, the single installer can identfy the version of Windows
+                                    installed on the endpoint and launch the suitable installer for
+                                    the endpoint to install.</p>
+                            </entry>
                         </row>
                         <row>
                             <entry>
-                                <p>License reset tool</p>
+                                <p>Silent manual scan</p>
                             </entry>
                             <entry>
-                                <p>The license reset tool allows users to renew license more
-                                    efficiently for the agent that had once been connected to
-                                    StellarOne server but have been disconnected for a long
-                                    time.</p>
+                                <p>Users can implement silent manual scan via CLI and send the scan
+                                    result to the <ph
+                                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>
+                                    management console.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Supporting license key/file</p>
+                            </entry>
+                            <entry>
+                                <p>Supports product activation by license key or license file.</p>
                             </entry>
                         </row>
                     </tbody>

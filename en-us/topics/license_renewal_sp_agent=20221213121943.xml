@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">License Renewal for Standalone
+        Agents</title>
+    <taskbody>
+        <steps id="steps_wvw_g5y_g5b">
+            <step>
+                <cmd>Click the <uicontrol>New License</uicontrol> button on the <ph
+                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+                    logon screen.</cmd>
+                <stepxmp>
+                    <fig id="fig_c5b_5hd_vvb">
+                        <title>Renew License for Standalone Agents</title>
+                        <image href="../images/license_renewal_before_standalone=20221213143507.png"
+                            id="image_uh5_4hd_vvb"/>
+                    </fig>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>A pop-up <wintitle>License Activation</wintitle> window appears. Choose one of
+                    the ways to activate the license based on the license data available from your
+                    support provider:</cmd>
+                <choices id="choices_c5m_ltg_pvb">
+                    <choice>Click <uicontrol>License Key</uicontrol><ul id="ul_sh5_qtg_pvb">
+                            <li>
+                                <p>Specify the License Key in the text field.</p>
+                            </li>
+                            <li>
+                                <p>Click <uicontrol>Save</uicontrol>.</p>
+                            </li>
+                        </ul></choice>
+                    <choice>Click <uicontrol>License File</uicontrol><ul id="ul_xz3_dvg_pvb">
+                            <li>
+                                <p>Select the License File (an <filepath>.txt</filepath> file) to
+                                    import.</p>
+                            </li>
+                            <li>
+                                <p>Specify the Product Serial Number in the text field.</p>
+                                <note id="note_t5q_1xg_pvb">
+                                    <p> If you don't have the License File and Product Serial Number
+                                        on hand, refer to <xref
+                                            href="../topics/license_file_standalone_agents=20221122162502.xml"
+                                        /> for detailed instructions.</p>
+                                </note>
+                            </li>
+                            <li>
+                                <p>Click <uicontrol>Save</uicontrol>.</p>
+                            </li>
+                        </ul></choice>
+                </choices>
+            </step>
+            <step>
+                <cmd>Check the <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                        >OFFICIAL_PRODUCT_NAME</ph> logon screen for the updated license expiration
+                    date.</cmd>
+                <stepresult>
+                    <fig id="fig_knw_53d_vvb">
+                        <title>License Renewed for Standalone Agents</title>
+                    </fig>
+                    <fig id="fig_kqb_lhd_vvb">
+                        <image href="../images/license_renewed_standalone=20221213143404.png"
+                            id="image_osl_lhd_vvb"/>
+                    </fig>
+                </stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

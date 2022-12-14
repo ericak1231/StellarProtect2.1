@@ -4,8 +4,9 @@
 <title id="GUID-82E52FFF-9829-4F60-A680-7354C9B6500F">Document Conventions</title>
 <refbody>
 <section id="GUID-FAF40283-DF70-4396-BA7A-9987232ED470">
-<p>The following table provides the official terminology used throughout the <ph
-                    conkeyref="PRODvars/COMPANY_NAME_PRODUCT_NAME_TM"/> documentation:</p>
+<p>The following table provides the official terminology used throughout the TXOne <ph
+                                                  conkeyref="PRODvars/PRODUCT_AGENT_SP_NAME_TM"
+                                                  >OFFICIAL_PRODUCT_NAME</ph> documentation:</p>
 <table>
 <title id="GUID-5C0BD81A-69F8-46CF-A7A4-011A50D04031">Document Conventions</title>
 <tgroup cols="2">

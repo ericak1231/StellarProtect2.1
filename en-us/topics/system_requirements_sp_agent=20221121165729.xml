@@ -3,7 +3,9 @@
 <concept id="concept_pyd_d3r_c5b">
     <title>System Requirements</title>
     <conbody>
-        <p><indexterm>system requirements</indexterm>This section introduces the system requirements
-            for StellarProtect, including hardware and OS requirements.</p>
+        <p><indexterm>installation<indexterm>system requirements</indexterm></indexterm>This section
+            introduces the system requirements for <ph
+                conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>,
+            including hardware and OS requirements.</p>
     </conbody>
 </concept>

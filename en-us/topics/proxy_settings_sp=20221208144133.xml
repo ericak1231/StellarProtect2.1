@@ -4,8 +4,9 @@
     <title>Proxy Settings</title>
     <refbody>
         <section id="section_q2x_4kg_pvb">
-            <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph> use a
-                proxy for both communication with <ph
+            <p><indexterm>proxy settings</indexterm><ph
+                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph> use
+                a proxy for both communication with <ph
                     conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> and scan component
                 updates.</p>
             <p>It is configurable using <ph conkeyref="PRODvars/SETUP_FILE"/> before installation

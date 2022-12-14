@@ -4,7 +4,9 @@
     <title>Key Features and Benefits</title>
     <refbody>
         <section id="section_t4c_v3r_c5b">
-            <p>The <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+            <p><indexterm>introduction<index-base>key features and
+                benefits</index-base></indexterm>The <ph
+                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
                 provides following features and benefits.</p>
             <table frame="all" rowsep="1" colsep="1" id="table_p4k_djr_c5b">
                 <title>Features and Benefits</title>

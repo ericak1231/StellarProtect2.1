@@ -3,7 +3,7 @@
 <concept id="local_installation_sp_agent_20221121172423">
     <title>Using the Agent Console</title>
     <conbody>
-        <p>This chapter describes how to operate TXOne <ph
+        <p><indexterm>using agent console</indexterm>This chapter describes how to operate TXOne <ph
                 conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>'s
             various functions using the agent console on the endpoint. </p>
         <p>Topics in this chapter include:</p>

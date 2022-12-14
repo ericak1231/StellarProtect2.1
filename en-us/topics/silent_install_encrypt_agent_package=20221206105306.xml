@@ -24,7 +24,7 @@
             <step>
                 <cmd>After the
                         <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?><filepath>Setup.bin</filepath><?oxy_custom_end?>
-                    file is generated. place it in the installer package.</cmd>
+                    file is generated, place it in the installer package.</cmd>
             </step>
             <step>
                 <cmd>The installation with encrypted configuration can now be executed.</cmd>

@@ -14,8 +14,10 @@
                         format="html" scope="external">Software Download Center</xref>.</cmd>
             </step>
             <step>
-                <cmd>Find <uicontrol>StellarProtect</uicontrol> and click it. You will be directed
-                    to the web page with the latest firmware version for StellarProtect.</cmd>
+                <cmd>Find
+                        <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?><uicontrol>StellarProtect</uicontrol><?oxy_custom_end?>
+                    and click it. You will be directed to the web page with the latest firmware
+                    version for StellarProtect.</cmd>
             </step>
             <step>
                 <cmd>Be sure you are on the <uicontrol>Product Download/Update</uicontrol> tab
@@ -23,8 +25,10 @@
             </step>
             <step>
                 <cmd>Find the file name starting with <filepath>txsp-</filepath> and click it to
-                    download the <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                        >OFFICIAL_PRODUCT_NAME</ph> installer package.</cmd>
+                    download the
+                        <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?><ph
+                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                    >OFFICIAL_PRODUCT_NAMEa</ph><?oxy_custom_end?> installer package.</cmd>
             </step>
         </steps>
     </taskbody>

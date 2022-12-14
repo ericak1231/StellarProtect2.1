@@ -3,10 +3,10 @@
 <concept id="GUID-F4AD6A7E-1798-4E63-A9FE-531434B42DD9" xml:lang="en-us">
     <title id="GUID-2CCB340C-94E1-4FAE-9863-1741742B3F2B">Introduction</title>
     <conbody>
-        <p>This section introduces TXOne <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                >OFFICIAL_PRODUCT_NAME</ph>, which provides industrial-grade next-generation
-            antivirus and lockdown protection for your assets, and gives an overview of its
-            functions.</p>
+        <p><indexterm>introduction</indexterm>This section introduces TXOne <ph
+                conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>, which
+            provides industrial-grade next-generation antivirus and lockdown protection for your
+            assets, and gives an overview of its functions.</p>
         <p>Topics in this chapter include:</p>
         <ul id="ul_bs4_b1y_fp">
             <li>

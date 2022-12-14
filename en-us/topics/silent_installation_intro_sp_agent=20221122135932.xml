@@ -3,7 +3,7 @@
 <concept id="concept_lb5_ckg_pvb">
     <title>Silent Installation</title>
     <conbody>
-        <p><indexterm>silent installation</indexterm><ph
+        <p><indexterm>local installation<indexterm>silent installation</indexterm></indexterm><ph
                 conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph> provides
             silent installation based on a pre-defined configuration file. Users can use the
             Configuration session to enable silent installation based on the <ph

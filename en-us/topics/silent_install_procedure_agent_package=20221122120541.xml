@@ -44,7 +44,7 @@
                                 <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?><codeph>-s</codeph><?oxy_custom_end?>,
                             e.g., type <userinput>C:\package>StellarProtectSetup.exe
                             -s</userinput></p>
-                        <p> Please note that with this method, a pop-up windows mentioned in the
+                        <p> Please note that with this method, the pop-up windows mentioned in the
                             following steps will not be shown. To view information related to the
                             installation, check logs filed under
                                 <?oxy_comment_start author="erica_txone" timestamp="20221122T144433+0800" comment="will this be changed too?"?><filepath>C:\Windows\Temp\StellarProtect</filepath><?oxy_comment_end?>.</p>

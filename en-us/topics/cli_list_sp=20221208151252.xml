@@ -195,14 +195,14 @@
                                         START-TIME]</codeph></p>
                             </entry>
                             <entry>
-                                <p>Disables the OT Application Safeguard to allow file changes on
+                                <p>Disables the Change Control module to allow file changes on
                                     protected files. You can also specify a duration and start time
                                     to schedule a maintenance mode that allows file changes and
                                     enable protection automatically.</p>
-                                <p>If <codeph>-d</codeph> is not specified, the OT Application
-                                    Safeguard remains disabled until it is enabled.</p>
-                                <p>If <codeph>-s</codeph> is not specified, the OT Application
-                                    Safeguard should be disabled immediately.</p>
+                                <p>If <codeph>-d</codeph> is not specified, the Change Control
+                                    module remains disabled until it is enabled.</p>
+                                <p>If <codeph>-s</codeph> is not specified, the Change Control
+                                    module should be disabled immediately.</p>
                                 <note id="note_f4h_yhz_tvb">
                                     <p>Only one maintenance mode can be scheduled at a time; new
                                         settings configured via the CLI or <ph
@@ -403,8 +403,8 @@
                                 <p><codeph>opcmd.exe -p lock enable</codeph></p>
                             </entry>
                             <entry>
-                                <p>Enables OT Application Safeguard to prevent file changes on
-                                    protected files. If OT Application Safeguard is disabled by a
+                                <p>Enables Change Control module to prevent file changes on
+                                    protected files. If Change Control module is disabled by a
                                     scheduled maintenance mode, this command will end the
                                     maintenance mode immediately.</p>
                             </entry>

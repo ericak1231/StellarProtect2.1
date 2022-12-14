@@ -25,6 +25,7 @@
                 <cmd>Go to <menucascade>
                         <uicontrol>Administration</uicontrol>
                         <uicontrol>Downloads/Updates</uicontrol>
+                        <uicontrol>Agents</uicontrol>
                     </menucascade> to download the agent's Installer Package.</cmd>
                 <info>
                     <note id="note_vgk_kh1_pvb">
@@ -47,12 +48,22 @@
             <step>
                 <cmd>(Optional) To register agents to a group during installation, users can also
                     download the <filepath>Group.ini</filepath> file.</cmd>
-            </step>
-            <step>
-                <cmd>(Optional) Select a group for the target agent and click
-                        <uicontrol>Download</uicontrol>. A file named <filepath>Group.ini</filepath>
-                    is downloaded. Place the <filepath>Group.ini</filepath> file as the top-level
-                    file in the agent’s installer package.</cmd>
+                <substeps id="substeps_xtp_5wd_vvb">
+                    <substep>
+                        <cmd>Click the <uicontrol>download Group.ini</uicontrol> link.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>A pop-up windows appears. Select a group for the target agent.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Click <uicontrol>Download</uicontrol>. A file named
+                                <filepath>Group.ini</filepath> is downloaded.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Place the <filepath>Group.ini</filepath> file as the top-level file in
+                            the agent’s installer package.</cmd>
+                    </substep>
+                </substeps>
             </step>
         </steps>
     </taskbody>

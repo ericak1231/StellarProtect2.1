@@ -102,9 +102,11 @@
                         </li>
                         <li>
                             <p>Ensure that the following root certification authority (CA)
-                                certificates are installed with intermediate CAs, which are found in
-                                StellarProtectSetup.exe and StellarProtect.exe. These root CAs
-                                should be installed on the <ph
+                                certificates are installed with intermediate CAs, which are found
+                                in<?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+                                StellarProtectSetup.exe<?oxy_custom_end?> and
+                                <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>StellarProtect.exe<?oxy_custom_end?>.
+                                These root CAs should be installed on the <ph
                                     conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
                                     >OFFICIAL_PRODUCT_NAME</ph> agent environment to communicate
                                 with <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>.<ul

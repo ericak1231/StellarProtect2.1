@@ -5,7 +5,8 @@
     <taskbody>
         <steps>
             <step>
-                <cmd>Launch the installer
+                <cmd><indexterm>local installation<indexterm>attended
+                        installation</indexterm></indexterm>Launch the installer
                         <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><ph
                         conkeyref="PRODvars/INSTALLER"/><?oxy_custom_end?>.</cmd>
                 <info>
@@ -54,9 +55,7 @@
                     <note id="note_kvs_vzw_svb">
                         <ul id="ul_q3h_gbx_svb">
                             <li>
-                                <p>For agents who have registered to <ph
-                                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> and
-                                    whose installer package is downloaded from <ph
+                                <p>If the agent's installer package is downloaded from <ph
                                         conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>, the
                                     installer will automatically check and complete the license
                                     activation.</p>
@@ -145,7 +144,7 @@
                             </li>
                             <li>
                                 <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                                        >OFFICIAL_PRODUCT_NAME</ph> provides a more time efficient
+                                        >OFFICIAL_PRODUCT_NAME</ph> provides a more time-efficient
                                     option <uicontrol>HIGH</uicontrol> that will require higher CPU
                                     usage during the Prescan. If no other vital applications are
                                     running on the system, you can select the option
@@ -154,32 +153,13 @@
                             </li>
                         </ul>
                     </note>
+                    <note id="note_i53_5zd_vvb">
+                        <p>Since the StellarOEM license edition does not support the scanning
+                            function, this procedure will not appear in its installation
+                            process.</p>
+                    </note>
                 </info>
                 <substeps id="substeps_g45_b3f_pvb">
-                    <substep>
-                        <cmd>(Optional) The <uicontrol>Creating the Approved List</uicontrol> window
-                            appears. Click <uicontrol>OK</uicontrol> to proceed.
-                            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>If
-                            you click <uicontrol>No</uicontrol>, you will go back to the previous
-                            procedure.<?oxy_custom_end?></cmd>
-                        <info>
-                            <note id="note_acn_tkf_pvb">
-                                <ul id="ul_rgg_ykf_pvb">
-                                    <li>
-                                        <p>The Approved List is created for the Application Lockdown
-                                            "Detect" mode. Once the Application Lockdown "Detect"
-                                            mode is enabled, the system will send notifications if
-                                            applications not in the Approved List launch.</p>
-                                    </li>
-                                    <li>
-                                        <p>Since the StellarKiosk license edition does not support
-                                            the Application Lockdown function, this procedure will
-                                            not appear in its installation process.</p>
-                                    </li>
-                                </ul>
-                            </note>
-                        </info>
-                    </substep>
                     <substep>
                         <cmd>Before the Prescan starts, the installer will perform a component
                             update based on the chosen configuration. The update process will
@@ -264,6 +244,32 @@
                             </ul>
                         </info>
                     </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>(Optional but highly recommended) At the bottom of the window is the switch
+                    toggle for  creating the Approved List and enabling Application Lockdown
+                    "Detect" mode. Toggle it on to proceed.
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>If you toggle
+                    it off, <?oxy_custom_end?>go to step 11 for next procedure.</cmd>
+                <info>
+                    <note id="note_acn_tkf_pvb">
+                        <ul id="ul_rgg_ykf_pvb">
+                            <li>
+                                <p>The Approved List is created for the Application Lockdown
+                                    "Detect" mode. Once the Application Lockdown "Detect" mode is
+                                    enabled, the system will send notifications if applications not
+                                    in the Approved List launch.</p>
+                            </li>
+                            <li>
+                                <p>Since the StellarKiosk license edition does not support the
+                                    Application Lockdown function, this procedure will not appear in
+                                    its installation process.</p>
+                            </li>
+                        </ul>
+                    </note>
+                </info>
+                <substeps>
                     <substep>
                         <cmd>The results of adding applications in the Approved List will be shown
                             for review.</cmd>
@@ -289,7 +295,9 @@
             </step>
             <step>
                 <cmd>Upon logging on <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                        >OFFICIAL_PRODUCT_NAME</ph> successfully, this window will display.</cmd>
+                        >OFFICIAL_PRODUCT_NAME</ph> successfully, the <wintitle>Overview</wintitle>
+                    window will display. Refer to <xref
+                        href="console_intro_sp_agent=20221208133633.xml"/> for more details.</cmd>
             </step>
         </steps>
     </taskbody>

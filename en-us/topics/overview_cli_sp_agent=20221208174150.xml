@@ -8,8 +8,7 @@
             <p><indexterm>Command Line Interface (CLI)<indexterm>Overview</indexterm></indexterm>The
                 CLI provides a POSIX-style command line interface. The general usage is as
                 follows:</p>
-            <p><userinput/></p>
-            <p>C:> opcmd.exe [global-options] [command [options]]</p>
+            <p><codeph>C:> opcmd.exe [global-options] [command [options]]</codeph></p>
             <p>The global-options are options that affect all commands, and must come before the
                 command. A command consists of one or more words, followed by any options that are
                 specific to that command. If an option requires an argument, you may specify the

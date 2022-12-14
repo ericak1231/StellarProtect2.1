@@ -6,8 +6,7 @@
             conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph></title>
     <taskbody>
         <context id="context_ncj_b5y_g5b">
-            <p><indexterm>uninstalling <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                    /></indexterm>Follow the instructions to uninstall <ph
+            <p><indexterm>uninstallation</indexterm>Follow the instructions to uninstall <ph
                     conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>.</p>
             <note id="note_syv_js2_tvb">
                 <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"/>'s administrator password

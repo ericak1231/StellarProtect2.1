@@ -23,17 +23,25 @@
                 </info>
             </step>
             <step>
+                <cmd>Prepare your <ph conkeyref="PRODvars/SETUP_FILE"/> as mentioned in <xref
+                        href="silent_installation_intro_sp_agent=20221122135932.xml"/></cmd>
+            </step>
+            <step>
                 <cmd>Open the <ph conkeyref="PRODvars/SETUP_FILE"/> file in the Installer Package
                     and specify the value for the <codeph>product_serial_number</codeph>
                     parameter.</cmd>
+                <info>
+                    <note id="note_knd_2f2_vvb">
+                        <p>Input the product serial number obtained in Step 1 as the value for
+                                <codeph>product_serial_number</codeph> parameter.</p>
+                    </note>
+                </info>
             </step>
             <step>
                 <cmd>Save the Installer Package in the target endpoints for installation.</cmd>
             </step>
             <step>
-                <cmd>Launch the Installer. The License File and the Product Serial Number will be
-                    automatically generated in the <uicontrol>License Activation</uicontrol>
-                    procedure.</cmd>
+                <cmd>Launch the Installer in silent mode.</cmd>
             </step>
         </steps>
     </taskbody>

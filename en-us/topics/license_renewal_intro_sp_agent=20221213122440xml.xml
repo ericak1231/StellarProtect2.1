@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-F4AD6A7E-1798-4E63-A9FE-531434B42DD9" xml:lang="en-us">
+    <title id="GUID-2CCB340C-94E1-4FAE-9863-1741742B3F2B">License Renewal</title>
+    <conbody>
+        <p><indexterm>license renewal</indexterm>This chapter describes how to renew license for
+            standalone <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                >OFFICIAL_PRODUCT_NAME</ph> agent.</p>
+        <note id="note_tmg_snc_vvb">
+            <p>For <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+                agents managed by <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> server,
+                renew license via the <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> web
+                console. Refer to <xref
+                    href="https://docs.trendmicro.com/all/ent/txone-sp/v2.1/en-us/txso_2.1_ag.pdf"
+                    format="pdf" scope="external">StellarOne Administrator's Guide</xref> for
+                instructions.</p>
+        </note>
+        <p>Topics in this chapter include:</p>
+        <ul id="ul_bs4_b1y_fp">
+            <li>
+                <p><xref
+                        href="../topics/license_renewal_sp_agent=20221213121943.xml"
+                    /></p>
+            </li>
+        </ul>
+    </conbody>
+</concept>

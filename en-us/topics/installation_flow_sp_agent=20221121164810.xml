@@ -7,19 +7,22 @@
         Flow</title>
     <taskbody>
         <context id="context_ncj_b5y_g5b">
-            <p><indexterm>installation flow</indexterm>The installation of <ph
-                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
-                requires performing following tasks:</p>
+            <p><indexterm>installation<indexterm>installation flow</indexterm></indexterm>The
+                installation of <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                    >OFFICIAL_PRODUCT_NAME</ph> requires performing following tasks:</p>
         </context>
         <steps id="steps_wvw_g5y_g5b">
             <step>
                 <cmd>Get the agent's installer package from the <ph
-                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> web console.</cmd>
+                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> web console. Refer to
+                        <xref href="get_agent_package=20221121173747.xml"/> for instructions.</cmd>
                 <info>
                     <note id="note_lz1_23b_svb">
                         <p>For standalone agents, get the installer package from the <xref
                                 href="https://www.trendmicro.com/en_us/business/products/downloads.html"
-                                format="html" scope="external">Software Download Center</xref>.</p>
+                                format="html" scope="external">Software Download Center</xref>.
+                            Refer to <xref href="get_standalone_agent_package=20221122155337.xml"/>
+                            for more details.</p>
                     </note>
                 </info>
             </step>
@@ -46,8 +49,7 @@
                 </info>
             </step>
             <step>
-                <cmd>Launch the <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                        >OFFICIAL_PRODUCT_NAME</ph> installer on the endpoint.</cmd>
+                <cmd>Launch the agent's installer on the endpoint.</cmd>
                 <substeps id="substeps_fnw_yzz_4vb">
                     <substep>
                         <cmd>Check to accept the EULA (End-User License Agreement)</cmd>
@@ -79,12 +81,12 @@
                         <ul id="ul_ob4_hps_tvb">
                             <li>
                                 <p>Since the StellarOEM license edition does not support Real-Time
-                                    Malware Scan, step 4.e should not appear during the installation
+                                    Malware Scan, step 4.e should not appear during its installation
                                     process.</p>
                             </li>
                             <li>
                                 <p>Since the StellarKiosk license edition does not support
-                                    Application Lockdown, step 4.f should not appear during the
+                                    Application Lockdown, step 4.f should not appear during its
                                     installation process.</p>
                             </li>
                         </ul>

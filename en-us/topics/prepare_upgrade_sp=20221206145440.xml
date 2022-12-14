@@ -4,8 +4,9 @@
     <title>Preparing the Agent for Upgrade to a Later Version</title>
     <refbody>
         <section id="section_q2x_4kg_pvb">
-            <p>This version of <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                    >OFFICIAL_PRODUCT_NAME</ph> supports upgrade from the following version:</p>
+            <p><indexterm>upgrade</indexterm>This version of <ph
+                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+                supports upgrade from the following version:</p>
             <ul id="ul_ynb_1n2_tvb">
                 <li>
                     <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"

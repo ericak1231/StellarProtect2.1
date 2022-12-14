@@ -42,8 +42,8 @@
             <p><b><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Example:<?oxy_custom_end?></b></p><?oxy_comment_end?>
             <note id="note_bs3_31d_tvb">
                 <p>(Optional) Insert a line under the <codeph>install</codeph> section. Type
-                        <userinput>bypass_windefend_check: true</userinput> The endpoint will bypass
-                    checking Windows Defender status to get the <ph
+                        <userinput>bypass_windefend_check: true</userinput></p>
+                <p>The endpoint will bypass checking Windows Defender status to get the <ph
                         conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
                     installed without disabling Windows Defender.</p>
             </note>
