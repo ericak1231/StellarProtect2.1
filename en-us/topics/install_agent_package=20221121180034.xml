@@ -9,6 +9,12 @@
                         installation</indexterm></indexterm>Launch the installer
                         <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><ph
                         conkeyref="PRODvars/INSTALLER"/><?oxy_custom_end?>.</cmd>
+                <stepxmp>
+                    <fig id="fig_ord_x3j_vvb">
+                        <title><image href="../images/installer_package_folder=20221214103351.png"
+                                id="image_e1j_y3j_vvb"/></title>
+                    </fig>
+                </stepxmp>
                 <info>
                     <note id="note_ip2_lg1_pvb">
                         <p>To register <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"

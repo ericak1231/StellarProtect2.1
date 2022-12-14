@@ -161,8 +161,7 @@
                     </row>
                     <row>
                         <entry><ph conkeyref="PRODvars/INSTALLER"/></entry>
-                        <entry><ph id="INSTALLER"
-                            ><filepath>StellarProtectSetup.exe</filepath></ph></entry>
+                        <entry><ph id="INSTALLER"><filepath>StellarSetup.exe</filepath></ph></entry>
                         <entry>
                             <draft-comment author="erica_txone">name of the agent's installer
                                 package (sp/splm → single installer)</draft-comment>

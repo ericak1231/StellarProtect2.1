@@ -27,24 +27,34 @@
                         <uicontrol>Downloads/Updates</uicontrol>
                         <uicontrol>Agents</uicontrol>
                     </menucascade> to download the agent's Installer Package.</cmd>
-                <info>
-                    <note id="note_vgk_kh1_pvb">
+                <stepxmp>
+                    <fig>
+                        <title><ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>
+                            Downloads/Updates Screen</title>
+                    </fig>
+                    <fig id="fig_wdj_qgj_vvb">
+                        <image
+                            href="../SharedResources/StellarOne/en-us/images/2.1/download_update=20221214095841.png"
+                            id="image_dwt_shj_vvb"/>
+                    </fig>
+                </stepxmp>
+                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                <stepresult>
+                    <p>A zipped folder is downloaded. Extract the folder and proceed with the
+                        installation for the agents.</p>
+                    <note id="note_wyg_h3j_vvb">
                         <p>The Installer Package is packed by <ph
                                 conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> and can be
                             used for <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
                                 >OFFICIAL_PRODUCT_NAME</ph> and <ph
                                 conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
-                                >OFFICIAL_PRODUCT_NAME</ph> installations.</p>
+                                >OFFICIAL_PRODUCT_NAME</ph> installations. After being invoked, the
+                            single installer can identfy the version of Windows installed on the
+                            endpoint and launch the suitable installer for the endpoint to
+                            install.</p>
                     </note>
-                </info>
-                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-                <stepxmp>
-                    <fig id="fig_o3k_xh1_pvb">
-                        <title>Downloading Installer Package</title>
-                    </fig>
-                </stepxmp><?oxy_custom_end?>
-                <?oxy_comment_start author="erica_txone" timestamp="20221121T175415+0800" comment="add screenshot for &quot;single&quot; installer"?>
-            </step><?oxy_comment_end?>
+                </stepresult><?oxy_custom_end?>
+            </step>
             <step>
                 <cmd>(Optional) To register agents to a group during installation, users can also
                     download the <filepath>Group.ini</filepath> file.</cmd>
