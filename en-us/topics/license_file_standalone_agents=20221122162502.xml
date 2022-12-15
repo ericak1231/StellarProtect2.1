@@ -8,40 +8,52 @@
         </context>
         <steps id="steps_gjx_t5d_m4">
             <step>
-                <cmd>Launch the agent's Installer and go through the procedures until the
-                        <wintitle>Administrator Password &amp; License Activaiton</wintitle> window
-                    appears. After inputing and confirming the administrator password, click the
-                        <uicontrol>New License</uicontrol> button.</cmd>
+                <cmd>Choose one of the ways to download the license file.</cmd>
+                <choices id="choices_ux1_1br_vvb">
+                    <choice>
+                        <p>Go to <xref
+                                href="https://mytxone.cs.txone.com/license/activate/txone/stellar"
+                                format="html" scope="external">TXOne License File Management</xref>
+                            website.</p>
+                    </choice>
+                    <choice>
+                        <ol id="ol_imf_dbr_vvb">
+                            <li>
+                                <p>Launch the agent's Installer and go through the procedures until
+                                    the <wintitle>Administrator Password &amp; License
+                                        Activaiton</wintitle> window appears. After inputing and
+                                    confirming the administrator password, click the <uicontrol>New
+                                        License</uicontrol> button.</p>
+                            </li>
+                            <li>
+                                <p>A pop-up <wintitle>License Activation</wintitle> window appears.
+                                    Click <uicontrol>Copy Download Link for getting the License
+                                        File</uicontrol> at the bottom of the <wintitle
+                                        otherprops="IG">License Activation</wintitle> window.</p>
+                                <note type="important" id="note_yyr_dbr_vvb">
+                                    <p>A license key is required for downloading a license file.</p>
+                                </note>
+                            </li>
+                            <li>
+                                <p><uicontrol>The Download Link has been copied</uicontrol> message
+                                    appears.</p>
+                            </li>
+                            <li>
+                                <p>Open the copied link in a web browser on a computer with Internet
+                                    connection.</p>
+                            </li>
+                        </ol>
+                    </choice>
+                </choices>
             </step>
             <step>
-                <cmd>A pop-up <wintitle>License Activation</wintitle> window appears. Click
-                        <uicontrol>Copy Download Link for getting the License File</uicontrol> at
-                    the bottom of the <wintitle otherprops="IG">License Activation</wintitle>
-                    window.</cmd>
-                <info>
-                    <note type="important" id="note_pvc_1md_mvb">
-                        <p>A license key is required for downloading a license file.</p>
-                    </note>
-                </info>
-            </step>
-            <step>
-                <cmd><uicontrol>The Download Link has been copied</uicontrol> message appears.</cmd>
-            </step>
-            <step>
-                <cmd>Open the copied link in a web browser on a computer with Internet
-                    connection.</cmd>
-            </step>
-            <step>
-                <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
                 <cmd>You will be directed to the <wintitle>License File Management</wintitle>
                     screen. Specify your license key in the <uicontrol>License Key</uicontrol>
-                    field, and then click <uicontrol>SUBMIT</uicontrol></cmd><?oxy_custom_end?>
-                <?oxy_comment_start author="erica_txone" timestamp="20221209T101803+0800" comment="check if the license key &amp; PSN appear on the same page or in order"?>
-                <stepxmp><?oxy_comment_end?>
+                    field, and then click <uicontrol>SUBMIT</uicontrol></cmd>
+                <stepxmp>
                     <fig id="fig_hvc_cty_tvb">
                         <title>License File Management</title>
-                        <image
-                            href="../images/license_file_standalone_agent=20221209094509.png"
+                        <image href="../images/license_file_standalone_agent=20221209094509.png"
                             id="image_wb2_dty_tvb"/>
                     </fig>
                 </stepxmp>

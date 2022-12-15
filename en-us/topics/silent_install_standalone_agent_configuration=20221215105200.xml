@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_ntt_lkg_pvb">
+    <title>Standalone Agent Configuration for Silent Installation</title>
+    <refbody>
+        <section id="section_zlf_1lg_pvb">
+            <title>Examples of the Configuration File for Silent Installation</title>
+            <p>See below as an example of the defined configuration file (<ph
+                    conkeyref="PRODvars/SETUP_FILE"/>) for standalone agents. You can define your
+                own configuration settings by changing the values.</p>
+            <p>
+                <fig id="fig_qyk_hjk_vvb">
+                    <title>Example of Standalone Agent <ph conkeyref="PRODvars/SETUP_FILE"/></title>
+                    <image href="../images/setup_ini=20221214135548.png" id="image_jvv_hjk_vvb"/>
+                </fig>
+            </p>
+        </section>
+        <section id="section_en1_nmq_vvb">
+            <ul id="ul_fn1_nmq_vvb">
+                <li>
+                    <p>For standalone agents, please specify the values of the
+                            <codeph>product_serial_number</codeph> and
+                            <codeph>txone_license_file</codeph> with the product serial number and
+                        license file name, and then enable silent installation by changing the
+                            <codeph>silent</codeph> value to <codeph>1</codeph> and specify password
+                        in the configuration file. </p>
+                    <p>To get the license file and product serial number, refer to <xref
+                            href="../../../../../../../Library/CloudStorage/OneDrive-TXOneNetworksInc/Documents/3.%20Project/2.1/StellarProtect/en-us/topics/license_file_standalone_agents=20221122162502.xml"
+                        />.</p>
+                </li>
+            </ul>
+        </section>
+    </refbody>
+</reference>

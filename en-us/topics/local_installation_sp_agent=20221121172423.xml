@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="local_installation_sp_agent_20221121172423">
-    <title>Local Installation</title>
+    <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+    <title>Installation Methods</title><?oxy_custom_end?>
     <conbody>
-        <p><indexterm>local installation</indexterm>This section mainly explains the steps for
-            installing <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                >OFFICIAL_PRODUCT_NAME</ph>, including:</p>
+        <p><indexterm>installation</indexterm>This section mainly explains the steps for installing
+                <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>,
+            including:</p>
         <ul id="ul_mww_byd_vvb">
             <li>
                 <p>invoking the installer by attended installation or silent installation</p>

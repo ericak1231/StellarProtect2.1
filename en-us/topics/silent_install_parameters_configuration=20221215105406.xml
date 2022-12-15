@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_ntt_lkg_pvb">
+    <title>Parameters of the <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+            >OFFICIAL_PRODUCT_NAME</ph> Config File for Silent Installation</title>
+    <refbody>
+        <section id="section_l3d_krc_tvb">
+            <p>The following table lists parameters for <ph conkeyref="PRODvars/SETUP_FILE"/> along
+                with the details of their use. </p>
+        </section>
+        <section id="section_ngd_krc_tvb">
+            <table frame="all" id="table_gfp_tlg_pvb">
+                <title>Parameters used in <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                        >OFFICIAL_PRODUCT_NAME</ph>
+                    <ph conkeyref="PRODvars/SETUP_FILE"/></title>
+                <tgroup cols="4">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c3" colnum="3" colwidth="1*"/>
+                    <colspec colname="c4" colnum="4" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry namest="c1" nameend="c2">
+                                <p>Parameter</p>
+                            </entry>
+                            <entry>
+                                <p>Default Value</p>
+                            </entry>
+                            <entry>
+                                <p>Description</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p><codeph>[Shared_license</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>product_serial_number</codeph></p>
+                                <p><codeph>txone_license_file</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>empty string</p>
+                            </entry>
+                            <entry>
+                                <p>The <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> product serial number and
+                                    license file used for license activation</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>[shared_server]</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>host</codeph></p>
+                                <p><codeph>cert</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>empy string</p>
+                                <p>server.crt</p>
+                            </entry>
+                            <entry>
+                                <p><ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>
+                                    hostname or IP address</p>
+                                <p>The certificate filename for communicating with <ph
+                                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="3">
+                                <p><codeph>[shared_proxy]</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>host</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>empy string</p>
+                            </entry>
+                            <entry>
+                                <p>FQDN, hostname or IP address of Intranet proxy server</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>port</codeph></p>
+                            </entry>
+                            <entry>
+                                <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+                                <p><codeph>-1</codeph></p><?oxy_custom_end?>
+                            </entry>
+                            <entry>
+                                <p>Port number of Intranet proxy server</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>username</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>empy string</p>
+                            </entry>
+                            <entry>
+                                <p>Username of Intranet proxy server, required only when the proxy
+                                    server is configured to authenticate by username and
+                                    password.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>password</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>empy string</p>
+                            </entry>
+                            <entry>
+                                <p>Administrator's password. The password will be required by
+                                    specific functions, including uninstallation, the command line
+                                    interface, and support tools.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>[shared_install]</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>silent</codeph></p>
+                                <p><codeph>password</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>0</p>
+                                <p>empy string</p>
+                            </entry>
+                            <entry>
+                                <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+                                <p>Hide the installation UI. The <codeph>LICENSE KEY</codeph> and
+                                        <codeph>PASSWORD</codeph> must be given during silent
+                                    installation.</p><?oxy_custom_end?>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>[protect_server]</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>port</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>9443</p>
+                            </entry>
+                            <entry>
+                                <p><ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>'s port
+                                    for connecting to the client</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>[protect_listen]</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>port</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>14336</p>
+                            </entry>
+                            <entry>
+                                <p>The client listening port for <ph
+                                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>[protect_update]</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>source</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>empy string</p>
+                            </entry>
+                            <entry>
+                                <p>component update server link</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>protect_config</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>include</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>empty string</p>
+                            </entry>
+                            <entry>
+                                <p>Use a installation config sample file to run the silent
+                                    installation. Choose one of the ways:</p>
+                                <ul id="ul_ef4_h4r_vvb">
+                                    <li>
+                                        <p>Specify the file path to the installation configuration
+                                            sample file </p>
+                                    </li>
+                                    <li>
+                                        <p>Specify the sample file name and put the file as the
+                                            top-level file in the installer package</p>
+                                    </li>
+                                </ul>
+                                <note id="note_i5q_xnr_vvb">
+                                    <p>Supports only .yaml or .bin file format</p>
+                                </note>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="11">
+                                <p><codeph>[protect_install]</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>asset_vendor</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>empty string</p>
+                            </entry>
+                            <entry>
+                                <p>The vendor's name of the asset.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>asset_model</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>empty string</p>
+                            </entry>
+                            <entry>
+                                <p>The model name of the asset.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>asset_location</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>empty string</p>
+                            </entry>
+                            <entry>
+                                <p>The physical location of the asset.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>asset_description</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>empty string</p>
+                            </entry>
+                            <entry>
+                                <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+                                <p>The description for the asset.</p><?oxy_custom_end?>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>install_location</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>empty string → default install path</p>
+                                <p><filepath>C:\Program Files\TXOne</filepath></p>
+                                <p>(Default install path is decided in MSI installer</p>
+                            </entry>
+                            <entry>
+                                <p>The installation path of the <ph
+                                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> installer.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>enable_start_menu</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>1</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Enable <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> in the Windows start menu.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>enable_desktop_icon</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>1</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Enable <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> icon to be placed on the
+                                    desktop.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>enable_systray_icon</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>1</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Enable <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> in the Windows system tray.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>enable_trusted_ics_cert</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>1</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Allow the installer to install ICS code signing certificates
+                                    during installation.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>enable_prescan</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>0</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Enable malware scan during installation.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>enable_lockdown_al_building</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>1</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Enable the building of Approved List for Application
+                                    Lockdown.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>enable_lockdown_detection</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>1</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Enable the "detect" mode of Application Lockdown.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="2">
+                                <p><codeph>[protect_prescan]</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>action</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>1</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>0: None</p>
+                                <p>1: Quarantine</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>background</codeph></p>
+                            </entry>
+                            <entry>
+                                <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+                                <p><codeph>0</codeph></p><?oxy_custom_end?>
+                            </entry>
+                            <entry>
+                                <p>1: only executes when the sytem is in idle status</p>
+                                <p>0: always consumes CPU resource for executing prescan</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>cpu_usage_mode</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>0</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>0: Normal (Single thread scan)</p>
+                                <p>1: HIGH (Multi-thread scan</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>[protect_client]</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>import_source</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>empty string</p>
+                            </entry>
+                            <entry>
+                                <p>Use a agent settings config sample file to import the same
+                                    settings to the target agents.</p>
+                                <p>Specify the path to the folder containing the config file to be
+                                    imported, e.g., <filepath>C:\txsp_config</filepath></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>BYPASS_WINDEFEND_CHECK</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>boolean</p>
+                            </entry>
+                            <entry>
+                                <p>false</p>
+                            </entry>
+                            <entry>
+                                <p>Bypass checking Windows Defender status.</p>
+                                <note id="note_ktn_snr_vvb">
+                                    <p>This is a hidden parameter.</p>
+                                </note>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <note id="note_gjh_5yc_tvb">
+                <ul id="ul_atr_5yc_tvb">
+                    <li>
+                        <p>When <codeph>ENABLE_PRESCAN</codeph> is set to <codeph>0</codeph>,
+                                <codeph>ENABLE_LOCKDOWN_AL_BUILDING</codeph> and
+                                <codeph>ENABLE_LOCKDOWN_DETECTION</codeph> will be automatically set
+                            to <codeph>0</codeph>.</p>
+                    </li>
+                    <li>
+                        <p><codeph>BYPASS_WINDEFEND_CHECK</codeph> is a hidden parameter in <ph
+                                conkeyref="PRODvars/SETUP_FILE"/>, designed for Windows 7 and
+                            Windows Server 2016+ platforms, on which the installation of <ph
+                                conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                >OFFICIAL_PRODUCT_NAME</ph> requires disabling Windows Defender.
+                            When the parameter's value is set <codeph>1</codeph>, the endpoint will
+                            bypass Windows Defender check to get the <ph
+                                conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                >OFFICIAL_PRODUCT_NAME</ph> installed without disabling Windows
+                            Defender.</p>
+                    </li>
+                    <li>
+                        <p>If you would like to bypass checking Windows Defender status to get the
+                                <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                >OFFICIAL_PRODUCT_NAME</ph> installed without disabling Windows
+                            Defender, insert a line under the <codeph>protect_install</codeph>
+                            section. Type <userinput>bypass_windefend_check: 1</userinput></p>
+                    </li>
+                </ul>
+            </note>
+        </section>
+    </refbody>
+</reference>

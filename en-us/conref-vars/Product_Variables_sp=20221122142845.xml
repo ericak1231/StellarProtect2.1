@@ -179,6 +179,16 @@
                         <entry>SETUP_FILE</entry>
                     </row>
                     <row>
+                        <entry><ph conkeyref="PRODvars/S1_LICENSE_FILE"/></entry>
+                        <entry><ph id="S1_LICENSE_FILE"
+                            ><filepath>lic.profile_tx</filepath></ph></entry>
+                        <entry>
+                            <draft-comment author="erica_txone">downloaded from StellarOne
+                            </draft-comment>
+                        </entry>
+                        <entry>S1_LICENSE_FILE</entry>
+                    </row>
+                    <row>
                         <entry><ph conkeyref="PRODvars/LICENSE_FILE"/></entry>
                         <entry><ph id="LICENSE_FILE"
                                     ><filepath>Stellar&lt;license>Edition_xxxxxxxxxxxxx.txt</filepath></ph></entry>

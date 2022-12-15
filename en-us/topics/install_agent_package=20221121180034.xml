@@ -27,19 +27,22 @@
                 </info>
             </step>
             <step>
-                <cmd>Click <uicontrol>Next</uicontrol> to start the installation.</cmd>
-                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                <cmd>Click <uicontrol>Yes</uicontrol> to start the installation.</cmd>
                 <stepxmp>
                     <fig id="fig_o3k_xh1_pvb">
                         <title>StellarProtect Setup Screenshot</title>
+                        <image href="../images/install_setup=20221214115206.png"
+                            id="image_e5q_btj_vvb"/>
                     </fig>
-                </stepxmp><?oxy_custom_end?>
-                <?oxy_comment_start author="erica_txone" timestamp="20221121T175415+0800" comment="add screenshot for &quot;single&quot; installer"?>
-            </step><?oxy_comment_end?>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Next</uicontrol> to continue.</cmd>
+            </step>
             <step>
                 <cmd>The <wintitle>End-User License Agreement</wintitle> (EULA) window appears.
                     Please read the content carefully, and then check <uicontrol>I accept the terms
-                        of the license agreement</uicontrol> and click
+                        in the License Agreement</uicontrol> and click
                     <uicontrol>Next</uicontrol>.</cmd>
             </step>
             <step>
@@ -254,8 +257,8 @@
             </step>
             <step>
                 <cmd>(Optional but highly recommended) At the bottom of the window is the switch
-                    toggle for  creating the Approved List and enabling Application Lockdown
-                    "Detect" mode. Toggle it on to proceed.
+                    toggle for creating the Approved List and enabling Application Lockdown "Detect"
+                    mode. Toggle it on to proceed.
                     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>If you toggle
                     it off, <?oxy_custom_end?>go to step 11 for next procedure.</cmd>
                 <info>

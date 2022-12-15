@@ -16,11 +16,6 @@
             <step>
                 <cmd>Place the license file as the top-level file in the agent's Installer
                     Package.</cmd>
-                <info>
-                    <note id="note_iyw_1mh_pvb">
-                        <p>Ensure the file extension is <filepath>.txt</filepath></p>
-                    </note>
-                </info>
             </step>
             <step>
                 <cmd>Prepare your <ph conkeyref="PRODvars/SETUP_FILE"/> as mentioned in <xref

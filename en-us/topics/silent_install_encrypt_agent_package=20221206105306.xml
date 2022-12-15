@@ -7,7 +7,7 @@
                 >OFFICIAL_PRODUCT_NAME</ph> supports encrypting the configuration file for
             installation to prevent sensitive data leakage. The encrypted configuration file name is
             fixed to
-                <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?><filepath>Setup.bin</filepath><?oxy_custom_end?></context>
+                <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?><filepath>StellarSetup.bin</filepath><?oxy_custom_end?></context>
         <steps id="steps_yvn_3mg_pvb">
             <step>
                 <cmd>Prepare your <ph conkeyref="PRODvars/SETUP_FILE"/> as mentioned in <xref
@@ -15,16 +15,17 @@
             </step>
             <step>
                 <cmd>Encrypt <ph conkeyref="PRODvars/SETUP_FILE"/> by using the command prompt:
-                        <userinput>StellarProtectSetup.exe -e &lt;CONFIG_FILE></userinput>. The
-                    parameter <codeph>-e</codeph> is used for encrypting the configuration file and
+                        <userinput>StellarSetup.exe -e &lt;CONFIG_FILE></userinput>. The parameter
+                        <codeph>-e</codeph> is used for encrypting the configuration file and
                     generating
-                        <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?><filepath>Setup.bin</filepath><?oxy_custom_end?>
+                        <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?><filepath>StellarSetup.bin</filepath><?oxy_custom_end?>
                     file in the working directory.</cmd>
             </step>
             <step>
                 <cmd>After the
-                        <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?><filepath>Setup.bin</filepath><?oxy_custom_end?>
-                    file is generated, place it in the installer package.</cmd>
+                        <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?><filepath>StellarSetup.bin</filepath><?oxy_custom_end?>
+                    file is generated, place it as the top-level file in the installer
+                    package.</cmd>
             </step>
             <step>
                 <cmd>The installation with encrypted configuration can now be executed.</cmd>
