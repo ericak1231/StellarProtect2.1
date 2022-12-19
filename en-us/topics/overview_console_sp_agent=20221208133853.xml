@@ -20,18 +20,18 @@
                 Malware Scan and/or Application Lockdown, while the red cross indicates the endpoint
                 is at risk.</p>
             <p>For <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
-                agent with StellarICS license edition, below the green check or red cross icon, a
-                shield-shape icon with a toggle on the left indicates whether the endpoint is
-                currently protected by StellarProtect's Real-time Malware Scan; and a lock-shape
+                agent with <b>StellarICS</b> license edition, below the green check or red cross
+                icon, a shield-shape icon with a toggle on the left indicates whether the endpoint
+                is currently protected by StellarProtect's Real-time Malware Scan; and a lock-shape
                 icon with a toggle on the right indicates whether the Application Lockdown "Enforce"
                 mode is enabled</p>
             <p>For <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
-                agent with StellarKiosk license edition, below the green check or red cross icon, a
-                shield-shape icon with the toggle indicates whether the endpoint is currently
-                protected by StellarProtect's Real-time Malware Scan.</p>
+                agent with <b>StellarKiosk</b> license edition, below the green check or red cross
+                icon, a shield-shape icon with the toggle indicates whether the endpoint is
+                currently protected by StellarProtect's Real-time Malware Scan.</p>
             <p>For <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
-                agent with StellarOEM license edition, below the green check or red cross icon, a
-                lock-shape icon with a toggle on the right indicates whether the Application
+                agent with <b>StellarOEM</b> license edition, below the green check or red cross
+                icon, a lock-shape icon with a toggle on the right indicates whether the Application
                 Lockdown "Enforce" mode is enabled.</p>
             <p>The following current information about endpoint protection will be shown:<ul
                     id="ul_mbr_vss_tvb">

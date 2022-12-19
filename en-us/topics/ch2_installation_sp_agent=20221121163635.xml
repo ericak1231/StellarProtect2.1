@@ -6,8 +6,8 @@
         <p><indexterm>installation</indexterm>This chapter shows how to install the TXOne <ph
                 conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph> agent.
             The <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
-            agent provides several local installation types including <b>attended installation</b>
-            and <b>silent installation</b>.</p>
+            agent provides installation methods including <b>attended installation</b> and <b>silent
+                installation</b>.</p>
         <p>Topics in this chapter include:</p>
         <ul id="ul_bs4_b1y_fp">
             <li>

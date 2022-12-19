@@ -19,16 +19,12 @@
             </step>
             <step>
                 <cmd>Prepare your <ph conkeyref="PRODvars/SETUP_FILE"/> as mentioned in <xref
-                        href="silent_installation_intro_sp_agent=20221122135932.xml"/></cmd>
-            </step>
-            <step>
-                <cmd>Open the <ph conkeyref="PRODvars/SETUP_FILE"/> file in the Installer Package
-                    and specify the value for the <codeph>product_serial_number</codeph>
-                    parameter.</cmd>
+                        href="silent_install_standalone_agent_configuration=20221215105200.xml"
+                    /></cmd>
                 <info>
-                    <note id="note_knd_2f2_vvb">
-                        <p>Input the product serial number obtained in Step 1 as the value for
-                                <codeph>product_serial_number</codeph> parameter.</p>
+                    <note id="note_lgt_qtx_wvb">
+                        <p>Ensure that you specify the product serial number and license file name
+                            in the config file.</p>
                     </note>
                 </info>
             </step>

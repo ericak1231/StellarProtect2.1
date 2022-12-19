@@ -94,7 +94,7 @@
                 <cmd>A success message indicating
                     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>valid
                     license<?oxy_custom_end?> appears. Click <uicontrol>Next</uicontrol> to proceed
-                    to next procedure (the Step 6 in <xref
+                    to next procedure (<b>Step 7</b> in <xref
                         href="install_agent_package=20221121180034.xml"/>) for the
                     installation.</cmd>
             </step>

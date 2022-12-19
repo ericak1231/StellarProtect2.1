@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="reference_ntt_lkg_pvb">
-    <title>Session Options in the Config File for Silent Installation</title>
+    <title>Properties in the Config File for Silent Installation</title>
     <refbody>
         <section id="section_l3d_krc_tvb">
-            <p>The following table lists the session options in the <ph
-                    conkeyref="PRODvars/SETUP_FILE"/> config file along with the details of their
-                use.</p>
+            <p>The following table lists the properties in the <ph conkeyref="PRODvars/SETUP_FILE"/>
+                config file along with the details of their use.</p>
             <note id="note_cln_ymt_wvb">
                 <ul id="ul_t14_dnt_wvb">
                     <li>
@@ -35,7 +34,7 @@
         </section>
         <section id="section_ngd_krc_tvb">
             <table frame="all" id="table_gfp_tlg_pvb">
-                <title>Session Options in the <ph conkeyref="PRODvars/SETUP_FILE"/> File</title>
+                <title>Properties in the <ph conkeyref="PRODvars/SETUP_FILE"/> File</title>
                 <tgroup cols="4">
                     <colspec colname="c1" colnum="1" colwidth="1*"/>
                     <colspec colname="c2" colnum="2" colwidth="1*"/>

@@ -44,7 +44,11 @@
                             <li>
                                 <p>Click <uicontrol>Save</uicontrol>.</p>
                             </li>
-                        </ul></choice>
+                        </ul><fig id="fig_sh1_35x_wvb">
+                            <title>Use License Key for Activation</title>
+                            <image href="../images/license_activation_key=20221219223414.png"
+                                id="image_nbp_35x_wvb"/>
+                        </fig></choice>
                     <choice>Click <uicontrol>License File</uicontrol><ul id="ul_xz3_dvg_pvb">
                             <li>
                                 <p>Select the License File (an <filepath>.txt</filepath> file) to
@@ -61,6 +65,12 @@
                             </li>
                             <li>
                                 <p>Click <uicontrol>Save</uicontrol>.</p>
+                                <fig id="fig_dc2_j5x_wvb">
+                                    <title>Use License File for Activation</title>
+                                    <image
+                                        href="../images/license_activation_file=20221219223259.png"
+                                        id="image_f1t_j5x_wvb"/>
+                                </fig>
                             </li>
                         </ul></choice>
                 </choices>

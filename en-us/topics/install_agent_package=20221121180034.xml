@@ -92,7 +92,7 @@
                 </info>
             </step>
             <step>
-                <cmd>(Optional) Specify the asset information of the installed device with correct
+                <cmd>Specify the asset information of the installed device with correct
                     ICS/OT-relative information such as vendor name, model, location and a
                     description.</cmd>
                 <stepxmp>
@@ -133,8 +133,7 @@
             <step>
                 <cmd>If <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
                         >OFFICIAL_PRODUCT_NAME</ph> detects the incompatible software on the
-                    endpoint, it will display a message shown as below. If not, this message won't
-                    appear.</cmd>
+                    endpoint, it will display a message. If not, this message won't appear.</cmd>
                 <info>
                     <note id="note_dfn_yhx_svb">
                         <p>Incompatible software means some TrendMicro product such as OfficeScan

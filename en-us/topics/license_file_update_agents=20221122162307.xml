@@ -23,6 +23,14 @@
             <step>
                 <cmd>Click <uicontrol>Download the latest license file</uicontrol> at the bottom of
                     the <wintitle>License</wintitle> page.</cmd>
+                <info>
+                    <fig id="fig_zkp_5rx_wvb">
+                        <title>Download lLcense File from <ph
+                                conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/></title>
+                        <image href="../images/download_license_file_from_s1=20221219234340.png"
+                            id="image_ysy_5rx_wvb"/>
+                    </fig>
+                </info>
             </step>
             <step>
                 <cmd>The license file (a <filepath>.txt</filepath> file) has been downloaded to your

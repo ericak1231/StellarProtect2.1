@@ -7,7 +7,7 @@
             <p>See below as an example of the defined configuration file (<ph
                     conkeyref="PRODvars/SETUP_FILE"/>) for standalone agents. You can define your
                 own configuration settings by changing the values.</p>
-            <note id="note_gth_gjx_wvb">
+            <note id="note_gth_gjx_wvb" type="important">
                 <p>The corresponding <codeph>[shared_license]</codeph> property varies depending on
                     your support provider:<ul id="ul_rlb_tjx_wvb">
                         <li>
@@ -64,7 +64,7 @@
             <p><codeph>enable_systray_icon = 1</codeph></p>
             <p><codeph>enable_trusted_ics_cert = 1</codeph></p>
             <p><codeph>enable_prescan = 1</codeph></p>
-            <p><codeph>enable_lockdown_al_building = 2</codeph></p>
+            <p><codeph>enable_lockdown_al_building = 1</codeph></p>
             <p><codeph>enable_lockdown_detection = 1</codeph></p>
             <p><codeph>[protect_prescan]</codeph></p>
             <p><codeph>action = 1</codeph></p>
@@ -74,22 +74,21 @@
             <p><codeph>import_source = C:\txsp_config</codeph></p>
         </section>
         <section id="section_en1_nmq_vvb">
-            <ul id="ul_fn1_nmq_vvb">
-                <li>
-                    <p/>
-                </li>
-                <li>
-                    <p>The license file name varies depending on different license editions
-                        (ICS/Kiosk/OEM). For example, if you use ICS license edition, the license
-                        file name appears like this:
-                            <filepath>StellarICSEdition_xxxxxxxxxxxxx.txt</filepath>.</p>
-                </li>
-                <li>
-                    <p>To get the license file and product serial number, refer to <xref
-                            href="../topics/license_file_standalone_agents=20221122162502.xml"
-                        />.</p>
-                </li>
-            </ul>
+            <note id="note_bjn_gsx_wvb">
+                <ul id="ul_fn1_nmq_vvb">
+                    <li>
+                        <p>The license file name varies depending on different license editions
+                            (ICS/Kiosk/OEM). For example, if you use ICS license edition, the
+                            license file name appears like this:
+                                <filepath>StellarICSEdition_xxxxxxxxxxxxx.txt</filepath>.</p>
+                    </li>
+                    <li>
+                        <p>To get the license file and product serial number, refer to <xref
+                                href="../topics/license_file_standalone_agents=20221122162502.xml"
+                            />.</p>
+                    </li>
+                </ul>
+            </note>
         </section>
     </refbody>
 </reference>

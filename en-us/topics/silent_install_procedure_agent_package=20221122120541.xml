@@ -7,11 +7,15 @@
             silent installation on the endpoint.</context>
         <steps id="steps_yvn_3mg_pvb">
             <step>
-                <cmd>For the agents managed by <ph
-                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>, input the license
-                    key and password, and then enable silent installation by changing the
-                        <codeph>enable_silent_install</codeph> value to <codeph>1</codeph> in the
-                    configuration file.</cmd>
+                <cmd>If the Agent installer package is downloaded from <ph
+                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>, within the <ph
+                        conkeyref="PRODvars/SETUP_FILE"/> config file, the values of the
+                        <codeph>product_serial_number</codeph> and <codeph>txon_license_env</codeph>
+                    should be automatically generated. Please specify password and set the
+                        <codeph>silent</codeph> value to <codeph>1</codeph> in the configuration
+                    file. If you would like to manage the agent using <ph
+                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>, please configure the
+                    server session host value with the server IP address.</cmd>
                 <info>
                     <note id="note_wxs_tdx_wvb">
                         <p>For standalone agents, refer to <xref
@@ -19,9 +23,6 @@
                             /> for more details.</p>
                     </note>
                 </info>
-            </step>
-            <step>
-                <cmd>Configure the server session host value with the server IP address.</cmd>
             </step>
             <step>
                 <cmd>Place the defined <ph conkeyref="PRODvars/SETUP_FILE"/> file in the
@@ -40,7 +41,7 @@
                             execute <ph conkeyref="PRODvars/INSTALLER"/> with the argument
                                 <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?><codeph>-s</codeph><?oxy_custom_end?>,
                             e.g., type <userinput>C:\package>StellarSetup.exe -s</userinput></p>
-                        <p> Please note that with this method, the pop-up windows mentioned in the
+                        <p> Please note that with this method, the message box mentioned in the
                             following steps will not be shown. To view information related to the
                             installation, check logs filed under
                                 <filepath>C:\Windows\Temp\StellarProtect</filepath>.</p>

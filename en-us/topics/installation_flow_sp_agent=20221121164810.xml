@@ -81,13 +81,13 @@
                         <ul id="ul_ob4_hps_tvb">
                             <li>
                                 <p>Since the StellarOEM license edition does not support Real-Time
-                                    Malware Scan, step 4.e should not appear during its installation
-                                    process.</p>
+                                    Malware Scan, <b>Step 4.e</b> should not appear during the
+                                    installation process.</p>
                             </li>
                             <li>
                                 <p>Since the StellarKiosk license edition does not support
-                                    Application Lockdown, step 4.f should not appear during its
-                                    installation process.</p>
+                                    Application Lockdown, <b>Step 4.f </b>should not appear during
+                                    the installation process.</p>
                             </li>
                         </ul>
                     </note>

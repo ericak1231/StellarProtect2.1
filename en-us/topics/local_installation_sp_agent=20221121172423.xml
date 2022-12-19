@@ -9,16 +9,17 @@
             including:</p>
         <ul id="ul_mww_byd_vvb">
             <li>
-                <p>invoking the installer by attended installation or silent installation</p>
+                <p>Invoking the installer by <b>Attended Installation</b> or <b>Silent
+                        Installation</b></p>
             </li>
             <li>
-                <p>setup configurations</p>
+                <p>Setup configurations</p>
             </li>
             <li>
-                <p>replicating installation for multiple standalone agents</p>
+                <p>Replicating installation for multiple standalone agents</p>
             </li>
             <li>
-                <p>encrypting config file for installation</p>
+                <p>Encrypting config file for installation</p>
             </li>
         </ul>
     </conbody>
