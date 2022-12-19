@@ -10,41 +10,60 @@
             <step>
                 <cmd>Choose one of the ways to download the license file.</cmd>
                 <choices id="choices_ux1_1br_vvb">
-                    <choice>
-                        <p>Go to <xref
-                                href="https://mytxone.cs.txone.com/license/activate/txone/stellar"
-                                format="html" scope="external">TXOne License File Management</xref>
-                            website.</p>
-                    </choice>
-                    <choice>
-                        <ol id="ol_imf_dbr_vvb">
+                    <choice><b>For silent installation</b>, open the URL:
+                            <filepath>https://mytxone.cs.txone.com/license/activate/txone/stellar</filepath>
+                        in a web browser on a computer with Internet connection..</choice>
+                    <choice><b>For attended installation with a GUI</b>, use <uicontrol>Copy
+                            Download Link for getting the License File</uicontrol> during the
+                        installation process:<ol id="ol_imf_dbr_vvb">
                             <li>
                                 <p>Launch the agent's Installer and go through the procedures until
                                     the <wintitle>Administrator Password &amp; License
                                         Activaiton</wintitle> window appears. After inputing and
                                     confirming the administrator password, click the <uicontrol>New
                                         License</uicontrol> button.</p>
+                                <fig id="fig_sgc_4kx_wvb">
+                                    <title>License Activation - New License Button</title>
+                                    <image
+                                        href="../images/license_activation_new_license=20221219221904.png"
+                                        id="image_dmp_4kx_wvb"/>
+                                </fig>
                             </li>
                             <li>
                                 <p>A pop-up <wintitle>License Activation</wintitle> window appears.
-                                    Click <uicontrol>Copy Download Link for getting the License
+                                    Select <uicontrol>License File</uicontrol>.</p>
+                            </li>
+                            <li>
+                                <p>Click <uicontrol>Copy Download Link for getting the License
                                         File</uicontrol> at the bottom of the <wintitle
                                         otherprops="IG">License Activation</wintitle> window.</p>
-                                <note type="important" id="note_yyr_dbr_vvb">
-                                    <p>A license key is required for downloading a license file.</p>
-                                </note>
+                                <fig id="fig_t3c_nkx_wvb">
+                                    <title>Copy the Download Link</title>
+                                    <image
+                                        href="../images/copy_download_link_license_file=20221219224745.png"
+                                        id="image_thm_nkx_wvb"/>
+                                </fig>
                             </li>
                             <li>
                                 <p><uicontrol>The Download Link has been copied</uicontrol> message
                                     appears.</p>
+                                <fig id="fig_lvw_zkx_wvb">
+                                    <title>Download Link Copied</title>
+                                    <image href="../images/download_link_copied=20221219225153.png"
+                                        id="image_jp2_1lx_wvb"/>
+                                </fig>
                             </li>
                             <li>
                                 <p>Open the copied link in a web browser on a computer with Internet
                                     connection.</p>
                             </li>
-                        </ol>
-                    </choice>
+                        </ol></choice>
                 </choices>
+                <info>
+                    <note type="important" id="note_xcr_sns_vvb">
+                        <p>A license key is required for downloading a license file.</p>
+                    </note>
+                </info>
             </step>
             <step>
                 <cmd>You will be directed to the <wintitle>License File Management</wintitle>

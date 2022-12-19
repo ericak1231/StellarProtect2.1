@@ -5,11 +5,10 @@
             conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/></title>
     <taskbody>
         <context>
-            <p>When you use a license file for activating certain standalone agents with the
-                installer package downloaded from <ph
-                    conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>, if a license expiration
-                error message appears, follow the instructions below to get the latest license file
-                and PSN (Product Serial Number) from <ph
+            <p>When you use a license file for activating certain agents with the installer package
+                downloaded from <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>, if a
+                license expiration error message appears, follow the instructions below to get the
+                latest license file and PSN (Product Serial Number) from <ph
                     conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>.</p>
         </context>
         <steps>

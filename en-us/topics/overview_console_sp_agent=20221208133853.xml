@@ -5,11 +5,12 @@
             >OFFICIAL_PRODUCT_NAME</ph> Console</title>
     <refbody>
         <section id="section_q2x_4kg_pvb">
-            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
             <fig id="fig_fld_hss_tvb">
                 <title>Overview of <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
                         >OFFICIAL_PRODUCT_NAME</ph> Console</title>
-            </fig><?oxy_custom_end?>
+                <image href="../images/overview_sp_console=20221215181148.png"
+                    id="image_l5v_yxs_vvb"/>
+            </fig>
             <p><indexterm>Side Navigation Menu<indexterm>Overview</indexterm></indexterm>The
                     <uicontrol>Overview</uicontrol> serves as the portal as well as one of the side
                 navigation options on <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
@@ -85,10 +86,11 @@
         </section>
         <section id="section_n52_zts_tvb">
             <title>OT Applications</title>
-            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
             <fig id="fig_q5n_zts_tvb">
                 <title>OT Applications</title>
-            </fig><?oxy_custom_end?>
+                <image href="../images/sp_ot_applications=20220921180551.png" id="image_ykg_dht_wvb"
+                />
+            </fig>
             <p><indexterm>Side Navigation Menu<indexterm>OT Applications</indexterm></indexterm>This
                 function lists all OT/ICS application systems recognized by <ph
                     conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph> on
@@ -105,10 +107,11 @@
         </section>
         <section id="section_lgs_25s_tvb">
             <title>OT Certificates</title>
-            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
             <fig id="fig_k42_f5s_tvb">
                 <title>OT Certificates</title>
-            </fig><?oxy_custom_end?>
+                <image href="../images/sp_ot_certificates=20220921180614.png" id="image_tfm_ght_wvb"
+                />
+            </fig>
             <p><indexterm>Side Navigation Menu<indexterm>OT Certificates</indexterm></indexterm></p>
             <p>Digital signature is currently the most secure software product identification
                 technology, which can ensure that the signed software component is not illegally
@@ -125,10 +128,10 @@
         </section>
         <section id="section_gpy_n5s_tvb">
             <title>Approved List</title>
-            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
             <fig id="fig_tyg_45s_tvb">
                 <title>Approved List</title>
-            </fig><?oxy_custom_end?>
+                <image href="../images/sp_approved_list=20220921180723.png" id="image_drh_jht_wvb"/>
+            </fig>
             <p><indexterm>Side Navigation Menu<indexterm>Approved
                 List</indexterm></indexterm>Applications found
                 <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>during
@@ -138,10 +141,11 @@
         </section>
         <section id="section_zvb_t5s_tvb">
             <title>Scan Components</title>
-            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
             <fig id="fig_dfq_t5s_tvb">
                 <title>Scan Components</title>
-            </fig><?oxy_custom_end?>
+                <image href="../images/sp_scan_components=20220921164513.png" id="image_ygp_lht_wvb"
+                />
+            </fig>
             <p><indexterm>Side Navigation Menu<indexterm>Scan Components</indexterm></indexterm>This
                 navigation option list all critical scan engines and patterns with versions used by
                     <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
@@ -149,10 +153,10 @@
         </section>
         <section id="section_f4j_3vs_tvb">
             <title>Password</title>
-            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
             <fig id="fig_qqp_jvs_tvb">
-                <title>Password</title>
-            </fig><?oxy_custom_end?>
+                <title>Password Setting</title>
+                <image href="../images/sp_password=20220921180647.png" id="image_byk_kjt_wvb"/>
+            </fig>
             <p><indexterm>Side Navigation Menu<indexterm>Password</indexterm></indexterm>This
                 navigation option functions as the <ph
                     conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
@@ -164,23 +168,23 @@
         </section>
         <section id="section_rgx_mxs_tvb">
             <title>Settings</title>
-            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
             <fig id="fig_u2h_nxs_tvb">
                 <title>Settings</title>
-            </fig><?oxy_custom_end?>
+                <image href="../images/sp_settings_all=20221219093236.png" id="image_db1_njt_wvb"/>
+            </fig>
             <p><indexterm>Side Navigation Menu<indexterm>Settings</indexterm></indexterm>This
                 section mainly describes the <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
                     >OFFICIAL_PRODUCT_NAME</ph> configuration options. Refer to <xref
-                    href="../topics/settings_console_sp_agent=20221208134527.xml"
-                /> for the introduction of the seven main protection functions. Each function has a
-                switch that can be turned on or off.</p>
+                    href="../topics/settings_console_sp_agent=20221208134527.xml"/> for the
+                introduction of the seven main protection functions. Each function has a switch that
+                can be turned on or off.</p>
         </section>
         <section id="section_rld_txs_tvb">
             <title>About</title>
-            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
             <fig id="fig_agn_txs_tvb">
                 <title>About</title>
-            </fig><?oxy_custom_end?>
+                <image href="../images/sp_about=20220921165025.png" id="image_lhj_tkt_wvb"/>
+            </fig>
             <p><indexterm>Side Navigation Menu<indexterm>About</indexterm></indexterm>This includes
                     <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
                 product information, version and build number, as well as third-party license

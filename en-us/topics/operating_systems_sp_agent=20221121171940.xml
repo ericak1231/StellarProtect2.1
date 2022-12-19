@@ -12,6 +12,10 @@
                 <li>
                     <p>Windows 8 (NoSP) [Pro/Enterprise] (32/64bit)</p>
                 </li>
+                <?oxy_comment_start author="erica_txone" timestamp="20221219T085038+0800" comment="added on 12/19 due to JP&apos;s comments &amp; QA&apos;s confirmation"?>
+                <li>
+                    <p>Windows 8.1 (NoSP) [Pro/Enterprise/with Bing] (32/64bit)</p>
+                </li><?oxy_comment_end?>
                 <li>
                     <p>Windows 10 [Pro/Enterprise/IoT Enterprise] (32/64bit) Anniversary Update,
                         Creators Update, Fall Creators Update, April 2018 Update, November 2018
@@ -39,9 +43,10 @@
                 <li>
                     <p>Windows Server 2008 (SP1/SP2) [Standard/Enterprise/ Storage] (32/64bit)</p>
                 </li>
+                <?oxy_comment_start author="erica_txone" timestamp="20221219T085207+0800" comment="added &quot;NoSP&quot; on 12/19 from JP&apos;s comments &amp; QA&apos;s confirmation"?>
                 <li>
-                    <p>Windows Server 2008 R2 (SP1) (Standard/Enterprise/Storage] (64bit)</p>
-                </li>
+                    <p>Windows Server 2008 R2 (NoSP/SP1) (Standard/Enterprise/Storage] (64bit)</p>
+                </li><?oxy_comment_end?>
                 <li>
                     <p>Windows Server 2012 (No SP) (Essentials/Standard] (64bit)</p>
                 </li>

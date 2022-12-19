@@ -3,18 +3,14 @@
 <concept id="concept_hd3_s2h_pvb">
     <title>Getting the License File and PSN</title>
     <conbody>
-        <p>This section describes how to get the license file and PSN (product serial number) to
-            activate or update license for certain standalone agents.</p>
+        <p>This section describes two methods to get the license file and PSN (product serial
+            number):</p>
         <ul id="ul_nmx_5qx_svb">
             <li>
-                <p>To <b>activate</b> license by importing a license file for certain standalone
-                    agents, refer to <xref
-                        href="../topics/license_file_standalone_agents=20221122162502.xml"/></p>
+                <p><xref href="../topics/license_file_standalone_agents=20221122162502.xml"/></p>
             </li>
             <li>
-                <p>To <b>update</b> license by importing a license file for certain standalone
-                    agents , refer to <xref
-                        href="../topics/license_file_update_agents=20221122162307.xml"/></p>
+                <p><xref href="../topics/license_file_update_agents=20221122162307.xml"/></p>
             </li>
         </ul>
     </conbody>

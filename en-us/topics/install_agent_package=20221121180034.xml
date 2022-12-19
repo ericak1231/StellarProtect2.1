@@ -44,6 +44,12 @@
                     Please read the content carefully, and then check <uicontrol>I accept the terms
                         in the License Agreement</uicontrol> and click
                     <uicontrol>Next</uicontrol>.</cmd>
+                <info>
+                    <fig id="fig_ajf_jqs_vvb">
+                        <title>End-User License Agreement</title>
+                        <image href="../images/eula=20221215171353.png" id="image_ytn_jqs_vvb"/>
+                    </fig>
+                </info>
             </step>
             <step>
                 <cmd>Create an administrator password. </cmd>
@@ -60,6 +66,13 @@
                     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>valid
                     license<?oxy_custom_end?> appears. Click <uicontrol>Next</uicontrol> to
                     continue.</cmd>
+                <stepxmp>
+                    <fig id="fig_qgh_pqs_vvb">
+                        <title>Admin Password &amp; License Activation</title>
+                        <image href="../images/password_license_activate=20221215171528.png"
+                            id="image_lfp_pqs_vvb"/>
+                    </fig>
+                </stepxmp>
                 <info>
                     <note id="note_kvs_vzw_svb">
                         <ul id="ul_q3h_gbx_svb">
@@ -79,13 +92,27 @@
                 </info>
             </step>
             <step>
-                <cmd>Specify the asset information of the installed device with correct
+                <cmd>(Optional) Specify the asset information of the installed device with correct
                     ICS/OT-relative information such as vendor name, model, location and a
                     description.</cmd>
+                <stepxmp>
+                    <fig id="fig_d1g_hrs_vvb">
+                        <title>Asset Information</title>
+                        <image href="../images/asset_info=20221215172059.png" id="image_rsw_hrs_vvb"
+                        />
+                    </fig>
+                </stepxmp>
             </step>
             <step>
                 <cmd>Confirm the installation settings including installation directory and optional
                     component settings.</cmd>
+                <stepxmp>
+                    <fig id="fig_hvq_mrs_vvb">
+                        <title>Installation Settings</title>
+                        <image href="../images/installation_settings=20221215172222.png"
+                            id="image_el3_nrs_vvb"/>
+                    </fig>
+                </stepxmp>
                 <info>
                     <note id="note_lls_4k1_pvb">
                         <p>Users can choose to whether or not add an icon to the start menu, create
@@ -117,23 +144,34 @@
                             possible incompatible issue.</p>
                     </note>
                 </info>
-                <stepxmp>
-                    <?oxy_comment_start author="erica_txone" timestamp="20221121T181824+0800" comment="screenshot update needed"?>
-                    <fig id="fig_ebv_1l1_pvb">
-                        <title>Incompatible Software Detected</title>
-                    </fig><?oxy_comment_end?>
-                </stepxmp>
                 <substeps id="substeps_c25_c3x_svb">
                     <substep>
                         <cmd>During the uninstallation of the incompatible software, a progress bar
                             appears and indicates the status.</cmd>
+                        <stepxmp>
+                            <fig id="fig_wh5_qrs_vvb">
+                                <title>Installing Status</title>
+                                <image
+                                    href="../images/installing_sp_progress_bar=20221215172333.png"
+                                    id="image_egn_rrs_vvb"/>
+                            </fig>
+                        </stepxmp>
                     </substep>
                 </substeps>
             </step>
             <step>
-                <cmd>(Optional but highly recommended) Click the <uicontrol>Scan</uicontrol> button
-                    to start the prescan task. If you choose <uicontrol>Do Not Scan</uicontrol>, go
-                    to step 10 for next procedure.</cmd>
+                <cmd>(Optional but highly recommended) Toggle on the <uicontrol>Perform
+                        prescan...</uicontrol> to start the prescan task. If you toggle it off, go
+                    to <b>Step 11</b> for next procedure.</cmd>
+                <stepxmp>
+                    <fig>
+                        <title>Prescan Toggle</title>
+                    </fig>
+                    <fig id="fig_vrr_1ss_vvb">
+                        <image href="../images/prescan_lockdown=20221215172533.png"
+                            id="image_nlz_1ss_vvb"/>
+                    </fig>
+                </stepxmp>
                 <info>
                     <note id="note_dzl_xl1_pvb" type="important">
                         <ul id="ul_p2y_p2f_pvb">
@@ -183,20 +221,23 @@
                             </note>
                         </info>
                         <stepxmp>
-                            <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
                             <fig id="fig_hxw_g3f_pvb">
                                 <title>Updating Pattern before Prescan</title>
-                            </fig><?oxy_custom_end?>
+                                <image href="../images/updating_pattern=20221215172910.png"
+                                    id="image_sk2_kss_vvb"/>
+                            </fig>
                         </stepxmp>
                     </substep>
                     <substep>
                         <cmd>View the scan settings and click the <uicontrol>Start </uicontrol>
                             button to start the prescan.</cmd>
                         <stepxmp>
-                            <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
                             <fig id="fig_t2m_slf_pvb">
                                 <title>Scan Settings before Prescan</title>
-                            </fig><?oxy_custom_end?>
+                                <image
+                                    href="../images/scan_settings_before_prescan=20221215173058.png"
+                                    id="image_jml_rss_vvb"/>
+                            </fig>
                         </stepxmp>
                         <info>
                             <note id="note_xvs_5lf_pvb">
@@ -235,12 +276,21 @@
                     </substep>
                     <substep>
                         <cmd>The progress bar shows the status of the prescan.</cmd>
+                        <stepxmp>
+                            <fig>
+                                <title>Prescan Status</title>
+                            </fig>
+                            <fig id="fig_dy3_vss_vvb">
+                                <image href="../images/prescan_progress_bar=20221215173240.png"
+                                    id="image_rsq_vss_vvb"/>
+                            </fig>
+                        </stepxmp>
                     </substep>
                     <substep>
                         <cmd>After the prescan, results will be shown for review.</cmd>
                     </substep>
                     <substep>
-                        <cmd>If a threat is detected, the user can choose from two options:</cmd>
+                        <cmd>If a threat is detected, choose one of the two actions:</cmd>
                         <info>
                             <ul id="ul_vhv_mmf_pvb">
                                 <li>
@@ -260,7 +310,15 @@
                     toggle for creating the Approved List and enabling Application Lockdown "Detect"
                     mode. Toggle it on to proceed.
                     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>If you toggle
-                    it off, <?oxy_custom_end?>go to step 11 for next procedure.</cmd>
+                    it off, <?oxy_custom_end?>go to <b>Step 12</b> for next procedure.</cmd>
+                <stepxmp>
+                    <fig id="fig_z1k_dts_vvb">
+                        <title>Create Approved List &amp; Enable Application Lockdown
+                            (Detect)</title>
+                        <image href="../images/prescan_lockdown=20221215173857.png"
+                            id="image_xsv_dts_vvb"/>
+                    </fig>
+                </stepxmp>
                 <info>
                     <note id="note_acn_tkf_pvb">
                         <ul id="ul_rgg_ykf_pvb">
@@ -284,8 +342,15 @@
                             for review.</cmd>
                     </substep>
                     <substep>
-                        <cmd>The prescan and the creation of Approved List are complete, click
+                        <cmd>The creation of Approved List is complete, click
                                 <uicontrol>Next</uicontrol>.</cmd>
+                        <info>
+                            <fig id="fig_zc4_3mt_wvb">
+                                <title>Approved List Created</title>
+                                <image href="../images/sp_setup_al_created=20220920183103.png"
+                                    id="image_ipd_jmt_wvb"/>
+                            </fig>
+                        </info>
                     </substep>
                 </substeps>
             </step>
@@ -297,10 +362,28 @@
                 <cmd>When the installation is complete, the <uicontrol>StellarProtect has been
                         successfully installed</uicontrol> window appears. Click
                         <uicontrol>Finish</uicontrol>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>StellarProtect Successfully Installed</title>
+                    </fig>
+                    <fig id="fig_lgp_mws_vvb">
+                        <image href="../images/successfully_installed_sp=20221215180019.png"
+                            id="image_wdy_mws_vvb"/>
+                    </fig>
+                </stepresult>
             </step>
             <step>
                 <cmd>Run <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
                         >OFFICIAL_PRODUCT_NAME</ph> and log on with your password.</cmd>
+                <stepxmp>
+                    <fig>
+                        <title>Log On StellarProtect</title>
+                    </fig>
+                    <fig id="fig_yky_txs_vvb">
+                        <image href="../images/log_on_sp_console=20221215181025.png"
+                            id="image_j3g_5xs_vvb"/>
+                    </fig>
+                </stepxmp>
             </step>
             <step>
                 <cmd>Upon logging on <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"

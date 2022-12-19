@@ -644,6 +644,19 @@
                         </row>
                         <row>
                             <entry>
+                                <p><codeph>opcmd.exe -p scan-task --now</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Implements silent manual scan and send the scan result to the <ph
+                                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>
+                                    management console.</p>
+                            </entry>
+                            <entry>
+                                <p>None</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
                                 <p><codeph>opcmd.exe update [-s SOURCE]</codeph></p>
                             </entry>
                             <entry>

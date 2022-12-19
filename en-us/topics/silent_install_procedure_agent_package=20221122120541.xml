@@ -7,28 +7,25 @@
             silent installation on the endpoint.</context>
         <steps id="steps_yvn_3mg_pvb">
             <step>
-                <cmd>Please input the license key and password, and then enable silent installation
-                    by changing the <codeph>enable_silent_install</codeph> value to
-                        <codeph>true</codeph> in the configuration file. If you would like to manage
-                    the agent using <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>,
-                    please configure the server session host value with the server IP address.</cmd>
+                <cmd>For the agents managed by <ph
+                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>, input the license
+                    key and password, and then enable silent installation by changing the
+                        <codeph>enable_silent_install</codeph> value to <codeph>1</codeph> in the
+                    configuration file.</cmd>
                 <info>
-                    <note id="note_cyd_bbd_tvb">
-                        <p>Refer to <xref
-                                href="../topics/silent_install_configuration=20221122140149.xml"/>
-                            for an example of the config file if needed.</p>
+                    <note id="note_wxs_tdx_wvb">
+                        <p>For standalone agents, refer to <xref
+                                href="silent_install_standalone_agent_configuration=20221215105200.xml"
+                            /> for more details.</p>
                     </note>
                 </info>
             </step>
             <step>
+                <cmd>Configure the server session host value with the server IP address.</cmd>
+            </step>
+            <step>
                 <cmd>Place the defined <ph conkeyref="PRODvars/SETUP_FILE"/> file in the
-                    installation package as shown below:</cmd>
-                <info>
-                    <fig id="fig_i2f_4mg_pvb">
-                        <title>Place <ph conkeyref="PRODvars/SETUP_FILE"/> in Installation
-                            Folder</title>
-                    </fig>
-                </info>
+                    installation package.</cmd>
             </step>
             <step>
                 <cmd>Choose one of the methods to launch the <ph conkeyref="PRODvars/INSTALLER"/>

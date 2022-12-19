@@ -166,6 +166,10 @@
                             until unplugged.</p>
                     </li>
                 </ol></p>
+            <fig id="fig_vgr_llt_wvb">
+                <title>Use Case of Device Control</title>
+                <image href="../images/device_control=20221219094303.png" id="image_e3p_4lt_wvb"/>
+            </fig>
             <p>Users can click the switch to turn on or off the function.</p>
         </section>
         <section id="section_ogs_xvt_tvb">

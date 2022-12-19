@@ -5,6 +5,20 @@
     <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">License Renewal for Standalone
         Agents</title>
     <taskbody>
+        <context id="context_av5_kxt_wvb">
+            <p>For standalone agents, users can renew license directly on the agent console. <note
+                    id="note_tmg_snc_vvb">
+                    <p>For <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                            >OFFICIAL_PRODUCT_NAME</ph> agents managed by <ph
+                            conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> server, please
+                        renew license via the <ph
+                            conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> web console.
+                        Refer to <xref
+                            href="https://docs.trendmicro.com/all/ent/txone-sp/v2.1/en-us/txso_2.1_ag.pdf"
+                            format="pdf" scope="external">StellarOne Administrator's Guide</xref>
+                        for instructions.</p>
+                </note></p>
+        </context>
         <steps id="steps_wvw_g5y_g5b">
             <step>
                 <cmd>Click the <uicontrol>New License</uicontrol> button on the <ph

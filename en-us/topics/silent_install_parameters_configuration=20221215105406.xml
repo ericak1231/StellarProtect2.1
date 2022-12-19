@@ -1,18 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="reference_ntt_lkg_pvb">
-    <title>Parameters of the <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-            >OFFICIAL_PRODUCT_NAME</ph> Config File for Silent Installation</title>
+    <title>Session Options in the Config File for Silent Installation</title>
     <refbody>
         <section id="section_l3d_krc_tvb">
-            <p>The following table lists parameters for <ph conkeyref="PRODvars/SETUP_FILE"/> along
-                with the details of their use. </p>
+            <p>The following table lists the session options in the <ph
+                    conkeyref="PRODvars/SETUP_FILE"/> config file along with the details of their
+                use.</p>
+            <note id="note_cln_ymt_wvb">
+                <ul id="ul_t14_dnt_wvb">
+                    <li>
+                        <p>The <codeph><b>[shared_...]</b></codeph> entry consists of the properties
+                            shared by <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                >OFFICIAL_PRODUCT_NAME</ph> and <ph
+                                conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                >OFFICIAL_PRODUCT_NAME</ph> Agents.</p>
+                    </li>
+                    <li>
+                        <p>The <codeph><b>[protect_...]</b></codeph> entry consists of the
+                            properties exclusive to <ph
+                                conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                >OFFICIAL_PRODUCT_NAME</ph> Agent.</p>
+                    </li>
+                    <li>
+                        <p>The <codeph><b>[legacy_...]</b></codeph> entry consists of the properties
+                            exclusive to <ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                >OFFICIAL_PRODUCT_NAME</ph> Agent. Refer to <xref
+                                href="https://docs.trendmicro.com/all/ent/txone-sp/v1.4/en-us/txsplm_1.4_ig.pdf"
+                                format="html" scope="external">StellarProtect (Legacy Mode)
+                                Installation Guide</xref> for more details.</p>
+                    </li>
+                </ul>
+            </note>
         </section>
         <section id="section_ngd_krc_tvb">
             <table frame="all" id="table_gfp_tlg_pvb">
-                <title>Parameters used in <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                        >OFFICIAL_PRODUCT_NAME</ph>
-                    <ph conkeyref="PRODvars/SETUP_FILE"/></title>
+                <title>Session Options in the <ph conkeyref="PRODvars/SETUP_FILE"/> File</title>
                 <tgroup cols="4">
                     <colspec colname="c1" colnum="1" colwidth="1*"/>
                     <colspec colname="c2" colnum="2" colwidth="1*"/>
@@ -20,8 +43,11 @@
                     <colspec colname="c4" colnum="4" colwidth="1*"/>
                     <thead>
                         <row>
-                            <entry namest="c1" nameend="c2">
-                                <p>Parameter</p>
+                            <entry>
+                                <p>Entry</p>
+                            </entry>
+                            <entry>
+                                <p>Property</p>
                             </entry>
                             <entry>
                                 <p>Default Value</p>
@@ -44,9 +70,8 @@
                                 <p>empty string</p>
                             </entry>
                             <entry>
-                                <p>The <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                                        >OFFICIAL_PRODUCT_NAME</ph> product serial number and
-                                    license file used for license activation</p>
+                                <p>The product serial number and license file used for license
+                                    activation</p>
                             </entry>
                         </row>
                         <row>
@@ -87,8 +112,7 @@
                                 <p><codeph>port</codeph></p>
                             </entry>
                             <entry>
-                                <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
-                                <p><codeph>-1</codeph></p><?oxy_custom_end?>
+                                <p>empy string</p>
                             </entry>
                             <entry>
                                 <p>Port number of Intranet proxy server</p>
@@ -151,7 +175,9 @@
                             </entry>
                             <entry>
                                 <p><ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>'s port
-                                    for connecting to the client</p>
+                                    for connecting to the <ph
+                                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> client</p>
                             </entry>
                         </row>
                         <row>
@@ -172,6 +198,7 @@
                         <row>
                             <entry>
                                 <p><codeph>[protect_update]</codeph></p>
+                                <p><codeph>[legacy_update]</codeph></p>
                             </entry>
                             <entry>
                                 <p><codeph>source</codeph></p>
@@ -185,7 +212,8 @@
                         </row>
                         <row>
                             <entry>
-                                <p><codeph>protect_config</codeph></p>
+                                <p><codeph>[protect_config]</codeph></p>
+                                <p><codeph>[legacy_config]</codeph></p>
                             </entry>
                             <entry>
                                 <p><codeph>include</codeph></p>
@@ -194,12 +222,12 @@
                                 <p>empty string</p>
                             </entry>
                             <entry>
-                                <p>Use a installation config sample file to run the silent
+                                <p>Use an installation sample config file to run the silent
                                     installation. Choose one of the ways:</p>
                                 <ul id="ul_ef4_h4r_vvb">
                                     <li>
-                                        <p>Specify the file path to the installation configuration
-                                            sample file </p>
+                                        <p>Specify the file path to the installation sample config
+                                            file </p>
                                     </li>
                                     <li>
                                         <p>Specify the sample file name and put the file as the
@@ -207,7 +235,8 @@
                                     </li>
                                 </ul>
                                 <note id="note_i5q_xnr_vvb">
-                                    <p>Supports only .yaml or .bin file format</p>
+                                    <p>Supports only <filepath>.yaml</filepath> or
+                                            <filepath>.bin</filepath> file format</p>
                                 </note>
                             </entry>
                         </row>
@@ -408,7 +437,7 @@
                                 <p>empty string</p>
                             </entry>
                             <entry>
-                                <p>Use a agent settings config sample file to import the same
+                                <p>Use an agent settings sample config file to import the same
                                     settings to the target agents.</p>
                                 <p>Specify the path to the folder containing the config file to be
                                     imported, e.g., <filepath>C:\txsp_config</filepath></p>
@@ -443,12 +472,12 @@
                             to <codeph>0</codeph>.</p>
                     </li>
                     <li>
-                        <p><codeph>BYPASS_WINDEFEND_CHECK</codeph> is a hidden parameter in <ph
+                        <p><codeph>BYPASS_WINDEFEND_CHECK</codeph> is a hidden property in <ph
                                 conkeyref="PRODvars/SETUP_FILE"/>, designed for Windows 7 and
                             Windows Server 2016+ platforms, on which the installation of <ph
                                 conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
                                 >OFFICIAL_PRODUCT_NAME</ph> requires disabling Windows Defender.
-                            When the parameter's value is set <codeph>1</codeph>, the endpoint will
+                            When its value is specified as <codeph>1</codeph>, the endpoint will
                             bypass Windows Defender check to get the <ph
                                 conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
                                 >OFFICIAL_PRODUCT_NAME</ph> installed without disabling Windows
@@ -458,7 +487,7 @@
                         <p>If you would like to bypass checking Windows Defender status to get the
                                 <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
                                 >OFFICIAL_PRODUCT_NAME</ph> installed without disabling Windows
-                            Defender, insert a line under the <codeph>protect_install</codeph>
+                            Defender, insert a line under the <codeph>[protect_install]</codeph>
                             section. Type <userinput>bypass_windefend_check: 1</userinput></p>
                     </li>
                 </ul>

@@ -14,11 +14,26 @@
                         <wintitle>Administrator Password &amp; License Activaiton</wintitle> window
                     appears. After inputing and confirming the administrator password, click the
                         <uicontrol>New License</uicontrol> button.</cmd>
+                <info>
+                    <fig id="fig_blg_whx_wvb">
+                        <title>License Activation - New License Button</title>
+                        <image href="../images/license_activation_new_license=20221219221904.png"
+                            id="image_ls5_whx_wvb"/>
+                    </fig>
+                </info>
             </step>
             <step>
                 <cmd>A pop-up <wintitle>License Activation</wintitle> window appears. Choose one of
                     the ways to activate the license based on the license data available from your
                     support provider:</cmd>
+                <info>
+                    <fig id="fig_gxt_d3x_wvb">
+                        <title>License Activation - License Key or License File</title>
+                        <image
+                            href="../images/license_activation_new_license_key_or_file=20221219223001.png"
+                            id="image_lsb_23x_wvb"/>
+                    </fig>
+                </info>
                 <choices id="choices_c5m_ltg_pvb">
                     <choice>Click <uicontrol>License Key</uicontrol><ul id="ul_sh5_qtg_pvb">
                             <li>
@@ -34,7 +49,11 @@
                             <li>
                                 <p>Click <uicontrol>Save</uicontrol>.</p>
                             </li>
-                        </ul></choice>
+                        </ul><fig id="fig_ity_s3x_wvb">
+                            <title>License Activation - License Key</title>
+                            <image href="../images/license_activation_key=20221219223414.png"
+                                id="image_rsn_t3x_wvb"/>
+                        </fig></choice>
                     <choice>Click <uicontrol>License File</uicontrol><ul id="ul_xz3_dvg_pvb">
                             <li>
                                 <p>Select the License File (an <filepath>.txt</filepath> file) to
@@ -43,26 +62,19 @@
                             <li>
                                 <p>Specify the Product Serial Number in the text field.</p>
                                 <note id="note_t5q_1xg_pvb">
-                                    <ul id="ul_gc5_5dh_pvb">
-                                        <li>
-                                            <p>If the agent's installer package is downloaded from
-                                                  <ph
-                                                  conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"
-                                                />, the License File and Product Serial Number will
-                                                be automatically generated. Check if they match the
-                                                license data provided by your support provider.</p>
-                                        </li>
-                                        <li>
-                                            <p> If you don't have the License File and Product
-                                                Serial Number on hand, refer to <xref
-                                                  href="../topics/license_file_standalone_agents=20221122162502.xml"
-                                                /> for detailed instructions.</p>
-                                        </li>
-                                    </ul>
+                                    <p> If you don't have the License File and Product Serial Number
+                                        on hand, refer to <xref
+                                            href="../topics/license_file_standalone_agents=20221122162502.xml"
+                                        /> for detailed instructions.</p>
                                 </note>
                             </li>
                             <li>
-                                <p>Click <uicontrol>Save</uicontrol>.</p>
+                                <p>Click <uicontrol>Save</uicontrol>.<fig id="fig_u1v_w3x_wvb">
+                                        <title>License Activation - License File</title>
+                                        <image
+                                            href="../images/license_activation_file=20221219223259.png"
+                                            id="image_cnd_x3x_wvb"/>
+                                    </fig></p>
                                 <note id="note_bxt_dhh_pvb">
                                     <p>If a license file expiration error message appears and the
                                         agent's installer package was downloaded from <ph
