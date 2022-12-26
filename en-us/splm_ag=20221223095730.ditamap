@@ -24,8 +24,6 @@
         <preface href="maps/preface=20221121153520.ditamap" format="ditamap"/>
     </frontmatter>
     <chapter href="maps/intro_sp_agent=20221121160129.ditamap" format="ditamap"/>
-    <chapter href="maps/uninstall_agent=20221122180132.ditamap" format="ditamap"/>
-    <chapter href="maps/license_renewal=20221213120206.ditamap" format="ditamap"/>
     <chapter
         href="maps/using_agent_console_splm=20221222174523.ditamap"
         format="ditamap"/>

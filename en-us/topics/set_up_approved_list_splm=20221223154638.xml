@@ -13,6 +13,11 @@
             <step>
                 <cmd>Open the <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> console. The <ph
                         conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> log on screen appears.</cmd>
+            </step>
+            <step>
+                <cmd>Provide the password and click <uicontrol>Log On</uicontrol>. <ph
+                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> asks if you want to set up the
+                    Approved List now.</cmd>
                 <stepxmp>
                     <fig id="fig_c5b_5hd_vvb">
                         <title><ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
@@ -21,11 +26,6 @@
                             id="image_uh5_4hd_vvb" scalefit="yes"/>
                     </fig>
                 </stepxmp>
-            </step>
-            <step>
-                <cmd>Provide the password and click <uicontrol>Log On</uicontrol>. <ph
-                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> asks if you want to set up the
-                    Approved List now.</cmd>
                 <stepxmp>
                     <fig id="fig_vrp_pky_xvb">
                         <title>The Approved List is Empty</title>
