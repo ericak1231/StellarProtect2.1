@@ -4,9 +4,11 @@
     <title id="GUID-2CCB340C-94E1-4FAE-9863-1741742B3F2B">Installation</title>
     <conbody>
         <p><indexterm>installation</indexterm>This chapter shows how to install the TXOne <ph
-                conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph> agent.
-            The <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
-            agent provides installation methods including <b>attended installation</b> and <b>silent
+                conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> agent.
+            The <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> agent
+            provides installation methods including <b>attended installation</b> and <b>silent
                 installation</b>.</p>
         <p>Topics in this chapter include:</p>
         <ul id="ul_bs4_b1y_fp">

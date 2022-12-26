@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<val>
+    <prop action="include" att="otherprops" val="SPLM"/>
+    <prop action="include" att="otherprops" val="SPLM_SE"/>
+    <prop action="include" att="otherprops" val="SP_SPLM"/>
+    <prop action="exclude" att="otherprops" val="OLH"/>
+    <prop action="exclude" att="otherprops" val="UMBRACO"/>
+    <prop action="exclude" att="otherprops" val="SP"/>
+    <prop action="exclude" att="otherprops" val="SE"/>
+</val>

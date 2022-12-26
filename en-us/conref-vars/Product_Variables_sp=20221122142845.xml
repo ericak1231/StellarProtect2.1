@@ -124,6 +124,17 @@
                         <entry colname="4">PRODUCT_SPLM_PREVIOUS_NAME</entry>
                     </row>
                     <row>
+                        <entry colname="1"><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/></entry>
+                        <entry colname="2"><ph id="PRODUCT_SPLM_SE_SWITCH"><text otherprops="SPLM"
+                                    >StellarProtect (Legacy Mode)</text><text otherprops="SE"
+                                    >StellarEnforce</text></ph></entry>
+                        <entry colname="3">
+                            <draft-comment author="erica_txone">switch between SPLM &amp; SE by
+                                .ditaval file conditional settings</draft-comment>
+                        </entry>
+                        <entry colname="4">PRODUCT_SPLM_SE_SWITCH</entry>
+                    </row>
+                    <row>
                         <entry colname="1"><ph conkeyref="PRODvars/IG_PREFACE"/></entry>
                         <entry colname="2"><ph id="IG_PREFACE">This Installation Guide introduces
                                 TXOne <tm tmtype="tm">StellarOne</tm> and guides administrators

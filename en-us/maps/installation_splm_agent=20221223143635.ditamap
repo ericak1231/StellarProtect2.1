@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map xml:lang="en-us" id="GUID-0E622BE8-5DBA-4D04-8B16-8336810BE555">
+<title id="GUID-A4666C67-E723-48CA-8FFE-922E2F928DF0">Installation</title>
+  <topicref
+    href="../topics/ch2_installation_splm_agent=20221223161429.xml">
+    <topicref href="../topics/get_agent_installer_package_intro=20221122155527.xml">
+      <topicref href="../topics/get_agent_package=20221121173747.xml"/>
+      <topicref href="../topics/get_standalone_agent_package=20221122155337.xml"/>
+    </topicref>
+    <topicref href="../topics/local_installation_sp_agent=20221121172423.xml">
+      <topicref href="../topics/install_agent_package_splm=20221223143831.xml">
+        <topicref
+          href="../topics/set_up_approved_list_splm=20221223154638.xml"
+        />
+      </topicref>
+      <topicref href="../topics/silent_installation_intro_sp_agent=20221122135932.xml">
+        <topicref href="../topics/silent_install_configuration=20221122140149.xml">
+          <topicref
+            href="../topics/silent_install_download_from_s1_configuration=20221215104938.xml"/>
+          <topicref
+            href="../topics/silent_install_standalone_agent_configuration=20221215105200.xml"/>
+          <topicref href="../topics/silent_install_parameters_configuration=20221215105406.xml"/>
+        </topicref>
+        <topicref href="../topics/silent_install_procedure_agent_package=20221122120541.xml"/>
+      </topicref>
+    </topicref>
+    <topicref href="../topics/install_stanalone_agent_package=20221205150458.xml">
+      <topicref href="../topics/get_license_file_psn_agent=20221122163604.xml">
+        <topicref href="../topics/license_file_standalone_agents=20221122162502.xml"/>
+        <topicref href="../topics/license_file_update_agents=20221122162307.xml"/>
+      </topicref>
+    </topicref>
+    <topicref href="../topics/license_file_replicate_multi_agents=20221122164139.xml"/>
+    <topicref href="../topics/silent_install_encrypt_agent_package=20221206105306.xml"/>
+  </topicref></map>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Agent Configuration File Deployment</title>
+    <topicref href="../topics/intro_agent_mass_deployment_splm=20221226012218.xml">
+        <topicref href="../topics/standalone_agent_mass_deployment_splm=20221226012444.xml"/>
+        <topicref href="../topics/stellarone_managed_agent_mass_deployment_splm=20221226012550.xml">
+            <topicref
+                href="../topics/stellarone_managed_agent_remote_mass_deployment_splm=20221226012651.xml"
+            />
+        </topicref>
+    </topicref>
+</map>

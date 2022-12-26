@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-F4AD6A7E-1798-4E63-A9FE-531434B42DD9" xml:lang="en-us">
+    <title id="GUID-2CCB340C-94E1-4FAE-9863-1741742B3F2B">Installation</title>
+    <conbody>
+        <p><indexterm>installation</indexterm>This chapter shows how to install the TXOne <ph
+                conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> agent.
+            The <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> agent
+            provides installation methods including <b>attended installation</b> and <b>silent
+                installation</b>.</p>
+        <p>Topics in this chapter include:</p>
+        <ul id="ul_bs4_b1y_fp">
+            <li>
+                <p><xref href="get_agent_installer_package_intro=20221122155527.xml"/></p>
+            </li>
+            <li>
+                <p><xref href="../topics/local_installation_sp_agent=20221121172423.xml"/></p>
+                <ul id="ul_usv_sd2_vvb">
+                    <li>
+                        <p><xref href="install_agent_package=20221121180034.xml"/></p>
+                    </li>
+                    <li>
+                        <p><xref href="silent_installation_intro_sp_agent=20221122135932.xml"/></p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p><xref href="install_stanalone_agent_package=20221205150458.xml"/></p>
+            </li>
+            <li>
+                <p><xref href="license_file_replicate_multi_agents=20221122164139.xml"/></p>
+            </li>
+            <li>
+                <p><xref href="silent_install_encrypt_agent_package=20221206105306.xml"/></p>
+            </li>
+        </ul>
+    </conbody>
+</concept>

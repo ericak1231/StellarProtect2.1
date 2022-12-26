@@ -3,8 +3,9 @@
 <reference id="GUID-65441838-6FAD-40BB-8753-84AC811C8F3A" xml:lang="en-us">
 <title id="GUID-11ABB854-6A2A-4FF7-8DF7-83EFDE9C68B3">Terminology</title>
 <refbody><section id="GUID-01F66FA5-5D29-4FB0-AA84-0CA2AA9A500F"><p>The following table provides the official terminology used throughout the TXOne <ph
-                    conkeyref="PRODvars/PRODUCT_AGENT_SP_NAME_TM">OFFICIAL_PRODUCT_NAME</ph>
-                documentation:</p></section>
+                    conkeyref="PRODvars/PRODUCT_AGENT_SP_NAME_TM" otherprops="SP"
+                    >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"
+                    otherprops="SPLM_SE"/> documentation:</p></section>
 <table colsep="1" frame="all" rowsep="1">
 <tgroup cols="2" colsep="1" outputclass="Properties" rowsep="1">
 <colspec colname="1" colnum="1" colwidth="34*"/>
@@ -27,8 +28,10 @@
                     </row>
 <row rowsep="1">
 <entry colname="1"><p>agents</p></entry>
-<entry colname="2"><p>The host running the <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                                    >OFFICIAL_PRODUCT_NAME</ph> program</p></entry>
+<entry colname="2"><p>The host running the <ph conkeyref="PRODvars/PRODUCT_AGENT_SP_NAME_TM" otherprops="SP"
+                                    >OFFICIAL_PRODUCT_NAME</ph><ph
+                                    conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH" otherprops="SPLM_SE"
+                                /> program</p></entry>
 </row>
 <row rowsep="1">
 <entry colname="1">
@@ -37,32 +40,43 @@
 </entry>
 <entry colname="2">
                             <p>The hosts running the <ph
-                                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                                    >OFFICIAL_PRODUCT_NAME</ph> program that are known to the
-                                StellarOne server program</p></entry>
+                                    conkeyref="PRODvars/PRODUCT_AGENT_SP_NAME_TM" otherprops="SP"
+                                    >OFFICIAL_PRODUCT_NAME</ph><ph
+                                    conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH" otherprops="SPLM_SE"
+                                /> program that are known to the <ph
+                                    conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> server
+                                program</p></entry>
 </row>
 <row rowsep="1">
 <entry colname="1"><p>target endpoints</p></entry>
-<entry colname="2"><p>The hosts where the <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                                    >OFFICIAL_PRODUCT_NAME</ph> managed agents will be installed</p></entry>
+<entry colname="2"><p>The hosts where the <ph conkeyref="PRODvars/PRODUCT_AGENT_SP_NAME_TM" otherprops="SP"
+                                    >OFFICIAL_PRODUCT_NAME</ph><ph
+                                    conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH" otherprops="SPLM_SE"
+                                /> managed agents will be installed</p></entry>
 </row>
 <row rowsep="1" otherprops="SERVER">
                         <entry colname="1">
-                            <p>Administrator (or <ph
-                                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                                    >OFFICIAL_PRODUCT_NAME</ph> administrator)</p>
+                            <p>Administrator (or <ph conkeyref="PRODvars/PRODUCT_AGENT_SP_NAME_TM"
+                                    otherprops="SP">OFFICIAL_PRODUCT_NAME</ph><ph
+                                    conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH" otherprops="SPLM_SE"
+                                /> administrator)</p>
                         </entry>
                         <entry colname="2">
                             <p>The person managing the <ph
-                                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                                    >OFFICIAL_PRODUCT_NAME</ph> agent</p>
+                                    conkeyref="PRODvars/PRODUCT_AGENT_SP_NAME_TM" otherprops="SP"
+                                    >OFFICIAL_PRODUCT_NAME</ph><ph
+                                    conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH" otherprops="SPLM_SE"
+                                /> agent</p>
                         </entry>
                     </row>
 <row rowsep="1">
-<entry colname="1"><p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph> console</p></entry>
-<entry colname="2"><p>The user interface for configuring and managing <ph
-                                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                                    >OFFICIAL_PRODUCT_NAME</ph> settings</p></entry>
+<entry colname="1"><p><ph conkeyref="PRODvars/PRODUCT_AGENT_SP_NAME_TM" otherprops="SP">OFFICIAL_PRODUCT_NAME</ph><ph
+                                    conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH" otherprops="SPLM_SE"
+                                /> console</p></entry>
+<entry colname="2"><p>The user interface for configuring and managing <ph conkeyref="PRODvars/PRODUCT_AGENT_SP_NAME_TM"
+                                    otherprops="SP">OFFICIAL_PRODUCT_NAME</ph><ph
+                                    conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH" otherprops="SPLM_SE"
+                                /> settings</p></entry>
 </row>
                     <row>
                         <entry colname="1">
@@ -71,8 +85,10 @@
                         </entry>
                         <entry colname="2">
                             <p>The user interface for configuring and managing the <ph
-                                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                                    >OFFICIAL_PRODUCT_NAME</ph> agents managed by <ph
+                                    conkeyref="PRODvars/PRODUCT_AGENT_SP_NAME_TM" otherprops="SP"
+                                    >OFFICIAL_PRODUCT_NAME</ph><ph
+                                    conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH" otherprops="SPLM_SE"
+                                /> agents managed by <ph
                                     conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/></p>
                         </entry>
                     </row>
@@ -84,9 +100,11 @@
 <entry colname="1"><p>license activation</p></entry>
 <entry colname="2">
                             <p>Includes the type of <ph
-                                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                                    >OFFICIAL_PRODUCT_NAME</ph> agent installation and the allowed
-                                period of usage that you can use the application</p>
+                                    conkeyref="PRODvars/PRODUCT_AGENT_SP_NAME_TM" otherprops="SP"
+                                    >OFFICIAL_PRODUCT_NAME</ph><ph
+                                    conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH" otherprops="SPLM_SE"
+                                /> agent installation and the allowed period of usage that you can
+                                use the application</p>
                         </entry>
 </row>
                     <row>
@@ -95,14 +113,18 @@
                         </entry>
                         <entry colname="2">
                             <p>The folder on the host that contains the <ph
-                                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                                    >OFFICIAL_PRODUCT_NAME</ph> agent files. If you accept the
-                                default settings during installation, you will find the installation
-                                folder at one of the followinglocations:</p>
+                                    conkeyref="PRODvars/PRODUCT_AGENT_SP_NAME_TM" otherprops="SP"
+                                    >OFFICIAL_PRODUCT_NAME</ph><ph
+                                    conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH" otherprops="SPLM_SE"
+                                /> agent files. If you accept the default settings during
+                                installation, you will find the installation folder at one of the
+                                followinglocations:</p>
                             <p otherprops="SP"><filepath>C:\Program
                                     Files\TXOne\StellarProtect</filepath></p>
                             <p otherprops="SPLM"><filepath>C:\Program Files\TXOne\StellarProtect
                                     (Legacy Mode)</filepath></p>
+                            <p otherprops="SE"><filepath>C:\Program
+                                    Files\TXOne\StellarEnforce</filepath></p>
                         </entry>
                     </row>
 </tbody>

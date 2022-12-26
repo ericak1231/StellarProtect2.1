@@ -5,15 +5,15 @@
     <refbody>
         <section id="section_l3d_krc_tvb">
             <p>The following table lists the properties in the <ph conkeyref="PRODvars/SETUP_FILE"/>
-                config file along with the details of their use.</p>
+                config file along with the details of their use. If no valueis specified in the
+                setup file, the default value will be used.</p>
             <note id="note_cln_ymt_wvb">
                 <ul id="ul_t14_dnt_wvb">
                     <li>
                         <p>The <codeph><b>[shared_...]</b></codeph> entry consists of the properties
                             shared by <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
                                 >OFFICIAL_PRODUCT_NAME</ph> and <ph
-                                conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
-                                >OFFICIAL_PRODUCT_NAME</ph> Agents.</p>
+                                conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> Agents.</p>
                     </li>
                     <li>
                         <p>The <codeph><b>[protect_...]</b></codeph> entry consists of the
@@ -23,11 +23,8 @@
                     </li>
                     <li>
                         <p>The <codeph><b>[legacy_...]</b></codeph> entry consists of the properties
-                            exclusive to <ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
-                                >OFFICIAL_PRODUCT_NAME</ph> Agent. Refer to <xref
-                                href="https://docs.trendmicro.com/all/ent/txone-sp/v1.4/en-us/txsplm_1.4_ig.pdf"
-                                format="html" scope="external">StellarProtect (Legacy Mode)
-                                Installation Guide</xref> for more details.</p>
+                            exclusive to <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+                            Agent.</p>
                     </li>
                 </ul>
             </note>
@@ -36,10 +33,10 @@
             <table frame="all" id="table_gfp_tlg_pvb">
                 <title>Properties in the <ph conkeyref="PRODvars/SETUP_FILE"/> File</title>
                 <tgroup cols="4">
-                    <colspec colname="c1" colnum="1" colwidth="1*"/>
-                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c1" colnum="1" colwidth="1.51*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1.51*"/>
                     <colspec colname="c3" colnum="3" colwidth="1*"/>
-                    <colspec colname="c4" colnum="4" colwidth="1*"/>
+                    <colspec colname="c4" colnum="4" colwidth="2.01*"/>
                     <thead>
                         <row>
                             <entry>
@@ -78,8 +75,8 @@
                                 <p><codeph>[shared_server]</codeph></p>
                             </entry>
                             <entry>
-                                <p><codeph>host</codeph></p>
-                                <p><codeph>cert</codeph></p>
+                                <p><?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?><codeph>host</codeph><?oxy_custom_end?></p>
+                                <p><?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?><codeph>cert</codeph><?oxy_custom_end?></p>
                             </entry>
                             <entry>
                                 <p>empy string</p>
@@ -144,44 +141,65 @@
                             </entry>
                         </row>
                         <row>
-                            <entry>
+                            <entry morerows="1">
                                 <p><codeph>[shared_install]</codeph></p>
                             </entry>
                             <entry>
                                 <p><codeph>silent</codeph></p>
-                                <p><codeph>password</codeph></p>
                             </entry>
                             <entry>
                                 <p>0</p>
-                                <p>empy string</p>
+                            </entry>
+                            <entry morerows="1">
+                                <p>Execute installation in silent mode. Possible values: <ul
+                                        id="ul_dsh_f2p_yvb">
+                                        <li>
+                                            <p>0: Do not use silent mode</p>
+                                        </li>
+                                        <li>
+                                            <p>1: Use silent mode</p>
+                                        </li>
+                                    </ul></p>
+                                <note id="note_iks_k2p_yvb" type="important">
+                                    <p>To install in silent mode, you must also specify the
+                                            <codeph>password</codeph> value. For example:</p>
+                                    <p><codeph>password=P@ssW0rd</codeph></p>
+                                    <p><codeph>silent=1</codeph></p>
+                                </note>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>password</codeph></p>
                             </entry>
                             <entry>
-                                <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
-                                <p>Hide the installation UI. The <codeph>LICENSE KEY</codeph> and
-                                        <codeph>PASSWORD</codeph> must be given during silent
-                                    installation.</p><?oxy_custom_end?>
+                                <p>empy string</p>
                             </entry>
                         </row>
                         <row>
                             <entry>
                                 <p><codeph>[protect_server]</codeph></p>
+                                <p><codeph>[legacy_server]</codeph></p>
                             </entry>
                             <entry>
                                 <p><codeph>port</codeph></p>
                             </entry>
                             <entry>
                                 <p>9443</p>
+                                <p>8000</p>
                             </entry>
                             <entry>
                                 <p><ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>'s port
                                     for connecting to the <ph
                                         conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                                        >OFFICIAL_PRODUCT_NAME</ph> client</p>
+                                        >OFFICIAL_PRODUCT_NAME</ph> or <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> client</p>
                             </entry>
                         </row>
                         <row>
                             <entry>
                                 <p><codeph>[protect_listen]</codeph></p>
+                                <p><codeph>[legacy_listen]</codeph></p>
                             </entry>
                             <entry>
                                 <p><codeph>port</codeph></p>
@@ -444,19 +462,1719 @@
                         </row>
                         <row>
                             <entry>
-                                <p><codeph>BYPASS_WINDEFEND_CHECK</codeph></p>
+                                <p otherprops="SP"><codeph otherprops="SP"
+                                        >BYPASS_WINDEFEND_CHECK</codeph></p>
                             </entry>
                             <entry>
-                                <p>boolean</p>
+                                <p otherprops="SP">boolean</p>
                             </entry>
                             <entry>
-                                <p>false</p>
+                                <p otherprops="SP">false</p>
                             </entry>
                             <entry>
-                                <p>Bypass checking Windows Defender status.</p>
-                                <note id="note_ktn_snr_vvb">
+                                <p otherprops="SP">Bypass checking Windows Defender status.</p>
+                                <note id="note_ktn_snr_vvb" otherprops="SP">
                                     <p>This is a hidden parameter.</p>
                                 </note>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="32">
+                                <p><codeph>[legacy_Property]</codeph></p>
+                            </entry>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>PRESCAN</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p><codeph>1</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Prescan the endpoint before installing <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>. Possible
+                                    values: <ul id="ul_tf2_mbp_yvb">
+                                        <li>
+                                            <p>0: Do not prescan the endpoint</p>
+                                        </li>
+                                        <li>
+                                            <p>1: Prescan the endpoint</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>WEL_SIZE</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p><codeph>10240</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Windows Event Log size (KB). Possible values: Positive
+                                    integer</p>
+                                <note id="note_xxq_wbp_yvb">
+                                    <p>Default value for new installations. Upgrading <ph
+                                            conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> does not
+                                        change any user- defined <codeph>WEL_SIZE</codeph> values
+                                        set in the previous installation.</p>
+                                </note>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>WEL_RETENTION</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p><codeph>0</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Windows Event Log option when maximum event log size is reached
+                                    on Windows Event Log. Possible values: </p>
+                                <p>For Windows XP or earlier platforms:<ul id="ul_wpm_gcp_yvb">
+                                        <li>
+                                            <p>0: Overwrite events as needed</p>
+                                        </li>
+                                        <li>
+                                            <p>1~365: Overwrite events older than (1~365) days</p>
+                                        </li>
+                                        <li>
+                                            <p>-1: Do not overwrite events (clear logs manually)</p>
+                                        </li>
+                                    </ul></p>
+                                <p>For Windows Vista or later platforms:<ul id="ul_wmz_ncp_yvb">
+                                        <li>
+                                            <p>0: Overwrite events as needed (oldest events
+                                                first)</p>
+                                        </li>
+                                        <li>
+                                            <p>1: Archive the log when full, do not overwrite
+                                                events.</p>
+                                        </li>
+                                        <li>
+                                            <p>-1: Do not overwrite events (clear logs manually)</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                                <p><codeph>WEL_IN_SIZE</codeph></p><?oxy_custom_end?>
+                            </entry>
+                            <entry>
+                                <p><codeph>10240</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Windows Event Log size for Integrity Monitor events (KB).
+                                    Possible values: Positive integer</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>WEL_IN_RETENTION</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p><codeph>0</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Windows Event Log option for when maximum event log size for
+                                    Integrity Monitor events is reached in the Windows Event
+                                    Log.</p>
+                                <p>For Windows XP or earlier platforms:<ul id="ul_k3d_fdp_yvb">
+                                        <li>
+                                            <p>0: Overwrite events as needed</p>
+                                        </li>
+                                        <li>
+                                            <p>1~365: Overwrite events older than (1~365) days</p>
+                                        </li>
+                                        <li>
+                                            <p>-1: Do not overwrite events (clear logs manually)</p>
+                                        </li>
+                                    </ul></p>
+                                <p>For Windows Vista or later platforms:<ul id="ul_l3d_fdp_yvb">
+                                        <li>
+                                            <p>0: Overwrite events as needed (oldest events
+                                                first)</p>
+                                        </li>
+                                        <li>
+                                            <p>1: Archive the log when full, do not overwrite
+                                                events.</p>
+                                        </li>
+                                        <li>
+                                            <p>-1: Do not overwrite events (clear logs manually)</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>USR_DEBUGLOG_ENABLE</codeph>
+                                </p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                                <p><codeph>1</codeph></p><?oxy_custom_end?>
+                            </entry>
+                            <entry>
+                                <p>Enable debug logging for user sessions. Possible values:<ul
+                                        id="ul_ln3_ldp_yvb">
+                                        <li>
+                                            <p>0: Do not log</p>
+                                        </li>
+                                        <li>
+                                            <p>1: Log</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>USR_DEBUGLOGLEVEL</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p><codeph>256</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>The number of debug log entries allowed for user sessions</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>SRV_DEBUGLOG_ENABLE</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                            <entry>
+                                <p><codeph>1</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>Enable debug logging for service sessions. Possible values:<ul
+                                        id="ul_u1y_sdp_yvb">
+                                        <li>
+                                            <p>0: Do not log</p>
+                                        </li>
+                                        <li>
+                                            <p>1: Log</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>SRV_DEBUGLOGLEVEL</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p><codeph>256</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>The number of debug log entries allowed for service sessions</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>FW_USR_DEBUGLOG_ENABLE</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>0</p>
+                            </entry>
+                            <entry>
+                                <p>Enable debug log in user session of firewall. Possible values:
+                                        <ul id="ul_dwg_yhp_yvb">
+                                        <li>
+                                            <p>0: Disable debug log</p>
+                                        </li>
+                                        <li>
+                                            <p>1: Enable debug log</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>FW_USR_DEBUGLOG_LEVEL</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>273</p>
+                            </entry>
+                            <entry>
+                                <p>Debug level in user session of firewall. Possible values:
+                                    number</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>FW_SRV_DEBUGLOG_ENABLE</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>0</p>
+                            </entry>
+                            <entry>
+                                <p>Enable debug log in service session of firewall. Possible values:
+                                        <ul id="ul_i5y_f3p_yvb">
+                                        <li>
+                                            <p>0: Disable debug log</p>
+                                        </li>
+                                        <li>
+                                            <p>1: Enable debug log</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>FW_SRV_DEBUGLOG_LEVEL</codeph>
+                                </p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>273</p>
+                            </entry>
+                            <entry>
+                                <p>Debug level in service session of firewall. Possible values:
+                                    number</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>BM_SRV_DEBUGLOG_ENABLE</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>0</p>
+                            </entry>
+                            <entry>
+                                <p>Enable debug log of Behavior Monitoring Core service. Possible
+                                    values: <ul id="ul_uqh_y3p_yvb">
+                                        <li>
+                                            <p>0: Disable debug log</p>
+                                        </li>
+                                        <li>
+                                            <p>1: Enable debug log</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>BM_SRV_DEBUGLOG_LEVEL</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>51</p>
+                            </entry>
+                            <entry>
+                                <p>Debug level of Behavior Monitoring Core service</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>INTEGRITY_MONITOR</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>0</p>
+                            </entry>
+                            <entry>
+                                <p>Enable Integrity Monitor. Possible values:<ul id="ul_wbc_cbp_yvb">
+                                        <li>
+                                            <p>0: Disable</p>
+                                        </li>
+                                        <li>
+                                            <p>1: Enable</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>PREDEFINED_TRUSTED_UPDATER</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>0</p>
+                            </entry>
+                            <entry>
+                                <p>Enable Predefined Trusted Updater. Possible values:<ul
+                                        id="ul_hjd_fbp_yvb">
+                                        <li>
+                                            <p>0: Disable</p>
+                                        </li>
+                                        <li>
+                                            <p>1: Enable</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>WINDOWS_UPDATE_SUPPORT</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>0</p>
+                            </entry>
+                            <entry>
+                                <p>Enable Windows Update Support. Possible values:<ul
+                                        id="ul_kzl_hbp_yvb">
+                                        <li>
+                                            <p>0: Disable</p>
+                                        </li>
+                                        <li>
+                                            <p>1: Enable</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>STORAGE_DEVICE_BLOCKING</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>0</p>
+                            </entry>
+                            <entry>
+                                <p>Blocks storage devices, including CD/DVD drives, floppy disks,and
+                                    USB devices, from accessing managed endpoints. Possible
+                                        values:<ul id="ul_bhl_1fp_yvb">
+                                        <li>
+                                            <p>0: Allow access from storage devices</p>
+                                        </li>
+                                        <li>
+                                            <p>1: Block access from storage devices</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>INIT_LIST</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>0</p>
+                            </entry>
+                            <entry>
+                                <p>Initialize the Approved List during installation. Possible
+                                        values:<ul id="ul_gdy_gfp_yvb">
+                                        <li>
+                                            <p>0: Do not initialize the Approved list During
+                                                installation</p>
+                                        </li>
+                                        <li>
+                                            <p>1: Initialize the Approved List during
+                                                installation</p>
+                                        </li>
+                                    </ul></p>
+                                <note id="note_bzt_3fp_yvb">
+                                    <p><codeph>LIST_PATH</codeph> has priority over
+                                            <codeph>INIT_LIST</codeph>. For example: If</p>
+                                    <p><codeph>LIST_PATH = liststore.db</codeph> and</p>
+                                    <p><codeph>INIT_LIST=1</codeph></p>
+                                    <p><filepath>liststore.db</filepath> is imported and
+                                            <codeph>INIT_LIST</codeph> is ignored.</p>
+                                </note>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>LOCKDOWN</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>0</p>
+                            </entry>
+                            <entry>
+                                <p>Turn Application Lockdown on after installation. Possible
+                                        values:<ul id="ul_akm_wgp_yvb">
+                                        <li>
+                                            <p>0: Turn off Application Lockdown</p>
+                                        </li>
+                                        <li>
+                                            <p>1: Turn on Application Lockdown</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                                <p><codeph>FILELESS_ATTACK_PREVENTION</codeph></p><?oxy_custom_end?>
+                            </entry>
+                            <entry>
+                                <p>0</p>
+                            </entry>
+                            <entry>
+                                <p>Enable the Fileless Attack Prevention feature. Possible
+                                        values:<ul id="ul_nmd_bhp_yvb">
+                                        <li>
+                                            <p>0: Disable</p>
+                                        </li>
+                                        <li>
+                                            <p>1: Enable</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>SERVICE_CREATION_PREVENTION</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>0</p>
+                            </entry>
+                            <entry>
+                                <p>Enable the Service Creation Prevention feature. Possible
+                                        values:<ul id="ul_hc2_fhp_yvb">
+                                        <li>
+                                            <p>0: Disable</p>
+                                        </li>
+                                        <li>
+                                            <p>1: Enable</p>
+                                        </li>
+                                    </ul></p>
+                                <note id="note_lpr_fhp_yvb">
+                                    <p><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> temporarily
+                                        disables the Service Creation Prevention feature under the
+                                        following conditions:</p>
+                                    <ul id="ul_gqd_3hp_yvb">
+                                        <li>
+                                            <p>Updating or installing new applications using
+                                                installers allowed by Trusted Updater. The feature
+                                                is automatically re-enabled after the Trusted
+                                                Updater process is complete</p>
+                                        </li>
+                                        <li>
+                                            <p>Enabling Windows Update Support</p>
+                                        </li>
+                                        <li>
+                                            <p>Disabling Windows Update Support automatically
+                                                re-enables the feature</p>
+                                        </li>
+                                    </ul>
+                                </note>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>INTELLIGENT_RUNTIME_LEARNING</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>0</p>
+                            </entry>
+                            <entry><p>The agent will allow runtime execution files that are
+                                    generated by applications in the Approved</p> List. Possible
+                                    values:<ul id="ul_x4h_jjp_yvb">
+                                    <li>
+                                        <p>0: Disable</p>
+                                    </li>
+                                    <li>
+                                        <p>1: Enable</p>
+                                    </li>
+                                </ul></entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>NO_DESKTOP</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p><codeph>0</codeph></p>
+                            </entry>
+                            <entry><p>Create a shortcut</p> on desktop. Possible values:<ul
+                                    id="ul_ydk_ky4_yvb">
+                                    <li>
+                                        <p>0: Create shortcut</p>
+                                    </li>
+                                    <li>
+                                        <p>1: Do not create shortcut</p>
+                                    </li>
+                                </ul></entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                                <p><codeph>NO_STARTMENU</codeph></p><?oxy_custom_end?>
+                            </entry>
+                            <entry>
+                                <p><codeph>0</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Create a shortcut in the Start menu. Possible values:<ul
+                                        id="ul_jc4_ry4_yvb">
+                                        <li>
+                                            <p>0: Create shortcut</p>
+                                        </li>
+                                        <li>
+                                            <p>1: Do not create shortcut</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>NO_SYSTRAY</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p><codeph>0</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Display the system tray icon and Windows notifications. Possible
+                                        values:<ul id="ul_emf_5y4_yvb">
+                                        <li>
+                                            <p>0: Create system tray icon</p>
+                                        </li>
+                                        <li>
+                                            <p>1: Do not create system tray icon</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>CUSTOM_ACTION</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p><codeph>0</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Custom action for blocked events. Possible values:<ul
+                                        id="ul_b11_v1p_yvb">
+                                        <li>
+                                            <p>0: Ignore</p>
+                                        </li>
+                                        <li>
+                                            <p>1: Quarantine</p>
+                                        </li>
+                                        <li>
+                                            <p>2: Ask server</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>MAX_EVENT_DB_SIZE</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p><codeph>1024</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Maximum database file size (MB). Possible values: Positive
+                                    integer</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>NO_NSC</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p><codeph>1</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Install firewall for network virus protection. Possible
+                                        values:<ul id="ul_cz3_zy4_yvb">
+                                        <li>
+                                            <p>0: Create firewall</p>
+                                        </li>
+                                        <li>
+                                            <p>1: Do not create firewall</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?><codeph>INIT_LIST_EXCLUDED_EXTENSION1</codeph><?oxy_custom_end?></p>
+                            </entry>
+                            <entry>
+                                <p>log</p>
+                            </entry>
+                            <entry morerows="2">
+                                <p>Afile extension to exclude from automatic file enumeration for
+                                    Approved List initialization.</p>
+                                <p>The configuration applies to the Approved List first initialized
+                                    and all subsequent Approved List updates.</p>
+                                <p>Specify multiple extensions by creating new entries with names
+                                    that start with
+                                        <filepath>INIT_LIST_EXCLUDED_EXTENSION</filepath>, while
+                                    ensuring that each entry name is unique. For example:</p>
+                                <p><codeph>INIT_LIST_EXCLUDED_EXTENSION=bmp</codeph></p>
+                                <p><codeph>INIT_LIST_EXCLUDED_EXTENSION2=png</codeph></p>
+                                <note id="note_cwl_qgp_yvb">
+                                    <p>Specifying file extensions of executable files (e.g.,
+                                            <filepath>exe</filepath>, <filepath>dll</filepath> and
+                                            <filepath>sys</filepath>) may cause issues with
+                                        Application Lockdown.</p>
+                                </note>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?><codeph>INIT_LIST_EXCLUDED_EXTENSION2</codeph><?oxy_custom_end?></p>
+                            </entry>
+                            <entry>
+                                <p>txt</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?><codeph>INIT_LIST_EXCLUDED_EXTENSION3</codeph><?oxy_custom_end?></p>
+                            </entry>
+                            <entry>
+                                <p>ini</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="7">
+                                <p><codeph>[legacy_Prescan]</codeph></p>
+                            </entry>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>PRESCANCLEANUP</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>2</p>
+                            </entry>
+                            <entry>
+                                <p>Attempt to clean detected files during prescan. Possible
+                                        values:<ul id="ul_pth_ysp_yvb">
+                                        <li>
+                                            <p>0: No action</p>
+                                        </li>
+                                        <li>
+                                            <p>1: Clean, or delete if the clean action is
+                                                unsuccessful</p>
+                                        </li>
+                                        <li>
+                                            <p>2: Clean, or quarantine if the clean action is
+                                                unsuccessful</p>
+                                        </li>
+                                        <li>
+                                            <p>3: Clean, or ignore if the clean action is
+                                                unsuccessful</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>IGNORE_THREAT</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>2</p>
+                            </entry>
+                            <entry>
+                                <p>Cancel installation after detecting malware threat during
+                                    prescan. Possible values:</p>
+                                <ul id="ul_ks1_qqp_yvb">
+                                    <li>
+                                        <p>0: Cancel</p>
+                                    </li>
+                                    <li>
+                                        <p>1: Continue installation after detecting malware threat
+                                            during prescan</p>
+                                    </li>
+                                    <li>
+                                        <p>2: Continue installation when no malware is detected, or
+                                            after all detected malware is cleaned, deleted, or
+                                            quarantined successfully without a system reboot</p>
+                                    </li>
+                                </ul>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>REPORT_FOLDER</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>empy string</p>
+                            </entry>
+                            <entry>
+                                <p>Anabsolute folder path where prescan result reports are saved.
+                                    Possible values:</p>
+                                <ul id="ul_mf4_xqp_yvb">
+                                    <li>
+                                        <p>&lt;folder_path></p>
+                                    </li>
+                                    <li>
+                                        <p>&lt;empty>: Defaults to
+                                                <filepath>%windir%\temp\prescan\log</filepath></p>
+                                    </li>
+                                </ul>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>SCAN_TYPE</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>Full</p>
+                            </entry>
+                            <entry>
+                                <p>The type of scan executed during silent installation. Possible
+                                        values:<ul id="ul_ix2_grp_yvb">
+                                        <li>
+                                            <p>Full: Scan all folders on the endpoint</p>
+                                        </li>
+                                        <li>
+                                            <p>Quick: Scans the following folders:<ul
+                                                  id="ul_yhh_3rp_yvb">
+                                                  <li>
+                                                  <p>Fixed root drives, e.g.,</p>
+                                                  <p><filepath>c:\</filepath></p>
+                                                  <p><filepath>d:\</filepath></p>
+                                                  </li>
+                                                  <li>
+                                                  <p>System root folder, e.g., </p>
+                                                  <p><filepath>c:\Windows</filepath></p>
+                                                  </li>
+                                                  <li>
+                                                  <p>System folder, e.g.,</p>
+                                                  <p><filepath>c:\Windows\System</filepath></p>
+                                                  </li>
+                                                  <li>
+                                                  <p>System32 folder, e.g.,</p>
+                                                  <p><filepath>c:\Windows\System32</filepath></p>
+                                                  </li>
+                                                  <li>
+                                                  <p>Driver folder, e.g.,</p>
+                                                  <p><filepath>c:\Windows\System32\Drivers</filepath></p>
+                                                  </li>
+                                                  <li>
+                                                  <p>Temp folder, e.g.,</p>
+                                                  <p><filepath>c:\Users\Trend\AppData\Local\Temp</filepath></p>
+                                                  </li>
+                                                  <li>
+                                                  <p>Desktop folder including sub folders and files,
+                                                  e.g.,</p>
+                                                  <p><filepath>c:\Users\Trend\Desktop</filepath></p>
+                                                  </li>
+                                                  <li>
+                                                  <p>Specific: Scan folders specified with
+                                                  <filepath>SPECIFIC_FOLDER</filepath> entries</p>
+                                                  </li>
+                                                </ul></p>
+                                        </li>
+                                    </ul></p>
+                                <note id="note_vdc_2rp_yvb">
+                                    <p>The selected valueis used as the default value for a UI
+                                        installation</p>
+                                </note>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>COMPRESS_LAYER</codeph>
+                                </p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>2</p>
+                            </entry>
+                            <entry>
+                                <p>The number of compressed layers to scan when a compressed file is
+                                    scanned. Possible values:</p>
+                                <ul id="ul_rzh_ksp_yvb">
+                                    <li>
+                                        <p>0: Do not scan compressed files</p>
+                                    </li>
+                                    <li>
+                                        <p>1~20: Scan up to the specified number of layers of a
+                                            compressed file</p>
+                                    </li>
+                                </ul>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>MAX_FILE_SIZE</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>0</p>
+                            </entry>
+                            <entry>
+                                <p>The largest file allowed for scan<ul id="ul_gsg_psp_yvb">
+                                        <li>
+                                            <p>0: Scan files of any sizes</p>
+                                        </li>
+                                        <li>
+                                            <p>1~9999: Only scan files equal to or smaller than the
+                                                specified size (MB)</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>SCAN_REMOVABLE_DRIVE</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>0</p>
+                            </entry>
+                            <entry>
+                                <p>Scan removable drives. Possible values:<ul id="ul_opv_ssp_yvb">
+                                        <li>
+                                            <p>0: Do not scan removable drives</p>
+                                        </li>
+                                        <li>
+                                            <p>1: Scan removable drives</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>FORCE_PRESCAN</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>0</p>
+                            </entry>
+                            <entry>
+                                <p>Perform a prescan before installation. Possible values:<ul
+                                        id="ul_dx2_ftp_yvb">
+                                        <li>0: Disable</li>
+                                        <li>
+                                            <p>1: Enable</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="5">
+                                <p><codeph>[legacy_BlockNotification]</codeph></p>
+                                <note id="note_s4c_htp_yvb" type="important">
+                                    <p>To enable this feature, make sure to also enable the display
+                                        for system tray icons and notifications. See NO_SYSTRAY in
+                                        this table for details.</p>
+                                </note>
+                            </entry>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>ENABLE</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>0</p>
+                            </entry>
+                            <entry>
+                                <p>Display notifications on managed endpoints when <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> blocks an
+                                    unapproved file. Possible values:<ul id="ul_xpd_4tp_yvb">
+                                        <li>
+                                            <p>0: Disable</p>
+                                        </li>
+                                        <li>
+                                            <p>1: Enable</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>ALWAYS_ON_TOP</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>1</p>
+                            </entry>
+                            <entry>
+                                <p>Display the file blocking notification on top of other screens.
+                                    Possible values:<ul id="ul_q53_qtp_yvb">
+                                        <li>
+                                            <p>0: Disable</p>
+                                        </li>
+                                        <li>
+                                            <p>1: Enable</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>SHOW_DETAILS</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>1</p>
+                            </entry>
+                            <entry>
+                                <p>Display file name, file path, and event time in the notification.
+                                    Possible values:<ul id="ul_t5b_stp_yvb">
+                                        <li>
+                                            <p>0: Disable</p>
+                                        </li>
+                                        <li>
+                                            <p>1: Enable</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>AUTHENTICATE</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>1</p>
+                            </entry>
+                            <entry>
+                                <p>Authenticate the user by requesting the administrator password
+                                    when closing a notification. Possible values:<ul
+                                        id="ul_bg5_ttp_yvb">
+                                        <li>
+                                            <p>0: Disable</p>
+                                        </li>
+                                        <li>
+                                            <p>1: Enable</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>TITLE</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>empty string</p>
+                            </entry>
+                            <entry>
+                                <p>Notification title</p>
+                                <p>Possible values: &lt;notification_title></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>MESSAGE</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>empty string</p>
+                            </entry>
+                            <entry>
+                                <p>Notification content</p>
+                                <p>Possible values: &lt;notification_content></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="27">
+                                <p><codeph>[legacy_EventLog]</codeph></p>
+                            </entry>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>Enable</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>1</p>
+                            </entry>
+                            <entry>
+                                <p>Log events related to <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>. Possible
+                                        values:<ul id="ul_srh_xlp_yvb">
+                                        <li>
+                                            <p>1: Log</p>
+                                        </li>
+                                        <li>
+                                            <p>0: Do not log</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>Level_WarningLog</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>1</p>
+                            </entry>
+                            <entry>
+                                <p>Log “Warning” level events related to <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>. Possible
+                                        values:<ul id="ul_tck_1mp_yvb">
+                                        <li>
+                                            <p>1: Log</p>
+                                        </li>
+                                        <li>
+                                            <p>0: Do not log</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>Level_InformationLog</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>0</p>
+                            </entry>
+                            <entry>
+                                <p>Log “Information” levelevents related to <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>. Possible
+                                        values:<ul id="ul_hjc_dmp_yvb">
+                                        <li>
+                                            <p>1: Log</p>
+                                        </li>
+                                        <li>
+                                            <p>0: Do not log</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>BlockedAccessLog</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>1</p>
+                            </entry>
+                            <entry>
+                                <p>Log files blocked by <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>. Possible
+                                        values:<ul id="ul_a2l_hmp_yvb">
+                                        <li>
+                                            <p>1: Log</p>
+                                        </li>
+                                        <li>
+                                            <p>0: Do not log</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>ApprovedAccessLog</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>1</p>
+                            </entry>
+                            <entry>
+                                <p>Logfiles approved by <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>. Possible
+                                        values:<ul id="ul_qft_jmp_yvb">
+                                        <li>
+                                            <p>1: Log</p>
+                                        </li>
+                                        <li>
+                                            <p>0: Do not log</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>ApprovedAccessLog_TrustedUpdater</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>1</p>
+                            </entry>
+                            <entry>
+                                <p>Log Trusted Updater approved access. Possible values:<ul
+                                        id="ul_j33_mmp_yvb">
+                                        <li>
+                                            <p>1: Log</p>
+                                        </li>
+                                        <li>
+                                            <p>0: Do not log</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>ApprovedAccessLog_DllDriver</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>0</p>
+                            </entry>
+                            <entry>
+                                <p>Log DLL/Driver approved access. Possible values:<ul
+                                        id="ul_osm_tmp_yvb">
+                                        <li>
+                                            <p>1: Log</p>
+                                        </li>
+                                        <li>
+                                            <p>0: Do not log</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>ApprovedAccessLog_ExceptionPath</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>1</p>
+                            </entry>
+                            <entry>
+                                <p>Log Application Lockdown exception path approved access. Possible
+                                        values:<ul id="ul_dk3_wmp_yvb">
+                                        <li>
+                                            <p>1: Log</p>
+                                        </li>
+                                        <li>
+                                            <p>0: Do not log</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>ApprovedAccessLog_TrustedCert</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>1</p>
+                            </entry>
+                            <entry>
+                                <p>Log Trusted Certificates approved access. Possible values:<ul
+                                        id="ul_j3r_zmp_yvb">
+                                        <li>
+                                            <p>1: Log</p>
+                                        </li>
+                                        <li>
+                                            <p>0: Do not log</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>ApprovedAccessLog_WriteProtection</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>1</p>
+                            </entry>
+                            <entry>
+                                <p>LogWrite Protection approved access. Possible values:<ul
+                                        id="ul_crf_cnp_yvb">
+                                        <li>
+                                            <p>1: Log</p>
+                                        </li>
+                                        <li>
+                                            <p>0: Do not log</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>ApprovedAccessLog_TrustedHash</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>1</p>
+                            </entry>
+                            <entry>
+                                <p>Log Trusted Hash approved access. Possible values:<ul
+                                        id="ul_ekj_qmp_yvb">
+                                        <li>
+                                            <p>1: Log</p>
+                                        </li>
+                                        <li>
+                                            <p>0: Do not log</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>SystemEventLog</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>1</p>
+                            </entry>
+                            <entry>
+                                <p>Log events related to the system. Possible values:<ul
+                                        id="ul_zsb_2np_yvb">
+                                        <li>
+                                            <p>1: Log</p>
+                                        </li>
+                                        <li>
+                                            <p>0: Do not log</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>SystemEventLog_ExceptionPath</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>1</p>
+                            </entry>
+                            <entry>
+                                <p>Log exceptions to Application Lockdown. Possible values:<ul
+                                        id="ul_f2h_hnp_yvb">
+                                        <li>
+                                            <p>1: Log</p>
+                                        </li>
+                                        <li>
+                                            <p>0: Do not log</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>SystemEventLog_WriteProtection</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>1</p>
+                            </entry>
+                            <entry>
+                                <p>Log Write Protection events. Possible values:<ul
+                                        id="ul_pgm_jnp_yvb">
+                                        <li>
+                                            <p>1: Log</p>
+                                        </li>
+                                        <li>
+                                            <p>0: Do not log</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>ListLog</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>1</p>
+                            </entry>
+                            <entry>
+                                <p>Log events related to the Approved list. Possible values:<ul
+                                        id="ul_c2w_lnp_yvb">
+                                        <li>
+                                            <p>1: Log</p>
+                                        </li>
+                                        <li>
+                                            <p>0: Do not log</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>UsbMalwareProtectionLog</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>1</p>
+                            </entry>
+                            <entry>
+                                <p>Log events that trigger USB Malware Protection. Possible
+                                        values:<ul id="ul_s5f_4np_yvb">
+                                        <li>
+                                            <p>1: Log</p>
+                                        </li>
+                                        <li>
+                                            <p>0: Do not log</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>ExecutionPreventionLog</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>1</p>
+                            </entry>
+                            <entry>
+                                <p>Log events that trigger Execution Prevention. Possible values:<ul
+                                        id="ul_o1k_qnp_yvb">
+                                        <li>
+                                            <p>1: Log</p>
+                                        </li>
+                                        <li>
+                                            <p>0: Do not log</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>NetworkVirusProtectionLog</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>1</p>
+                            </entry>
+                            <entry>
+                                <p>Log events that trigger Network Virus Protection. Possible
+                                        values:<ul id="ul_nqd_tnp_yvb">
+                                        <li>
+                                            <p>1: Log</p>
+                                        </li>
+                                        <li>
+                                            <p>0: Do not log</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>IntegrityMonitoringLog_FileCreated</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>1</p>
+                            </entry>
+                            <entry>
+                                <p>Log file and folder created events. Possible values:<ul
+                                        id="ul_ggt_xnp_yvb">
+                                        <li>
+                                            <p>1: Log</p>
+                                        </li>
+                                        <li>
+                                            <p>0: Do not log</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>IntegrityMonitoringLog_FileModified</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>1</p>
+                            </entry>
+                            <entry>
+                                <p>Log file modified events. Possible values:<ul id="ul_fk5_znp_yvb">
+                                        <li>
+                                            <p>1: Log</p>
+                                        </li>
+                                        <li>
+                                            <p>0: Do not log</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>IntegrityMonitoringLog_FileDeleted</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>1</p>
+                            </entry>
+                            <entry>
+                                <p>Log file and folder deleted events. Possible values:<ul
+                                        id="ul_pd4_d4p_yvb">
+                                        <li>
+                                            <p>1: Log</p>
+                                        </li>
+                                        <li>
+                                            <p>0: Do not log</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>IntegrityMonitoringLog_FileRenamed</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>1</p>
+                            </entry>
+                            <entry>
+                                <p>Log file and folder renamed events. Possible values:<ul
+                                        id="ul_tlw_f4p_yvb">
+                                        <li>
+                                            <p>1: Log</p>
+                                        </li>
+                                        <li>
+                                            <p>0: Do not log</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>IntegrityMonitoringLog_RegValueModified</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>1</p>
+                            </entry>
+                            <entry>
+                                <p>Log registry value modified events. Possible values:<ul
+                                        id="ul_jfz_h4p_yvb">
+                                        <li>
+                                            <p>1: Log</p>
+                                        </li>
+                                        <li>
+                                            <p>0: Do not log</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>IntegrityMonitoringLog_RegValueDeleted</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>1</p>
+                            </entry>
+                            <entry>
+                                <p>Log registry value deleted events. Possible values:<ul
+                                        id="ul_fss_k4p_yvb">
+                                        <li>
+                                            <p>1: Log</p>
+                                        </li>
+                                        <li>
+                                            <p>0: Do not log</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>IntegrityMonitoringLog_RegKeyCreated</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>1</p>
+                            </entry>
+                            <entry>
+                                <p>Log registry key created events. Possible values:<ul
+                                        id="ul_hw5_m4p_yvb">
+                                        <li>
+                                            <p>1: Log</p>
+                                        </li>
+                                        <li>
+                                            <p>0: Do not log</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>IntegrityMonitoringLog_RegKeyDeleted</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>1</p>
+                            </entry>
+                            <entry>
+                                <p>Log registry key deleted events. Possible values:<ul
+                                        id="ul_jby_44p_yvb">
+                                        <li>
+                                            <p>1: Log</p>
+                                        </li>
+                                        <li>
+                                            <p>0: Do not log</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>IntegrityMonitoringLog_RegKeyRenamed</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>1</p>
+                            </entry>
+                            <entry>
+                                <p>Log registry key renamed events. Possible values:<ul
+                                        id="ul_zqr_r4p_yvb">
+                                        <li>
+                                            <p>1: Log</p>
+                                        </li>
+                                        <li>
+                                            <p>0: Do not log</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>DeviceControlLog</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>1</p>
+                            </entry>
+                            <entry>
+                                <p>Log events related to device access control. Possible values:<ul
+                                        id="ul_tyg_t4p_yvb">
+                                        <li>
+                                            <p>1: Log</p>
+                                        </li>
+                                        <li>
+                                            <p>0: Do not log</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>[legacy_MaintenanceMode]</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?><codeph>ENABLE_DURATION</codeph><?oxy_custom_end?></p>
+                            </entry>
+                            <entry>
+                                <p>0</p>
+                            </entry>
+                            <entry>
+                                <p>Start maintenance mode with this duration immediately after the
+                                    install process is finished. Possible values: </p>
+                                <p>0- 999</p>
+                                <p>Unit: Hours</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?><codeph>SCAN</codeph><?oxy_custom_end?></p>
+                            </entry>
+                            <entry>
+                                <p>0</p>
+                            </entry>
+                            <entry>
+                                <p>Enable file scanning after the maintenance period. Possible
+                                        values:<ul id="ul_wzg_hpp_yvb">
+                                        <li>
+                                            <p>0: No scan (default)</p>
+                                        </li>
+                                        <li>
+                                            <p>1: Quarantine</p>
+                                            <p><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+                                                scans files that are created, executed, or modified
+                                                during the maintenance period and quarantine
+                                                detected files</p>
+                                        </li>
+                                        <li>
+                                            <p>2: al</p>
+                                            <p><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+                                                scans files that are created, executed, or modified
+                                                during the maintenance period and adds these files
+                                                (including files that are detected as malicious) to
+                                                the Approved List</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>[legacy_Message]</codeph></p>
+                            </entry>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>INITIAL_RETRY_INTERVAL</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>120</p>
+                            </entry>
+                            <entry>
+                                <p>Starting interval, in seconds, between attempts to resend an
+                                    event to StellarOne</p>
+                                <p>This interval doubles in size for each unsuccessful attempt,
+                                    until it exceeds the <codeph>MAX_RETRY_ITERVAL</codeph>
+                                    value</p>
+                                <p>Possible values: 0~2147483647</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>MAX_RETRY_INTERVAL</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>7680</p>
+                            </entry>
+                            <entry>
+                                <p>Maximum interval, in seconds, between attempts to resend events
+                                    to StellarOne</p>
+                                <p>Possible values: 0~2147483647</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="2">
+                                <p><codeph>[legacy_MessageRandomization]</codeph></p>
+                                <note id="note_pyx_zpp_yvb">
+                                    <p><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> agents
+                                        respond as soon as possible to direct requests from
+                                        StellarOne. For details, refer to Applying Message Time
+                                        Groups in the <ph
+                                            conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+                                        Administrator's Guide</p>
+                                </note>
+                            </entry>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>TOTAL_GROUP_NUM</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>1</p>
+                            </entry>
+                            <entry>
+                                <p>Number of groups controlled by the server. Possible values:</p>
+                                <p>0~2147483646</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>OWN_GROUP_INDEX</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>0</p>
+                            </entry>
+                            <entry>
+                                <p>Index of group which this agent belongs to. Possible values:</p>
+                                <p>0~2147483646</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                            <entry>
+                                <p><codeph>TIME_PERIOD</codeph></p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p>0</p>
+                            </entry>
+                            <entry>
+                                <p>Maximum amount of time agents have to upload data (in seconds).
+                                    Possible values:</p>
+                                <p>0~2147483647</p>
                             </entry>
                         </row>
                     </tbody>

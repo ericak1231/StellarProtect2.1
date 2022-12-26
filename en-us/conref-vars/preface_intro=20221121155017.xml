@@ -4,10 +4,13 @@
 <concept id="GUID-F8FAF1DF-7A1E-4C0A-ADA3-6F6FC6CAD49D" xml:lang="en-us">
  <title id="GUID-1B4C75D4-D403-4C7D-A980-25FB78E01ED7">Preface</title>
  <conbody>
-  <p>This Installation and Administrator's Guide introduces <ph conkeyref="TRENDvars/COMPANY_NAME"
-        >company_nameCOMPANY_NAME</ph>
-      <ph conkeyref="PRODvars/PRODUCT_AGENT_SP_NAME_TM">OFFICIAL_PRODUCT_NAME</ph> and convers all
-      aspects of product installation and management.</p>
+  <p otherprops="SP">This Installation and Administrator's Guide introduces <ph
+    conkeyref="TRENDvars/COMPANY_NAME">company_nameCOMPANY_NAME</ph>
+   <ph conkeyref="PRODvars/PRODUCT_AGENT_SP_NAME_TM">OFFICIAL_PRODUCT_NAME</ph> and convers all
+   aspects of product installation and management.</p>
+  <p otherprops="SPLM_SE">This Installation Guide introduces TXOne <ph
+    conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> and guides administrators through installation and
+   deployment.</p>
   <p>Topics in this chapter include:<ul id="ul_dh3_v3w_g5b" otherprops="PRINT">
     <li>
      <p><xref href="Documentation=20220721170208.xml"/></p>

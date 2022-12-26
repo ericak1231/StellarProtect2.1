@@ -4,9 +4,13 @@
     <title id="GUID-2CCB340C-94E1-4FAE-9863-1741742B3F2B">Introduction</title>
     <conbody>
         <p><indexterm>introduction</indexterm>This section introduces TXOne <ph
-                conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>, which
-            provides industrial-grade next-generation antivirus and lockdown protection for your
-            assets, and gives an overview of its functions.</p>
+                conkeyref="PRODvars/PRODUCT_AGENT_SP_NAME_TM" otherprops="SP"
+                >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"
+                otherprops="SPLM_SE"/>, <text otherprops="SP">which provides industrial-grade
+                next-generation antivirus and lockdown protection for your assets, and gives an
+                overview of its functions.</text><text otherprops="SPLM_SE">delivers a simple,
+                no-maintenancesolution to lockdown and protect fixed-function computers, helping
+                protect businesses against security threats and increase productivity.</text></p>
         <p>Topics in this chapter include:</p>
         <ul id="ul_bs4_b1y_fp">
             <li>

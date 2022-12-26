@@ -3,10 +3,12 @@
 <concept id="concept_tpn_3jw_g5b">
     <title>Audience</title>
     <conbody>
-        <p>TXOne <ph conkeyref="PRODvars/PRODUCT_AGENT_SP_NAME_TM">OFFICIAL_PRODUCT_NAME</ph>
-            documentation is intended for administrators responsible for <ph
-                conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
-            management, including agent installation. These users are expected to have advanced
-            networking and server management knowledge.</p>
+        <p>TXOne <ph conkeyref="PRODvars/PRODUCT_AGENT_SP_NAME_TM" otherprops="SP"
+                >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"
+                otherprops="SPLM_SE"/> documentation is intended for administrators responsible for
+                <ph conkeyref="PRODvars/PRODUCT_AGENT_SP_NAME_TM" otherprops="SP"
+                >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"
+                otherprops="SPLM_SE"/> management, including agent installation. These users are
+            expected to have advanced networking and server management knowledge.</p>
     </conbody>
 </concept>

@@ -7,21 +7,40 @@
             <p>See below as an example of the defined configuration file (<ph
                     conkeyref="PRODvars/SETUP_FILE"/>) for standalone agents. You can define your
                 own configuration settings by changing the values.</p>
+            <ul id="ul_t14_dnt_wvb">
+                <li>
+                    <p>The <codeph><b>[shared_...]</b></codeph> entry consists of the properties
+                        shared by <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                            >OFFICIAL_PRODUCT_NAME</ph> and <ph
+                            conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                            >OFFICIAL_PRODUCT_NAME</ph> Agents.</p>
+                </li>
+                <li>
+                    <p>The <codeph><b>[protect_...]</b></codeph> entry consists of the properties
+                        exclusive to <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                            >OFFICIAL_PRODUCT_NAME</ph> Agent.</p>
+                </li>
+                <li>
+                    <p>The <codeph><b>[legacy_...]</b></codeph> entry consists of the properties
+                        exclusive to <ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                            >OFFICIAL_PRODUCT_NAME</ph> Agent.</p>
+                </li>
+            </ul>
             <note id="note_gth_gjx_wvb" type="important">
                 <p>The corresponding <codeph>[shared_license]</codeph> property varies depending on
                     your support provider:<ul id="ul_rlb_tjx_wvb">
                         <li>
-                            <p>Use license file for product activation if
+                            <p>Use the <b>license file</b> for product activation if
                                     <codeph>[shared_license]</codeph> consists of
                                     <codeph>product_serial_number</codeph> and
-                                    <codeph>txone_license_file</codeph> properties</p>
+                                    <codeph>txone_license_file</codeph> properties.</p>
                         </li>
-                        <li>Use license key for product activation if
+                        <li>Use the <b>license key</b> for product activation if
                                 <codeph>[shared_license]</codeph> consists of <codeph>license
-                                key</codeph> property</li>
+                                key</codeph> property.</li>
                     </ul></p>
             </note>
-            <p>The following sample config file uses license file for product activation.</p>
+            <p>The following sample config file uses <b>license file</b> for product activation.</p>
             <p><codeph>[shared_license]</codeph></p>
             <p><codeph>product_serial_number = TEXXXXXX-SAMP-LEXX-XXXX-TXONESPXXXXX</codeph></p>
             <p><codeph>txone_license_file =
@@ -72,6 +91,95 @@
             <p><codeph>cpu_usage_mode = 0</codeph></p>
             <p><codeph>[protect_client]</codeph></p>
             <p><codeph>import_source = C:\txsp_config</codeph></p>
+            <p><codeph>[legacy_Property]</codeph></p>
+            <p><codeph>PRESCAN = 1</codeph></p>
+            <p><codeph>WEL_SIZE = 10240</codeph></p>
+            <p><codeph>WEL_RETENTION = 0</codeph></p>
+            <p><codeph>WEL_IN_SIZE = 10240</codeph></p>
+            <p><codeph>WEL_IN_RETENTION = 0</codeph></p>
+            <p><codeph>USR_DEBUGLOG_ENABLE = 1</codeph></p>
+            <p><codeph>USR_DEBUGLOGLEVEL = 256</codeph></p>
+            <p><codeph>SRV_DEBUGLOG_ENABLE = 1</codeph></p>
+            <p><codeph>SRV_DEBUGLOGLEVEL = 256</codeph></p>
+            <p><codeph>FW_USR_DEBUGLOG_ENABLE = 0</codeph></p>
+            <p><codeph>FW_USR_DEBUGLOG_LEVEL = 273</codeph></p>
+            <p><codeph>FW_SRV_DEBUGLOG_ENABLE = 0</codeph></p>
+            <p><codeph>FW_SRV_DEBUGLOG_LEVEL = 273</codeph></p>
+            <p><codeph>BM_SRV_DEBUGLOG_ENABLE = 0</codeph></p>
+            <p><codeph>BM_SRV_DEBUGLOG_LEVEL = 51</codeph></p>
+            <p><codeph>INTEGRITY_MONITOR = 0</codeph></p>
+            <p><codeph>PREDEFINED_TRUSTED_UPDATER = 0</codeph></p>
+            <p><codeph>WINDOWS_UPDATE_SUPPORT = 0</codeph></p>
+            <p><codeph>STORAGE_DEVICE_BLOCKING = 0</codeph></p>
+            <p><codeph>INIT_LIST = 0</codeph></p>
+            <p><codeph>LOCKDOWN = 0</codeph></p>
+            <p><codeph>FILELESS_ATTACK_PREVENTION = 0</codeph></p>
+            <p><codeph>SERVICE_CREATION_PREVENTION = 0</codeph></p>
+            <p><codeph>INTELLIGENT_RUNTIME_LEARNING = 0</codeph></p>
+            <p><codeph>NO_DESKTOP = 0</codeph></p>
+            <p><codeph>NO_STARTMENU = 0</codeph></p>
+            <p><codeph>NO_SYSTRAY = 0</codeph></p>
+            <p><codeph>CUSTOM_ACTION = 0</codeph></p>
+            <p><codeph>MAX_EVENT_DB_SIZE = 1024</codeph></p>
+            <p><codeph>NO_NSC = 1</codeph></p>
+            <p><codeph>INIT_LIST_EXCLUDED_EXTENSION1 = log</codeph></p>
+            <p><codeph>INIT_LIST_EXCLUDED_EXTENSION2 = txt</codeph></p>
+            <p><codeph>INIT_LIST_EXCLUDED_EXTENSION3 = ini</codeph></p>
+            <p><codeph>[legacy_Prescan]</codeph></p>
+            <p><codeph>PRESCANCLEANUP = 2</codeph></p>
+            <p><codeph>IGNORE_THREAT = 2</codeph></p>
+            <p><codeph>REPORT_FOLDER = </codeph></p>
+            <p><codeph>SCAN_TYPE = Full</codeph></p>
+            <p><codeph>COMPRESS_LAYER = 2</codeph></p>
+            <p><codeph>MAX_FILE_SIZE = 0</codeph></p>
+            <p><codeph>SCAN_REMOVABLE_DRIVE = 0</codeph></p>
+            <p><codeph>FORCE_PRESCAN = 0</codeph></p>
+            <p><codeph>[legacy_BlockNotification]</codeph></p>
+            <p><codeph>ENABLE = 0</codeph></p>
+            <p><codeph>ALWAYS_ON_TOP = 1</codeph></p>
+            <p><codeph>SHOW_DETAILS = 1</codeph></p>
+            <p><codeph>AUTHENTICATE = 1</codeph></p>
+            <p><codeph>TITLE = </codeph></p>
+            <p><codeph>MESSAGE = </codeph></p>
+            <p><codeph>[legacy_EventLog]</codeph></p>
+            <p><codeph>Enable = 1</codeph></p>
+            <p><codeph>Level_WarningLog = 1</codeph></p>
+            <p><codeph>Level_InformationLog = 0</codeph></p>
+            <p><codeph>BlockedAccessLog = 1</codeph></p>
+            <p><codeph>ApprovedAccessLog = 1</codeph></p>
+            <p><codeph>ApprovedAccessLog_TrustedUpdater = 1</codeph></p>
+            <p><codeph>ApprovedAccessLog_DllDriver = 0</codeph></p>
+            <p><codeph>ApprovedAccessLog_ExceptionPath = 1</codeph></p>
+            <p><codeph>ApprovedAccessLog_TrustedCert = 1</codeph></p>
+            <p><codeph>ApprovedAccessLog_WriteProtection = 1</codeph></p>
+            <p><codeph>ApprovedAccessLog_TrustedHash = 1</codeph></p>
+            <p><codeph>SystemEventLog = 1</codeph></p>
+            <p><codeph>SystemEventLog_ExceptionPath = 1</codeph></p>
+            <p><codeph>SystemEventLog_WriteProtection = 1</codeph></p>
+            <p><codeph>ListLog = 1</codeph></p>
+            <p><codeph>UsbMalwareProtectionLog = 1</codeph></p>
+            <p><codeph>ExecutionPreventionLog = 1</codeph></p>
+            <p><codeph>NetworkVirusProtectionLog = 1</codeph></p>
+            <p><codeph>IntegrityMonitoringLog_FileCreated = 1</codeph></p>
+            <p><codeph>IntegrityMonitoringLog_FileModified = 1</codeph></p>
+            <p><codeph>IntegrityMonitoringLog_FileDeleted = 1</codeph></p>
+            <p><codeph>IntegrityMonitoringLog_FileRenamed = 1</codeph></p>
+            <p><codeph>IntegrityMonitoringLog_RegValueModified = 1</codeph></p>
+            <p><codeph>IntegrityMonitoringLog_RegValueDeleted = 1</codeph></p>
+            <p><codeph>IntegrityMonitoringLog_RegKeyCreated = 1</codeph></p>
+            <p><codeph>IntegrityMonitoringLog_RegKeyDeleted = 1</codeph></p>
+            <p><codeph>IntegrityMonitoringLog_RegKeyRenamed = 1</codeph></p>
+            <p><codeph>DeviceControlLog = 1</codeph></p>
+            <p><codeph>[legacy_MaintenanceMode]</codeph></p>
+            <p><codeph>ENABLE_DURATION = 0</codeph></p>
+            <p><codeph>SCAN = 0</codeph></p>
+            <p><codeph>[legacy_Message]</codeph></p>
+            <p><codeph>INITIAL_RETRY_INTERVAL = 120</codeph></p>
+            <p>MAX_RETRY_INTERVAL = 7680</p>
+            <p><codeph>[legacy_MessageRandomization]</codeph></p>
+            <p><codeph>TOTAL_GROUP_NUM = 1</codeph></p>
+            <p><codeph>OWN_GROUP_INDEX = 0</codeph></p>
+            <p><codeph>TIME_PERIOD = 0</codeph></p>
         </section>
         <section id="section_en1_nmq_vvb">
             <note id="note_bjn_gsx_wvb">

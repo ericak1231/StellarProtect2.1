@@ -5,8 +5,9 @@
     <title>Installation Methods</title><?oxy_custom_end?>
     <conbody>
         <p><indexterm>installation</indexterm>This section mainly explains the steps for installing
-                <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>,
-            including:</p>
+                <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"
+                otherprops="SPLM_SE"/>, including:</p>
         <ul id="ul_mww_byd_vvb">
             <li>
                 <p>Invoking the installer by <b>Attended Installation</b> or <b>Silent

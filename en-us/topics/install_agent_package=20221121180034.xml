@@ -11,17 +11,27 @@
                         conkeyref="PRODvars/INSTALLER"/><?oxy_custom_end?>.</cmd>
                 <stepxmp>
                     <fig id="fig_ord_x3j_vvb">
-                        <title><image href="../images/installer_package_folder=20221214103351.png"
-                                id="image_e1j_y3j_vvb"/></title>
+                        <title>Installer Package Downloaded from <ph
+                                conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/></title>
+                        <image href="../images/installer_package_folder=20221214103351.png"
+                            id="image_e1j_y3j_vvb"/>
+                    </fig>
+                    <fig id="fig_ujb_wxw_xvb">
+                        <title>Standalone Installer Package Downloaded from Software Download
+                            Center</title>
+                        <image href="../images/standalone_agent_single_installer=20221223105848.png"
+                            id="image_k1l_wxw_xvb"/>
                     </fig>
                 </stepxmp>
                 <info>
                     <note id="note_ip2_lg1_pvb">
                         <p>To register <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                                >OFFICIAL_PRODUCT_NAME</ph> agent to a specific group during
-                            installation, after downloading the <filepath>Group.ini</filepath> file
-                            on <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> console,
-                            the file must be placed as the top-level file in the agent's Installer
+                                otherprops="SP">OFFICIAL_PRODUCT_NAME</ph><ph
+                                conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> agent to a specific
+                            group during installation, after downloading the
+                                <filepath>Group.ini</filepath> file on <ph
+                                conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> console, the
+                            file must be placed as the top-level file in the agent's Installer
                             Package before starting the installation.</p>
                     </note>
                 </info>
@@ -30,15 +40,27 @@
                 <cmd>Click <uicontrol>Yes</uicontrol> to start the installation.</cmd>
                 <stepxmp>
                     <fig id="fig_o3k_xh1_pvb">
-                        <title>StellarProtect Setup Screenshot</title>
+                        <title><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                                >OFFICIAL_PRODUCT_NAME</ph><ph
+                                conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> Setup
+                            Screenshot</title>
                         <image href="../images/install_setup=20221214115206.png"
                             id="image_e5q_btj_vvb"/>
                     </fig>
                 </stepxmp>
             </step>
+            <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
             <step>
                 <cmd>Click <uicontrol>Next</uicontrol> to continue.</cmd>
-            </step>
+                <stepxmp otherprops="SPLM">
+                    <fig id="fig_qt1_dzw_xvb">
+                        <title><ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                >OFFICIAL_PRODUCT_NAME</ph> Installation Wizard</title>
+                        <image href="../images/installing_started=20221223110918.png"
+                            id="image_mv3_dzw_xvb"/>
+                    </fig>
+                </stepxmp>
+            </step><?oxy_custom_end?>
             <step>
                 <cmd>The <wintitle>End-User License Agreement</wintitle> (EULA) window appears.
                     Please read the content carefully, and then check <uicontrol>I accept the terms
@@ -51,21 +73,24 @@
                     </fig>
                 </info>
             </step>
-            <step>
-                <cmd>Create an administrator password. </cmd>
+            <step otherprops="SP">
+                <cmd>Create an administrator password.</cmd>
                 <info>
                     <note id="note_u42_dzw_svb">
                         <p>Please use a strong administrator password with good quality in 8 to 64
                             alphanumeric characters. The following characteres are not supported: |
-                            > " : &lt; \ spaces</p>
+                            > " : &lt; \ spaces.</p>
+                    </note>
+                    <note id="note_yth_fww_xvb" type="important">
+                        <p>Please store securely and do not lose the StellarProtect administrator
+                            password. If you lose the StellarProtect administrator password, please
+                            contact TXOne Networks for support.</p>
                     </note>
                 </info>
             </step>
-            <step>
-                <cmd>A success message indicating
-                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>valid
-                    license<?oxy_custom_end?> appears. Click <uicontrol>Next</uicontrol> to
-                    continue.</cmd>
+            <step otherprops="SP">
+                <cmd>A success message indicating valid license appears. Click
+                        <uicontrol>Next</uicontrol> to continue.</cmd>
                 <stepxmp>
                     <fig id="fig_qgh_pqs_vvb">
                         <title>Admin Password &amp; License Activation</title>
@@ -91,7 +116,7 @@
                     </note>
                 </info>
             </step>
-            <step>
+            <step otherprops="SP">
                 <cmd>Specify the asset information of the installed device with correct
                     ICS/OT-relative information such as vendor name, model, location and a
                     description.</cmd>
@@ -106,11 +131,20 @@
             <step>
                 <cmd>Confirm the installation settings including installation directory and optional
                     component settings.</cmd>
-                <stepxmp>
+                <stepxmp otherprops="SP">
                     <fig id="fig_hvq_mrs_vvb">
-                        <title>Installation Settings</title>
+                        <title><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                                >OFFICIAL_PRODUCT_NAME</ph> Installation Settings</title>
                         <image href="../images/installation_settings=20221215172222.png"
                             id="image_el3_nrs_vvb"/>
+                    </fig>
+                </stepxmp>
+                <stepxmp otherprops="SPLM">
+                    <fig id="fig_vkr_11x_xvb">
+                        <title><ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                >OFFICIAL_PRODUCT_NAME</ph> Installation Settings</title>
+                        <image href="../images/installation_settings_splm=20221223111649.png"
+                            id="image_kty_11x_xvb"/>
                     </fig>
                 </stepxmp>
                 <info>
@@ -118,7 +152,7 @@
                         <p>Users can choose to whether or not add an icon to the start menu, create
                             a desktop icon, or create a system tray icon.</p>
                     </note>
-                    <note id="note_ny2_qk1_pvb" type="important">
+                    <note id="note_ny2_qk1_pvb" type="important" otherprops="SP">
                         <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
                         <p>We suggest that users should check <uicontrol>Enable Trusted OT
                                 Certificates</uicontrol>. This feature ensures that <ph
@@ -139,8 +173,9 @@
                         <p>Incompatible software means some TrendMicro product such as OfficeScan
                             series, ApexOne, Worry-Free Business Security, Worry-Free Business
                             Security Service. <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                                >OFFICIAL_PRODUCT_NAME</ph> will try to uninstall them to avoid any
-                            possible incompatible issue.</p>
+                                otherprops="SP">OFFICIAL_PRODUCT_NAME</ph><ph
+                                conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH" otherprops="SPLM_SE"/>
+                            will try to uninstall them to avoid any possible incompatible issue.</p>
                     </note>
                 </info>
                 <substeps id="substeps_c25_c3x_svb">
@@ -183,15 +218,19 @@
                             <li>
                                 <p>If you skip the Prescan, <ph
                                         conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                                        >OFFICIAL_PRODUCT_NAME</ph> will not be able to recognize
-                                    the ICS/OT applications before it resumes production, and will
-                                    need to learn them as they are executed for the first time; this
-                                    may cause delays in the ICS/OT application runtime.</p>
+                                        otherprops="SP">OFFICIAL_PRODUCT_NAME</ph><ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"
+                                        otherprops="SPLM_SE"/> will not be able to recognize the
+                                    ICS/OT applications before it resumes production, and will need
+                                    to learn them as they are executed for the first time; this may
+                                    cause delays in the ICS/OT application runtime.</p>
                             </li>
                             <li>
                                 <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                                        >OFFICIAL_PRODUCT_NAME</ph> provides a more time-efficient
-                                    option <uicontrol>HIGH</uicontrol> that will require higher CPU
+                                        otherprops="SP">OFFICIAL_PRODUCT_NAME</ph><ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"
+                                        otherprops="SPLM_SE"/> provides a more time-efficient option
+                                        <uicontrol>HIGH</uicontrol> that will require higher CPU
                                     usage during the Prescan. If no other vital applications are
                                     running on the system, you can select the option
                                         <uicontrol>HIGH</uicontrol> to significantly reduce scan
@@ -306,20 +345,20 @@
             </step>
             <step>
                 <cmd>(Optional but highly recommended) At the bottom of the window is the switch
-                    toggle for creating the Approved List and enabling Application Lockdown "Detect"
-                    mode. Toggle it on to proceed.
+                    toggle for creating the Approved List and enabling Application Lockdown <text
+                        otherprops="SP">"Detect" mode</text>. Toggle it on to proceed.
                     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>If you toggle
                     it off, <?oxy_custom_end?>go to <b>Step 12</b> for next procedure.</cmd>
                 <stepxmp>
-                    <fig id="fig_z1k_dts_vvb">
+                    <fig id="fig_z1k_dts_vvb" otherprops="SP">
                         <title>Create Approved List &amp; Enable Application Lockdown
                             (Detect)</title>
-                        <image href="../images/prescan_lockdown=20221215173857.png"
+                        <image href="../images/creating_approved_list=20221222110852.png"
                             id="image_xsv_dts_vvb"/>
                     </fig>
                 </stepxmp>
                 <info>
-                    <note id="note_acn_tkf_pvb">
+                    <note id="note_acn_tkf_pvb" otherprops="SP">
                         <ul id="ul_rgg_ykf_pvb">
                             <li>
                                 <p>The Approved List is created for the Application Lockdown
@@ -354,16 +393,23 @@
                 </substeps>
             </step>
             <step>
-                <cmd>The <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                        >OFFICIAL_PRODUCT_NAME</ph> application will be installed.</cmd>
+                <cmd>The <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                        >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"
+                        otherprops="SPLM_SE"/> application will be installed.</cmd>
             </step>
             <step>
-                <cmd>When the installation is complete, the <uicontrol>StellarProtect has been
-                        successfully installed</uicontrol> window appears. Click
+                <cmd>When the installation is complete, the <b><ph
+                            conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                            >OFFICIAL_PRODUCT_NAME</ph><ph
+                            conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH" otherprops="SPLM_SE"/></b>
+                    <uicontrol>has been successfully installed</uicontrol> window appears. Click
                         <uicontrol>Finish</uicontrol>.</cmd>
                 <stepresult>
                     <fig>
-                        <title>StellarProtect Successfully Installed</title>
+                        <title><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                                >OFFICIAL_PRODUCT_NAME</ph><ph
+                                conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH" otherprops="SPLM_SE"/>
+                            Successfully Installed</title>
                     </fig>
                     <fig id="fig_lgp_mws_vvb">
                         <image href="../images/successfully_installed_sp=20221215180019.png"
@@ -372,11 +418,15 @@
                 </stepresult>
             </step>
             <step>
-                <cmd>Run <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                        >OFFICIAL_PRODUCT_NAME</ph> and log on with your password.</cmd>
+                <cmd>Run <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                        >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"
+                        otherprops="SPLM_SE"/> and log on with your password.</cmd>
                 <stepxmp>
                     <fig>
-                        <title>Log On StellarProtect</title>
+                        <title>Log On <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                otherprops="SP">OFFICIAL_PRODUCT_NAME</ph><ph
+                                conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH" otherprops="SPLM_SE"
+                            /></title>
                     </fig>
                     <fig id="fig_yky_txs_vvb">
                         <image href="../images/log_on_sp_console=20221215181025.png"
@@ -386,9 +436,11 @@
             </step>
             <step>
                 <cmd>Upon logging on <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                        >OFFICIAL_PRODUCT_NAME</ph> successfully, the <wintitle>Overview</wintitle>
-                    window will display. Refer to <xref
-                        href="console_intro_sp_agent=20221208133633.xml"/> for more details.</cmd>
+                        otherprops="SP">OFFICIAL_PRODUCT_NAME</ph><ph
+                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH" otherprops="SPLM_SE"/>
+                    successfully, the <wintitle>Overview</wintitle> window will display. Refer to
+                        <xref href="console_intro_sp_agent=20221208133633.xml"/> for more
+                    details.</cmd>
             </step>
         </steps>
     </taskbody>

@@ -4,8 +4,9 @@
     <title id="GUID-41588B55-9C96-4AF0-85A9-A80854C6FF3B">About the Documentation</title>
     <refbody>
         <section id="GUID-C4C14E4D-EDAF-4170-95FE-371FE04262D0">
-            <p>TXOne Networks <ph conkeyref="PRODvars/PRODUCT_AGENT_SP_NAME_TM"
-                    >OFFICIAL_PRODUCT_NAME</ph> documentation includes the following:</p>
+            <p>TXOne Networks <ph conkeyref="PRODvars/PRODUCT_AGENT_SP_NAME_TM" otherprops="SP"
+                    >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"
+                    otherprops="SPLM_SE"/> documentation includes the following:</p>
             <table frame="all" colsep="1" rowsep="1">
                 <tgroup cols="2" colsep="1" rowsep="1" outputclass="Properties">
                     <colspec colnum="1" colname="1" colwidth="3*"/>
@@ -32,11 +33,34 @@
                             </entry>
                         </row>
                         <row>
-                            <entry colname="1">Installation and Administrator's Guide</entry>
+                            <entry colname="1">
+                                <p otherprops="SP">Installation and Administrator's Guide</p>
+                            </entry>
+                            <entry colname="2">
+                                <p otherprops="SP">A PDF document that discusses requirements and
+                                    procedures for installing and managing <ph
+                                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph>.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry colname="1">
+                                <p>Installation Guide</p>
+                            </entry>
                             <entry colname="2">A PDF document that discusses requirements and
                                 procedures for installing and managing <ph
-                                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                                    >OFFICIAL_PRODUCT_NAME</ph>.</entry>
+                                    conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>.</entry>
+                        </row>
+                        <row>
+                            <entry colname="1">
+                                <p>Administrator's Guide</p>
+                            </entry>
+                            <entry colname="2">
+                                <p>A PDF document that discusses <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> agent
+                                    installation, getting started information, and server and agent
+                                    management</p>
+                            </entry>
                         </row>
                         <row rowsep="0">
                             <entry colname="1">

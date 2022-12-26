@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Setting Up the Approved List</title>
+    <taskbody>
+        <context id="context_av5_kxt_wvb">
+            <p>Before TXOne <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> can protect the
+                endpoint, it must check the endpoint for existing applications and files necessary
+                for the system to run correctly.</p>
+        </context>
+        <steps id="steps_wvw_g5y_g5b">
+            <step>
+                <cmd>Openthe <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> console.The <ph
+                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> log on screen appears.</cmd>
+                <stepxmp>
+                    <fig id="fig_c5b_5hd_vvb">
+                        <title><ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                >OFFICIAL_PRODUCT_NAME</ph> Log On Screen</title>
+                        <image
+                            href="../../../../../../../Library/CloudStorage/OneDrive-TXOneNetworksInc/Documents/3.%20Project/2.1/StellarProtect/en-us/images/log_on_splm_console=20221225211756.png"
+                            id="image_uh5_4hd_vvb" scalefit="yes"/>
+                    </fig>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>Provide the password and click <uicontrol>Log On</uicontrol>. <ph
+                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> asks if you want to set up the
+                    Approved List now.</cmd>
+                <stepxmp>
+                    <fig id="fig_vrp_pky_xvb">
+                        <title>The Approved List is Empty</title>
+                        <image href="../images/create_approved_list_splm=20221223155454.png"
+                            id="image_ery_pky_xvb"/>
+                    </fig>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>At the notification window, select <uicontrol>Yes. Set up the Approved List
+                        now</uicontrol> and click <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>
+                    <p><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> scans the endpoint and adds
+                        allapplications to the Approved List.</p>
+                    <fig id="fig_knw_53d_vvb">
+                        <title>Scanning for Creating Approved List</title>
+                    </fig>
+                    <fig id="fig_kqb_lhd_vvb">
+                        <image href="../images/scanning_for_approved_list_splm=20221223155832.png"
+                            id="image_osl_lhd_vvb"/>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> displays the Approved List
+                    Configuration Results.</cmd>
+                <stepxmp>
+                    <fig id="fig_fsv_3ly_xvb">
+                        <title>Approved List Created</title>
+                        <image href="../images/approved_list_created_splm=20221223160057.png"
+                            id="image_zhd_jly_xvb"/>
+                    </fig>
+                    <note id="note_vg4_4ly_xvb">
+                        <p>When TXOne <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> Application
+                            Lockdown is on, only applications that are in the Approved List will be
+                            able to run.</p>
+                    </note>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Close</uicontrol>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

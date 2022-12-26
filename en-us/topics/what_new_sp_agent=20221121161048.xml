@@ -5,14 +5,17 @@
     <refbody>
         <section id="section_t4c_v3r_c5b">
             <p><indexterm>introduction<index-base>what's new</index-base></indexterm>TXOne <ph
-                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                    >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"
+                    otherprops="SPLM_SE"/>
                 <ph conkeyref="LEGALvars/product_version">PRODUCT_VERSION</ph> provides following
                 new features and enhancements.</p>
             <table frame="all" rowsep="1" colsep="1" id="table_p4k_djr_c5b">
                 <title>What's New in TXOne <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                        >OFFICIAL_PRODUCT_NAME</ph>
+                        otherprops="SP">OFFICIAL_PRODUCT_NAME</ph><ph
+                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH" otherprops="SPLM_SE"/>
                     <ph conkeyref="LEGALvars/product_version">PRODUCT_VERSION</ph></title>
-                <tgroup cols="2">
+                <tgroup cols="2" otherprops="SP">
                     <colspec colname="c1" colnum="1" colwidth="1*"/>
                     <colspec colname="c2" colnum="2" colwidth="1.78*"/>
                     <thead>
@@ -40,6 +43,17 @@
                         </row><?oxy_custom_end?>
                         <row>
                             <entry>
+                                <p>Silent manual scan</p>
+                            </entry>
+                            <entry>
+                                <p>Users can implement silent manual scan via CLI and send the scan
+                                    result to the <ph
+                                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>
+                                    management console.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
                                 <p>Single installer package</p>
                             </entry>
                             <entry>
@@ -48,20 +62,71 @@
                                         >OFFICIAL_PRODUCT_NAME</ph> and <ph
                                         conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
                                         >OFFICIAL_PRODUCT_NAME</ph> is available now. After being
-                                    invoked, the single installer can identfy the version of Windows
-                                    installed on the endpoint and launch the suitable installer for
-                                    the endpoint to install.</p>
+                                    invoked, the single installer package can identify the version
+                                    of Windows installed on the endpoint and launch the suitable
+                                    installer for the endpoint to install.</p>
                             </entry>
                         </row>
                         <row>
                             <entry>
-                                <p>Silent manual scan</p>
+                                <p>Supporting license key/file</p>
+                            </entry>
+                            <entry>
+                                <p>Supports product activation by license key or license file.</p>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+                <tgroup cols="2" otherprops="SPLM_SE">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1.78*"/>
+                    <thead>
+                        <row valign="middle">
+                            <entry>
+                                <p>Feature</p>
+                            </entry>
+                            <entry>
+                                <p>Benefit</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p>Anti-Malware Scanning</p>
+                            </entry>
+                            <entry>
+                                <p>With this new feature, the <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"
+                                        otherprops="SPLM_SE"/> can persistently scan new and changed
+                                    files, along with system memory, to provide security assessment
+                                    for maximum protection against malware.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Agent Component Update Schedule</p>
                             </entry>
                             <entry>
                                 <p>Users can implement silent manual scan via CLI and send the scan
                                     result to the <ph
                                         conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>
                                     management console.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Single installer package</p>
+                            </entry>
+                            <entry>
+                                <p>A single installer package for the Agent – <ph
+                                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> and <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"
+                                        otherprops="SPLM_SE"/> is available now. After being
+                                    invoked, the single installer can identify the version of
+                                    Windows installed on the endpoint and launch the suitable
+                                    installer for the endpoint to install.</p>
                             </entry>
                         </row>
                         <row>

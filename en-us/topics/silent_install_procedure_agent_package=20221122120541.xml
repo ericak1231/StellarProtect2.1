@@ -49,18 +49,24 @@
                 </choices>
             </step>
             <step>
-                <cmd>After the installation is complete, the <uicontrol>StellarProtect has been
-                        successfully installed</uicontrol> message box will appear. Click
-                        <uicontrol>Finish</uicontrol>.</cmd>
+                <cmd>After the installation is complete, the <b><ph
+                            conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                            >OFFICIAL_PRODUCT_NAME</ph><ph
+                            conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH" otherprops="SPLM_SE"/></b>
+                    <uicontrol>has been successfully installed</uicontrol> message box will appear.
+                    Click <uicontrol>Finish</uicontrol>.</cmd>
             </step>
             <step>
-                <cmd>Run <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                        >OFFICIAL_PRODUCT_NAME</ph> and log on with the configured password.</cmd>
+                <cmd>Run <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                        >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"
+                        otherprops="SPLM_SE"/> and log on with the configured password.</cmd>
             </step>
             <step>
                 <cmd>After successfully logging on <ph
-                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>,
-                    the <uicontrol>Overview</uicontrol> window will be displayed.</cmd>
+                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                        >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"
+                        otherprops="SPLM_SE"/>, the <uicontrol>Overview</uicontrol> window will be
+                    displayed.</cmd>
             </step>
         </steps>
     </taskbody>

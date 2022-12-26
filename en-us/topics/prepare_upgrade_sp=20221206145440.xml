@@ -5,43 +5,74 @@
     <refbody>
         <section id="section_q2x_4kg_pvb">
             <p><indexterm>upgrade</indexterm>This version of <ph
-                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                    >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
                 supports upgrade from the following version:</p>
             <ul id="ul_ynb_1n2_tvb">
                 <li>
-                    <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                            >OFFICIAL_PRODUCT_NAME</ph> 1.0</p>
+                    <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                            >OFFICIAL_PRODUCT_NAME</ph><ph
+                            conkeyref="PRODvars/PRODUCT_SPLM_PREVIOUS_NAME" otherprops="SPLM_SE"/>
+                        1.0</p>
                 </li>
                 <li>
-                    <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                            >OFFICIAL_PRODUCT_NAME</ph> 1.1</p>
+                    <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                            >OFFICIAL_PRODUCT_NAME</ph><ph
+                            conkeyref="PRODvars/PRODUCT_SPLM_PREVIOUS_NAME" otherprops="SPLM_SE"/>
+                        1.1</p>
                 </li>
                 <li>
-                    <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                            >OFFICIAL_PRODUCT_NAME</ph> 1.2</p>
+                    <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                            >OFFICIAL_PRODUCT_NAME</ph><ph
+                            conkeyref="PRODvars/PRODUCT_SPLM_PREVIOUS_NAME" otherprops="SPLM_SE"/>
+                        1.2</p>
                 </li>
                 <li>
-                    <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                            >OFFICIAL_PRODUCT_NAME</ph> 1.2 Patch 1</p>
+                    <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                            >OFFICIAL_PRODUCT_NAME</ph><ph
+                            conkeyref="PRODvars/PRODUCT_SPLM_PREVIOUS_NAME" otherprops="SPLM_SE"/>
+                        1.2 Patch 1</p>
                 </li>
                 <li>
-                    <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                            >OFFICIAL_PRODUCT_NAME</ph> 2.0</p>
+                    <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                            >OFFICIAL_PRODUCT_NAME</ph>
+                        <text otherprops="SP">2.0</text><ph
+                            conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+                        <text otherprops="SPLM_SE">1.3</text></p>
+                    <note id="note_jfj_rgr_xvb" otherprops="SPLM">
+                        <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+                        <p>The <ph conkeyref="PRODvars/PRODUCT_SPLM_PREVIOUS_NAME"/> product name
+                            has been changed to <ph
+                                conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                >OFFICIAL_PRODUCT_NAME</ph> since version 1.3
+                            launched.<?oxy_custom_end?></p>
+                    </note>
                 </li>
             </ul>
             <p>The latest updates can be downloaded from the <ph
-                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                    >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
                 <xref href="https://www.trendmicro.com/en_us/business/products/downloads.html"
                     format="html" scope="external">Software Download Center</xref>.</p>
-            <note id="note_nr1_3n2_tvb" type="important">
+            <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+            <note id="note_snz_shr_xvb">
+                <p otherprops="SPLM_SE">Before upgrading, close the wksupporttool UI and/or <ph
+                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> agent console.</p>
+                <p otherprops="SP">Before upgrading, close the <ph
+                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                        >OFFICIAL_PRODUCT_NAME</ph> agent console.</p>
+            </note><?oxy_custom_end?>
+            <note id="note_nr1_3n2_tvb" type="warning">
                 <p>Before upgrading, take the appropriate actions below as noted for your chosen
                     installation method and the version of your installed <ph
-                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                        >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
                     agent.</p>
             </note>
             <table frame="all" id="table_gfp_tlg_pvb">
                 <title>Fresh Installation of the <ph
-                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                        >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
                     Agent</title>
                 <tgroup cols="4">
                     <colspec colname="c1" colnum="1" colwidth="1*"/>
@@ -70,12 +101,24 @@
                                 <p>Local installation using Windows installer</p>
                             </entry>
                             <entry>
-                                <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                                        >OFFICIAL_PRODUCT_NAME</ph> 1.0 / 1.1 / 1.2 / 1.2 Patch 1 /
-                                    2.0</p>
+                                <p otherprops="SP"><ph
+                                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                        otherprops="SP">OFFICIAL_PRODUCT_NAME</ph> 1.0 / 1.1 / 1.2 /
+                                    1.2 Patch 1 / 2.0</p>
+                                <p otherprops="SE"><ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_PREVIOUS_NAME"/> 1.0 / 1.1
+                                    / 1.2 / 1.2 Patch 1 / 1.3</p>
+                                <p otherprops="SPLM"><ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_PREVIOUS_NAME"/> 1.0 / 1.1
+                                    / 1.2 / 1.2 Patch 1 / <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> 1.3</p>
                             </entry>
                             <entry>
-                                <p>Manually uninstall</p>
+                                <p otherprops="SP">Manually uninstall</p>
+                                <p otherprops="SPLM_SE">It's necessary to manually add the install
+                                    file (<filepath>SL_Install.exe</filepath>) into the trusted HASH
+                                    list before using it.</p>
                             </entry>
                             <entry>
                                 <p>No settings retained</p>
@@ -86,12 +129,24 @@
                                 <p>Local installation using command line interface installer</p>
                             </entry>
                             <entry>
-                                <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                                        >OFFICIAL_PRODUCT_NAME</ph> 1.0 / 1.1 / 1.2 / 1.2 Patch 1 /
-                                    2.0</p>
+                                <p otherprops="SP"><ph
+                                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                        otherprops="SP">OFFICIAL_PRODUCT_NAME</ph> 1.0 / 1.1 / 1.2 /
+                                    1.2 Patch 1 / 2.0</p>
+                                <p otherprops="SE"><ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_PREVIOUS_NAME"/> 1.0 / 1.1
+                                    / 1.2 / 1.2 Patch 1 / 1.3</p>
+                                <p otherprops="SPLM"><ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_PREVIOUS_NAME"/> 1.0 / 1.1
+                                    / 1.2 / 1.2 Patch 1 / <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> 1.3</p>
                             </entry>
                             <entry>
-                                <p>Manually uninstall</p>
+                                <p otherprops="SP">Manually uninstall</p>
+                                <p otherprops="SPLM_SE">It's necessary to manually add the install
+                                    file (<filepath>SL_Install.exe</filepath>) into the trusted HASH
+                                    list before using it.</p>
                             </entry>
                             <entry>
                                 <p>No settings retained</p>
@@ -101,7 +156,8 @@
                 </tgroup>
             </table>
             <table frame="all" id="table_oty_x42_tvb">
-                <title>Post-Installation Agent Upgrade</title>
+                <title>Post-Installation Agent Upgrade<text otherprops="SPLM_SE">(Legacy OS -
+                        Supports SHA1)</text></title>
                 <tgroup cols="4">
                     <colspec colname="c1" colnum="1" colwidth="1*"/>
                     <colspec colname="c2" colnum="2" colwidth="1*"/>
@@ -126,13 +182,27 @@
                     <tbody>
                         <row>
                             <entry>
-                                <p>Extract patch zip file and patching by running
+                                <p otherprops="SP">Extract patch zip file and patching by running
                                         <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><filepath>txone_sp_full_patch_win_en.exe</filepath><?oxy_custom_end?></p>
+                                <p otherprops="SPLM_SE">For example, deploy patching by running
+                                        <filepath>stellar_patch.exe</filepath>.</p>
+                                <p otherprops="SPLM_SE">To do a silent install instead, open the
+                                    command prompt as an administrator and enter the following
+                                        command:<codeph>>stellar_patch.exe -s -a -s/g</codeph></p>
                             </entry>
                             <entry>
-                                <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                                        >OFFICIAL_PRODUCT_NAME</ph> 1.0 / 1.1 / 1.2 / 1.2 Patch 1 /
-                                    2.0</p>
+                                <p otherprops="SP"><ph
+                                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                        otherprops="SP">OFFICIAL_PRODUCT_NAME</ph> 1.0 / 1.1 / 1.2 /
+                                    1.2 Patch 1 / 2.0</p>
+                                <p otherprops="SE"><ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_PREVIOUS_NAME"/> 1.0 / 1.1
+                                    / 1.2 / 1.2 Patch 1 / 1.3</p>
+                                <p otherprops="SPLM"><ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_PREVIOUS_NAME"/> 1.0 / 1.1
+                                    / 1.2 / 1.2 Patch 1 / <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> 1.3</p>
                             </entry>
                             <entry>
                                 <p>No preparation needed</p>
@@ -146,18 +216,122 @@
                                 <p>Remote Installation</p>
                             </entry>
                             <entry>
-                                <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                                        >OFFICIAL_PRODUCT_NAME</ph> 1.0 / 1.1 / 1.2 / 1.2 Patch 1 /
-                                    2.0</p>
+                                <p otherprops="SP"><ph
+                                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                        otherprops="SP">OFFICIAL_PRODUCT_NAME</ph> 1.1 / 1.2 / 1.2
+                                    Patch 1 / 2.0</p>
+                                <p otherprops="SE"><ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_PREVIOUS_NAME"/> 1.1 / 1.2
+                                    / 1.2 Patch 1 / 1.3</p>
+                                <p otherprops="SPLM"><ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_PREVIOUS_NAME"/> 1.1 / 1.2
+                                    / 1.2 Patch 1 / <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> 1.3</p>
                                 <note id="note_yj2_kp2_tvb">
                                     <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                                            >OFFICIAL_PRODUCT_NAME</ph> 1.0 supports only local
+                                            otherprops="SP">OFFICIAL_PRODUCT_NAME</ph>
+                                        <ph conkeyref="PRODvars/PRODUCT_SPLM_PREVIOUS_NAME"
+                                            otherprops="SPLM_SE"/> 1.0 supports only local
                                         installation.</p>
                                 </note>
                             </entry>
                             <entry>
-                                <p><ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> 2.0
+                                <p otherprops="SP"><ph
+                                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> 2.0
                                     console or above</p>
+                                <p otherprops="SPLM_SE">No preparation needed</p>
+                            </entry>
+                            <entry>
+                                <p>Compatible settings retained</p>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <table frame="all" id="table_cxs_lmr_xvb" otherprops="SPLM_SE">
+                <title>Post-Installation Agent Upgrade (Modern OS – Supports SHA2)</title>
+                <tgroup cols="4">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c3" colnum="3" colwidth="1*"/>
+                    <colspec colname="c4" colnum="4" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>
+                                <p>Installation Method</p>
+                            </entry>
+                            <entry>
+                                <p>Installed Agent Version</p>
+                            </entry>
+                            <entry>
+                                <p>Required Action</p>
+                            </entry>
+                            <entry>
+                                <p>Settings Retained</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p otherprops="SPLM_SE">For example, deploy patching by running
+                                        <filepath>stellar_patch.exe</filepath>.</p>
+                                <p otherprops="SPLM_SE">To do a silent install instead, open the
+                                    command prompt as an administrator and enter the following
+                                        command:<codeph>>stellar_patch.exe -s -a -s/g</codeph></p>
+                            </entry>
+                            <entry>
+                                <p otherprops="SE"><ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_PREVIOUS_NAME"/> 1.2 Patch
+                                    1 / 1.3</p>
+                                <p otherprops="SPLM"><ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_PREVIOUS_NAME"/> 1.2 Patch
+                                    1 / <ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> 1.3</p>
+                                <note id="note_wws_vmr_xvb">
+                                    <p>For agents with versions below 1.2 Patch 1, local upgrade for
+                                        standalone <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+                                        agents is not supported. Please implement either workaround
+                                        listed below:</p>
+                                    <ul id="ul_aqd_1nr_xvb">
+                                        <li>
+                                            <p>Remotely upgrade <ph
+                                                  conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+                                                agents from <ph
+                                                  conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"
+                                                /> web console</p>
+                                        </li>
+                                        <li>
+                                            <p>Add the patch file hash as trusted hash and then
+                                                perform local upgrade.</p>
+                                        </li>
+                                    </ul>
+                                </note>
+                            </entry>
+                            <entry>
+                                <p>No preparation needed</p>
+                            </entry>
+                            <entry>
+                                <p>Compatible settings retained</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Remote Installation</p>
+                            </entry>
+                            <entry>
+                                <p otherprops="SE"><ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_PREVIOUS_NAME"/> 1.0 / 1.1
+                                    / 1.2 / 1.2 Patch 1 / 1.3</p>
+                                <p otherprops="SPLM"><ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_PREVIOUS_NAME"/> 1.0 / 1.1
+                                    / 1.2 / 1.2 Patch 1 / <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> 1.3</p>
+                            </entry>
+                            <entry>
+                                <p otherprops="SPLM_SE">No preparation needed</p>
                             </entry>
                             <entry>
                                 <p>Compatible settings retained</p>

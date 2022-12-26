@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_m5t_sf1_pvb">
+    <title>Deployment for Standalone Agents</title>
+    <taskbody>
+        <context>
+            <p>Agents installed in <b>Standalone</b> mode are not managed by a TXOne <ph
+                    conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> central management
+                console server. To manually deploy a single configuration to multiple
+                    <b>Standalone</b> agents, use an agent configuration file.</p>
+            <sectiondiv>
+                <data>
+                    <title><b>Exporting or Importing a Configuration File</b></title>
+                </data>
+                <note id="note_u3p_wzr_yvb">
+                    <p>TXOne <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH" otherprops="SPLM_SE"/>
+                        encrypts the configuration file before export. Users must decrypt the
+                        configuration file before modifying the contents.</p>
+                </note>
+            </sectiondiv>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open the TXOne <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"
+                        otherprops="SPLM_SE"/> console using the desktop icon (if available) or the
+                        <uicontrol>Start</uicontrol> menu by clicking <menucascade>
+                        <uicontrol>All Programs</uicontrol>
+                        <uicontrol>TXOne <text otherprops="SPLM">StellarProtect (Legacy
+                                Mode)</text><text otherprops="SE">StellarEnforce</text></uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Provide the password and click <uicontrol>Log On</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Settings</uicontrol> menu item to access the
+                        <uicontrol>Export/Import Settings</uicontrol> section.</cmd>
+                <choices id="choices_avy_dcs_yvb">
+                    <choice>
+                        <p>To export the configuration file as a database
+                            (<filepath>.xen</filepath>) file:</p>
+                        <ol id="ol_ztt_fcs_yvb">
+                            <li>
+                                <p>Click <uicontrol>Export Settings</uicontrol>, and choose the
+                                    location to save the file.</p>
+                            </li>
+                            <li>
+                                <p>Provide a filename, and click <uicontrol>Save</uicontrol>.</p>
+                            </li>
+                        </ol>
+                    </choice>
+                    <choice>
+                        <p>To import the configuration file as a database
+                            (<filepath>.xen</filepath>) file:</p>
+                        <ol id="ol_pxs_lcs_yvb">
+                            <li>Click <uicontrol>Import Settings</uicontrol>, and locate the
+                                database file.</li>
+                            <li>
+                                <p>Select the file, and click <uicontrol>Open</uicontrol>.</p>
+                            </li>
+                        </ol>
+                    </choice>
+                </choices>
+            </step>
+            <step>
+                <cmd><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH" otherprops="SPLM_SE"/>
+                    overwrites the existing configuration settings with the settings in the database
+                    file.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

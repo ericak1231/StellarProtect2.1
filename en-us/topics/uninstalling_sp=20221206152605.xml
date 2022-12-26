@@ -7,31 +7,37 @@
     <taskbody>
         <context id="context_ncj_b5y_g5b">
             <p><indexterm>uninstallation</indexterm>Follow the instructions to uninstall <ph
-                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>.</p>
+                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                    >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"
+                />.</p>
             <note id="note_syv_js2_tvb">
-                <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"/>'s administrator password
-                    is required to uninstall <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                        >OFFICIAL_PRODUCT_NAME</ph> from an endpoint.</p>
+                <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"/><ph
+                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>'s administrator password is
+                    required to uninstall <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                        otherprops="SP">OFFICIAL_PRODUCT_NAME</ph><ph
+                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> from an endpoint.</p>
             </note>
             <note id="note_d2g_ns2_tvb" type="important">
-                <p>Please make sure the <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"/> UI is
-                    not open.</p>
+                <p>Please make sure the <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                        otherprops="SP"/><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> UI is not
+                    open.</p>
             </note>
         </context>
         <steps id="steps_wvw_g5y_g5b">
             <step>
-                <cmd>On an endpoint with the <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"/>
-                    agent installed, launch
+                <cmd>On an endpoint with the <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                        otherprops="SP"/><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> agent
+                    installed, launch
                         <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><ph
-                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"/>
-                    Setup.<?oxy_custom_end?></cmd>
+                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"/><ph
+                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> Setup.<?oxy_custom_end?></cmd>
             </step>
             <step>
                 <cmd>Follow one of the procedures listed below according to your operating
                     system:</cmd>
             </step>
             <stepsection>
-                <table frame="all" id="table_hrc_gw2_tvb">
+                <table frame="all" id="table_hrc_gw2_tvb" otherprops="SP">
                     <tgroup cols="2">
                         <colspec colname="c1" colnum="1" colwidth="1*"/>
                         <colspec colname="c2" colnum="2" colwidth="1*"/>
@@ -153,27 +159,179 @@
                         </tbody>
                     </tgroup>
                 </table>
+                <table frame="all" otherprops="SPLM_SE" id="table_qmx_sqr_xvb">
+                    <tgroup cols="2">
+                        <colspec colname="c1" colnum="1" colwidth="1*"/>
+                        <colspec colname="c2" colnum="2" colwidth="1*"/>
+                        <thead>
+                            <row>
+                                <entry>
+                                    <p>Operating System</p>
+                                </entry>
+                                <entry>
+                                    <p>Procedure</p>
+                                </entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>
+                                    <ul id="ul_rmx_sqr_xvb">
+                                        <li>
+                                            <p>Windows 10 Professional</p>
+                                        </li>
+                                        <li>
+                                            <p>Windows 10 Enterprise</p>
+                                        </li>
+                                        <li>
+                                            <p>Windows 10 IoT Enterprise</p>
+                                        </li>
+                                    </ul>
+                                </entry>
+                                <entry>
+                                    <ol id="ol_smx_sqr_xvb">
+                                        <li>
+                                            <p>Go to <menucascade>
+                                                  <uicontrol>Start</uicontrol>
+                                                  <uicontrol>Settings</uicontrol>
+                                                </menucascade>.</p>
+                                        </li>
+                                        <li>
+                                            <p>Depending on your version of Windows 10, locate the
+                                                  <b><wintitle>Apps &amp; Features</wintitle></b>
+                                                section under one of the following categories:<ul
+                                                  id="ul_tmx_sqr_xvb">
+                                                  <li>
+                                                  <p><uicontrol>System</uicontrol></p>
+                                                  </li>
+                                                  <li>
+                                                  <p><uicontrol>Apps</uicontrol></p>
+                                                  </li>
+                                                </ul></p>
+                                        </li>
+                                        <li>
+                                            <p>On the left pane, click <uicontrol>Apps &amp;
+                                                  Features</uicontrol></p>
+                                        </li>
+                                        <li>
+                                            <p>In the list, click <b otherprops="SPLM_SE"><ph
+                                                  conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"
+                                                /></b>.</p>
+                                        </li>
+                                        <li>
+                                            <p>Click <uicontrol>Uninstall</uicontrol>.</p>
+                                        </li>
+                                    </ol>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <ul id="ul_umx_sqr_xvb">
+                                        <li>
+                                            <p>Windows 7</p>
+                                        </li>
+                                        <li>
+                                            <p>Windows 8</p>
+                                        </li>
+                                        <li>
+                                            <p>Windows Vista</p>
+                                        </li>
+                                        <li>
+                                            <p>Windows Server 2008</p>
+                                        </li>
+                                        <li>
+                                            <p>Windows Server 2012</p>
+                                        </li>
+                                        <li>
+                                            <p>Windows Server 2016</p>
+                                        </li>
+                                        <li>
+                                            <p>Windows Server 2019</p>
+                                        </li>
+                                        <li>
+                                            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                                            <?oxy_comment_start author="erica_txone" timestamp="20221206T165509+0800" comment="add 2012 version" mid="4"?>
+                                            <p>Windows Storage Server
+                                            2012</p><?oxy_custom_end?><?oxy_comment_end mid="4"?>
+                                        </li>
+                                        <li>
+                                            <p>Windows Storage Server 2016</p>
+                                        </li>
+                                    </ul>
+                                </entry>
+                                <entry>
+                                    <ol id="ol_vmx_sqr_xvb">
+                                        <li>
+                                            <p>Go to <menucascade>
+                                                  <uicontrol>Start</uicontrol>
+                                                  <uicontrol>Control Panel</uicontrol>
+                                                  <uicontrol>Program and Features</uicontrol>
+                                                </menucascade></p>
+                                        </li>
+                                        <li>In the list, double-click <uicontrol>TXOne</uicontrol>
+                                            <b otherprops="SPLM_SE"><ph
+                                                  conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"
+                                            /></b>.</li>
+                                    </ol>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <ul id="ul_dzj_hrr_xvb">
+                                        <li>
+                                            <p>Windows Server 2003</p>
+                                        </li>
+                                        <li>
+                                            <p>Windows XP</p>
+                                        </li>
+                                        <li>
+                                            <p>Windows 2000</p>
+                                        </li>
+                                    </ul>
+                                </entry>
+                                <entry>
+                                    <ol id="ol_sly_3rr_xvb">
+                                        <li>
+                                            <p>Go to <menucascade>
+                                                  <uicontrol>Start</uicontrol>
+                                                  <uicontrol>Control Panel</uicontrol>
+                                                  <uicontrol>Add or Removew Programs</uicontrol>
+                                                </menucascade></p>
+                                        </li>
+                                        <li>In the list, select <uicontrol>TXOne</uicontrol>
+                                            <b otherprops="SPLM_SE"><ph
+                                                  conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"
+                                            /></b>.</li>
+                                        <li>Click <uicontrol>Remove</uicontrol>.</li>
+                                    </ol>
+                                </entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
             </stepsection>
             <step>
-                <cmd>After the <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                        >OFFICIAL_PRODUCT_NAME</ph> Setup opens, click
-                    <uicontrol>Next</uicontrol>.</cmd>
+                <cmd>After the <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                        >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+                    Setup opens, click <uicontrol>Next</uicontrol>.</cmd>
             </step>
             <step>
                 <cmd>Enter in the <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                        >OFFICIAL_PRODUCT_NAME</ph> administrator password and click
-                        <uicontrol>Next</uicontrol>.</cmd>
+                        otherprops="SP">OFFICIAL_PRODUCT_NAME</ph><ph
+                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> administrator password and
+                    click <uicontrol>Next</uicontrol>.</cmd>
             </step>
             <step>
-                <cmd>Make sure <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                        >OFFICIAL_PRODUCT_NAME</ph>'s UI is completely closed before clicking
-                        <uicontrol>OK</uicontrol>.</cmd>
+                <cmd>Make sure <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                        >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"
+                    />'s UI is completely closed before clicking <uicontrol>OK</uicontrol>.</cmd>
             </step>
             <step>
                 <cmd>The message box indicating <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                        >OFFICIAL_PRODUCT_NAME</ph> being successfully removed will appear. Click
-                        <uicontrol>Finish</uicontrol>.</cmd>
-                <info>
+                        otherprops="SP">OFFICIAL_PRODUCT_NAME</ph><ph
+                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> being successfully removed
+                    will appear. Click <uicontrol>Finish</uicontrol>.</cmd>
+                <info otherprops="SP">
                     <note id="note_btd_cy2_tvb">
                         <p>For Windows 7 and Windows Server 2016+ platforms, the installation of <ph
                                 conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"

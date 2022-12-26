@@ -3,12 +3,21 @@
 <concept id="concept_lb5_ckg_pvb">
     <title>Silent Installation</title>
     <conbody>
-        <p><indexterm>local installation<indexterm>silent installation</indexterm></indexterm><ph
-                conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph> provides
-            silent installation based on a pre-defined configuration file. Users can use the
-            <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>session
-            configuration<?oxy_custom_end?> to enable silent installation based on the <ph
-                conkeyref="PRODvars/SETUP_FILE"/> file, and then execute <ph
-                conkeyref="PRODvars/INSTALLER"/> in silent mode.</p>
+        <p><indexterm>Installation<indexterm>silent installation</indexterm></indexterm><ph
+                conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"
+                otherprops="SPLM_SE"/> provides silent installation based on a pre-defined
+            configuration file. Users can customize the configuration settings in the <ph
+                conkeyref="PRODvars/SETUP_FILE"/> file to enable silent installation, and then
+            execute <ph conkeyref="PRODvars/INSTALLER"/> in silent mode.</p>
+        <p>Administrators can install <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"
+                otherprops="SPLM_SE"/> from the command line interface (CLI) or using a batch file,
+            allowing for silent installation and mass deployment.</p>
+        <p>For mass deployment, TXOne Networks recommends first installing <ph
+                conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH" otherprops="SPLM_SE"/> on a test
+            endpoint since a customized installation may require a valid configuration file and
+            Approved List. See the TXOne <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"
+                otherprops="SPLM_SE"/> Administrator's Guide for more information about the Approved
+            List and configuration file.</p>
     </conbody>
 </concept>

@@ -6,7 +6,8 @@
         <context>
             <p>This section describes the license activation procedures during the installation
                 process for standalone <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                    >OFFICIAL_PRODUCT_NAME</ph> agents.</p>
+                    otherprops="SP">OFFICIAL_PRODUCT_NAME</ph><ph
+                    conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH" otherprops="SPLM_SE"/> agents.</p>
         </context>
         <steps>
             <step>

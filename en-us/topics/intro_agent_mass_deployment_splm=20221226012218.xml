@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-F4AD6A7E-1798-4E63-A9FE-531434B42DD9" xml:lang="en-us">
+    <title id="GUID-2CCB340C-94E1-4FAE-9863-1741742B3F2B">Agent Configuration File
+        Deployment</title>
+    <conbody>
+        <p><indexterm>Mass Deployment</indexterm>This chapter describes the deployment of settings
+            to multiple TXOne <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> agents using an
+            Agent Configuration File.</p>
+    </conbody>
+</concept>

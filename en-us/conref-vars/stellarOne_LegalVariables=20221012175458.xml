@@ -83,8 +83,9 @@ Micro t-ball logo, Control Manager, eManager, and ScanMail</p></li></ul></entry>
 </row>
 <row rowsep="1">
 <entry colname="1"><ph conkeyref="LEGALvars/document_part_number">document_part_number</ph></entry>
-<entry colname="2"><ph id="document_part_number"><text otherprops="AG">APEMxxxxx/22xxxx</text><text
-                    otherprops="IG">APEMxxxxx/22xxxx</text></ph></entry>
+<entry colname="2"><ph id="document_part_number"><text otherprops="SPLM"
+                    >APEMxxxxx/22xxxx</text><text otherprops="SE">APEMxxxxx/22xxxx</text><text
+                    otherprops="SP">APEMxxxxx/22xxxx</text></ph></entry>
 <entry colname="3"><p><draft-comment translate="no">Document release version. See
 note on next page about multiple document sets.</draft-comment></p><ul id="GUID-CE77CDEB-3584-4E3D-96CF-599AE9F9FAD9">
 <li><p>SMEM104607/100822</p></li></ul></entry>
@@ -99,7 +100,8 @@ note on next page about multiple document sets.</draft-comment></p><ul id="GUID-
 </row>
 <row rowsep="1">
 <entry colname="1"><ph conkeyref="LEGALvars/product_version">product_version</ph></entry>
-<entry colname="2"><ph id="product_version">2.1</ph></entry>
+<entry colname="2"><ph id="product_version"><text otherprops="SP">2.1</text><text
+                    otherprops="SPLM_SE">1.4</text></ph></entry>
 <entry colname="3"><p><draft-comment translate="no">Product release version</draft-comment></p><ul id="GUID-7BA7AF64-6265-4064-BBD8-4F3B99D50279">
 <li><p>10.2 SP2</p></li></ul></entry>
 <entry colname="4">product_version</entry>

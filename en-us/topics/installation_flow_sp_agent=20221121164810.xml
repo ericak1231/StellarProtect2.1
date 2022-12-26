@@ -2,14 +2,17 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
 
 <task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <?oxy_custom_start type="oxy_content_highlight" color="255,64,0"?>
     <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094"><ph
-            conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph> Installation
-        Flow</title>
+            conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+            >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+        Installation Flow</title><?oxy_custom_end?>
     <taskbody>
         <context id="context_ncj_b5y_g5b">
             <p><indexterm>installation<indexterm>installation flow</indexterm></indexterm>The
-                installation of <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                    >OFFICIAL_PRODUCT_NAME</ph> requires performing following tasks:</p>
+                installation of <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                    >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+                requires performing following tasks:</p>
         </context>
         <steps id="steps_wvw_g5y_g5b">
             <step>
@@ -36,9 +39,7 @@
                 <info>
                     <ul id="ul_m32_wdg_pvb">
                         <li>
-                            <p><xref
-                                    href="../topics/install_agent_package=20221121180034.xml"
-                                /></p>
+                            <p><xref href="../topics/install_agent_package=20221121180034.xml"/></p>
                         </li>
                         <li>
                             <p><xref
@@ -59,24 +60,24 @@
                         <cmd>Specify the Administrator password and activate the
                             license<?oxy_custom_end?></cmd>
                     </substep>
-                    <substep>
+                    <substep otherprops="SP">
                         <cmd>Determine the asset information and installation settings</cmd>
                     </substep>
-                    <substep>
+                    <substep otherprops="SP">
                         <cmd>Check to remove the detected incompatible software and residual
                             files</cmd>
                     </substep>
-                    <substep>
+                    <substep otherprops="SP">
                         <cmd>(Optional but recommended) Prescan for malware scanning and OT
                             application identification</cmd>
                     </substep>
-                    <substep>
+                    <substep otherprops="SP">
                         <cmd>(Optional but recommended) Create Approved List and enable Application
                             Lockdown "Detect" mode</cmd>
                     </substep>
                 </substeps>
                 <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-                <info>
+                <info otherprops="SP">
                     <note id="note_ezb_tyr_tvb">
                         <ul id="ul_ob4_hps_tvb">
                             <li>
@@ -84,7 +85,7 @@
                                     Malware Scan, <b>Step 4.e</b> should not appear during the
                                     installation process.</p>
                             </li>
-                            <li>
+                            <li otherprops="SP">
                                 <p>Since the StellarKiosk license edition does not support
                                     Application Lockdown, <b>Step 4.f </b>should not appear during
                                     the installation process.</p>

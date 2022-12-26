@@ -4,13 +4,14 @@
     <title>Software and Hardware Requirements</title>
     <refbody>
         <section id="section_d2s_jb1_pvb">
-            <p>TXOne <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+            <p>TXOne <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                    >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
                 does not have specific hardware requirements beyond those specified by the operating
                 system, with the following exceptions:</p>
         </section>
-        <table frame="all" id="table_nrw_vb1_pvb">
+        <table frame="all" id="table_nrw_vb1_pvb" otherprops="SP">
             <title>Required Software for <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                    >OFFICIAL_PRODUCT_NAME</ph></title>
+                    otherprops="SP">OFFICIAL_PRODUCT_NAME</ph></title>
             <tgroup cols="2">
                 <colspec colname="c1" colnum="1" colwidth="1*"/>
                 <colspec colname="c2" colnum="2" colwidth="1*"/>
@@ -38,7 +39,8 @@
         </table>
         <table frame="all" id="table_ijd_dc1_pvb">
             <title>Required Hardware for <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                    >OFFICIAL_PRODUCT_NAME</ph></title>
+                    >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"
+                /></title>
             <tgroup cols="2">
                 <colspec colname="c1" colnum="1" colwidth="1*"/>
                 <colspec colname="c2" colnum="2" colwidth="1*"/>
@@ -59,7 +61,7 @@
                         </entry>
                         <entry>
                             <p>350MB minimum</p>
-                            <p>400MB recommended</p>
+                            <p otherprops="SP">400MB recommended</p>
                         </entry>
                     </row>
                     <row>
@@ -67,25 +69,29 @@
                             <p>Monitor resolution</p>
                         </entry>
                         <entry>
-                            <p>640 x 480</p>
+                            <p otherprops="SP">640 x 480</p>
+                            <p otherprops="SPLM_SE">VGA (640 x 480), 16 colors</p>
                         </entry>
                     </row>
                 </tbody>
             </tgroup>
         </table>
         <section id="section_pjk_jc1_pvb">
-            <p>By default, <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                    >OFFICIAL_PRODUCT_NAME</ph> uses port 14336, which is sometimes blocked by
-                firewalls. Please make sure this port is kept open for <ph
-                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>'s
-                use.</p>
+            <p>By default, <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                    >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+                uses port 14336, which is sometimes blocked by firewalls. Please make sure this port
+                is kept open for <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                    otherprops="SP">OFFICIAL_PRODUCT_NAME</ph><ph
+                    conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>'s use.</p>
             <note id="note_wbw_lc1_pvb" type="important">
                 <p>
-                    <ol id="ol_gll_rc1_pvb">
+                    <ul id="ul_q3w_kxq_xvb">
                         <li>
-                            <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                                    >OFFICIAL_PRODUCT_NAME</ph> cannot be installed on a system that
-                                already runs one of the following:<ul id="ul_uzr_nc1_pvb">
+                            <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                                    >OFFICIAL_PRODUCT_NAME</ph><ph
+                                    conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> cannot be
+                                installed on a system that already runs one of the following:<ul
+                                    id="ul_uzr_nc1_pvb">
                                     <li>
                                         <p>Trend Micro OfficeScan</p>
                                     </li>
@@ -95,21 +101,27 @@
                                     <li>
                                         <p>Other Trend Micro endpoint solutions</p>
                                     </li>
-                                    <li>
+                                    <li otherprops="SP">
                                         <p>Other antivirus products</p>
+                                    </li>
+                                    <li otherprops="SPLM_SE">
+                                        <p>Other endpointsolutions except Windows Defender
+                                            Antivirus</p>
                                     </li>
                                 </ul></p>
                         </li>
                         <li>
                             <p>Ensure that the following root certification authority (CA)
-                                certificates are installed with intermediate CAs, which are found
-                                in<?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
-                                StellarProtectSetup.exe<?oxy_custom_end?> and
-                                <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>StellarProtect.exe<?oxy_custom_end?>.
-                                These root CAs should be installed on the <ph
-                                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                                    >OFFICIAL_PRODUCT_NAME</ph> agent environment to communicate
-                                with <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>.<ul
+                                certificates are installed with intermediate CAs, which are found in
+                                    <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?><ph
+                                    conkeyref="PRODvars/INSTALLER" otherprops="SP"
+                                    /><?oxy_custom_end?><filepath otherprops="SPLM_SE"
+                                    >WKSrv.exe</filepath>. These root CAs should be installed on the
+                                    <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                    otherprops="SP">OFFICIAL_PRODUCT_NAME</ph><ph
+                                    conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> agent environment
+                                to communicate with <ph
+                                    conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>.<ul
                                     id="ul_rxy_5c1_pvb">
                                     <li>
                                         <p>Intermediate Symantec Class 3 SHA256 Code Signing CA</p>
@@ -118,13 +130,38 @@
                                         <p>Root VeriSign Class 3 Public Primary Certification
                                             Authority - G5</p>
                                     </li>
+                                    <?oxy_custom_start type="oxy_content_highlight" color="255,198,140"?>
+                                    <li otherprops="SPLM_SE">
+                                        <p>DigiCert Assured ID Root CA</p>
+                                    </li>
+                                    <li otherprops="SPLM_SE">
+                                        <p>DigiCert Trusted Root G4</p>
+                                    </li><?oxy_custom_end?>
                                 </ul>To check root CAs, refer to the <xref
                                     href="https://technet.microsoft.com/en-us/library/cc754841.aspx"
                                     format="html" scope="external">Microsoft support
                                 site</xref>.</p>
                         </li>
-                    </ol>
+                    </ul>
                 </p>
+            </note>
+            <note id="note_dbv_vvq_xvb" otherprops="SPLM_SE">
+                <ul id="ul_fwf_bwq_xvb">
+                    <li otherprops="SPLM_SE">
+                        <p>Memory Randomization, API Hooking Prevention, and DLL Injection
+                            Prevention are not supported on 64-bit platforms.</p>
+                    </li>
+                    <li>
+                        <p>See the latest <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                otherprops="SP">OFFICIAL_PRODUCT_NAME</ph><ph
+                                conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> readme file for the
+                            most up-to-date list of supported operating systems for agents.</p>
+                    </li>
+                </ul>
+            </note>
+            <note id="note_wgl_ztq_xvb" type="tip">
+                <p>For the x64 platform, removing x86 folders in the installation package can reduce
+                    the size of the installer and vice versa.</p>
             </note>
         </section>
     </refbody>

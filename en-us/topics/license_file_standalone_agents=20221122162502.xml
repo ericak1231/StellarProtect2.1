@@ -68,14 +68,17 @@
             <step>
                 <cmd>You will be directed to the <wintitle>License File Management</wintitle>
                     screen. Specify your license key in the <uicontrol>License Key</uicontrol>
-                    field, and then click <uicontrol>SUBMIT</uicontrol></cmd>
+                    field.</cmd>
                 <stepxmp>
-                    <fig id="fig_hvc_cty_tvb">
+                    <fig id="fig_o3q_skp_xvb">
                         <title>License File Management</title>
-                        <image href="../images/license_file_standalone_agent=20221209094509.png"
-                            id="image_wb2_dty_tvb"/>
+                        <image href="../images/download_license_file=20221222101353.png"
+                            id="image_qk4_tkp_xvb"/>
                     </fig>
                 </stepxmp>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>SUBMIT</uicontrol>.</cmd>
             </step>
             <step>
                 <cmd>The <wintitle>License File Info</wintitle> pop-up window appears showing the
@@ -83,7 +86,7 @@
                     provided by your support provider.</cmd>
             </step>
             <step>
-                <cmd>Click the copy icon to copy and save the Product Serial Number for later
+                <cmd>Click the copy icon to copy and save the <b>Product Serial Number</b> for later
                     use.</cmd>
                 <stepxmp>
                     <fig id="fig_w3m_5xy_tvb">
@@ -95,14 +98,24 @@
                 </stepxmp>
                 <info>
                     <note id="note_oll_2tx_svb" type="important">
-                        <p>The Product Serial Number is required for license activation by importing
-                            a license file.</p>
+                        <p>The <b>Product Serial Number</b> is required for license activation by
+                            importing a license file. Ensure that you save it for later use.</p>
                     </note>
                 </info>
             </step>
             <step>
                 <cmd>Click <uicontrol>Download</uicontrol> for downloading the license file (a
                         <filepath>.txt</filepath> file).</cmd>
+                <stepresult>
+                    <fig id="fig_dg3_d2x_xvb">
+                        <title>License File Downloaded</title>
+                        <image href="../images/license_file_downloaded=20221223114530.png"
+                            id="image_rcw_d2x_xvb" scalefit="yes"/>
+                    </fig>
+                    <note id="note_pwx_h2x_xvb">
+                        <p>Please find the license file in the downloads folder.</p>
+                    </note>
+                </stepresult>
             </step>
         </steps>
     </taskbody>

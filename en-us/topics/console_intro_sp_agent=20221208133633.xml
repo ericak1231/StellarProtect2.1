@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="local_installation_sp_agent_20221121172423">
-    <title>Using the Agent Console</title>
+    <title>Using the <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+        Agent Console</title>
     <conbody>
         <p><indexterm>using agent console</indexterm>This chapter describes how to operate TXOne <ph
                 conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>'s

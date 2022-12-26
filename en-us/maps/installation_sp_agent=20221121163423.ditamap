@@ -3,10 +3,6 @@
 <map xml:lang="en-us" id="GUID-0E622BE8-5DBA-4D04-8B16-8336810BE555">
 <title id="GUID-A4666C67-E723-48CA-8FFE-922E2F928DF0">Installation</title>
   <topicref href="../topics/ch2_installation_sp_agent=20221121163635.xml">
-    <topicref href="../topics/system_requirements_sp_agent=20221121165729.xml">
-      <topicref href="../topics/system_requirements_sp=20221121170534.xml"/>
-      <topicref href="../topics/operating_systems_sp_agent=20221121171940.xml"/>
-    </topicref>
     <topicref href="../topics/installation_flow_sp_agent=20221121164810.xml"/>
     <topicref href="../topics/get_agent_installer_package_intro=20221122155527.xml">
       <topicref href="../topics/get_agent_package=20221121173747.xml"/>
@@ -36,6 +32,5 @@
       <topicref href="../topics/license_file_replicate_multi_agents=20221122164139.xml"/>
       <topicref href="../topics/silent_install_encrypt_agent_package=20221206105306.xml"/>
     </topicref>
-    <topicref href="../topics/prepare_upgrade_sp=20221206145440.xml"/>
     <topicref href="../topics/proxy_settings_sp=20221208144133.xml"/>
   </topicref></map>

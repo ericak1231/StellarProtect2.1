@@ -4,7 +4,8 @@
     <title id="GUID-2CCB340C-94E1-4FAE-9863-1741742B3F2B">License Renewal</title>
     <conbody>
         <p><indexterm>license renewal</indexterm>This chapter describes how to renew license for
-            standalone <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                >OFFICIAL_PRODUCT_NAME</ph> agent.</p>
+            standalone <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+            agent.</p>
     </conbody>
 </concept>

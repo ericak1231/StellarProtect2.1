@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
-    <title>Using the Agent Console</title>
+    <title>Using the <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+        Agent Console</title>
     <topicref href="../topics/console_intro_sp_agent=20221208133633.xml">
         <topicref href="../topics/overview_console_sp_agent=20221208133853.xml"/>
         <topicref href="../topics/settings_console_sp_agent=20221208134527.xml"/>

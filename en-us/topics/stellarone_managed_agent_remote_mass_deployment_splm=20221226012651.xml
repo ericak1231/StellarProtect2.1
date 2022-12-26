@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_m5t_sf1_pvb">
+    <title>Remotely Importing Agent Settings</title>
+    <taskbody>
+        <context>
+            <p>You can remotely apply new agent settings to agents from <ph
+                    conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>. This feature allows you
+                to:</p>
+            <ul id="ul_a1w_g2s_yvb">
+                <li>
+                    <p>Remotely overwrite agent configurations</p>
+                </li>
+                <li>
+                    <p>Remotely overwrite Approved Lists</p>
+                </li>
+                <li>
+                    <p>Remotely add approved items to Approved Lists</p>
+                </li>
+            </ul>
+        </context>
+        <steps>
+            <step>
+                <cmd>Prepare a customized agent configuration file or Approved List.</cmd>
+                <info>
+                    <ol id="ol_ncw_n2s_yvb">
+                        <li>
+                            <p>Export and download an agent configuration file or Approved List.</p>
+                        </li>
+                        <li>
+                            <p>Customize the downloaded file.</p>
+                        </li>
+                    </ol>
+                    <note id="note_udp_p2s_yvb">
+                        <p>To ensure successful import, verify that the file to import meets the
+                            following requirements:</p>
+                        <ul id="ul_bzl_q2s_yvb">
+                            <li>
+                                <p>File is in the CSV format and uses UTF-8 encoding</p>
+                            </li>
+                            <li>
+                                <p>For Approved List, maximum file size supported is 20 MB</p>
+                            </li>
+                            <li>
+                                <p>For agent configuration file, maximum file size supported is 1
+                                    MB</p>
+                            </li>
+                        </ul>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Agents</uicontrol> from the <ph
+                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> console. The
+                        <wintitle>Agent management</wintitle> screen appears.</cmd>
+            </step>
+            <step>
+                <cmd>To import the customized file to agents, follow the steps below.</cmd>
+                <info>
+                    <ol id="ol_upt_x2s_yvb">
+                        <li>
+                            <p>Fromt he Endpoint column, select one or more agents.</p>
+                        </li>
+                        <li>
+                            <p>Click <uicontrol>Import/ Export</uicontrol></p>
+                        </li>
+                        <li>
+                            <p>Select <uicontrol>Import Approved List</uicontrol> or
+                                    <uicontrol>Import Agent Configuration</uicontrol>. The import
+                                dialog will appear.</p>
+                        </li>
+                    </ol>
+                </info>
+            </step>
+            <step>
+                <cmd>To import the customized file to an agent group, follow the steps below.</cmd>
+                <info>
+                    <ol id="ol_sgv_dfs_yvb">
+                        <li>
+                            <p>From the left panel, select an agent group and go to
+                                    <uicontrol>Import / Export</uicontrol>.</p>
+                        </li>
+                        <li>
+                            <p>Select <uicontrol>Import Approved List</uicontrol> or
+                                    <uicontrol>Import Agent Configuration</uicontrol>. The import
+                                dialog will appear.</p>
+                        </li>
+                    </ol>
+                </info>
+            </step>
+            <step>
+                <cmd>By default, <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> does the
+                    following:</cmd>
+                <info>
+                    <ul id="ul_ghp_3fs_yvb">
+                        <li>
+                            <p><b>Approved List</b>: accumulates items from the customized Approved
+                                List to the target Approved Lists. To replace the target Approved
+                                Lists with the customized Approved List, select <uicontrol>Overwrite
+                                    the existing Approved List</uicontrol>.</p>
+                        </li>
+                        <li>
+                            <p><b>Agent Configuration</b>: overwrites the target Approved Lists with
+                                the customized Approved List.</p>
+                        </li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Browse</uicontrol> to select the customized file.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>OK</uicontrol>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

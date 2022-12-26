@@ -5,7 +5,8 @@
     <conbody>
         <p><indexterm>installation<indexterm>system requirements</indexterm></indexterm>This section
             introduces the system requirements for <ph
-                conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>,
+                conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>,
             including hardware and OS requirements.</p>
     </conbody>
 </concept>

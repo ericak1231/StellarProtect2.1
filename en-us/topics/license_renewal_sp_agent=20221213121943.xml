@@ -8,8 +8,9 @@
         <context id="context_av5_kxt_wvb">
             <p>For standalone agents, users can renew license directly on the agent console. <note
                     id="note_tmg_snc_vvb">
-                    <p>For <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                            >OFFICIAL_PRODUCT_NAME</ph> agents managed by <ph
+                    <p>For <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                            >OFFICIAL_PRODUCT_NAME</ph><ph
+                            conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> agents managed by <ph
                             conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> server, please
                         renew license via the <ph
                             conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> web console.
@@ -22,7 +23,8 @@
         <steps id="steps_wvw_g5y_g5b">
             <step>
                 <cmd>Click the <uicontrol>New License</uicontrol> button on the <ph
-                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                        >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
                     logon screen.</cmd>
                 <stepxmp>
                     <fig id="fig_c5b_5hd_vvb">
@@ -76,9 +78,9 @@
                 </choices>
             </step>
             <step>
-                <cmd>Check the <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                        >OFFICIAL_PRODUCT_NAME</ph> logon screen for the updated license expiration
-                    date.</cmd>
+                <cmd>Check the <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                        >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+                    logon screen for the updated license expiration date.</cmd>
                 <stepresult>
                     <fig id="fig_knw_53d_vvb">
                         <title>License Renewed for Standalone Agents</title>

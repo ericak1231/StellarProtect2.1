@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_m5t_sf1_pvb">
+    <title>Deployment Using <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/></title>
+    <taskbody>
+        <context>
+            <p>Agents installed in <b>Managed</b> mode are managed by a <ph
+                    conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> server, which can issue
+                remote commands to all managed agents. To deploy agentconfiguration settings to
+                multiple managed agents, launch the <ph
+                    conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> web console and use the
+                    <uicontrol>Send Command </uicontrol>menu located on the
+                    <wintitle>Agent</wintitle> management screen.</p>
+            <sectiondiv>
+                <data>
+                    <title><b>Remotely Exporting Agent Settings</b></title>
+                </data>
+                <p>You can remotely obtain agent configuration settings and Approved Lists by
+                    exporting and downloading them from the <ph
+                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>.</p>
+            </sectiondiv>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click <menucascade>
+                        <uicontrol>Agents</uicontrol>
+                        <uicontrol><text otherprops="SPLM">StellarProtect (Legacy Mode)</text><text
+                                otherprops="SE">StellarEnforce</text></uicontrol>
+                    </menucascade> from the <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"
+                    /> web console. The <wintitle>Agent</wintitle> management screen appears.</cmd>
+            </step>
+            <step>
+                <cmd>Select a target endpoint.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Import/ Export</uicontrol> and select one of the
+                    following:</cmd>
+                <info>
+                    <ul id="ul_uv1_nds_yvb">
+                        <li>
+                            <p><uicontrol>Import Approved List</uicontrol></p>
+                        </li>
+                        <li>
+                            <p><uicontrol>Import Agent Configuration</uicontrol></p>
+                        </li>
+                    </ul>
+                    <p>The <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> will issue the
+                        command. Progress can be viewed from the pop-up
+                                <b><wintitle>Details</wintitle></b> window.</p>
+                </info>
+            </step>
+            <step>
+                <cmd>To export settings, repeat the above steps, instead selecting either
+                        <uicontrol>Export Approved List</uicontrol> or<uicontrol> Export Agent
+                        Configuration</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>A <wintitle>Command Deployment</wintitle> window appears showing the exports
+                    status.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Download</uicontrol> to download the exported settings.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

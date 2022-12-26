@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_ntt_lkg_pvb">
+    <title>Agent Use Overview</title>
+    <refbody>
+        <section id="section_q2x_4kg_pvb">
+            <p><indexterm>Use Overview</indexterm></p>
+            <p>TXOne <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> is a trust list-based
+                solution that locks down computers, preventing all applications not on the Approved
+                List from running. <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> can be
+                configured and maintained using the graphical user interface (GUI) agent console or
+                the command line interface (CLI).</p>
+            <p>System updates can be applied without turning off ApplicationLockdown at the endpoint
+                through Maintenance Mode, trust hash, trust certification, predefined trusted
+                updater list or by using the Trusted Updater.</p>
+            <p>Consider this typical use case scenario:</p>
+            <ol id="ol_ilt_1tw_xvb">
+                <li>
+                    <p>Set up the Approved List and turn on Application Lockdown on the endpoint so
+                        that unapproved applications cannot be run.</p>
+                </li>
+                <li>
+                    <p>Use Maintenance Mode, trust hash, trust certification, predefined trusted
+                        updater list or by using the Trusted Updater to update or install
+                        software.</p>
+                </li>
+                <li>
+                    <p>Configure and enable the Restricted User account for later maintenance.</p>
+                </li>
+            </ol>
+            <p>If someone tries to run an applicationnot specifically on the Approved List, the
+                following message displays:</p>
+            <fig id="fig_wt2_ptw_xvb">
+                <title><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> Blocking Message</title>
+                <image
+                    href="../images/agent_use_overview=20221223102749.png"
+                    id="image_zb4_ptw_xvb"/>
+            </fig>
+        </section>
+    </refbody>
+</reference>

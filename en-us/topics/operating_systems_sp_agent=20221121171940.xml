@@ -6,16 +6,31 @@
         <section id="section_zcq_md1_pvb">
             <title>Windows Client:</title>
             <ul id="ul_ev1_4d1_pvb">
-                <li>
+                <?oxy_custom_start type="oxy_content_highlight" color="255,198,140"?>
+                <li otherprops="SPLM_SE">
+                    <p>Windows 2000 (SP4) [Professional] (32bit)</p>
+                </li>
+                <li otherprops="SPLM_SE">
+                    <p>Windows XP (SP1/SP2/SP3)  [Professional/Professionalfor Embedded Systems]
+                        (32bit)</p>
+                </li>
+                <li otherprops="SPLM_SE">
+                    <p>Windows Vista (NoSP/SP1/SP2) [Business/Enterprise/Ultimate] (32bit)</p>
+                </li><?oxy_custom_end?>
+                <li otherprops="SP">
                     <p>Windows 7 (NoSP/SP1) [Professional/Enterprise/Ultimate] (32/64bit)</p>
                 </li>
+                <?oxy_custom_start type="oxy_content_highlight" color="255,198,140"?>
+                <li otherprops="SPLM_SE">
+                    <p>Windows 7 (NoSP/SP1) [Professional/Enterprise/Ultimate/Professional for
+                        Embedded Systems/Ultimate for Embedded Systems] (32/64bit)</p>
+                </li><?oxy_custom_end?>
                 <li>
                     <p>Windows 8 (NoSP) [Pro/Enterprise] (32/64bit)</p>
                 </li>
-                <?oxy_comment_start author="erica_txone" timestamp="20221219T085038+0800" comment="added on 12/19 due to JP&apos;s comments &amp; QA&apos;s confirmation"?>
                 <li>
                     <p>Windows 8.1 (NoSP) [Pro/Enterprise/with Bing] (32/64bit)</p>
-                </li><?oxy_comment_end?>
+                </li>
                 <li>
                     <p>Windows 10 [Pro/Enterprise/IoT Enterprise] (32/64bit) Anniversary Update,
                         Creators Update, Fall Creators Update, April 2018 Update, November 2018
@@ -24,10 +39,102 @@
                 </li>
                 <li>
                     <p>Windows 11 (NoSP) [Pro/Enterprise] (64bit) 2022 Update</p>
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,198,140"?>
+                    <note id="note_cg4_czq_xvb" otherprops="SPLM_SE">
+                        <ul id="ul_z3l_2zq_xvb">
+                            <li>
+                                <p>Unlock the endpoint before updating your Windows 10 operating
+                                    system to the Anniversary Update, Creators Update, Fall Creators
+                                    Update, April 2018 Update, October 2018 Update, or later
+                                    versions.</p>
+                            </li>
+                            <li>
+                                <p>OndDrive integration in Windows 10 Fall Creators Update, Spring
+                                    Creators Update, or later versions is not supported. Ensure that
+                                    OneDrive integration is disabled before installing <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>.</p>
+                            </li>
+                            <li>
+                                <p>To improve performance, disable the following Windows 10
+                                    components:</p>
+                                <ul id="ul_fxh_kzq_xvb">
+                                    <li>
+                                        <p>Windows Defender Antivirus. This may be disabled via
+                                            group policy.</p>
+                                    </li>
+                                    <li>
+                                        <p>Windows Update. Automatic updates may require the
+                                            download of large files, which may affect
+                                            performance.</p>
+                                    </li>
+                                    <li>
+                                        <p>Windows Apps (Microsoft Store) auto-update. Checking for
+                                            frequent updates may cause performance issues.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>In Windows 10 April 2018 Update (Redstone 4) and later, <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> has the
+                                    following limitations when working with folders where the case
+                                    sensitive attribute has been enabled:</p>
+                                <ul id="ul_fmk_rzq_xvb">
+                                    <li>
+                                        <p>Enable the <codeph>case sensitive</codeph> attribute for
+                                            a folder may prevent <ph
+                                                conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> from
+                                            performing certain actions (e.g., prescan, custom
+                                            actions) on that folder. Folders that do not have the
+                                            attribute enabled are not affected.</p>
+                                    </li>
+                                    <li>
+                                        <p><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> blocks
+                                            all processes started fromfolders where the <codeph>case
+                                                sensitive</codeph> attribute is enabled.
+                                            Additionally, <ph
+                                                conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> is
+                                            unable to provide any information for the blocked
+                                            processes, except for file path.</p>
+                                    </li>
+                                    <li>
+                                        <p>The <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+                                            agent cannot verify file signatures of files saved in
+                                            folders where the case sensitive attribute is enabled.
+                                            As a result, DAC exceptions related to signatures cannot
+                                            work.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </note><?oxy_custom_end?>
                 </li>
+                <?oxy_custom_start type="oxy_content_highlight" color="255,198,140"?>
+                <li otherprops="SPLM_SE">
+                    <p>Windows XP Embedded (SP1/SP2) (32bit)</p>
+                    <note id="note_kqd_q1r_xvb" otherprops="SPLM_SE">
+                        <p><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> does not support a
+                            custom action of “quarantine” on Windows XP Embedded SP1.</p>
+                    </note>
+                </li>
+                <li otherprops="SPLM_SE">
+                    <p>Windows Embedded Standard 2009 (NoSP) (32bit)</p>
+                </li>
+                <li otherprops="SPLM_SE">
+                    <p>Windows Embedded POSReady 2009 (32bit)</p>
+                </li>
+                <li otherprops="SPLM_SE">
+                    <p>Windows Vista for Embedded Systems (NoSP/SP1/SP2) (32bit)</p>
+                </li>
+                <li otherprops="SPLM_SE">
+                    <p>Windows Embedded Standard 7 (NoSP/SP1) (32/64bit)</p>
+                </li><?oxy_custom_end?>
                 <li>
                     <p>Windows Embedded POSReady 7 (NoSP) (32/64bit)</p>
                 </li>
+                <?oxy_custom_start type="oxy_content_highlight" color="255,198,140"?>
+                <li otherprops="SPLM_SE">
+                    <p>Windows Embedded 8 Standard (NoSP) (32/64bit)</p>
+                </li><?oxy_custom_end?>
                 <li>
                     <p>Windows Embedded 8 Industry (NoSP) [Pro/Enterprise] (32/64bit)</p>
                 </li>
@@ -35,11 +142,27 @@
                     <p>Windows Embedded 8.1 Industry (NoSP) [Pro/Enterprise/Sideloading]
                         (32/64bit)</p>
                 </li>
+                <?oxy_custom_start type="oxy_content_highlight" color="255,198,140"?>
+                <li otherprops="SPLM_SE">
+                    <p>Widows Embedded POSReady (32bit)</p>
+                </li><?oxy_custom_end?>
             </ul>
         </section>
         <section id="section_gnw_rd1_pvb">
             <title>Windows Server:</title>
             <ul id="ul_uwk_td1_pvb">
+                <?oxy_custom_start type="oxy_content_highlight" color="255,198,140"?>
+                <li otherprops="SPLM_SE">
+                    <p>Windows Server 2000 (SP4) (32bit)</p>
+                </li><?oxy_custom_end?>
+                <?oxy_custom_start type="oxy_content_highlight" color="255,198,140"?>
+                <li otherprops="SPLM_SE">
+                    <p>Windows Server 2003 (SP1/SP2) [Standard/Enterprise/Storage] (32bit)</p>
+                </li><?oxy_custom_end?>
+                <?oxy_custom_start type="oxy_content_highlight" color="255,198,140"?>
+                <li otherprops="SPLM_SE">
+                    <p>Windows Server 2003 R2 (NoSP/SP2) [Standard/Enterprise/Storage] (32bit)</p>
+                </li><?oxy_custom_end?>
                 <li>
                     <p>Windows Server 2008 (SP1/SP2) [Standard/Enterprise/ Storage] (32/64bit)</p>
                 </li>
@@ -48,10 +171,10 @@
                     <p>Windows Server 2008 R2 (NoSP/SP1) (Standard/Enterprise/Storage] (64bit)</p>
                 </li><?oxy_comment_end?>
                 <li>
-                    <p>Windows Server 2012 (No SP) (Essentials/Standard] (64bit)</p>
+                    <p>Windows Server 2012 (NoSP) (Essentials/Standard] (64bit)</p>
                 </li>
                 <li>
-                    <p>Windows Server 2012 R2 (No SP) (Essentials/Standard] (64bit)</p>
+                    <p>Windows Server 2012 R2 (NoSP) (Essentials/Standard] (64bit)</p>
                 </li>
                 <li>
                     <p>Windows Server 2016 (NoSP) [Standard] (64bit)</p>
@@ -65,11 +188,57 @@
                 <li>
                     <p>Windows Storage Server 2012 (NoSP) [Standard] (64bit)</p>
                 </li>
+                <?oxy_custom_start type="oxy_content_highlight" color="255,198,140"?>
+                <li otherprops="SPLM_SE">
+                    <p>Windows Storage Server 2012 R2 (NoSP) [Standard] (64bit)</p>
+                </li><?oxy_custom_end?>
                 <?oxy_comment_start author="erica_txone" timestamp="20221207T154232+0800" comment="2022/12/7 added 2016 version"?>
                 <li>
-                    <p>Windows Storage Server 2016 (NoSP) [Standard] (64bit)</p>
+                    <p>Windows Storage Server 2016 (NoSP) (64bit)</p>
                 </li><?oxy_comment_end?>
+                <?oxy_custom_start type="oxy_content_highlight" color="255,198,140"?>
+                <li otherprops="SPLM_SE">
+                    <p>Windows Server 2003 for Embedded Systems (SP1/SP2) (32bit)</p>
+                </li><?oxy_custom_end?>
+                <?oxy_custom_start type="oxy_content_highlight" color="255,198,140"?>
+                <li otherprops="SPLM_SE">
+                    <p>Windows Server 2003 R2 for Embedded Systems (NoSP/SP2) (32bit)</p>
+                </li><?oxy_custom_end?>
+                <?oxy_custom_start type="oxy_content_highlight" color="255,198,140"?>
+                <li otherprops="SPLM_SE">
+                    <p>Windows Server 2008 for Embedded Systems (SP1/SP2) (32/64bit)</p>
+                </li><?oxy_custom_end?>
+                <?oxy_custom_start type="oxy_content_highlight" color="255,198,140"?>
+                <li otherprops="SPLM_SE">
+                    <p>Windows Server 2008 R2 for Embedded Systems (NoSP/SP1) (64bit)</p>
+                </li><?oxy_custom_end?>
+                <?oxy_custom_start type="oxy_content_highlight" color="255,198,140"?>
+                <li otherprops="SPLM_SE">
+                    <p>Windows Server 2012 for Embedded Systems (NoSP) (64bit)</p>
+                </li><?oxy_custom_end?>
+                <?oxy_custom_start type="oxy_content_highlight" color="255,198,140"?>
+                <li otherprops="SPLM_SE">
+                    <p>Windows Server 2012 R2 for Embedded Systems (NoSP) (64bit)</p>
+                </li><?oxy_custom_end?>
             </ul>
+            <?oxy_custom_start type="oxy_content_highlight" color="255,198,140"?>
+            <note id="note_oqw_gyq_xvb" otherprops="SPLM_SE">
+                <p><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> installed on Windows 2000 SP4
+                    (without update rollup), Windows XP SP1, Windows XP Embedded, or Windows 2000
+                    Server SP4 does not support the following functions: DLL/Driver Lockdown, Script
+                    Lockdown, Integrity Monitoring, USB Malware Protection, Storage Device Blocking,
+                    Maintenance Mode,and Predefined Trusted Updater.</p>
+                <p>To support these features, install Filter Manager:</p>
+                <ul id="ul_mqk_kyq_xvb">
+                    <li>
+                        <p>For Windows 2000 Service Pack 4, apply the update KB891861 fromthe
+                            Microsoft Update Catalog website.</p>
+                    </li>
+                    <li>
+                        <p>For Windows XP SP1, upgrade to Windows XP SP2.</p>
+                    </li>
+                </ul>
+            </note><?oxy_custom_end?>
         </section>
     </refbody>
 </reference>

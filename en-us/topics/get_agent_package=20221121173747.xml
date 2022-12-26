@@ -46,11 +46,10 @@
                                 conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> and can be
                             used for <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
                                 >OFFICIAL_PRODUCT_NAME</ph> and <ph
-                                conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
-                                >OFFICIAL_PRODUCT_NAME</ph> installations. After being invoked, the
-                            single installer can identfy the version of Windows installed on the
-                            endpoint and launch the suitable installer for the endpoint to
-                            install.</p>
+                                conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> installations. After
+                            being invoked, the single installer can identfy the version of Windows
+                            installed on the endpoint and launch the suitable installer for the
+                            endpoint to install.</p>
                     </note>
                 </stepresult><?oxy_custom_end?>
             </step>

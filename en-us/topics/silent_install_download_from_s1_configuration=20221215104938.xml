@@ -19,7 +19,7 @@
                             conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>, within the <ph
                             conkeyref="PRODvars/SETUP_FILE"/> config file, the values of the
                             <codeph>product_serial_number</codeph> and
-                            <codeph>txon_license_env</codeph> properties should be automatically
+                            <codeph>txone_license_env</codeph> properties should be automatically
                         generated. Please specify password and set the <codeph>silent</codeph> value
                         to <codeph>1</codeph> in the configuration file. If you would like to manage
                         the agent using <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>,
