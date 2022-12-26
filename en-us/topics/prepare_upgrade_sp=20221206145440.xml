@@ -41,11 +41,10 @@
                         <text otherprops="SPLM_SE">1.3</text></p>
                     <note id="note_jfj_rgr_xvb" otherprops="SPLM">
                         <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
-                        <p>The <ph conkeyref="PRODvars/PRODUCT_SPLM_PREVIOUS_NAME"/> product name
-                            has been changed to <ph
+                        <p>The <ph conkeyref="PRODvars/PRODUCT_SPLM_PREVIOUS_NAME"/> was renamed <ph
                                 conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
-                                >OFFICIAL_PRODUCT_NAME</ph> since version 1.3
-                            launched.<?oxy_custom_end?></p>
+                                >OFFICIAL_PRODUCT_NAME</ph> upon the release of version
+                            1.3.<?oxy_custom_end?></p>
                     </note>
                 </li>
             </ul>
@@ -65,7 +64,7 @@
             <note id="note_nr1_3n2_tvb" type="warning">
                 <p>Before upgrading, take the appropriate actions below as noted for your chosen
                     installation method and the version of your installed <ph
-                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
                         >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
                     agent.</p>
             </note>

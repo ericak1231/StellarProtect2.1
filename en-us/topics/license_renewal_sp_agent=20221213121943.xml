@@ -30,7 +30,9 @@
                     <fig id="fig_c5b_5hd_vvb">
                         <title>Renew License for Standalone Agents</title>
                         <image href="../images/license_renewal_before_standalone=20221213143507.png"
-                            id="image_uh5_4hd_vvb"/>
+                            id="image_uh5_4hd_vvb" otherprops="SP"/>
+                        <image href="../images/log_on_splm_console_expired=20221226135004.png"
+                            id="image_v32_w4t_yvb" otherprops="SPLM"/>
                     </fig>
                 </stepxmp>
             </step>
@@ -87,7 +89,9 @@
                     </fig>
                     <fig id="fig_kqb_lhd_vvb">
                         <image href="../images/license_renewed_standalone=20221213143404.png"
-                            id="image_osl_lhd_vvb"/>
+                            id="image_osl_lhd_vvb" otherprops="SP"/>
+                        <image href="../images/log_on_splm_console=20221226134608.png"
+                            id="image_uhl_qpt_yvb" otherprops="SPLM"/>
                     </fig>
                 </stepresult>
             </step>

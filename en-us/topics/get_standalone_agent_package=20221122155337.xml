@@ -14,11 +14,11 @@
                         format="html" scope="external">Software Download Center</xref>.</cmd>
             </step>
             <step>
-                <cmd otherprops="SP">Find <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                        otherprops="SP_SPLM">OFFICIAL_PRODUCT_NAMEa</ph><ph
+                <cmd>Find <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP_SPLM"
+                        >OFFICIAL_PRODUCT_NAMEa</ph><ph
                         conkeyref="PRODvars/PRODUCT_SPLM_PREVIOUS_NAME" otherprops="SE"/> and click
                     it. You will be directed to the web page with the latest firmware version for
-                        <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                        <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
                         >OFFICIAL_PRODUCT_NAMEa</ph><ph
                         conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME" otherprops="SPLM"
                         >OFFICIAL_PRODUCT_NAME</ph><ph
@@ -32,9 +32,10 @@
                 <cmd>Find the file name starting with <filepath otherprops="SP_SPLM"
                         >txsp-</filepath><filepath otherprops="SE">txse-</filepath> and click it to
                     download the <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                        otherprops="SP_SPLM">OFFICIAL_PRODUCT_NAMEa</ph><text otherprops="SP_SPLM"
-                        >single</text><ph conkeyref="PRODvars/PRODUCT_SPLM_PREVIOUS_NAME"
-                        otherprops="SE"/> installer package.</cmd>
+                        otherprops="SP_SPLM">OFFICIAL_PRODUCT_NAMEa</ph>
+                    <text otherprops="SP_SPLM">single</text><ph
+                        conkeyref="PRODvars/PRODUCT_SPLM_PREVIOUS_NAME" otherprops="SE"/> installer
+                    package.</cmd>
                 <info otherprops="SP_SPLM">
                     <note id="note_q1t_45w_xvb">
                         <p>The <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"

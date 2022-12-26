@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_lb5_ckg_pvb">
+    <title>Agents Installed in Managed or Standalone Mode</title>
+    <conbody>
+        <p><indexterm>Installation<indexterm>Managed or Standalone Mode</indexterm></indexterm></p>
+        <p>TXOne Stellar offers two modes for agent management:</p>
+        <ul id="ul_qbj_3mt_yvb">
+            <li>
+                <p>Agents installed in <b><i>Managed</i></b> mode are managed by a <ph
+                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> server, which can
+                    issue remote commands to all managed agents. To deploy agent configuration
+                    settings to multiple managed agents, launch the <ph
+                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> web console and use
+                    the <b>Send Command</b> menu located on the <uicontrol>Agent</uicontrol>
+                    management screen.</p>
+            </li>
+            <li>
+                <p>Agents installed in <i><b>Standalone</b></i> mode are not managed by a TXOne <ph
+                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> central management
+                    console server; instead, they are managed by the local administrator or
+                    operator. To manually deploy a single configuration to multiple standalone
+                    agents, use an agent configuration file.</p>
+            </li>
+        </ul>
+    </conbody>
+</concept>

@@ -32,7 +32,7 @@
                                     the other documents.</p>
                             </entry>
                         </row>
-                        <row>
+                        <row otherprops="SP">
                             <entry colname="1">
                                 <p otherprops="SP">Installation and Administrator's Guide</p>
                             </entry>

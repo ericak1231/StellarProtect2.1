@@ -33,10 +33,10 @@
             <table frame="all" id="table_gfp_tlg_pvb">
                 <title>Properties in the <ph conkeyref="PRODvars/SETUP_FILE"/> File</title>
                 <tgroup cols="4">
-                    <colspec colname="c1" colnum="1" colwidth="1.51*"/>
-                    <colspec colname="c2" colnum="2" colwidth="1.51*"/>
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
                     <colspec colname="c3" colnum="3" colwidth="1*"/>
-                    <colspec colname="c4" colnum="4" colwidth="2.01*"/>
+                    <colspec colname="c4" colnum="4" colwidth="4*"/>
                     <thead>
                         <row>
                             <entry>
@@ -460,7 +460,7 @@
                                     imported, e.g., <filepath>C:\txsp_config</filepath></p>
                             </entry>
                         </row>
-                        <row>
+                        <row otherprops="SP">
                             <entry>
                                 <p otherprops="SP"><codeph otherprops="SP"
                                         >BYPASS_WINDEFEND_CHECK</codeph></p>

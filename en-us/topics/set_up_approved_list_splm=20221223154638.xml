@@ -11,14 +11,13 @@
         </context>
         <steps id="steps_wvw_g5y_g5b">
             <step>
-                <cmd>Openthe <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> console.The <ph
+                <cmd>Open the <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> console. The <ph
                         conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> log on screen appears.</cmd>
                 <stepxmp>
                     <fig id="fig_c5b_5hd_vvb">
                         <title><ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
                                 >OFFICIAL_PRODUCT_NAME</ph> Log On Screen</title>
-                        <image
-                            href="../images/log_on_splm_console=20221225211756.png"
+                        <image href="../images/log_on_splm_console=20221225211756.png"
                             id="image_uh5_4hd_vvb" scalefit="yes"/>
                     </fig>
                 </stepxmp>
@@ -37,18 +36,16 @@
             </step>
             <step>
                 <cmd>At the notification window, select <uicontrol>Yes. Set up the Approved List
-                        now</uicontrol> and click <uicontrol>OK</uicontrol>.</cmd>
-                <stepresult>
-                    <p><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> scans the endpoint and adds
-                        allapplications to the Approved List.</p>
-                    <fig id="fig_knw_53d_vvb">
-                        <title>Scanning for Creating Approved List</title>
-                    </fig>
+                        now</uicontrol> and click <uicontrol>OK</uicontrol>. <ph
+                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> scans the endpoint and adds
+                    allapplications to the Approved List.</cmd>
+                <stepxmp>
                     <fig id="fig_kqb_lhd_vvb">
+                        <title>Scanning for Creating Approved List</title>
                         <image href="../images/scanning_for_approved_list_splm=20221223155832.png"
                             id="image_osl_lhd_vvb"/>
                     </fig>
-                </stepresult>
+                </stepxmp>
             </step>
             <step>
                 <cmd><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> displays the Approved List
