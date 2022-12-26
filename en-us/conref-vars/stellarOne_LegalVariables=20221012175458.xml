@@ -83,14 +83,26 @@ Micro t-ball logo, Control Manager, eManager, and ScanMail</p></li></ul></entry>
 </row>
 <row rowsep="1">
 <entry colname="1"><ph conkeyref="LEGALvars/document_part_number">document_part_number</ph></entry>
-<entry colname="2"><ph id="document_part_number"><text otherprops="SPLM"
-                    >APEMxxxxx/22xxxx</text><text otherprops="SE">APEMxxxxx/22xxxx</text><text
-                    otherprops="SP">APEMxxxxx/22xxxx</text></ph></entry>
-<entry colname="3"><p><draft-comment translate="no">Document release version. See
-note on next page about multiple document sets.</draft-comment></p><ul id="GUID-CE77CDEB-3584-4E3D-96CF-599AE9F9FAD9">
+<entry colname="2"><ph id="document_part_number"><text otherprops="SP">APEM219658/221221</text><text
+                    otherprops="SPLM">APEM219659/221221</text><text otherprops="SE"
+                    >APEM149663/221221</text></ph></entry>
+<entry colname="3"><p><draft-comment translate="no">Document release version. See note on next page about multiple
+                    document sets.&lt;ig></draft-comment></p><ul id="GUID-CE77CDEB-3584-4E3D-96CF-599AE9F9FAD9">
 <li><p>SMEM104607/100822</p></li></ul></entry>
-<entry colname="4">document_part_number</entry>
+<entry colname="4">document_part_number_ig</entry>
 </row>
+            <row>
+              <entry colname="1"><ph conkeyref="LEGALvars/document_part_number_ag"
+                  >document_part_number</ph></entry>
+              <entry colname="2"><ph id="document_part_number_ag"><text otherprops="SPLM"
+                    >APEM219660/221221</text><text otherprops="SE"
+                >APEM149664/221221</text></ph></entry>
+              <entry colname="3">
+                <draft-comment translate="no">Document release version. See note on next page about
+                  multiple document sets.&lt;ag></draft-comment>
+              </entry>
+              <entry colname="4">document_part_number_ag</entry>
+            </row>
 <row rowsep="1">
 <entry colname="1"><ph conkeyref="LEGALvars/release_date">release_date</ph></entry>
 <entry colname="2"><ph id="release_date">January 2023</ph></entry>

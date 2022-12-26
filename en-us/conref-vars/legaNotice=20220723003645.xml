@@ -24,9 +24,7 @@
           conref="StellarOneIgLegal_Variables=20220722220437.xml#GUID-7DCB1831-4695-461E-BE49-E4F3C77EF3A1/inc_company_name"
           >inc_company_name</ph>. All other product or company names may be trademarks or registered
         trademarks of their owners.</p>
-      <p>Copyright © <ph
-          conref="StellarOneIgLegal_Variables=20220722220437.xml#GUID-7DCB1831-4695-461E-BE49-E4F3C77EF3A1/copyright_date"
-          >copyright_date</ph>. <ph
+      <p>Copyright © <ph conkeyref="LEGALvars/copyright_date">copyright_date</ph>. <ph
           conref="StellarOneIgLegal_Variables=20220722220437.xml#GUID-7DCB1831-4695-461E-BE49-E4F3C77EF3A1/inc_company_name"
           >inc_company_name</ph>. All rights reserved.</p>
       <p>Document Part No.: <ph conkeyref="LEGALvars/document_part_number"
