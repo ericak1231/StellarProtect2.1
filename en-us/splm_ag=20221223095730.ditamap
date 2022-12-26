@@ -3,8 +3,8 @@
 <bookmap>
     <booktitle>
         <mainbooktitle><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
-            <ph conkeyref="LEGALvars/product_version">product_version</ph> Installation and
-            Administrator's Guide</mainbooktitle>
+            <ph conkeyref="LEGALvars/product_version">product_version</ph> Administrator's
+            Guide</mainbooktitle>
     </booktitle>
     <bookmeta>
         <metadata>

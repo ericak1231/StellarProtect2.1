@@ -3,8 +3,8 @@
 <bookmap>
     <booktitle>
         <mainbooktitle><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
-            <ph conkeyref="LEGALvars/product_version">product_version</ph> Installation and
-            Administrator's Guide</mainbooktitle>
+            <ph conkeyref="LEGALvars/product_version">product_version</ph> Installation
+            Guide</mainbooktitle>
     </booktitle>
     <bookmeta>
         <metadata>
@@ -32,7 +32,7 @@
         format="ditamap"/>
     <chapter href="maps/installation_splm_agent=20221223143635.ditamap" format="ditamap"/>
     <chapter
-        href="../../../../../../../../OneDrive%20-%20TXOne%20Networks%20Inc/Documents/3.%20Project/2.1/StellarProtect/en-us/maps/agent_mass_deployment_splm=20221226012045.ditamap"
+        href="maps/agent_mass_deployment_splm=20221226012045.ditamap"
         format="ditamap"/>
     <chapter
         href="maps/uninstall_agent=20221122180132.ditamap"
