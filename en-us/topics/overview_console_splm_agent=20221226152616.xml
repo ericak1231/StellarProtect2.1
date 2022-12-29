@@ -275,9 +275,9 @@
                 <image href="../images/splm_agent_approved_list=20220927172127.png"
                     id="image_n1n_q1c_zvb"/>
             </fig>
-            <p><indexterm><indexterm>About the Agent Console</indexterm><indexterm>Approved
-                        List</indexterm></indexterm>The following table describes the features
-                available on the <uicontrol>Approved List</uicontrol>.</p>
+            <p><indexterm>About the Agent Console<indexterm>Approved List</indexterm></indexterm>The
+                following table describes the features available on the <uicontrol>Approved
+                    List</uicontrol>.</p>
             <table frame="all" id="table_ryg_kcb_zvb">
                 <title>Approved List Item Descriptions</title>
                 <tgroup cols="3">
@@ -379,9 +379,9 @@
                 <image href="../images/account_types_password=20221227174410.png"
                     id="image_byk_kjt_wvb"/>
             </fig>
-            <p><indexterm><indexterm>About the Agent Console</indexterm><indexterm>Password -
-                        account types</indexterm></indexterm>The following table describes the
-                account types available on the <uicontrol>Password</uicontrol> window.</p>
+            <p><indexterm>About the Agent Console<indexterm>Password - account
+                    types</indexterm></indexterm>The following table describes the account types
+                available on the <uicontrol>Password</uicontrol> window.</p>
             <p><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> provides role-based administration,
                 allowing administrators to grant users access to certain features on the main
                 console. Through the configuration file, <ph
