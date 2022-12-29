@@ -29,8 +29,7 @@
                         </row>
                     </thead>
                     <tbody>
-                        <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
-                        <row otherprops="2.2">
+                        <row>
                             <entry>
                                 <p>Self-management status</p>
                             </entry>
@@ -40,10 +39,11 @@
                                         conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>'s
                                     policy settings.</p>
                             </entry>
-                        </row><?oxy_custom_end?>
+                        </row>
                         <row>
                             <entry>
-                                <p>Silent manual scan</p>
+                                <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+                                <p>Silent manual scan</p><?oxy_custom_end?>
                             </entry>
                             <entry>
                                 <p>Users can implement silent manual scan via CLI and send the scan
@@ -114,6 +114,29 @@
                                     management console.</p>
                             </entry>
                         </row>
+                        <row>
+                            <entry>
+                                <p>Self-management status</p>
+                            </entry>
+                            <entry>
+                                <p>The self-management status shown on the agent's console allows
+                                    users to know whether the agent is following <ph
+                                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>'s
+                                    policy settings.</p>
+                            </entry>
+                        </row>
+                        <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                        <row>
+                            <entry>
+                                <p>Silent manual scan</p>
+                            </entry>
+                            <entry>
+                                <p>Users can implement silent manual scan via CLI and send the scan
+                                    result to the <ph
+                                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>
+                                    management console.</p>
+                            </entry>
+                        </row><?oxy_custom_end?>
                         <row>
                             <entry>
                                 <p>Single installer package</p>

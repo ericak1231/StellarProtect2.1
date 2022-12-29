@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="local_installation_sp_agent_20221121172423">
+    <title>Configuring the Approved List</title>
+    <conbody>
+        <p><indexterm>Approved List<indexterm>Configuration</indexterm></indexterm>After setting up
+            the Approved List, users can add new programs by clicking <uicontrol>Add
+                Item</uicontrol>, which displays the options in the following table.</p>
+        <table frame="all" id="table_dn5_n4b_zvb">
+            <title>Methods for Adding Applications to the Approved List</title>
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1.78*"/>
+                <thead>
+                    <row>
+                        <entry>
+                            <p>Option</p>
+                        </entry>
+                        <entry>
+                            <p>When to Use</p>
+                        </entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>
+                            <p><uicontrol>Manually browse and select files</uicontrol></p>
+                        </entry>
+                        <entry>
+                            <p>Choose this option when the software already exists on the endpoint
+                                and is up to date. Adding a file grants permission to run the file,
+                                but it does not alter the file or the system.</p>
+                            <p>For example, if Windows Media Player
+                                    (<filepath>wmplayer.exe</filepath>) is not in the Approved List
+                                after initial setup, users can add it to the list using the
+                                console.</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <p><uicontrol>Automatically add files created or modified by the
+                                    selected application installer</uicontrol> (using the Trusted
+                                Updater)</p>
+                        </entry>
+                        <entry>
+                            <p>Choose this option when you need to update or install new
+                                applications to your managed endpoint without having to unlock TXOne
+                                    <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>. TXOne <ph
+                                    conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> will add any new
+                                or modified files to the Approved List.</p>
+                            <p>For example, if Mozilla Firefox needs to be installed or updated,
+                                select this option to allow the installation or update to launch,
+                                and also add any files created or modified in the process to the
+                                Approved List.</p>
+                        </entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <note id="note_pkv_4qb_zvb">
+            <p>Moving or overwriting files manually (without using the Trusted Updater) can result
+                in the hash values not matching.</p>
+        </note>
+    </conbody>
+</concept>

@@ -15,17 +15,19 @@
                         conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> log on screen appears.</cmd>
             </step>
             <step>
-                <cmd>Provide the password and click <uicontrol>Log On</uicontrol>. <ph
-                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> asks if you want to set up the
-                    Approved List now.</cmd>
+                <cmd>Provide the password and click <uicontrol>Log On</uicontrol>.</cmd>
                 <stepxmp>
                     <fig id="fig_c5b_5hd_vvb">
                         <title><ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
                                 >OFFICIAL_PRODUCT_NAME</ph> Log On Screen</title>
-                        <image href="../images/log_on_splm_console=20221225211756.png"
+                        <image href="../images/log_on_new_license_splm_console=20221226150101.png"
                             id="image_uh5_4hd_vvb" scalefit="yes"/>
                     </fig>
                 </stepxmp>
+            </step>
+            <step>
+                <cmd><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> asks if you want to set up
+                    the Approved List now.</cmd>
                 <stepxmp>
                     <fig id="fig_vrp_pky_xvb">
                         <title>The Approved List is Empty</title>
@@ -38,7 +40,7 @@
                 <cmd>At the notification window, select <uicontrol>Yes. Set up the Approved List
                         now</uicontrol> and click <uicontrol>OK</uicontrol>. <ph
                         conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> scans the endpoint and adds
-                    allapplications to the Approved List.</cmd>
+                    all applications to the Approved List.</cmd>
                 <stepxmp>
                     <fig id="fig_kqb_lhd_vvb">
                         <title>Scanning for Creating Approved List</title>
@@ -57,9 +59,17 @@
                             id="image_zhd_jly_xvb"/>
                     </fig>
                     <note id="note_vg4_4ly_xvb">
-                        <p>When TXOne <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> Application
-                            Lockdown is on, only applications that are in the Approved List will be
-                            able to run.</p>
+                        <ul id="ul_qzb_yyt_yvb">
+                            <li>
+                                <p>When TXOne <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+                                    Application Lockdown is on, only applications that are in the
+                                    Approved List will be able to run.</p>
+                            </li>
+                            <li>
+                                <p>When the endpoint is creating or updating its Approved List, no
+                                    policy settings can be deployed.</p>
+                            </li>
+                        </ul>
                     </note>
                 </stepxmp>
             </step>

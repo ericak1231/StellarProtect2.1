@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_m5t_sf1_pvb">
+    <title>Updating or Installing Using the Trusted Updater</title>
+    <taskbody>
+        <context id="context_ob3_1dg_pvb">
+            <p><indexterm>Approved List<indexterm>Update/install using Trusted
+                    Updater</indexterm></indexterm><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+                automatically adds applications to the Approved List after the Trusted Updater adds
+                or modifies the program files.</p>
+        </context>
+        <steps id="steps_yvn_3mg_pvb">
+            <step>
+                <cmd>Open the TXOne <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> console using
+                    the desktop icon (if available) or the <uicontrol>Start</uicontrol> menu by
+                    clicking <menucascade>
+                        <uicontrol>All Programs </uicontrol>
+                        <uicontrol>TXOne <text otherprops="SPLM">StellarProtect (Legacy
+                                Mode)</text><text otherprops="SE">StellarEnforce</text></uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Provide the password and click <uicontrol>Log On</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Approved List</uicontrol> on the <b>Side Navigation
+                        Menu</b>.</cmd>
+            </step>
+            <step>
+                <cmd>To install or update an application, select the installer that the Trusted
+                    Updater should temporarily allow to run:</cmd>
+                <info>
+                    <ol id="ol_ysz_35b_zvb">
+                        <li>
+                            <p>Click <uicontrol>Add Item</uicontrol>, select
+                                    <uicontrol>Automatically add files created or modified by the
+                                    selected application installer</uicontrol>, and click
+                                    <uicontrol>Next</uicontrol>.</p>
+                        </li>
+                        <li>
+                            <p>A pop-up window appears. Click the <uicontrol>Select one</uicontrol>
+                                drop-down menu and choose <uicontrol>Specific
+                                installers</uicontrol>, <uicontrol>All installers in folders and
+                                    subfolders</uicontrol>, or <uicontrol>All installers in a
+                                    folder</uicontrol>.</p>
+                        </li>
+                        <li>
+                            <p>Select the desired installation package or folder to add, and then
+                                click <uicontrol>Open</uicontrol> or <uicontrol>OK</uicontrol>.</p>
+                            <note id="note_ghn_syb_zvb">
+                                <p>Only existing <filepath>EXE</filepath>, <filepath>MSI</filepath>,
+                                        <filepath>BAT</filepath>, and <filepath>CMD</filepath> files
+                                    can be added to the Trusted Updater.</p>
+                            </note>
+                        </li>
+                        <li>
+                            <p>Check that the correct items appear on the list, and click
+                                    <uicontrol>Start</uicontrol>.</p>
+                            <p>The <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+                                <b><wintitle>Trusted Updater</wintitle></b> window displays.</p>
+                        </li>
+                    </ol>
+                </info>
+            </step>
+            <step>
+                <cmd>Install or update the program as usual. When finished, click
+                        <uicontrol>Stop</uicontrol> on the <b><wintitle>Trusted
+                        Updater</wintitle></b> window.</cmd>
+            </step>
+            <step>
+                <cmd>Check that the correct items appear on the Approved List, and click
+                        <uicontrol>Approve</uicontrol>, and then click
+                    <uicontrol>Close</uicontrol>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

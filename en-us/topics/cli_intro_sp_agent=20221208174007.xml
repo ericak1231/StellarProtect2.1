@@ -4,17 +4,21 @@
     <title>Using the Agent Command Line Interface (CLI)</title>
     <conbody>
         <p>TThis chapter describes how to configure and use TXOne <ph
-                conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph> using
+                conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> using
             the command line interface (CLI).</p>
         <p>Topics in this chapter include:</p>
         <ul id="ul_s5c_z1m_tvb">
-            <li>
+            <li otherprops="SP">
                 <p><xref href="opcmd_cli_sp_agent=20221208174350.xml"/></p>
             </li>
-            <li>
+            <li otherprops="SPLM_SE">
+                <p><xref href="slcmd_cli_splm_agent=20221227225819.xml"/></p>
+            </li>
+            <li otherprops="SP">
                 <p><xref href="overview_cli_sp_agent=20221208174150.xml"/></p>
             </li>
-            <li>
+            <li otherprops="SP">
                 <p><xref href="cli_list_sp=20221208151252.xml"/></p>
             </li>
         </ul>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="local_installation_sp_agent_20221121172423">
+    <title>Working with the Agent Configuration File</title>
+    <conbody>
+        <p>The configuration file allows administrators to create and deploy a single configuration
+            across multiple machines.</p>
+        <p>Refer to <xref href="export_import_config_file_splm_agent=20221227232526.xml"/>for more
+            information.</p>
+    </conbody>
+</concept>

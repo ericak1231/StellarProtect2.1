@@ -4,23 +4,21 @@
     <title>Events</title>
     <conbody>
         <p><indexterm>events</indexterm>This chapter describes events as they will be recorded
-            within the TXOne <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                >OFFICIAL_PRODUCT_NAME</ph> Agent. Topics in this chapter include:</p>
+            within the TXOne <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> Agent.
+            Topics in this chapter include:</p>
         <ul id="ul_s5c_z1m_tvb">
-            <li>
-                <p><xref
-                        href="../topics/overview_event_sp_agent=20221207155322.xml"
-                    /></p>
+            <li otherprops="SP">
+                <p><xref href="../topics/overview_event_sp_agent=20221207155322.xml"/></p>
+            </li>
+            <li otherprops="SP">
+                <p><xref href="../topics/access_event_sp_agent=20221207163453.xml"/></p>
+            </li>
+            <li otherprops="SP">
+                <p><xref href="../conref-vars/sPagentEventLogDescription=20220808105743.xml"/></p>
             </li>
             <li>
-                <p><xref
-                        href="../topics/access_event_sp_agent=20221207163453.xml"
-                    /></p>
-            </li>
-            <li>
-                <p><xref
-                        href="../conref-vars/sPagentEventLogDescription=20220808105743.xml"
-                    /></p>
+                <p/>
             </li>
         </ul>
     </conbody>

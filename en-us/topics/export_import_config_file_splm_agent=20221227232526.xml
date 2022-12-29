@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_m5t_sf1_pvb">
+    <title>Exporting or Importing a Config File</title>
+    <taskbody>
+        <context id="context_ob3_1dg_pvb">
+            <p><indexterm>Config File<indexterm>Export/Import</indexterm></indexterm></p>
+            <note id="note_ldz_tzb_zvb" type="note">
+                <p>TXOne <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> encrypts the
+                    configuration file before export. Users must decrypt the configuration file
+                    before modifying the contents.</p>
+            </note>
+        </context>
+        <steps id="steps_yvn_3mg_pvb">
+            <step>
+                <cmd>Open the TXOne <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> console using
+                    the desktop icon (if available) or the <uicontrol>Start</uicontrol> menu by
+                    clicking <menucascade>
+                        <uicontrol>All Programs </uicontrol>
+                        <uicontrol>TXOne <text otherprops="SPLM">StellarProtect (Legacy
+                                Mode)</text><text otherprops="SE">StellarEnforce</text></uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Provide the password and click <uicontrol>Log On</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Settings</uicontrol> on the <b>Side Navigation Menu</b> to
+                    access the <uicontrol>Export/Import Configuration</uicontrol> section.</cmd>
+                <choices id="choices_h1k_3mb_zvb">
+                    <choice>
+                        <p>To export the configuration file as a database
+                            (<filepath>.xen</filepath>) file:</p>
+                        <ol id="ol_q3v_1mb_zvb">
+                            <li>
+                                <p>Click <uicontrol>Export</uicontrol>, and choose where to save the
+                                    file.</p>
+                            </li>
+                            <li>
+                                <p>Provide a filename, and click <uicontrol>Save</uicontrol>.</p>
+                            </li>
+                        </ol>
+                    </choice>
+                    <choice>
+                        <p>To import the configuration file as a database
+                            (<filepath>.xen</filepath>) file:</p>
+                        <ol id="ol_ymq_2tb_zvb">
+                            <li>
+                                <p>Click <uicontrol>Import</uicontrol>, and locate the database
+                                    file</p>
+                            </li>
+                            <li>
+                                <p>Select the file, and click <uicontrol>Open</uicontrol>.</p>
+                            </li>
+                        </ol>
+                        <p><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> overwrites the existing
+                            configuration settings with the settings in the database file.</p>
+                    </choice>
+                </choices>
+            </step>
+        </steps>
+    </taskbody>
+</task>

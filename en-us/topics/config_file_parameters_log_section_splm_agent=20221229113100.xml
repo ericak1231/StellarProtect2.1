@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_ntt_lkg_pvb">
+    <title>Log Section</title>
+    <refbody>
+        <section id="section_q2x_4kg_pvb">
+            <p>The following table lists the parameters to configure individual log types. Refer to
+                    <xref
+                    href="../SharedResources/StellarOne/en-us/topics/splm_agentEventLogDescription=20221101134711.xml"
+                /> for more information about log descriptions.</p>
+        </section>
+        <section id="section_xlt_rf4_zvb">
+            <table frame="all" id="table_izd_mrd_zvb">
+                <title>Configuration File - <codeph>Log</codeph> Section Parameters</title>
+                <tgroup cols="4">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="newCol2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c2" colnum="3" colwidth="1*"/>
+                    <colspec colname="c3" colnum="4" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>
+                                <p>Parameter</p>
+                            </entry>
+                            <entry>
+                                <p>Settings</p>
+                            </entry>
+                            <entry>
+                                <p>Value</p>
+                            </entry>
+                            <entry>
+                                <p>Description</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p><codeph>Configuration</codeph></p>
+                                <p><codeph>Feature</codeph></p>
+                                <p><codeph>Log</codeph></p>
+                            </entry>
+                            <entry namest="newCol2" nameend="c3">
+                                <p>Container for the Configuration section</p>
+                                <p>Container for the Feature section</p>
+                                <p>Container for configuring logs</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>EventLog</codeph></p>
+                            </entry>
+                            <entry morerows="1">
+                                <p><codeph>Enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Log the <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> events
+                                    specified in the following elements</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Do not log the <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+                                    events specified in the following elements</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry namest="c1" nameend="c3">
+                                <p><codeph>Level</codeph>: Container for configuring log levels</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>WarningLog</codeph></p>
+                            </entry>
+                            <entry morerows="1">
+                                <p><codeph>Enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Log “Warning” level events related to <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Do not log “Warning” level events related to <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>InformationLog</codeph></p>
+                            </entry>
+                            <entry morerows="1">
+                                <p><codeph>Enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Log “Information” level events related to <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Do not log “Information” level events related to <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>BlockedAccessLog</codeph></p>
+                            </entry>
+                            <entry morerows="1">
+                                <p><codeph>Enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Log files blocked by <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Do not log files blocked by <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>ApprovedAccessLog</codeph></p>
+                            </entry>
+                            <entry morerows="1">
+                                <p><codeph>Enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Log files approved by <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Do not log files approved by <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>TrustedUpdaterLog</codeph></p>
+                            </entry>
+                            <entry morerows="1">
+                                <p><codeph>Enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Log Trusted Updater approved access</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Do not log Trusted Updater approved access</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>DLLDriver Log</codeph></p>
+                            </entry>
+                            <entry morerows="1">
+                                <p><codeph>Enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Log DLL/Driver approved access</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Do not log DLL/Driver approved access</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>Exception PathLog</codeph></p>
+                            </entry>
+                            <entry morerows="1">
+                                <p><codeph>Enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Log Application Lockdown exception path approved access</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Do not log Application Lockdown exception path approved
+                                    access</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>TrustedCe rtLog</codeph></p>
+                            </entry>
+                            <entry morerows="1">
+                                <p><codeph>Enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Log Trusted Certifications approved access</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Do not log Trusted Certifications approved access</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>WriteProt ectionLog</codeph></p>
+                            </entry>
+                            <entry morerows="1">
+                                <p><codeph>Enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Log Write Protection approved access</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Do not log Write Protection approved access</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>SystemEventLog</codeph></p>
+                            </entry>
+                            <entry morerows="1">
+                                <p><codeph>Enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Log events related to the system</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Do not log events related to the system</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>Exception PathLog</codeph></p>
+                            </entry>
+                            <entry morerows="1">
+                                <p><codeph>Enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Log exceptions to Application Lockdown</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>noe</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Do not log exceptions to Application Lockdown</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>WriteProt ectionLog</codeph></p>
+                            </entry>
+                            <entry morerows="1">
+                                <p><codeph>Enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Log Write Protection events</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Do not log Write Protection events</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>ListLog </codeph></p>
+                            </entry>
+                            <entry morerows="1">
+                                <p><codeph>Enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Log events related to the Approved list</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Do notlog events related to the Approved list</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>UsbMalwareProtectionLog</codeph></p>
+                            </entry>
+                            <entry morerows="1">
+                                <p><codeph>Enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Log events that trigger USB Malware Protection</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Do not log events that trigger USB Malware Protection</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>ExecutionPreventionLog</codeph></p>
+                            </entry>
+                            <entry morerows="1">
+                                <p><codeph>Enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Log events that trigger Execution Prevention</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Do not log events that trigger Execution Prevention</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>NetworkVirus ProtectionLog</codeph></p>
+                            </entry>
+                            <entry morerows="1">
+                                <p><codeph>Enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Log events that trigger Network Virus Protection</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Do not log events that trigger Network Virus Protection</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry namest="c1" nameend="c3">
+                                <p><codeph>IntegrityMonitoringLog</codeph>: Container for
+                                    configuring Integrity Monitoring logs</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>FileCreatedLog</codeph></p>
+                            </entry>
+                            <entry morerows="1">
+                                <p><codeph>Enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Log file and folder created events</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Do not log file and folder created events</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>FileModifiedLog</codeph></p>
+                            </entry>
+                            <entry morerows="1">
+                                <p><codeph>Enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Log file modified events</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Do not log file modified events</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>FileDeletedLog</codeph></p>
+                            </entry>
+                            <entry morerows="1">
+                                <p><codeph>Enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Log file and folder deleted events</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Do not log file and folder deleted events</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>FileRenamedLog</codeph></p>
+                            </entry>
+                            <entry morerows="1">
+                                <p><codeph>Enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Log file and folder renamed events</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Do not log file and folder renamed events</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>RegValueModifiedLog</codeph></p>
+                            </entry>
+                            <entry morerows="1">
+                                <p><codeph>Enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Log registry value modified events</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Do not log registry value modified events</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>RegValueDeletedLog</codeph></p>
+                            </entry>
+                            <entry morerows="1">
+                                <p><codeph>Enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Log registry value deleted events</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Do not log registry value deleted events</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>RegKeyCreatedLog</codeph></p>
+                            </entry>
+                            <entry morerows="1">
+                                <p><codeph>Enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Log registry key created events</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Do not log registry key created events</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>RegKeyDeletedLog</codeph></p>
+                            </entry>
+                            <entry morerows="1">
+                                <p><codeph>Enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Log registry key deleted events</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Do not log registry key deleted events</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>RegKeyRen amedLog</codeph></p>
+                            </entry>
+                            <entry morerows="1">
+                                <p><codeph>Enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Log registry key renamed events</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Do not log registry key renamed events</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>DeviceControlLog</codeph></p>
+                            </entry>
+                            <entry morerows="1">
+                                <p><codeph>Enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Log storage device control events</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Do not log storage device control events</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>DebugLog</codeph></p>
+                            </entry>
+                            <entry morerows="1">
+                                <p><codeph>Enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Log debugging information</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Do not log debugging information</p>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </refbody>
+</reference>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_m5t_sf1_pvb">
+    <title>Using SLCmd at the Command Line Interface (CLI)</title>
+    <taskbody>
+        <context id="context_ob3_1dg_pvb"><indexterm>Command Line Interface (CLI)<indexterm>Using
+                    SLCmd at CLI</indexterm></indexterm>Administrators can work with TXOne <ph
+                conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> directly from the command line
+            interface (CLI) using the <filepath>SLCmd.exe</filepath> program.</context>
+        <steps id="steps_yvn_3mg_pvb">
+            <step>
+                <cmd>Open a command prompt window with Windows administrator privileges.</cmd>
+            </step>
+            <step>
+                <cmd>Navigate to the TXOne <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+                    installation folder using the <codeph>cd</codeph> command.</cmd>
+                <stepxmp>
+                    <p>For example, type the following command to reach the default location:</p>
+                    <p><userinput>cd /d "c:\Program Files\TXOne\</userinput><ph
+                            conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/></p>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>Type <userinput>SLCmd.exe -h</userinput> to get usage information for an
+                    individual command.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

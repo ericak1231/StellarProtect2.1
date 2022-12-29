@@ -4,7 +4,27 @@
     <title>Using the <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> Agent Console</title>
     <topicref
         href="../topics/console_intro_splm_agent=20221223154100.xml">
-        <topicref href="../topics/overview_console_sp_agent=20221208133853.xml"/>
-        <topicref href="../topics/settings_console_sp_agent=20221208134527.xml"/>
+        <topicref
+            href="../topics/set_up_approved_list_splm=20221223154638.xml"/>
+        <topicref href="../topics/overview_console_splm_agent=20221226152616.xml">
+            <topicref href="../topics/about_hash_splm_agent=20221227155911.xml">
+                <topicref href="../topics/check_update_hash_splm_agent=20221227144310.xml"/>
+            </topicref>
+            <topicref
+                href="../topics/configure_approved_list_splm_agent=20221227161750.xml">
+                <topicref
+                    href="../topics/add_remove_files_approved_list_splm_agent=20221227162641.xml"
+                />
+                <topicref
+                    href="../topics/update_install_using_trusted_updater_splm_agent=20221227164644.xml"/>
+                <topicref
+                    href="../topics/export_import_approved_list_splm_agent=20221227173128.xml"/>
+            </topicref>
+            <topicref href="../topics/accout_types_splm_agent=20221228235711.xml">
+                <topicref href="../topics/password_configuring_splm_agent=20221227175017.xml"/>
+            </topicref>
+            <topicref
+                href="../topics/feature_settings_procedures_splm_agent=20221227223805.xml"/>
+        </topicref>
     </topicref>
 </map>

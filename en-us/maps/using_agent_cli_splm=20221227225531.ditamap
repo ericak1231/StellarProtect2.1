@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Using the Agent Command Line Interface (CLI)</title>
+    <topicref href="../topics/cli_intro_sp_agent=20221208174007.xml">
+        <topicref href="../topics/slcmd_cli_splm_agent=20221227225819.xml">
+            <topicref href="../topics/slcmd_console_comparison_splm_agent=20221227230433.xml">
+                <topicref
+                    href="../topics/slcmd_commands_types_splm_agent=20221227233437.xml"
+                />
+            </topicref>
+        </topicref>
+    </topicref>
+</map>

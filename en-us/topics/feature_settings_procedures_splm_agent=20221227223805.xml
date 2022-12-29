@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_m5t_sf1_pvb">
+    <title>Enabling or Disabling Feature Settings</title>
+    <taskbody>
+        <context id="context_ob3_1dg_pvb">
+            <p><indexterm>Feature Settings</indexterm>Follow the procedures to enable or disable
+                feature settings for <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> agents.</p>
+            <note id="note_a4k_mcc_zvb" type="note">
+                <ul id="ul_ssv_24d_zvb">
+                    <li>
+                        <p>By default, TXOne <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+                            enables the DLL/Driver Lockdown and Script Lockdown features under the
+                            Application Lockdown.</p>
+                    </li>
+                    <li>
+                        <p>User must check <uicontrol>Install Network Virus Protection</uicontrol>
+                            during the initial installation; otherwise, the Network Virus Protection
+                            feature cannot be selected. If user wants to enable the Network Virus
+                            Protection, he must uninstall the TXOne <ph
+                                conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>, then reinstall it and
+                            make sure the <uicontrol>Install Network Virus Protection</uicontrol> is
+                            checked during the installation. Please refer to the Installation Guide
+                            for more details.</p>
+                    </li>
+                </ul>
+            </note>
+        </context>
+        <steps id="steps_yvn_3mg_pvb">
+            <step>
+                <cmd>Open the TXOne  console using the desktop icon (if available) or the
+                        <uicontrol>Start</uicontrol> menu by clicking <menucascade>
+                        <uicontrol>All Programs </uicontrol>
+                        <uicontrol>TXOne <text otherprops="SPLM">StellarProtect (Legacy
+                                Mode)</text><text otherprops="SE">StellarEnforce</text></uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Provide the password and click <uicontrol>Log On</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Settings</uicontrol> on the <b>Side Navigation Menu</b> to
+                    configure the feature settings.</cmd>
+            </step>
+            <step>
+                <cmd>Check or uncheck to enable or disable the desired features.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

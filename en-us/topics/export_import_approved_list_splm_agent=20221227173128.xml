@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_m5t_sf1_pvb">
+    <title>Exporting or Importing the Approved List</title>
+    <taskbody>
+        <context id="context_ob3_1dg_pvb">
+            <p><indexterm>Approved List<indexterm>Export/Import</indexterm></indexterm>Users can
+                export or import the Approved List as a database (<filepath>.db</filepath>) file for
+                reuse in mass deployment situations. <uicontrol>Copy to Clipboard</uicontrol>
+                creates a <filepath>CSV</filepath> version of the list on the Windows clipboard.</p>
+            <note id="note_ldz_tzb_zvb" type="warning">
+                <p>The operating system files used by the exporting and importing endpoints must
+                    match exactly. Any difference between the operating system files on the
+                    endpoints can lead to operating system malfunctions or system lock-out after
+                    importing.</p>
+            </note>
+        </context>
+        <steps id="steps_yvn_3mg_pvb">
+            <step>
+                <cmd>Open the TXOne <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> console using
+                    the desktop icon (if available) or the <uicontrol>Start</uicontrol> menu by
+                    clicking <menucascade>
+                        <uicontrol>All Programs </uicontrol>
+                        <uicontrol>TXOne <text otherprops="SPLM">StellarProtect (Legacy
+                                Mode)</text><text otherprops="SE">StellarEnforce</text></uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Provide the password and click <uicontrol>Log On</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Approved List</uicontrol> on the <b>Side Navigation
+                        Menu</b>.</cmd>
+                <choices id="choices_h1k_3mb_zvb">
+                    <choice>
+                        <p>To export the Approved List:</p>
+                        <ol id="ol_q3v_1mb_zvb">
+                            <li>
+                                <p>Click <uicontrol>Export</uicontrol>, and choose where to save the
+                                    file.</p>
+                            </li>
+                            <li>
+                                <p>Provide a filename, and click <uicontrol>Save</uicontrol>.</p>
+                                <p>The exported file includes the following information:</p>
+                                <ul id="ul_pmm_d1c_zvb">
+                                    <li>
+                                        <p>File full path</p>
+                                    </li>
+                                    <li>
+                                        <p>File hash value</p>
+                                    </li>
+                                    <li>
+                                        <p>Additional notes</p>
+                                    </li>
+                                    <li>
+                                        <p>Last update time</p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </choice>
+                    <choice>
+                        <p>To import an Approved List:</p>
+                        <ol id="ol_ymq_2tb_zvb">
+                            <li>
+                                <p>Click <uicontrol>Import</uicontrol>, and locate the database
+                                    file</p>
+                            </li>
+                            <li>
+                                <p>Select the file, and click <uicontrol>Open</uicontrol>.</p>
+                            </li>
+                        </ol>
+                    </choice>
+                </choices>
+            </step>
+        </steps>
+    </taskbody>
+</task>

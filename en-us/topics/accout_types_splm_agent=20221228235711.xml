@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_ntt_lkg_pvb">
+    <title>Account Types</title>
+    <refbody>
+        <section id="section_q2x_4kg_pvb">
+            <p>TXOne Networks <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> provides role-based
+                administration, allowing administrators to grant users access to certain features on
+                the main console. Through the configuration file, <ph
+                    conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> administrators can specify the
+                features available to Restricted User accounts.</p>
+            <table frame="all" id="table_dkg_4fl_zvb">
+                <title><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> Accounts</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>
+                                <p>Account</p>
+                            </entry>
+                            <entry>
+                                <p>Details</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p>Administrator</p>
+                            </entry>
+                            <entry>
+                                <ul id="ul_pfq_qfl_zvb">
+                                    <li>
+                                        <p>Default account</p>
+                                    </li>
+                                    <li>
+                                        <p>Full access to <ph
+                                                conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+                                            functions</p>
+                                    </li>
+                                    <li>
+                                        <p>Can use both the console and command line interface
+                                            (CLI)</p>
+                                    </li>
+                                </ul>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Restricted User</p>
+                            </entry>
+                            <entry>
+                                <ul id="ul_twp_sfl_zvb">
+                                    <li>
+                                        <p>Secondary maintenance account</p>
+                                    </li>
+                                    <li>
+                                        <p>Limited access to <ph
+                                                conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+                                            functions</p>
+                                    </li>
+                                    <li>
+                                        <p>Can only use the console</p>
+                                    </li>
+                                </ul>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <p>To enable Restricted User accounts, refer to <xref
+                    href="password_configuring_splm_agent=20221227175017.xml"/>. To sign in with a
+                specific account, specify the password for that account.</p>
+        </section>
+    </refbody>
+</reference>

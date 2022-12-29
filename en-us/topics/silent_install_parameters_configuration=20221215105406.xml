@@ -374,7 +374,7 @@
                                 <p><codeph>enable_prescan</codeph></p>
                             </entry>
                             <entry>
-                                <p><codeph>0</codeph></p>
+                                <p><codeph>1</codeph></p>
                             </entry>
                             <entry>
                                 <p>Enable malware scan during installation.</p>

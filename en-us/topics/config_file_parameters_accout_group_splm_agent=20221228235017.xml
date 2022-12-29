@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_ntt_lkg_pvb">
+    <title>Account Group Section</title>
+    <refbody>
+        <section id="section_q2x_4kg_pvb">
+            <p>The following table lists the parameters to configure the Restricted User account.
+                Refer to <xref
+                    href="../topics/accout_types_splm_agent=20221228235711.xml"
+                /> for more information about the Restricted User account. </p>
+            <table frame="all" id="table_izd_mrd_zvb">
+                <title>Configuration File - <codeph>AccountGroup</codeph> Section Parameters</title>
+                <tgroup cols="4">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="newCol2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c2" colnum="3" colwidth="1*"/>
+                    <colspec colname="c3" colnum="4" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>
+                                <p>Parameter</p>
+                            </entry>
+                            <entry>
+                                <p>Settings</p>
+                            </entry>
+                            <entry>
+                                <p>Value</p>
+                            </entry>
+                            <entry>
+                                <p>Description</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p><codeph>Configuration</codeph></p>
+                                <p><codeph>AccountGroup</codeph></p>
+                            </entry>
+                            <entry namest="newCol2" nameend="c3">
+                                <p>Container for the Configuration section</p>
+                                <p>Container for the AccountGroup section</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="3">
+                                <p><codeph>Account</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>ID</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>&lt;GUID></codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Restricted User account GUID</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>Enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Enable the Restricted User account</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Disable the Restricted User account</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>Password</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>&lt;admin_password></codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Password for the Restricted User account to access the <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> console</p>
+                                <note id="note_jdp_dhl_zvb">
+                                    <p>The <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+                                        administrator and Restricted User passwords cannot be the
+                                        same.</p>
+                                </note>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </refbody>
+</reference>

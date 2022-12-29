@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Working with the Agent Configuration File</title>
+    <topicref href="../topics/work_with_agent_config_file_splm=20221227231849.xml">
+        <topicref href="../topics/intro_work_with_agent_config_file_splm=20221227232258.xml">
+            <topicref href="../topics/change_advanced_settings_splm_agent=20221228003233.xml"/>
+            <topicref href="../topics/export_import_config_file_splm_agent=20221227232526.xml"/>
+            <topicref href="../topics/config_file_syntax_splm_agent=20221228003815.xml"/>
+            <topicref href="../topics/config_file_parameters_splm_agent=20221228233700.xml">
+                <topicref
+                    href="../topics/config_file_parameters_accout_group_splm_agent=20221228235017.xml"/>
+                <topicref
+                    href="../topics/config_file_parameters_ui_section_splm_agent=20221229001513.xml"/>
+                <topicref
+                    href="../topics/config_file_parameters_feature_section_splm_agent=20221229002645.xml"
+                />
+                <topicref
+                    href="../topics/config_file_parameters_log_section_splm_agent=20221229113100.xml"/>
+                <topicref
+                    href="../topics/config_file_parameters_managed_mode_section_splm_agent=20221229141800.xml"/>
+                <topicref
+                    href="../topics/config_file_parameters_account_ref_mode_section_splm_agent=20221229144231.xml"/>
+            </topicref>
+        </topicref>
+    </topicref>
+</map>

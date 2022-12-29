@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="local_installation_sp_agent_20221121172423">
+    <title>Working with the Agent Configuration File</title>
+    <conbody>
+        <p>This chapter describes how to configure TXOne <ph
+                conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> using theconfiguration file.</p>
+        <p>Topics in this chapter include:</p>
+        <ul id="ul_s5c_z1m_tvb">
+            <li otherprops="SP">
+                <p><xref href="intro_work_with_agent_config_file_splm=20221227232258.xml"/></p>
+            </li>
+        </ul>
+    </conbody>
+</concept>

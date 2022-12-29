@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_ntt_lkg_pvb">
+    <title>Troubleshooting <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/></title>
+    <refbody>
+        <section id="section_q2x_4kg_pvb">
+            <p>The TXOne <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> Diagnostic Toolkit offers
+                administrators the ability to perform a number of diagnostic functions,
+                including:</p>
+            <ul id="ul_hnk_qj2_zvb">
+                <li>
+                    <p>Create, collect, and delete debugging logs</p>
+                </li>
+                <li>
+                    <p>Enable or disable Self Protection</p>
+                </li>
+            </ul>
+            <fig id="fig_qvf_d22_zvb">
+                <title>The TXOne <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> Diagnostic
+                    Toolkit Debug Tab A [Debug]</title>
+                <image href="../images/diagnostic_toolkit_splm=20221228012756.png"
+                    id="image_bwj_f22_zvb"/>
+            </fig>
+            <fig id="fig_dmn_fk2_zvb">
+                <title>The TXOne <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> Diagnostic
+                    Toolkit Debug Tab B [Uninstall]</title>
+                <image href="../images/diagnostic_toolkit_c_splm=20221228012950.png"
+                    id="image_xvx_hk2_zvb"/>
+            </fig>
+            <fig id="fig_olp_kk2_zvb">
+                <title>The TXOne <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> Diagnostic
+                    Toolkit Debug Tab C [Others]</title>
+                <image href="../images/diagnostic_toolkit_c_splm=20221228012950.png"
+                    id="image_kdx_kk2_zvb"/>
+            </fig>
+        </section>
+    </refbody>
+</reference>

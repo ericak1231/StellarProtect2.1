@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_ntt_lkg_pvb">
+    <title>UI Section</title>
+    <refbody>
+        <section id="section_q2x_4kg_pvb">
+            <p>The following table lists the parameters to configure the display of the system tray
+                icon.</p>
+            <table frame="all" id="table_izd_mrd_zvb">
+                <title>Configuration File - <codeph>UI</codeph> Section Parameters</title>
+                <tgroup cols="4">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="newCol2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c2" colnum="3" colwidth="1*"/>
+                    <colspec colname="c3" colnum="4" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>
+                                <p>Parameter</p>
+                            </entry>
+                            <entry>
+                                <p>Settings</p>
+                            </entry>
+                            <entry>
+                                <p>Value</p>
+                            </entry>
+                            <entry>
+                                <p>Description</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p><codeph>Configuration</codeph></p>
+                                <p><codeph>UI</codeph></p>
+                            </entry>
+                            <entry namest="newCol2" nameend="c3">
+                                <p>Container for the Configuration section</p>
+                                <p>Container for the UI section</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>SystemTaskTrayIcon</codeph></p>
+                            </entry>
+                            <entry morerows="1">
+                                <p><codeph>Enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Display the system tray icon and Windows notifications</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Hide the system tray icon and Windows notifications</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="9">
+                                <p><codeph>BlockNotification</codeph></p>
+                            </entry>
+                            <entry morerows="1">
+                                <p><codeph>Enable</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Display a notification on the managed endpoint when a file not
+                                    specified in the agent Approved List is blocked</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Do not display any notifications on the managed endpoint when
+                                    files not specified in the agent Approved List are blocked</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>Authenticate</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Prompt for the administrator password when the user attempts to
+                                    close the notification</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Password is not required to close the notification</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>ShowDeta ils</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Show file path of the blocked file and the event time</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Do not show event details</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>AlwaysOn Top</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Keep the notification on top of any other screen</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Allow other screens to cover the notification</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>Title</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>&lt;Title></codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Specify the title for the notification</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>Message</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>&lt;Message></codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Specify the message for the notification</p>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </refbody>
+</reference>

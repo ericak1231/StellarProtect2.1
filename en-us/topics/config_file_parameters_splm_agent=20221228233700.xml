@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_ntt_lkg_pvb">
+    <title>Configuration File Parameters</title>
+    <refbody>
+        <section id="section_q2x_4kg_pvb">
+            <p>The configuration file contains sections that specify parameters used by <ph
+                    conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>.</p>
+            <table frame="all" id="table_izd_mrd_zvb">
+                <title>Configuration File Sections and Descriptions</title>
+                <tgroup cols="3">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c3" colnum="3" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>
+                                <p>Section</p>
+                            </entry>
+                            <entry>
+                                <p>Description</p>
+                            </entry>
+                            <entry>
+                                <p>Additional Information</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p><codeph>Configuration</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Container for the Configuration section</p>
+                            </entry>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>AccountGroup</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Parameters to configure the Restricted User account</p>
+                            </entry>
+                            <entry>
+                                <p><xref
+                                        href="config_file_parameters_accout_group_splm_agent=20221228235017.xml"
+                                    /></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>UI</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Parameters to configure the display of the system tray icon</p>
+                            </entry>
+                            <entry>
+                                <p><xref
+                                        href="config_file_parameters_ui_section_splm_agent=20221229001513.xml"
+                                    /></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>Feature</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Container for the Feature section</p>
+                            </entry>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>ApplicationLockDown</codeph></p>
+                            </entry>
+                            <entry morerows="6">
+                                <p>Parameters to configure <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> features and
+                                    functions</p>
+                            </entry>
+                            <entry morerows="6">
+                                <p><xref
+                                        href="config_file_parameters_feature_section_splm_agent=20221229002645.xml"
+                                    /></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>UsbMalwareProtection</codeph></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>DllInjectionPrevention</codeph></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>ApiHookingPrevention</codeph></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>MemoryRandomization</codeph></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>NetworkVirusProtection</codeph></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>IntegrityMonitoring</codeph></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>StorageDeviceBlocking</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>A parameter to control storage device access to managed
+                                    endpoints</p>
+                            </entry>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>Log</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Parameters to configure individual log types</p>
+                            </entry>
+                            <entry>
+                                <p><xref
+                                        href="config_file_parameters_log_section_splm_agent=20221229113100.xml"
+                                    /></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>ManagedMode</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Parameters to configure Centralized Management functions</p>
+                            </entry>
+                            <entry>
+                                <p><xref
+                                        href="config_file_parameters_managed_mode_section_splm_agent=20221229141800.xml"
+                                    />No</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>Permission</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Container for the Permission section</p>
+                            </entry>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>AccountRef</p>
+                            </entry>
+                            <entry>
+                                <p>Parameters to configure the <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> console
+                                    controls available to the Restricted User account</p>
+                            </entry>
+                            <entry>
+                                <p><xref
+                                        href="config_file_parameters_account_ref_mode_section_splm_agent=20221229144231.xml"
+                                    /></p>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </refbody>
+</reference>

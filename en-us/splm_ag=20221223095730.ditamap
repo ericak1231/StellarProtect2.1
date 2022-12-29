@@ -24,10 +24,16 @@
         <preface href="maps/preface=20221121153520.ditamap" format="ditamap"/>
     </frontmatter>
     <chapter href="maps/intro_sp_agent=20221121160129.ditamap" format="ditamap"/>
+    <chapter href="maps/using_agent_console_splm=20221222174523.ditamap" format="ditamap"/>
+    <chapter href="maps/using_agent_cli_splm=20221227225531.ditamap" format="ditamap"/>
     <chapter
-        href="maps/using_agent_console_splm=20221222174523.ditamap"
+        href="maps/work_with_agent_config_file_splm=20221227231740.ditamap"
         format="ditamap"/>
-    <chapter href="maps/using_agent_cli=20221207135745.ditamap" format="ditamap"/>
-    <chapter href="maps/events_agent=20221122180649.ditamap" format="ditamap"/>
+    <chapter
+        href="maps/trouble_shooting_splm=20221228011038.ditamap"
+        format="ditamap"/>
     <chapter href="maps/Technical_Support_TXOne=20220722223813.ditamap" format="ditamap"/>
+    <chapter
+        href="maps/events_agent_splm=20221228005950.ditamap"
+        format="ditamap"/>
 </bookmap>

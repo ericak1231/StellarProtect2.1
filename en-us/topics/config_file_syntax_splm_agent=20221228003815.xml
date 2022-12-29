@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_ntt_lkg_pvb">
+    <title>Configuration File Syntax</title>
+    <refbody>
+        <section id="section_q2x_4kg_pvb"><p>The configuration file uses the XML format to specify
+                parameters used by <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>.</p><note
+                id="note_z4j_pd2_zvb" type="important">
+                <p><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> only supports configuration
+                    files in the UTF-8 file format.</p>
+            </note><p>Refer to the following example of the configuration file.</p><fig
+                id="fig_qvf_d22_zvb">
+                <image href="../images/config_file_syntax=20221228004328.png" id="image_bwj_f22_zvb"/>
+                <image href="../images/config_file_syntax_2=20221228004512.png"
+                    id="image_oyz_k22_zvb"/>
+                <image href="../images/config_file_syntax_3=20221228004635.png"
+                    id="image_wjb_q22_zvb"/>
+                <image href="../images/config_file_syntax_4=20221228004716.png"
+                    id="image_n3n_s22_zvb"/>
+            </fig><image href="../images/config_file_syntax_5=20221228004758.png"
+                id="image_qws_522_zvb"/></section>
+    </refbody>
+</reference>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_m5t_sf1_pvb">
+    <title>Checking or Updating Hashes</title>
+    <taskbody>
+        <context id="context_ob3_1dg_pvb"><indexterm>Approved List<indexterm>Check or update
+                    hashes</indexterm></indexterm><p>Checking the hash value of files in the
+                Approved List can help verify the integrity of files currently permitted to
+            run.</p></context>
+        <steps id="steps_yvn_3mg_pvb">
+            <step>
+                <cmd>Open the TXOne <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> console using
+                    the desktop icon (if available) or the Start menu by clicking <menucascade>
+                        <uicontrol>All Programs </uicontrol>
+                        <uicontrol>TXOne <text otherprops="SPLM">StellarProtect (Legacy
+                                Mode)</text><text otherprops="SE">StellarEnforce</text></uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Provide the password and click <uicontrol>Log On</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Approved List</uicontrol> on the <b>Side Navigation
+                        Menu</b>.</cmd>
+                <choices id="choices_h1k_3mb_zvb">
+                    <choice>
+                        <p>To check the file hash values:</p>
+                        <ol id="ol_q3v_1mb_zvb">
+                            <li>
+                                <p>Select the target file(s). To check all files, select the check
+                                    box at the top of the Approved List.</p>
+                            </li>
+                            <li>
+                                <p>Click <uicontrol>Check Hash</uicontrol>.</p>
+                            </li>
+                        </ol>
+                    </choice>
+                </choices>
+                <choices id="choices_gdr_jmb_zvb">
+                    <choice>
+                        <p>To update the file hash values:</p>
+                        <ol id="ol_z3q_lmb_zvb">
+                            <li>
+                                <p>Select the target file(s). To check all files, select the check
+                                    box at the top of the Approved List.</p>
+                            </li>
+                            <li>
+                                <p>Click <uicontrol>Update Hash</uicontrol>.</p>
+                            </li>
+                        </ol>
+                        <fig id="fig_azq_dnb_zvb">
+                            <title>Hash Values Matched</title>
+                            <image href="../images/hash_value_matched_splm=20221227155723.png"
+                                id="image_rqy_dnb_zvb"/>
+                        </fig>
+                        <note id="note_yth_tmb_zvb" type="important">
+                            <p>If it is unsure why a hash value mismatch has occurred, scan the
+                                endpoint for potential security threats.</p>
+                        </note>
+                    </choice>
+                </choices>
+            </step>
+        </steps>
+    </taskbody>
+</task>

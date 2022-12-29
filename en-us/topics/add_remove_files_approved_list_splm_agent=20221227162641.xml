@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_m5t_sf1_pvb">
+    <title>Adding or Removing Files</title>
+    <taskbody>
+        <context id="context_ob3_1dg_pvb">
+            <p><indexterm>Approved List<indexterm>Add or remove files</indexterm></indexterm></p>
+        </context>
+        <steps id="steps_yvn_3mg_pvb">
+            <step>
+                <cmd>Open the TXOne <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> console using
+                    the desktop icon (if available) or the <uicontrol>Start</uicontrol> menu by
+                    clicking <menucascade>
+                        <uicontrol>All Programs </uicontrol>
+                        <uicontrol>TXOne <text otherprops="SPLM">StellarProtect (Legacy
+                                Mode)</text><text otherprops="SE">StellarEnforce</text></uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Provide the password and click <uicontrol>Log On</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Approved List</uicontrol> on the <b>Side Navigation
+                        Menu</b>.</cmd>
+                <choices id="choices_h1k_3mb_zvb">
+                    <choice>
+                        <p>To add an item:</p>
+                        <ol id="ol_q3v_1mb_zvb">
+                            <li>
+                                <p>Click <uicontrol>Add Item</uicontrol>, select <uicontrol>Manually
+                                        browse and select files</uicontrol>, and click
+                                        <uicontrol>Next</uicontrol>.</p>
+                            </li>
+                            <li>
+                                <p>A pop-up window appears. Click the <uicontrol>Select
+                                        one</uicontrol> drop-down menu and choose
+                                        <uicontrol>Specific applications</uicontrol>, <uicontrol>All
+                                        applications in selected folders</uicontrol>, or
+                                        <uicontrol>All applications in a specified
+                                    path</uicontrol>.</p>
+                            </li>
+                            <li>
+                                <p>A selection window appears.</p>
+                                <ul id="ul_tvy_bsb_zvb">
+                                    <li>
+                                        <p>If you choose <uicontrol>Specific
+                                                applications</uicontrol>, select the desired
+                                            application and click <uicontrol>Open</uicontrol>.</p>
+                                    </li>
+                                    <li>
+                                        <p>If you choose <uicontrol>All applications in selected
+                                                folders</uicontrol>, select the desired application
+                                            or folder to add, a or <uicontrol>OK</uicontrol>.</p>
+                                    </li>
+                                    <li>
+                                        <p>If you choose <uicontrol>All applications in a specified
+                                                path</uicontrol>, specify the file or folder path in
+                                            the text field displayed, and click
+                                                <uicontrol>OK</uicontrol>.</p>
+                                        <note id="note_hkp_jsb_zvb">
+                                            <p>If you want to include the subfolders under the
+                                                specified folder, check <uicontrol>include all the
+                                                  subfolders</uicontrol>.</p>
+                                        </note>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>Click <uicontrol>OK</uicontrol>.</p>
+                            </li>
+                            <li>
+                                <p>The selected applications will be listed and displayed for
+                                    double-check. Confirm the items to be added, and click
+                                        <uicontrol>Approve</uicontrol>.</p>
+                            </li>
+                            <li>
+                                <p>After adding the desired items to the Approved List, click
+                                        <uicontrol>Close</uicontrol>.</p>
+                            </li>
+                        </ol>
+                    </choice>
+                    <choice>
+                        <p>To remove an item:</p>
+                        <ol id="ol_ymq_2tb_zvb">
+                            <li>
+                                <p>Search the Approved List for the application to remove.</p>
+                            </li>
+                            <li>
+                                <p>Select the check box next to the file name to be removed, and
+                                    click <uicontrol>Delete Item</uicontrol>.</p>
+                            </li>
+                            <li>
+                                <p>When asked to remove the item, click
+                                    <uicontrol>OK</uicontrol>.</p>
+                            </li>
+                            <li>
+                                <p>Click <uicontrol>OK</uicontrol> again to close the confirmation
+                                    window.</p>
+                            </li>
+                        </ol>
+                    </choice>
+                </choices>
+            </step>
+        </steps>
+    </taskbody>
+</task>

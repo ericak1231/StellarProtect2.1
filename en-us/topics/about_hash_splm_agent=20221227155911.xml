@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="local_installation_sp_agent_20221121172423">
+    <title>About Hashes</title>
+    <conbody>
+        <p><indexterm>about hashes</indexterm><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+            calculates a unique hash value for each file in the Approved List. This value can be
+            used to detect any changes made to a file, since any change results in a different hash
+            value. Comparing current hash values to previous values can help detect file
+            changes.</p>
+        <p>The following table describes the hash check status icons.</p>
+        <table frame="all" id="table_dn5_n4b_zvb">
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1.78*"/>
+                <thead>
+                    <row>
+                        <entry>
+                            <p>Icon</p>
+                        </entry>
+                        <entry>
+                            <p>Description</p>
+                        </entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>
+                            <fig id="fig_h4p_w4b_zvb">
+                                <image href="../images/icon_hash_value_matched=20221227160935.png"
+                                    id="image_ksy_w4b_zvb" scalefit="no" scale="50"/>
+                            </fig>
+                        </entry>
+                        <entry>
+                            <p>The calculated hash value matches the stored value.</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <fig id="fig_azd_x4b_zvb">
+                                <image
+                                    href="../images/icon_hash_value_dismatched=20221227161007.png"
+                                    id="image_jjl_x4b_zvb" scalefit="no" scale="50"/>
+                            </fig>
+                        </entry>
+                        <entry>
+                            <p>The calculated hash value does not match the stored value.</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <fig id="fig_jcq_x4b_zvb">
+                                <image href="../images/icon_hash_value_error=20221227161036.png"
+                                    id="image_kdx_x4b_zvb" scalefit="no" scale="50"/>
+                            </fig>
+                        </entry>
+                        <entry>
+                            <p>There was an error calculating the hash value.</p>
+                        </entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <p>Moving or overwriting files manually (without using the Trusted Updater) can result in
+            the hash values not matching, but a mismatch could also result from other applications
+            (including malware) altering or overwriting existing files. If it is unsure why a hash
+            value mismatch has occurred, scan the endpoint for potential security threats.</p>
+    </conbody>
+</concept>

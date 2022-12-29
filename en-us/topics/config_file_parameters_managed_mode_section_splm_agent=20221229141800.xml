@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_ntt_lkg_pvb">
+    <title>Managed Mode Section</title>
+    <refbody>
+        <section id="section_q2x_4kg_pvb">
+            <p>The following table lists the parameters to configure Centralized Management
+                functions.</p>
+        </section>
+        <section id="section_xlt_rf4_zvb">
+            <table frame="all" id="table_izd_mrd_zvb">
+                <title>Configuration File - <codeph>ManagedMode</codeph> Section Parameters</title>
+                <tgroup cols="4">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="newCol2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c2" colnum="3" colwidth="1*"/>
+                    <colspec colname="c3" colnum="4" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>
+                                <p>Parameter</p>
+                            </entry>
+                            <entry>
+                                <p>Settings</p>
+                            </entry>
+                            <entry>
+                                <p>Value</p>
+                            </entry>
+                            <entry>
+                                <p>Description</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p><codeph>Configuration</codeph></p>
+                                <p><codeph>GroupPolicy</codeph></p>
+                            </entry>
+                            <entry namest="newCol2" nameend="c3">
+                                <p>Container for the Configuration section</p>
+                                <p>Container for configuring group policy to <ph
+                                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>SyncInterval</codeph></p>
+                            </entry>
+                            <entry/>
+                            <entry>
+                                <p><codeph>0 ~ 2147483647</codeph></p>
+                                <note id="note_dn5_n4p_zvb">
+                                    <p>Unite: Minutes</p>
+                                </note>
+                            </entry>
+                            <entry>
+                                <p>Agent information will be updated periodically according to this
+                                    sync period</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry namest="c1" nameend="c3">
+                                <p><codeph>Agent</codeph>: Container for configuring <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> agents</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>Port</codeph></p>
+                            </entry>
+                            <entry morerows="1"/>
+                            <entry>
+                                <p><codeph>&lt;server_messages_port></codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Specify the secure port for server communications (formerly the
+                                    agent listening port)</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Do not log “Warning” level events related to <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>FixedIp</codeph></p>
+                            </entry>
+                            <entry/>
+                            <entry>
+                                <ul id="ul_t33_w4p_zvb">
+                                    <li>
+                                        <p><codeph>A.B.C.D/E</codeph></p>
+                                    </li>
+                                    <li>
+                                        <p><codeph>A,B,C,D: 0~255</codeph></p>
+                                    </li>
+                                    <li>
+                                        <p>E: 1~32</p>
+                                    </li>
+                                </ul>
+                            </entry>
+                            <entry>
+                                <p>Specify the agent IP address (in Classless inter-domain routing
+                                    (CIDR) format) to communicate with the <ph
+                                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>
+                                    server</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry namest="c1" nameend="c3">
+                                <p><codeph>server</codeph>: Container for configuring <ph
+                                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>HostName</codeph></p>
+                            </entry>
+                            <entry/>
+                            <entry>
+                                <p><codeph>&lt;hostname></codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Specify the host name of the <ph
+                                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>FastPort</codeph></p>
+                            </entry>
+                            <entry/>
+                            <entry>
+                                <p><codeph>&lt;logs_port></codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Specify secure port for collecting logs and status (formerly Fast
+                                    Lane)</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry namest="c1" nameend="c3">
+                                <p><codeph>Message </codeph>: Container for configuring automated
+                                    messages to <ph
+                                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>InitialRetryInterval</codeph></p>
+                            </entry>
+                            <entry/>
+                            <entry>
+                                <p><codeph>0~2147483647</codeph></p>
+                                <note id="note_qfs_npp_zvb">
+                                    <p>Unit: Seconds</p>
+                                </note>
+                            </entry>
+                            <entry>
+                                <p>Starting interval, in seconds, between attempts to resend an
+                                    event to <ph
+                                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/></p>
+                                <p>This interval doubles in size for each unsuccessful attempt,
+                                    until it exceeds the <codeph>MaxRetryInterval</codeph> value</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>MaxRetryInterval</codeph></p>
+                            </entry>
+                            <entry/>
+                            <entry>
+                                <p><codeph>0~2147483647</codeph></p>
+                                <note id="note_dsp_rpp_zvb">
+                                    <p>Unit: Seconds</p>
+                                </note>
+                            </entry>
+                            <entry>
+                                <p>Maximum interval between attempts to resend events to <ph
+                                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>RegularStatusUpdate</codeph></p>
+                            </entry>
+                            <entry/>
+                            <entry>
+                                <ul id="ul_jlv_5pp_zvb">
+                                    <li>
+                                        <p><codeph>0</codeph></p>
+                                    </li>
+                                    <li>
+                                        <p><codeph>1</codeph></p>
+                                    </li>
+                                </ul>
+                            </entry>
+                            <entry>
+                                <p>0: Agent information will not be updated periodically during this
+                                    sync period</p>
+                                <p>1: Agent information will be updated periodically during this
+                                    sync period</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="2">
+                                <p><codeph>MessageRandomization</codeph></p>
+                                <note id="note_jy3_zpp_zvb">
+                                    <p><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> agents
+                                        respond as soon as possible to direct requests from <ph
+                                            conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> Central
+                                        Console. For details, refer to
+                                        <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>Applying
+                                        Message TimeGroups
+                                        <?oxy_custom_end?><?oxy_comment_start author="erica_txone" timestamp="20221229T143230+0800" comment="???"?>in<?oxy_comment_end?>
+                                        the <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+                                        Administrator's Guide</p>
+                                </note>
+                            </entry>
+                            <entry>
+                                <p><codeph>TotalGroupNum </codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Positive Integer (>= 1)</p>
+                            </entry>
+                            <entry>
+                                <p>Specify the total number of message time groups</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>OwnGroupIndex</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Zero or Positive Integer, &lt; <codeph>TotalGroupNum</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Specify the message time group ID number of this <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> agent</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>TimePeriod</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Zero or Positive Integer</p>
+                            </entry>
+                            <entry>
+                                <p>Specify the duration of time in whole seconds that this message
+                                    time group ID number will send automated messages to <ph
+                                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> when
+                                    this group's message sending cycle is active</p>
+                                <note id="note_yrf_wqp_zvb">
+                                    <p>Message time groups do not become active if their duration is
+                                        set to zero (0).</p>
+                                </note>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="2">
+                                <p><codeph>Proxy</codeph></p>
+                            </entry>
+                            <entry morerows="2">
+                                <p><codeph>Mode</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>0</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Do not use a proxy (direct access)</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>1</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Use a proxy (manual setting)</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>2</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Synchronize proxy settings with Internet Explorer</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>HostName</codeph></p>
+                            </entry>
+                            <entry/>
+                            <entry>
+                                <p><codeph>proxy_hostname></codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Specify the proxy host name</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>Port</codeph></p>
+                            </entry>
+                            <entry/>
+                            <entry>
+                                <p><codeph>&lt;proxy_port></codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Specify the proxy port number</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>UserName</codeph></p>
+                            </entry>
+                            <entry/>
+                            <entry>
+                                <p><codeph>&lt;proxy_user_name></codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Specify the proxy user name</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>Password</codeph></p>
+                            </entry>
+                            <entry/>
+                            <entry>
+                                <p><codeph>&lt;proxy_password></codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Specify the proxy password</p>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </refbody>
+</reference>

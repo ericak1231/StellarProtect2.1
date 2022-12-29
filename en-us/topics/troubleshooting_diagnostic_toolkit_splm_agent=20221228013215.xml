@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_m5t_sf1_pvb">
+    <title>Using the Diagnostic Toolkit</title>
+    <taskbody>
+        <context id="context_ob3_1dg_pvb">
+            <p><indexterm>Diagnostic toolkit</indexterm>If TXOne <ph
+                    conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> experiences problems, generate a
+                complete set of application and driver diagnostic logs for analysis, or send them to
+                to TXOne Networks Technical Support. Both the TXOne Networks administrator and
+                Restricted User accounts can collect the logs.</p>
+        </context>
+        <steps id="steps_yvn_3mg_pvb">
+            <step>
+                <cmd>Open the Diagnostic Toolkit and enable full logging:</cmd>
+                <info>
+                    <ol id="ol_wkf_vk2_zvb">
+                        <li>
+                            <p>Open the TXOne <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+                                installation folder and run
+                                <filepath>WKSupportTool.exe</filepath>.</p>
+                            <note id="note_drc_xk2_zvb">
+                                <p>The default installation location is
+                                        <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?><filepath>c:\Program
+                                            Files\TXOne\<text otherprops="SPLM">StellarProtect
+                                            (Legacy Mode)</text><text otherprops="SE"
+                                            >StellarEnforce</text>\</filepath><?oxy_custom_end?>.</p>
+                            </note>
+                        </li>
+                        <li>
+                            <p>Provide the TXOne Networks administrator or Restricted User password
+                                and click <uicontrol>OK</uicontrol>.</p>
+                        </li>
+                        <li>
+                            <p>On the <uicontrol>[A] Debug</uicontrol> tab, select <uicontrol>Output
+                                    error logs and debug information</uicontrol> and
+                                    <uicontrol>Output driver debug information</uicontrol>, and
+                                click <uicontrol>Apply</uicontrol>.</p>
+                        </li>
+                    </ol>
+                </info>
+            </step>
+            <step>
+                <cmd>Reproduce the problem.</cmd>
+            </step>
+            <step>
+                <cmd>Collect the diagnostic logs:</cmd>
+                <info>
+                    <ol id="ol_jwx_2l2_zvb">
+                        <li>
+                            <p>Reopen the Diagnostic Toolkit.</p>
+                        </li>
+                        <li>
+                            <p>On the <uicontrol>[A] Debug</uicontrol> tab, click
+                                    <uicontrol>Browse</uicontrol> to choose the location where TXOne
+                                    <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> saves the
+                                logs.</p>
+                            <note id="note_wdk_hl2_zvb">
+                                <p>The default location for saved logs is:
+                                        <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?><filepath>c:\Program
+                                            Files\TXOne\S<text otherprops="SPLM">StellarProtect
+                                            (Legacy Mode)</text><text otherprops="SE"
+                                            >StellarEnforce</text>\Log\Archive\</filepath><?oxy_custom_end?>.</p>
+                            </note>
+                        </li>
+                        <li>
+                            <p>Click <uicontrol>OK</uicontrol> when finished.</p>
+                        </li>
+                        <li>
+                            <p>Click <uicontrol>Collect Debug Log</uicontrol>.</p>
+                        </li>
+                        <li>
+                            <p>Once the Debug Logs have been collected, click <uicontrol>Open
+                                    Folder</uicontrol> to access the zipped log files for review, or
+                                to send them to TXOne Networks Technical Support.</p>
+                        </li>
+                    </ol>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

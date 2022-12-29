@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Troubleshooting</title>
+    <topicref href="../topics/faq_splm=20221228011231.xml"/>
+    <topicref href="../topics/troubleshooting_reference_splm_agent=20221228012351.xml">
+        <topicref href="../topics/troubleshooting_diagnostic_toolkit_splm_agent=20221228013215.xml"
+        />
+    </topicref>
+</map>

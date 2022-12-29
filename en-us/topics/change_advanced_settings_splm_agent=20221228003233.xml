@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_m5t_sf1_pvb">
+    <title>Changing Advanced Settings</title>
+    <taskbody>
+        <context id="context_ob3_1dg_pvb">
+            <p>Some settings can only be changed though the configuration file using the command
+                line interface (CLI). See <xref href="slcmd_cli_splm_agent=20221227225819.xml"/> for
+                more information.</p>
+        </context>
+        <steps id="steps_yvn_3mg_pvb">
+            <step>
+                <cmd>Export the configuration file.</cmd>
+            </step>
+            <step>
+                <cmd>Decrypt the configuration file.</cmd>
+            </step>
+            <step>
+                <cmd>Edit the configuration file with Windows Notepad or another text editor.</cmd>
+                <info>
+                    <note id="note_jjf_1d2_zvb" type="important">
+                        <p><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> only supports
+                            configuration files in the UTF-8 file format.</p>
+                    </note>
+                    <note id="note_nbq_cd2_zvb" type="tip">
+                        <p>To update multiple agents with shared settings, you may choose to only
+                            import the modified settings.</p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>Encrypt the edited configuration file.</cmd>
+            </step>
+            <step>
+                <cmd>Import the edited configuration file.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

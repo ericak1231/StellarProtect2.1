@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="local_installation_sp_agent_20221121172423">
+    <title>Frequently Asked Questions (FAQ)</title>
+    <conbody>
+        <p><b>What if the endpoint becomes infected by a threat?</b></p>
+        <p>Do one of the following to remove the threat on the endpoint:</p>
+        <ul id="ul_jkf_f32_zvb">
+            <li>
+                <p>Start a manual scan on the endpoint.</p>
+                <p>For more information, see <i>Manual Scan Commands</i> section in <xref
+                        href="../../../../../../../Library/CloudStorage/OneDrive-TXOneNetworksInc/Documents/3.%20Project/2.1/StellarProtect/en-us/topics/slcmd_commands_types_splm_agent=20221227233437.xml"
+                    />.</p>
+            </li>
+            <li>
+                <p>Access the TXOne <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> Central
+                    Console console and send a scan command to start malware scanning on the
+                    endpoint.</p>
+            </li>
+        </ul>
+        <p><b>Where can I get more help with TXOne <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"
+                />?</b></p>
+        <p>To get the most up-to-date information and support, refer to <xref
+                href="../conref-vars/Technical_Support_TXOne=20220722224836=.xml"/>.</p>
+    </conbody>
+</concept>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_ntt_lkg_pvb">
+    <title>AccountRef Section</title>
+    <refbody>
+        <section id="section_q2x_4kg_pvb">
+            <p>The following table lists the parameters to configure the <ph
+                    conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> console controls available to the
+                Restricted User account.</p>
+            <p>Refer to <xref href="accout_types_splm_agent=20221228235711.xml"/> for more
+                information about the <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> acount
+                types.</p>
+        </section>
+        <section id="section_xlt_rf4_zvb">
+            <table frame="all" id="table_izd_mrd_zvb">
+                <title>Configuration File - <codeph>AccountRef</codeph> Section Parameters</title>
+                <tgroup cols="4">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="newCol2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c2" colnum="3" colwidth="1*"/>
+                    <colspec colname="c3" colnum="4" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>
+                                <p>Parameter</p>
+                            </entry>
+                            <entry>
+                                <p>Settings</p>
+                            </entry>
+                            <entry>
+                                <p>Value</p>
+                            </entry>
+                            <entry>
+                                <p>Description</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p><codeph>Configuration</codeph></p>
+                                <p><codeph>Permission</codeph></p>
+                                <p><codeph>AccountRef</codeph></p>
+                            </entry>
+                            <entry namest="newCol2" nameend="c3">
+                                <p>Container for the Configuration section</p>
+                                <p>Container for the Permission section</p>
+                                <p>Container for the AccountRef section</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="7">
+                                <p><codeph>UIControl</codeph></p>
+                            </entry>
+                            <entry morerows="5">
+                                <p><codeph>ID</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>DetailSetting</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Access the features and functions on the <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> console
+                                    Settings page</p>
+                                <note id="note_z2s_1wp_zvb">
+                                    <p>The Password page is not available to the Restricted User
+                                        account.</p>
+                                </note>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>LockUnlock</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Access the Application Lockdown setting on the
+                                        <uicontrol>Overview</uicontrol> screen</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>LaunchUpdater</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Access the <uicontrol>Automatically add files created or modified
+                                        by the selected application installer</uicontrol> option
+                                    when a Restricted User clicks <uicontrol>Add Item</uicontrol> on
+                                    the <uicontrol>Approved List</uicontrol> screen</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>RecentHist oryUnapprovedFiles</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Access the Block logs if a Restricted User clicks <uicontrol>Last
+                                        application blocked</uicontrol> link on the
+                                        <uicontrol>Overview</uicontrol> screen</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>ImportExportList</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Access the <uicontrol>Import List </uicontrol> and
+                                        <uicontrol>Export List</uicontrol> buttons</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>ListManagement</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Access the following items on the <uicontrol>Approved
+                                        List</uicontrol> screen:</p>
+                                <ul id="ul_glr_lwp_zvb">
+                                    <li>
+                                        <p>The <uicontrol>Delete Item</uicontrol> button</p>
+                                    </li>
+                                    <li>
+                                        <p>The <uicontrol>Update Hash</uicontrol> button</p>
+                                    </li>
+                                    <li>
+                                        <p>The <menucascade>
+                                                <uicontrol>Add Item</uicontrol>
+                                                <uicontrol>Add Files/ Folders</uicontrol>
+                                            </menucascade> menu</p>
+                                    </li>
+                                </ul>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">
+                                <p><codeph>State</codeph></p>
+                            </entry>
+                            <entry>
+                                <p><codeph>yes</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Enable the permission specified by <codeph>ID</codeph></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>no</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Disable the permission specified by <codeph>ID</codeph></p>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </refbody>
+</reference>

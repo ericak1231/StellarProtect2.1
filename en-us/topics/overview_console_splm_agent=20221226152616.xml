@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_ntt_lkg_pvb">
+    <title>About the <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> Agent Console</title>
+    <refbody>
+        <section id="section_q2x_4kg_pvb">
+            <p><indexterm>About the Agent Console</indexterm>The agent console provides easy access
+                to commonly used features in TXOne <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"
+                />.</p>
+        </section>
+        <section id="section_vbr_s1b_zvb">
+            <title>Overview</title>
+            <fig id="fig_fld_hss_tvb">
+                <title>Overview of the<ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH">\</ph> Agent
+                    Console</title>
+                <image href="../images/splm_2.1_overview_agent_console=20221226151033.png"
+                    id="image_l5v_yxs_vvb"/>
+            </fig>
+            <p><indexterm>About the Agent Console<indexterm>Overview</indexterm></indexterm>The
+                following table describes the features available on the
+                    <uicontrol>Overview</uicontrol> of the agent console:<table frame="all"
+                    id="table_gjw_gj5_yvb">
+                    <title>Overview Item Descriptions</title>
+                    <tgroup cols="3">
+                        <colspec colname="newCol1" colnum="1" colwidth="1*"/>
+                        <colspec colname="c1" colnum="2" colwidth="1.26*"/>
+                        <colspec colname="c2" colnum="3" colwidth="2.3*"/>
+                        <thead>
+                            <row>
+                                <entry>
+                                    <p>Item</p>
+                                </entry>
+                                <entry>
+                                    <p>Function</p>
+                                </entry>
+                                <entry>
+                                    <p>Description</p>
+                                </entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry morerows="4">
+                                    <p><b>Side Navigation Menu</b></p>
+                                </entry>
+                                <entry>
+                                    <p><uicontrol>Overview</uicontrol></p>
+                                </entry>
+                                <entry>
+                                    <p>Displays the current status of the <ph
+                                            conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> software.
+                                    </p>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <p><uicontrol>Approved List</uicontrol></p>
+                                </entry>
+                                <entry>
+                                    <p>Displays applications allowed to run and let users manage the
+                                        list</p>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <p><uicontrol>Password</uicontrol></p>
+                                </entry>
+                                <entry>
+                                    <p>Enables administrators to change the <ph
+                                            conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+                                        Administrator or Restricted User passwords</p>
+                                    <note id="note_ixg_vk5_yvb">
+                                        <p>Only users logged in as the administrator can change the
+                                            passwords.</p>
+                                    </note>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <p><uicontrol>Settings</uicontrol></p>
+                                </entry>
+                                <entry>
+                                    <p>Enables or disables vulnerability protection settings and
+                                        exports or imports the system configuration</p>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <p><uicontrol>About</uicontrol></p>
+                                </entry>
+                                <entry>
+                                    <p>Displays the product and component version numbers</p>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry morerows="2">
+                                    <p><b>Status Information</b></p>
+                                </entry>
+                                <entry>
+                                    <p><b>Protection Check</b></p>
+                                </entry>
+                                <entry>
+                                    <ul id="ul_dvp_kl5_yvb">
+                                        <li>
+                                            <p>The green check indicates the endpoint is under the
+                                                protection of Real-time Scan and/or Application
+                                                Lockdown</p>
+                                        </li>
+                                        <li>
+                                            <p>The red cross indicates the endpoint is vulnerable to
+                                                security threats</p>
+                                        </li>
+                                    </ul>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <p><uicontrol>Real-Time Scan</uicontrol></p>
+                                </entry>
+                                <entry>
+                                    <p>Enables users to toggle on the <uicontrol>Real-Time
+                                            Scan</uicontrol> function, which provides persistent and
+                                        ongoing file scan for the endpoints when a file is received,
+                                        opened, downloaded, copied, or modified.</p>
+                                    <note id="note_elb_tyz_yvb">
+                                        <p><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+                                            installed on Windows 2000 SP4 (without update rollup) or
+                                            Windows XP SP1 supports real-time scan only when files
+                                            are executed; it does not support real-time scan when
+                                            files are newly added or changed.</p>
+                                    </note>
+                                    <note id="note_uk5_vw1_zvb" type="tip">
+                                        <p>The date and time that the Real-Time Scan was last turned
+                                            on or off is shown next to the toggle switch.</p>
+                                    </note>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <p><uicontrol>Application Lockdown</uicontrol></p>
+                                </entry>
+                                <entry>
+                                    <p>Enables users to toggle on the <uicontrol>Application
+                                            Lockdown</uicontrol> function, which locks down the
+                                        system, blocking applications not on the Approved List from
+                                        running.</p>
+                                    <note id="note_c5m_syz_yvb">
+                                        <p>After disabling Lockdown mode, <ph
+                                                conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+                                            switches to a “detect´´” mode. In this mode, <ph
+                                                conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> does
+                                            not block any applications from running, but logs when
+                                            applications that are not in the Approved List run. You
+                                            can use these logs to check if the Approved List
+                                            contains all the applications required on the
+                                            endpoint.</p>
+                                    </note>
+                                    <note type="tip" id="note_wwp_jx1_zvb">
+                                        <p>The date and time that the Application Lockdown was last
+                                            turned on or off is shown next to the toggle switch.</p>
+                                    </note>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry nameend="c1" namest="newCol1">
+                                    <p><b>Exploit Prevention:</b></p>
+                                </entry>
+                                <entry>
+                                    <ul id="ul_j5p_ly1_zvb">
+                                        <li>
+                                            <p><uicontrol>Enabled:</uicontrol> All Exploit
+                                                Prevention features are enabled. Click the status to
+                                                open the settings screen.</p>
+                                        </li>
+                                        <li>
+                                            <p><uicontrol>Enabled (Partly):</uicontrol> Some Exploit
+                                                Prevention features are enabled. Click the status to
+                                                open the settings screen.</p>
+                                        </li>
+                                        <li>
+                                            <p><uicontrol>Disabled:</uicontrol> No Exploit
+                                                Prevention features are enabled. Click the status to
+                                                open the settings screen.</p>
+                                        </li>
+                                    </ul>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry morerows="2">
+                                    <p><b>Approved List status</b></p>
+                                </entry>
+                                <entry>
+                                    <p>Number of approved applications:</p>
+                                </entry>
+                                <entry>
+                                    <p>Click the corresponding number to open the <wintitle>Approved
+                                            List</wintitle> and view details.</p>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <p>Approved List last updated on:</p>
+                                </entry>
+                                <entry>
+                                    <p>Click the corresponding last updated date to open the
+                                            <wintitle>Approved List</wintitle> and view details.</p>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <p>Last application blocked on:</p>
+                                </entry>
+                                <entry>
+                                    <p>Click the corresponding last application blocked date to open
+                                        the <wintitle>Blocked Application Event Log</wintitle> and
+                                        view details.</p>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry namest="newCol1" nameend="c1">
+                                    <p>License expires on:</p>
+                                </entry>
+                                <entry>
+                                    <p>The time and date that the software expires. Click the
+                                        corresponding date to view the current license status and
+                                        activate/renew the license if needed.</p>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry namest="newCol1" nameend="c1">
+                                    <p>StellarOne Registration:</p>
+                                </entry>
+                                <entry>
+                                    <p>The green check indicates the <ph
+                                            conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> agent is
+                                        successfully registered to a group via <ph
+                                            conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>
+                                        console; the N/A indicates the agent is not registered to
+                                        any group; the red cross indicates registration to certain
+                                        group is failed.</p>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry namest="newCol1" nameend="c1">
+                                    <p>StellarOne Group:</p>
+                                </entry>
+                                <entry>
+                                    <p>Shows the group name to which the agent belongs to. When user
+                                        hovers mouse over the group name, information about group
+                                        name, group ID, and policy version will appear.</p>
+                                </entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table></p>
+            <p>For <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> agent with <b>StellarICS</b>
+                license edition, below the green check or red cross icon, a shield-shape icon with a
+                toggle on the left indicates whether the endpoint is currently protected by <ph
+                    conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>'s Real-time Scan; and a lock-shape
+                icon with a toggle on the right indicates whether the Application Lockdown is
+                enabled</p>
+            <p>For <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> agent with <b>StellarKiosk</b>
+                or <b>StellarOEM</b> license edition, below the green check or red cross icon, below
+                the green check or red cross icon, a lock-shape icon with a toggle on the right
+                indicates whether the Application Lockdown is enabled.</p>
+            <note id="note_kgg_nbb_zvb">
+                <p>The <b>StellarKiosk</b> license edition supports on-demand scanning; the
+                        <b>StellarOEM</b> license edition does not support any scan function.</p>
+            </note>
+        </section>
+        <section id="section_gpy_n5s_tvb">
+            <title>Approved List</title>
+            <fig id="fig_tyg_45s_tvb">
+                <title>The Approved List Window</title>
+                <image href="../images/splm_agent_approved_list=20220927172127.png"
+                    id="image_n1n_q1c_zvb"/>
+            </fig>
+            <p><indexterm><indexterm>About the Agent Console</indexterm><indexterm>Approved
+                        List</indexterm></indexterm>The following table describes the features
+                available on the <uicontrol>Approved List</uicontrol>.</p>
+            <table frame="all" id="table_ryg_kcb_zvb">
+                <title>Approved List Item Descriptions</title>
+                <tgroup cols="3">
+                    <colspec colname="newCol1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c1" colnum="2" colwidth="1.82*"/>
+                    <colspec colname="c2" colnum="3" colwidth="2.2*"/>
+                    <thead>
+                        <row>
+                            <entry>
+                                <p>#</p>
+                            </entry>
+                            <entry>
+                                <p>Item</p>
+                            </entry>
+                            <entry>
+                                <p>Description</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p>1</p>
+                            </entry>
+                            <entry>
+                                <p><uicontrol>Add Item / Delete Itme</uicontrol></p>
+                            </entry>
+                            <entry>
+                                <p>Adds or removes selected items to or from the Approved List</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>2</p>
+                            </entry>
+                            <entry>
+                                <p><b>Search Bar</b></p>
+                            </entry>
+                            <entry>
+                                <p>Searches the Application and File Path columns</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>3</p>
+                            </entry>
+                            <entry>
+                                <p><uicontrol>Check Hash / Update Hash</uicontrol></p>
+                            </entry>
+                            <entry>
+                                <p> Checks or updates the hash values for applications in the
+                                    Approved List</p>
+                                <p>For more details, refer to: <ul id="ul_s1d_kpb_zvb">
+                                        <li>
+                                            <p><xref href="about_hash_splm_agent=20221227155911.xml"
+                                                /></p>
+                                        </li>
+                                        <li>
+                                            <p><xref
+                                                  href="check_update_hash_splm_agent=20221227144310.xml"
+                                                /></p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>4</p>
+                            </entry>
+                            <entry>
+                                <p><uicontrol>Export / Import</uicontrol></p>
+                            </entry>
+                            <entry>
+                                <p>Exports or imports the Approved List using a SQL database
+                                        (<filepath>.db</filepath>) file</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>5</p>
+                            </entry>
+                            <entry>
+                                <p><uicontrol>Copy to Clipboard</uicontrol></p>
+                            </entry>
+                            <entry>
+                                <p>Copies the Approved List to the clipboard with comma separated
+                                    values (<filepath>CSV</filepath>) format for easy review or
+                                    reporting</p>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section id="section_f4j_3vs_tvb">
+            <title>Password</title>
+            <fig id="fig_qqp_jvs_tvb">
+                <title>Password Setting</title>
+                <image href="../images/account_types_password=20221227174410.png"
+                    id="image_byk_kjt_wvb"/>
+            </fig>
+            <p><indexterm><indexterm>About the Agent Console</indexterm><indexterm>Password -
+                        account types</indexterm></indexterm>The following table describes the
+                account types available on the <uicontrol>Password</uicontrol> window.</p>
+            <p><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> provides role-based administration,
+                allowing administrators to grant users access to certain features on the main
+                console. Through the configuration file, <ph
+                    conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> administrators can specify the
+                features available to <uicontrol>Restricted User</uicontrol> accounts.</p>
+            <table frame="all" id="table_arv_nbc_zvb">
+                <title><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> Account Types</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>
+                                <p>Account</p>
+                            </entry>
+                            <entry>
+                                <p>Details</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p>Administrator</p>
+                            </entry>
+                            <entry>
+                                <ul id="ul_i4d_qbc_zvb">
+                                    <li>
+                                        <p>Default account</p>
+                                    </li>
+                                    <li>
+                                        <p>Full access to <ph
+                                                conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+                                            functions</p>
+                                    </li>
+                                    <li>
+                                        <p>Can use both the console and command line interface
+                                            (CLI)</p>
+                                    </li>
+                                </ul>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Restricted User</p>
+                            </entry>
+                            <entry>
+                                <ul id="ul_ffz_rbc_zvb">
+                                    <li>
+                                        <p>Secondary maintenance account</p>
+                                    </li>
+                                    <li>
+                                        <p>Limited access to <ph
+                                                conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+                                            functions</p>
+                                    </li>
+                                    <li>
+                                        <p>Can only use the console</p>
+                                    </li>
+                                </ul>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <p>To enable <uicontrol>Restricted User</uicontrol> accounts, refer to <xref
+                    href="password_configuring_splm_agent=20221227175017.xml"/>. To sign in with a
+                specific account, specify the password for that account.</p>
+        </section>
+        <section id="section_rgx_mxs_tvb">
+            <title>About Feature Settings</title>
+            <fig id="fig_u2h_nxs_tvb">
+                <title><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> Settings Screen</title>
+                <image href="../images/settings_splm_agent=20221227180316.png"
+                    id="image_db1_njt_wvb"/>
+            </fig>
+            <p><indexterm>About the Agent Console<indexterm>Settings</indexterm></indexterm><ph
+                    conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> offers the following protection
+                features.</p>
+            <table frame="all" id="table_ssz_f2c_zvb">
+                <title>Application Lockdown</title>
+                <tgroup cols="3">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1.23*"/>
+                    <colspec colname="c2" colnum="3" colwidth="1.18*"/>
+                    <thead>
+                        <row>
+                            <entry>
+                                <p>Setting</p>
+                            </entry>
+                            <entry>
+                                <p>Description</p>
+                            </entry>
+                            <entry/>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p>DLL/Driver Lockdown</p>
+                            </entry>
+                            <entry>
+                                <p>DLL/Driver Lockdown prevents unapproved DLLs or drivers from
+                                    being loaded into the memory of protected endpoints.</p>
+                            </entry>
+                            <entry morerows="4">
+                                <note id="note_dgv_lld_zvb" type="important">
+                                    <p>To enable DLL/Driver Lockdown, Script Lockdown, Write
+                                        Protection, or Fileless Attack Prevention, ensure that
+                                        Application Lockdown is also enabled on the managed
+                                        endpoint.</p>
+                                </note>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Script Lockdown</p>
+                            </entry>
+                            <entry>
+                                <p>Script Lockdown prevents unapproved script files from being run
+                                    on protected endpoints.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Write Protection</p>
+                            </entry>
+                            <entry>
+                                <p>Write Protection prevents write access to objects (files,
+                                    folders, and registry entries) in the Write Protection List and
+                                    optionally prevents write access to files in the Approved
+                                    List.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Fileless Attack Prevention</p>
+                            </entry>
+                            <entry>
+                                <p>Fileless Attack Prevention detects and blocks unapproved process
+                                    chains and arguments that may lead to a fileless attack
+                                    event.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Intelligent Runtime Learning</p>
+                            </entry>
+                            <entry>
+                                <p>Intelligent Runtime Learning allows runtime executable files that
+                                    are generated by applications in the Approved List.</p>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <table frame="all" id="table_i3s_g2c_zvb">
+                <title>Anti-Malware Scanning</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="2.36*"/>
+                    <thead>
+                        <row>
+                            <entry>
+                                <p>Setting</p>
+                            </entry>
+                            <entry>
+                                <p>Description</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p>Real-Time Scan</p>
+                            </entry>
+                            <entry>
+                                <p>Real-time Scan provides persistent and ongoing file scan for the
+                                    endpoints. Each time a file is received, opened, downloaded,
+                                    copied, or modified, Real-time Malware Scan always scans the
+                                    file for security assessment. If a security risk or possible
+                                    virus/malware has been detected during the scanning, a
+                                    notification message appears indicating the name of the infected
+                                    file and the specific security risk.</p>
+                                <p>Moreover, a persistent scan cache is maintained and reloaded each
+                                    time the Real-time Scan is executed. The Real-time Scan tracks
+                                    any changes made to files or folders that have occurred until
+                                    the function is disabled and the files are unloaded and removed
+                                    from the scan cache.</p>
+                                <note id="note_szz_lmd_zvb">
+                                    <p><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> installed
+                                        on Windows 2000 SP4 (without update rollup) or Windows XP
+                                        SP1 supports real-time scan only when files are executed; it
+                                        does not support real-time scan when files are newly added
+                                        or changed.</p>
+                                </note>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <table frame="all" id="table_mrz_12c_zvb">
+                <title>Intrusion Prevention</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="2.31*"/>
+                    <thead>
+                        <row>
+                            <entry>
+                                <p>Setting</p>
+                            </entry>
+                            <entry>
+                                <p>Description</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p>USB Malware Protection</p>
+                            </entry>
+                            <entry>
+                                <p>USB Malware Protection prevents automated threats on USB or
+                                    remote drives from infecting the endpoint. Just viewing the
+                                    contents of the drive may be enough to pass along an
+                                    infection.</p>
+                                <p>Enable this feature to prevent files on USB devices from
+                                    automatically infecting the endpoint.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Network Virus Protection</p>
+                            </entry>
+                            <entry>
+                                <p>Network Virus Protection scans incoming and outgoing network
+                                    traffic, blocking threats from infected computers or other
+                                    devices on the network.</p>
+                                <p>Enable this feature to prevent threats on the network from
+                                    infecting the endpoint.</p>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <table frame="all" id="table_itf_f2c_zvb">
+                <title>Execution Prevention</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>
+                                <p>Setting</p>
+                            </entry>
+                            <entry>
+                                <p>Description</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p>Memory Randomization</p>
+                            </entry>
+                            <entry>
+                                <p>Address Space Layout Randomization (ASLR) helps prevent shellcode
+                                    injection by randomly assigning memory locations for important
+                                    functions, forcing an attacker to guess the memory location of
+                                    specific processes.</p>
+                                <p>Enable this feature on older operating systems such as Windows XP
+                                    or Windows Server 2003, which may lack or offer limited Address
+                                    Space Layout Randomization support.</p>
+                                <note id="note_ptz_vmd_zvb">
+                                    <p>The endpoint must be restarted to enable or disable Memory
+                                        Randomization.</p>
+                                </note>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>DLL Injection Prevention</p>
+                            </entry>
+                            <entry>
+                                <p>DLL Injection Prevention detects and blocks API call behaviors
+                                    used by malicious software. Blocking these threats helps prevent
+                                    malicious processes from running.</p>
+                                <p>Never disable this feature except in troubleshooting situations
+                                    since it protects the system from a wide variety of serious
+                                    threats.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>API Hooking Prevention</p>
+                            </entry>
+                            <entry>
+                                <p>API Hooking Prevention detects and blocks malicious software that
+                                    tries to intercept and alter messages used in critical processes
+                                    within the operating system.</p>
+                                <p>Never disable this feature except in troubleshooting situations
+                                    since it protects the system from a wide variety of serious
+                                    threats.</p>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <table frame="all" id="table_rbw_j2c_zvb">
+                <title>Device Control &amp; Other</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>
+                                <p>Setting</p>
+                            </entry>
+                            <entry>
+                                <p>Description</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p>Storage Device Blocking</p>
+                            </entry>
+                            <entry>
+                                <p>Blocks storage devices, including USB drives, CD/DVD drives,
+                                    floppy disks, and network drives from accessing the managed
+                                    endpoint.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Integrity Monitoring</p>
+                            </entry>
+                            <entry>
+                                <p>Integrity Monitoring logs events related to changes for files,
+                                    folders, and the registry on the managed endpoint.</p>
+                                <note id="note_fl5_cnd_zvb">
+                                    <p>To view Integrity Monitoring logs on the managed endpoint, go to<menucascade>
+                                            <uicontrol> Start</uicontrol>
+                                            <uicontrol>ControlPanel</uicontrol>
+                                            <uicontrol>Administrative Tools</uicontrol>
+                                        </menucascade> and access Event Viewer.</p>
+                                </note>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <p>To enable or disable the feature settings, refer to <xref
+                    href="feature_settings_procedures_splm_agent=20221227223805.xml"/> for more
+                details.</p>
+        </section>
+        <section id="section_rld_txs_tvb">
+            <title>About</title>
+            <fig id="fig_agn_txs_tvb">
+                <title>The About Page</title>
+                <image href="../images/about_1.4_splm_agent=20221227224928.png"
+                    id="image_lhj_tkt_wvb"/>
+            </fig>
+            <p><indexterm>About the Agent Console<indexterm>The About
+                Page</indexterm></indexterm>This page displays <ph
+                    conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> product information, version and
+                build number, as well as third-party license information.</p>
+        </section>
+    </refbody>
+</reference>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+<reference id="reference_ntt_lkg_pvb">
+    <title>Configuration File
+        <?oxy_comment_start author="erica_txone" timestamp="20221228T005412+0800" comment="replace with Single Installer config file?"?>Parameters<?oxy_comment_end?></title>
+    <refbody>
+        <section id="section_q2x_4kg_pvb">
+            <p>The configuration file contains sections that specify parameters used by <ph
+                    conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>.</p>
+            <table frame="all" id="table_rll_df2_zvb">
+                <title>Configuration File Sections and Descriptions</title>
+                <tgroup cols="3">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c3" colnum="3" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>
+                                <p>Section</p>
+                            </entry>
+                            <entry>
+                                <p>Description</p>
+                            </entry>
+                            <entry>
+                                <p>Additional Information</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p><codeph>Configuration</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>Container for the Configuration section</p>
+                            </entry>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry/>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry/>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry/>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry/>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry/>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry/>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry/>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry/>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry/>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </refbody>
+</reference>
+<?oxy_custom_end?>

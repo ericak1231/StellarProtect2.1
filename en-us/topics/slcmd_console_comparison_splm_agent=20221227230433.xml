@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_ntt_lkg_pvb">
+    <title>SLCmd Program and Console Function Comparison</title>
+    <refbody>
+        <section id="section_q2x_4kg_pvb">
+            <p>The following table lists the TXOne <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+                features available in SLCmd program and the <ph
+                    conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> console program.</p>
+            <table frame="all" id="table_izd_mrd_zvb">
+                <tgroup cols="3">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c3" colnum="3" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>
+                                <p>Function</p>
+                            </entry>
+                            <entry>
+                                <p>SLCmd Program at the Command Line Interface (CLI)</p>
+                            </entry>
+                            <entry>
+                                <p>Console</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p>Account Management</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Agent Event Aggregation</p>
+                            </entry>
+                            <entry>
+                                <p>No</p>
+                            </entry>
+                            <entry>
+                                <p>No</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Approved List Management</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Decrypt/Encrypt configuration file</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                            <entry>
+                                <p>No</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Display the blocked log</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Export/Import Approved List</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Export/Import configuration</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Group Policy/Global Policy</p>
+                            </entry>
+                            <entry>
+                                <p>No</p>
+                            </entry>
+                            <entry>
+                                <p>No</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Install</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Intelligent Runtime Learning</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Windows Update Support</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                            <entry>
+                                <p>No</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Application Lockdown</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Write Protection</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Write Protection Exceptions</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                            <entry>
+                                <p>No</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Integrity Monitoring</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Exception Paths</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                            <entry>
+                                <p>No</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>License Management</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Administrator password</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Turn on/off Application Lockdown</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Enable/disable pop-up notifications for blocked files</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                            <entry>
+                                <p>No</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Start/Stop Trusted Updater</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Trusted Hash List</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                            <entry>
+                                <p>No</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Start/Stop the service</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                            <entry>
+                                <p>No</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Uninstall</p>
+                            </entry>
+                            <entry>
+                                <p>No</p>
+                            </entry>
+                            <entry>
+                                <p>No</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Storage Device Control</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Fileless Attack Prevention</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Add Trusted USB Device</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                            <entry>
+                                <p>No</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Configure Maintenance Mode</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                            <entry>
+                                <p>No</p>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <p>Not all settings are available through the command line interface (CLI) or console.
+                Refer to <xref href="intro_work_with_agent_config_file_splm=20221227232258.xml"
+                    >Working with the Agent Configuration File on page 4-2</xref> for information
+                about modifying the system configuration.</p>
+        </section>
+    </refbody>
+</reference>
