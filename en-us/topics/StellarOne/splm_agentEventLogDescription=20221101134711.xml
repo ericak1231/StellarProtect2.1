@@ -1,0 +1,3123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd"[]>
+
+<reference id="GUID-09957805-70E7-401F-A691-F587FCE2CB8B" xml:lang="en-us">
+  <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">Agent Event Log Descriptions for <ph
+      conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/></title>
+  <refbody>
+    <section id="GUID-3A481E02-9073-4F55-B437-517CA325F21D">
+      <p>This table details the Windows event log descriptions for <ph
+          conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>.</p>
+      <table frame="all" id="table_uqw_xlp_l5b">
+        <tgroup cols="4">
+          <colspec colname="c1" colnum="1" colwidth="1.09*"/>
+          <colspec colname="c2" colnum="2" colwidth="1.09*"/>
+          <colspec colname="c3" colnum="3" colwidth="1*"/>
+          <colspec colname="c4" colnum="4" colwidth="1.17*"/>
+          <thead>
+            <row>
+              <entry>
+                <p>Event ID</p>
+              </entry>
+              <entry>
+                <p>Level</p>
+              </entry>
+              <entry>
+                <p>Category</p>
+              </entry>
+              <entry>
+                <p>Event Description</p>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+              <entry>
+                <p>1000</p>
+              </entry><?oxy_custom_end?>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Service started.</p>
+              </entry>
+            </row>
+            <row>
+              <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+              <entry>
+                <p>1002</p>
+              </entry><?oxy_custom_end?>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Application Lockdown Turned On.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1004</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Disabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1005</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Administrator password changed.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1006</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Restricted User password changed.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1007</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Restricted User account enabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1008</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Restricted User account disabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1009</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Product activated.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1010</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Product deactivated.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1013</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Product configuration import complete: %path%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1015</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Product configuration exported to: %path%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1016</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>USB Malware Protection set to Allow.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1017</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>USB Malware Protection set to Block.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1018</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>USB Malware Protection enabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1020</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Network Virus Protection set to Allow.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1021</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Network Virus Protection set to Block.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1022</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Network Virus Protection enabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1025</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Memory Randomization enabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1027</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>API Hooking Prevention set to Allow.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1028</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>API Hooking Prevention set to Block.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1029</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>API Hooking Prevention enabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1031</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>DLL Injection Prevention set to Allow.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1032</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>DLL Injection Prevention set to Block.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1033</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>DLL Injection Prevention enabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1035</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Pre-defined Trusted Update enabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1036</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Pre-defined Trusted Update disabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1037</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>DLL/Driver Lockdown enabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1039</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Script Lockdown enabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1041</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Script added. [Details] </p>
+                <p>File extension: %extension% </p>
+                <p>Interpreter: %interpreter%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1042</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Script removed. [Details] </p>
+                <p>File extension: %extension% </p>
+                <p>Interpreter: %interpreter%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1044</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Exception path enabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1045</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Exception path disabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1047</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Trusted certification enabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1048</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Trusted certification disabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1049</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Write Protection enabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1051</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Write Protection set to Allow.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1052</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Write Protection set to Block.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1055</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Added file to Write Protection List.</p>
+                <p>Path: %path%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1056</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Removed file from Write Protection List.</p>
+                <p>Path: %path%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1057</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Added file to Write Protection Exception List. </p>
+                <p>Path: %path% </p>
+                <p>Process: %process%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1058</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Removed file from Write Protection Exception List. </p>
+                <p>Path: %path% </p>
+                <p>Process: %process%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1059</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Added folder to Write Protection List.</p>
+                <p>Path: %path%</p>
+                <p>Scope: %scope%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1060</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Removed folder from Write Protection List.</p>
+                <p>Path: %path%</p>
+                <p>Scope: %scope%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1061</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Added folder to Write Protection Exception List.</p>
+                <p>Path: %path%</p>
+                <p>Scope: %scope%</p>
+                <p>Process: %process%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1062</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Removed folder from Write Protection Exception List.</p>
+                <p>Path: %path%</p>
+                <p>Scope: %scope%</p>
+                <p>Process: %process%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1063</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Added registry value to Write Protection List.</p>
+                <p>Registry Key: %regkey% </p>
+                <p>Registry Value Name: %regvalue%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1064</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Removed registry value from Write Protection List.</p>
+                <p>Registry Key: %regkey% </p>
+                <p>Registry Value Name: %regvalue%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1065</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Added registry value to Write Protection Exception List. </p>
+                <p>Registry Key: %regkey% </p>
+                <p>Registry Value Name: %regvalue%</p>
+                <p>Process: %process%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1066</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Removed registry value from Write Protection Exception List. </p>
+                <p>Registry Key: %regkey% </p>
+                <p>Registry Value Name: %regvalue%</p>
+                <p>Process: %process%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1067</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Added registry key to Write Protection List.</p>
+                <p>Path: %regkey%</p>
+                <p>Scope: %scope%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1068</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Removed registry key from Write Protection List.</p>
+                <p>Path: %regkey%</p>
+                <p>Scope: %scope%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1069</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Added registry key to Write Protection Exception List.</p>
+                <p>Path: %regkey%</p>
+                <p>Scope: %scope%</p>
+                <p>Process: %process%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1070</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Removed registry key from Write Protection Exception List. </p>
+                <p>Path: %regkey%</p>
+                <p>Scope: %scope%</p>
+                <p>Process: %process%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1071</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Custom Action set to Ignore.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1072</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Custom Action set to Quarantine.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1073</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                <p>Custom Action set to Ask Intelligent Manager</p><?oxy_custom_end?>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1074</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Quarantined file is restored. [Details] </p>
+                <p>Original Location: %path%</p>
+                <p>Source: %source%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1075</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Quarantined file is deleted. [Details] </p>
+                <p>Original Location: %path% </p>
+                <p>Source: %source%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1076</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Integrity Monitoring enabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1077</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Integrity Monitoring disabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1078</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Root cause analysis report unsuccessful. [Details] </p>
+                <p>Access Image Path: %path%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1079</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Server certification imported: %path%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1080</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Server certification exported to: %path%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1081</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Managed mode configuration imported: %path%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1082</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Managed mode configuration exported to: %path%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1083</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Managed mode enabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1084</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Managed mode disabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1085</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Protection applied to Write Protection List and Approved List while Write
+                  Protection is enabled</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1088</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Windows Update Support enabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1089</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Windows Update Support disabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1094</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>TXOne StellarProtect (Legacy Mode) updated.</p>
+                <p>File applied: %file_name%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1096</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Trusted Hash List enabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1097</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Trusted Hash List disabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1099</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Storage device access set to Allow</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1100</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Storage device access set to Block</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1101</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Storage device control enabled</p>
+              </entry>
+            </row>
+            <row>
+              <entry morerows="1">
+                <p>1103</p>
+              </entry>
+              <entry morerows="1">
+                <p>Information</p>
+              </entry>
+              <entry morerows="1">
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Event Log settings changed.</p>
+                <p>[Details]</p>
+                <p>Windows Event Log: %ON|off% Level: Warning Log: %ON|off% Information Log:
+                  %ON|off% System Log: %ON|off% Exception Path Log: %ON|off% Write Protection Log:
+                  %ON|off% List Log: %ON|off% Approved Access Log: DllDriver Log: %ON|off% Trusted
+                  Updater Log: %ON|off% Exception Path Log: %ON|off% Trusted Certification Log:
+                  %ON|off% Trusted Hash Log: %ON|off% Write Protection Log: %ON|off% Blocked Access
+                  Log: %ON|off% USB Malware Protection Log: %ON|off% Execution Prevention Log:
+                  %ON|off% Network Virus Protection Log: %ON|off%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>Integrity Monitoring Log</p>
+                <p> File Created Log: %ON|off% File Modified Log: %ON|off% File Deleted Log:
+                  %ON|off% File Renamed Log: %ON|off% RegValue Modified Log: %ON|off% RegValue
+                  Deleted Log: %ON|off% RegKey Created Log: %ON|off% RegKey Deleted Log: %ON|off%
+                  RegKey Renamed Log: %ON|off% Device Control Log: %ON|off% Debug Log: %ON|off%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1105</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Blocked File Notification enabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1106</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Blocked File Notification disabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1107</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Administrator password changed remotely.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1111</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Fileless Attack Prevention enabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1500</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>List</p>
+              </entry>
+              <entry>
+                <p>Trusted Update started.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1501</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>List</p>
+              </entry>
+              <entry>
+                <p>Trusted Update stopped.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1502</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>List</p>
+              </entry>
+              <entry>
+                <p>Approved List import started: %path%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1503</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>List</p>
+              </entry>
+              <entry>
+                <p>Approved List import complete: %path%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1504</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>List</p>
+              </entry>
+              <entry>
+                <p>Approved List exported to: %path%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1505</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>List</p>
+              </entry>
+              <entry>
+                <p>Added to Approved List: %path%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1506</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>List</p>
+              </entry>
+              <entry>
+                <p>Added to Trusted Updater List: %path%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1507</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>List</p>
+              </entry>
+              <entry>
+                <p>Removed from Approved List: %path%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1508</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>List</p>
+              </entry>
+              <entry>
+                <p>Removed from Trusted Updater List: %path%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1509</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>List</p>
+              </entry>
+              <entry>
+                <p>Approved List updated: %path%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1510</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>List</p>
+              </entry>
+              <entry>
+                <p>Trusted Updater List updated: %path%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1513</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Added to Exception Path List. [Details] </p>
+                <p>Type: %exceptionpathtype%</p>
+                <p>Path: %exceptionpath%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1514</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Removed from Exception Path List. [Details] </p>
+                <p>Type: %exceptionpathtype% </p>
+                <p>Path: %exceptionpath%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1515</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Added to Trusted Certification List. [Details] </p>
+                <p>Label: %label% </p>
+                <p>Hash: %hashvalue% </p>
+                <p>Type: %type% </p>
+                <p>Subject: %subject% </p>
+                <p>Issuer: %issuer%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1516</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Removed from Trusted Certification List. [Details] </p>
+                <p>Label: %label% </p>
+                <p>Hash: %hashvalue% </p>
+                <p>Type: %type% </p>
+                <p>Subject: %subject% </p>
+                <p>Issuer: %issuer%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1517</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Added to the Trusted Hash List.%n [Details] </p>
+                <p>Label : %label% </p>
+                <p>Hash : %hashvalue% </p>
+                <p>Type : %type% </p>
+                <p>Add to Approved List: %yes|no% </p>
+                <p>Path : %path% </p>
+                <p>Note: %note%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1518</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Removed from the Trusted Hash List.%n [Details] </p>
+                <p>Label : %label% </p>
+                <p>Hash : %hashvalue% </p>
+                <p>Type : %type% </p>
+                <p>Add to Approved List: %yes|no% </p>
+                <p>Path : %path% </p>
+                <p>Note: %note%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1519</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>List</p>
+              </entry>
+              <entry>
+                <p>Removed from Approved List remotely: %path%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1521</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Added Fileless Attack Prevention exception. [Details] </p>
+                <p>Label : %label% </p>
+                <p>Target Process: %process_name% Arguments: %arguments% %regex_flag% Parent Process
+                  1 Image Path: %path% Parent Process 2 Image Path: %path% Parent Process 3 Image
+                  Path: %path% Parent Process 4 Image Path: %path%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1522</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Removed Fileless Attack Prevention exception. </p>
+                <p>[Details]</p>
+                <p>Label : %label%</p>
+                <p>Target Process: %process_name% Arguments: %arguments% %regex_flag% Parent Process
+                  1 Image Path: %path% Parent Process 2 Image Path: %path% Parent Process 3 Image
+                  Path: %path% Parent Process 4 Image Path: %path%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1523</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Maintenance Mode started</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1524</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Leaving Maintenance Mode</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1525</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Maintenance Mode stopped</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1526</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>List</p>
+              </entry>
+              <entry>
+                <p>Added to Approved List in Maintenance Mode.</p>
+                <p>Path: %1</p>
+                <p>Hash: %2</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1527</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>List</p>
+              </entry>
+              <entry>
+                <p>Approved List updated in Maintenance Mode. </p>
+                <p>Path: %1</p>
+                <p>Hash: %2</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2000</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>Access Approved</p>
+              </entry>
+              <entry>
+                <p>File access allowed: %path% </p>
+                <p>[Details]</p>
+                <p>Access Image Path: %path% Access User: %username% Mode: %mode% List: %list%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2006</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>Access Approved</p>
+              </entry>
+              <entry>
+                <p>File access allowed: %path%</p>
+                <p>[Details]</p>
+                <p>Access Image Path: %path% Access User: %username% Mode: %mode%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2011</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>Access Approved</p>
+              </entry>
+              <entry>
+                <p>Registry access allowed. Registry Key: %regkey% Registry Value Name: %regvalue% </p>
+                <p>[Details]</p>
+                <p>Access Image Path: %path% Access User: %username% Mode: %mode%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2012</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>Access Approved</p>
+              </entry>
+              <entry>
+                <p>Registry access allowed. Registry Key: %regkey%</p>
+                <p>[Details]</p>
+                <p>Access Image Path: %path% Access User: %username% Mode: %mode%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2013</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>Access Approved</p>
+              </entry>
+              <entry>
+                <p>Change of File/Folder allowed by Exception List: %path% </p>
+                <p>[Details]</p>
+                <p>Access Image Path: Access User: %username% Mode: %mode%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2015</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>Access Approved</p>
+              </entry>
+              <entry>
+                <p>Change of Registry Value allowed by Exception List. Registry Key: %regkey%
+                  Registry Value Name: %regvalue%</p>
+                <p>[Details]</p>
+                <p>Access Image Path: %path% Access User: %username% Mode: %mode%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2016</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>Access Approved</p>
+              </entry>
+              <entry>
+                <p>Change of Registry Key allowed by Exception List. Registry Key: %regkey%</p>
+                <p>[Details]</p>
+                <p>Access Image Path: %path% Access User: %username% Mode: %mode%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2507</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>Access Blocked</p>
+              </entry>
+              <entry>
+                <p>Action completed successfully: %path% [Details] Action: %action% Source:
+                  %source%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2511</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>Access Blocked</p>
+              </entry>
+              <entry>
+                <p>Change of File/Folder blocked: %path%</p>
+                <p>[Details]</p>
+                <p>Access Image Path: %path% Access User: %username% Mode: %mode%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>4500</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>Changes in System</p>
+              </entry>
+              <entry>
+                <p>File/Folder created: %path% [Details] Access Image Path: %path% Access Process
+                  Id: %pid% Access User: %username%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>4501</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>Changes in System</p>
+              </entry>
+              <entry>
+                <p>File modified: %path% [Details] Access Image Path: %path% Access Process Id:
+                  %pid% Access User: %username%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>4502</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>Changes in System</p>
+              </entry>
+              <entry>
+                <p>File/Folder deleted: %path% [Details] Access Image Path: %path% Access Process
+                  Id: %pid% Access User: %username%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>4503</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>Changes in System</p>
+              </entry>
+              <entry>
+                <p>File/Folder renamed: %path% New Path: %path% [Details] Access Image Path: %path%
+                  Access Process Id: %pid% Access User: %username%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>4504</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>Changes in System</p>
+              </entry>
+              <entry>
+                <p>Registry Value modified. Registry Key: %regkey% Registry Value Name: %regvalue%
+                  Registry Value Type: %regvaluetype% [Details] Access Image Path: %path% Access
+                  Process Id: %pid% Access User: %username%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>4505</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>Changes in System</p>
+              </entry>
+              <entry>
+                <p>Registry Value deleted. Registry Key: %regkey% Registry Value Name: %regvalue%
+                  [Details] Access Image Path: %path% Access Process Id: %pid% Access User:
+                  %username%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>4506</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>Changes in System</p>
+              </entry>
+              <entry>
+                <p>Registry Key created. Registry Key: %regkey% [Details] Access Image Path: %path%
+                  Access Process Id: %pid% Access User: %username%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>4507</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>Changes in System</p>
+              </entry>
+              <entry>
+                <p>Registry Key deleted. Registry Key: %regkey% [Details] Access Image Path: %path%
+                  Access Process Id: %pid% Access User: %username%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>4508</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>Changes in System</p>
+              </entry>
+              <entry>
+                <p>Registry Key renamed. Registry Key: %regkey% New Registry Key: %regkey% [Details]
+                  Access Image Path: %path% Access Process Id: %pid% Access User: %username%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>6000</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>%Result% </p>
+                <p>[Details]</p>
+                <p>Update Source: %SERVER% [Original Version] Virus Pattern: %VERSION% Spyware
+                  Pattern: %VERSION% Digital Signature Pattern: %VERSION% Program Inspection
+                  Pattern: %VERSION% Damage Cleanup Template: %VERSION% Damage Cleanup Engine
+                  Configuration: %VERSION% Virus Scan Engine: %VERSION% Damage Cleanup Engine:
+                  %VERSION% Scanner: %VERSION% [Updated Version] Virus Pattern: %VERSION% Spyware
+                  Pattern: %VERSION% Digital Signature Pattern: %VERSION% Program Inspection
+                  Pattern: %VERSION% Damage Cleanup Template: %VERSION% Damage Cleanup Engine
+                  Configuration: %VERSION% 103 Virus Scan Engine: %VERSION% Damage Cleanup Engine:
+                  %VERSION% Scanner: %VERSION%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>6002</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Malware scan started: %SCAN_TYPE% </p>
+                <p>[Details]</p>
+                <p>Files to scan: %SCAN_FOLDER_TYPE% Scanned folders: %PATHS% Excluded paths:
+                  %PATHS% Excluded files: %PATHS% Excluded extensions: %PATHS% [Components] Virus
+                  Pattern: %VERSION% Spyware Pattern: %VERSION% Digital Signature Pattern: %VERSION%
+                  Program Inspection Pattern: %VERSION% Damage Cleanup Template: %VERSION% Damage
+                  Cleanup Engine Configuration: %VERSION% Virus Scan Engine: %VERSION% Damage
+                  Cleanup Engine: %VERSION% Scanner: %VERSION%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>6003</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Malware scan completed: %SCAN_TYPE%. Number of infected files: %NUM% </p>
+                <p>[Details]</p>
+                <p>Files to scan: %SCAN_FOLDER_TYPE% Scanned folders: %PATHS% Excluded paths:
+                  %PATHS% Excluded files: %PATHS% Excluded extensions: %PATHS% Start date/time:
+                  %DATE_TIME% End date/time: %DATE_TIME% Number of scanned files: %NUM% Number of
+                  infected files: %NUM% Number of cleaned files: %NUM% Number of files cleaned after
+                  reboot: %NUM% [Components] Virus Pattern: %VERSION% Spyware Pattern: %VERSION%
+                  Digital Signature Pattern: %VERSION% Program Inspection Pattern: %VERSION% Damage
+                  Cleanup Template: %VERSION% Damage Cleanup Engine Configuration: %VERSION% Virus
+                  Scan Engine: %VERSION% Damage Cleanup Engine: %VERSION% Scanner: %VERSION%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>6005</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Malware detected: %ACTION% File path: %PATH% </p>
+                <p>[Details]</p>
+                <p>Reboot required: %NEED_REBOOT% [Scan Result] Threat type: %TYPE% Threat name:
+                  %NAME% [Components] Virus Pattern: %VERSION% Spyware Pattern: %VERSION% Digital
+                  Signature Pattern: %VERSION% Program Inspection Pattern: %VERSION% Damage Cleanup
+                  Template: %VERSION% Damage Cleanup Engine Configuration: %VERSION% Virus Scan
+                  Engine: %VERSION% Damage Cleanup Engine: %VERSION% Scanner: %VERSION%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>7000</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Group policy applied</p>
+                <p>[Details]</p>
+                <p>Old Group Name: %GROUP NAME% Old Policy Version: %VERSION% New Group Name: %GROUP
+                  NAME% New Policy Version: %VERSION%</p>
+              </entry>
+            </row>
+            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+            <row>
+              <entry>
+                <p>8000</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Real Time Scan is enabled</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>8500</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Scheduled component update has been enabled. Next update will be on %TIME%
+                  (agent's local system time).</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>8501</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Scheduled component update has been disabled.</p>
+              </entry>
+            </row><?oxy_custom_end?>
+            <row>
+              <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+              <entry>
+                <p>1001</p>
+              </entry><?oxy_custom_end?>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Service stopped</p>
+              </entry>
+            </row>
+            <row>
+              <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+              <entry>
+                <p>1003</p>
+              </entry><?oxy_custom_end?>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Application Lockdown Turned Off.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1011</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>License Expired. Grace period enabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1012</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>License Expired. Grace period ended.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1019</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>USB Malware Protection disabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1023</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Network Virus Protection disabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1026</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Memory Randomization disabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1030</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>API Hooking Prevention disabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1034</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>DLL Injection Prevention disabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1038</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>DLL/Driver Lockdown disabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1040</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Script Lockdown disabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1050</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Write Protection disabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1086</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Protection applied to Write Protection List while Write Protection is
+                  enabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1102</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Storage device control disabled</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1104</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Memory Randomization is not available in this version of Windows.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1112</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Fileless Attack Prevention disabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1511</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>List</p>
+              </entry>
+              <entry>
+                <p>Unable to add to or update Approved List: %path%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1512</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>List</p>
+              </entry>
+              <entry>
+                <p>Unable to add to or update Trusted Updater List: %path%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>1520</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>List</p>
+              </entry>
+              <entry>
+                <p>Unable to create Approved List because an unexpected error occurred during
+                  enumeration of the files in %1 %n </p>
+                <p>Error Code: %2 %n</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>2001</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>Access Approved</p>
+              </entry>
+              <entry>
+                <p>File access allowed: %path%</p>
+                <p>[Details]</p>
+                <p>Access Image Path: %path% Access User: %username% Mode: %mode% 97 File Hash
+                  allowed: %hash%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2002</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>Access Approved</p>
+              </entry>
+              <entry>
+                <p>File access allowed: %path%</p>
+                <p>Unable to get the file path while checking the Approved List.</p>
+                <p>[Details]</p>
+                <p>Access Image Path: %path% </p>
+                <p>Access User: %username% </p>
+                <p>Mode: %mode%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2003</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>Access Approved</p>
+              </entry>
+              <entry>
+                <p>File access allowed: %path%</p>
+                <p>Unable to calculate hash while checking the Approved List.</p>
+                <p>[Details]</p>
+                <p>Access Image Path: %path% </p>
+                <p>Access User: %username% </p>
+                <p>Mode: %mode%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2004</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>Access Approved</p>
+              </entry>
+              <entry>
+                <p>File access allowed: %path%</p>
+                <p>Unable to get notifications to monitor process.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2005</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>Access Approved</p>
+              </entry>
+              <entry>
+                <p>File access allowed: %path%</p>
+                <p>Unable to add process to non exception list.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2007</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>Access Approved</p>
+              </entry>
+              <entry>
+                <p>File access allowed: %path%</p>
+                <p>An error occurred while checking the Exception Path List.</p>
+                <p>[Details]</p>
+                <p>Access Image Path: %path% Access User: %username% Mode: %mode%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2008</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>Access Approved</p>
+              </entry>
+              <entry>
+                <p>File access allowed: %path%</p>
+                <p>An error occurred while checking the Trusted Certification List. </p>
+                <p>[Details]</p>
+                <p>Access Image Path: %path% Access User: %username% Mode: %mode%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2017</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>Access Approved</p>
+              </entry>
+              <entry>
+                <p>Change of File/Folder allowed: %path%</p>
+                <p>[Details]</p>
+                <p>Access Image Path: %path% Access User: %username% Mode: %mode%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2019</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>Access Approved</p>
+              </entry>
+              <entry>
+                <p>Change of Registry Value allowed. Registry Key: %regkey% Registry Value Name:
+                  %regvalue% </p>
+                <p>[Details]</p>
+                <p>Access Image Path: %path% Access User: %username% Mode: %mode%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2020</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>Access Approved</p>
+              </entry>
+              <entry>
+                <p>Change of Registry Key allowed. Registry Key: %regkey% </p>
+                <p>[Details]</p>
+                <p>Access Image Path: %path% Access User: %username% Mode: %mode%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2021</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>Access Approved</p>
+              </entry>
+              <entry>
+                <p>File access allowed: %path%</p>
+                <p>An error occurred while checking the Trusted Hash List.</p>
+                <p>[Details]</p>
+                <p>Access Image Path: %path% Access User: %username% Mode: %mode%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>2022</entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>Access Approved</p>
+              </entry>
+              <entry>
+                <p>Process allowed by Fileless Attack Prevention: %path% %argument%</p>
+                <p>[Details]</p>
+                <p>Access User: %username% Parent Process 1 Image Path: %path% Parent Process 2
+                  Image Path: %path% Parent Process 3 Image Path: %path% Parent Process 4 Image
+                  Path: %path% Mode: Unlocked Reason: %reason%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2503</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>Access Blocked</p>
+              </entry>
+              <entry>
+                <p>Change of File/Folder blocked: %path%</p>
+                <p>[Details]</p>
+                <p>Access Image Path: %path% Access User: %username% Mode: %mode%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2505</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>Access Blocked</p>
+              </entry>
+              <entry>
+                <p>Change of Registry Value blocked. Registry Key: %regkey% Registry Value Name:
+                  %regvalue% [Details] Access Image Path: %path% Access User: %username% Mode:
+                  %mode%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2506</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>Access Blocked</p>
+              </entry>
+              <entry>
+                <p>Change of Registry Key blocked. Registry Key: %regkey% [Details] Access Image
+                  Path: %path% Access User: %username% Mode: %mode%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2508</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>Access Blocked</p>
+              </entry>
+              <entry>
+                <p>Unable to take specified action: %path% [Details] Action: %action% Source:
+                  %source%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2509</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>Access Blocked</p>
+              </entry>
+              <entry>
+                <p>File access blocked: %path%</p>
+                <p>[Details]</p>
+                <p>Access Image Path: %path% Access User: %username% Mode: %mode% Reason: Not in
+                  Approved List File Hash blocked: %hash%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2510</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>Access Blocked</p>
+              </entry>
+              <entry>
+                <p>File access blocked: %path%</p>
+                <p>[Details]</p>
+                <p>Access Image Path: %path% Access User: %username% Mode: %mode% Reason: Hash does
+                  not match expected value File Hash blocked: %hash%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2512</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>Access Blocked</p>
+              </entry>
+              <entry>
+                <p>Change of Registry Value blocked. Registry Key: %regkey% Registry Value Name:
+                  %regvalue% [Details] Access Image Path: %path% Access User: %username% Note
+                  Enabling the Service Creation Prevention feature triggers Event ID 2512.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2513</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>Access Blocked</p>
+              </entry>
+              <entry>
+                <p>Process blocked by Fileless Attack Prevention: %path% %argument% [Details] Access
+                  User: %username% Parent Process 1 Image Path: %path% Parent Process 2 Image Path:
+                  %path% Parent Process 3 Image Path: %path% Parent Process 4 Image Path: %path%
+                  Mode: locked Reason: %reason%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2514</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>Access Blocked</p>
+              </entry>
+              <entry>
+                <p>File access blocked: %BLOCKED_FILE_PATH% [Details] Access Image Path:
+                  %PARENT_PROCESS_PATH% Access User: %USER_NAME% Reason: Blocked file is in a folder
+                  that has the case sensitive attribute enabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>3000</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>USB Malware Protection</p>
+              </entry>
+              <entry>
+                <p>Device access allowed: %path% [Details] Access Image Path: %path% Access User:
+                  %username% Device Type: %type%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>3001</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>USB Malware Protection</p>
+              </entry>
+              <entry>
+                <p>Device access blocked: %path% [Details] Access Image Path: %path% Access User:
+                  %username% Device Type: %type%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>3500</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>Network Virus Protection</p>
+              </entry>
+              <entry>
+                <p>Network virus allowed: %name% [Details] Protocol: TCP Source IP Address:
+                  %ip_address% Source Port: %port% Destination IP Address: %ip_address% Destination
+                  Port: 80</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>3501</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>Network Virus Protection</p>
+              </entry>
+              <entry>
+                <p>Network virus blocked: %name% [Details] Protocol: TCP Source IP Address:
+                  %ip_address% Source Port: %port% Destination IP Address: %ip_address% Destination
+                  Port: 80</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>4000</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>Process Protection Event</p>
+              </entry>
+              <entry>
+                <p>API Hooking/DLL Injection allowed: %path% [Details] Threat Image Path: %path%
+                  Threat User: %username%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>4001</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>Process Protection Event</p>
+              </entry>
+              <entry>
+                <p>API Hooking/DLL Injection blocked: %path% [Details] Threat Image Path: %path%
+                  Threat User: %username%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>4002</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>Process Protection Event</p>
+              </entry>
+              <entry>
+                <p>API Hooking allowed: %path% [Details] Threat Image Path: %path% Threat User:
+                  %username%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>4003</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>Process Protection Event</p>
+              </entry>
+              <entry>
+                <p>API Hooking blocked: %path% [Details] Threat Image Path: %path% Threat User:
+                  %username%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>4004</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>Process Protection Event</p>
+              </entry>
+              <entry>
+                <p>DLL Injection allowed: %path% [Details] Threat Image Path: %path% Threat User:
+                  %username%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+                <p>4005</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>Process Protection Event</p>
+              </entry>
+              <entry>
+                <p>DLL Injection blocked: %path% [Details] Threat Image Path: %path% Threat User:
+                  %username%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>5000</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>Device Control</p>
+              </entry>
+              <entry>
+                <p>Storage device access allowed: %PATH% [Details] Access Image path: %PATH% Access
+                  User: %USERNAME% Device Type: %TYPE% %DEVICEINFO%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>5001</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>Device Control</p>
+              </entry>
+              <entry>
+                <p>Storage device access blocked: %PATH% [Details] Access Image path: %PATH% Access
+                  User: %USERNAME% Device Type: %TYPE% %DEVICEINFO%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>6001</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Update failed: %ERROR_MSG% (%ERROR_CODE%) </p>
+                <p>[Details]</p>
+                <p>Update Source: %SERVER% [Original Version] Virus Pattern: %VERSION% Spyware
+                  Pattern: %VERSION% Digital Signature Pattern: %VERSION% Program Inspection
+                  Pattern: %VERSION% Damage Cleanup Template: %VERSION% Damage Cleanup Engine
+                  Configuration: %VERSION% Virus Scan Engine: %VERSION% Damage Cleanup Engine:
+                  %VERSION% Scanner: %VERSION% [Updated Version] Virus Pattern: %VERSION% Spyware
+                  Pattern: %VERSION% Digital Signature Pattern: %VERSION% Program Inspection
+                  Pattern: %VERSION% Damage Cleanup Template: %VERSION% Damage Cleanup Engine
+                  Configuration: %VERSION% Virus Scan Engine: %VERSION% Damage Cleanup Engine:
+                  %VERSION% Scanner: %VERSION%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>6004</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Malware scan unsuccessful: %SCAN_TYPE% %ERROR% </p>
+                <p>[Details]</p>
+                <p>Files to scan: %SCAN_FOLDER_TYPE% Scanned folders: %PATHS% Excluded paths:
+                  %PATHS% Excluded files: %PATHS% Excluded extensions: %PATHS% Start date/time:
+                  %DATE_TIME% End date/time: %DATE_TIME% Number of scanned files: %NUM% Number of
+                  infected files: %NUM% Number of cleaned files: %NUM% Number of files cleaned after
+                  reboot: %NUM% [Components] Virus Pattern: %VERSION% Spyware Pattern: %VERSION%
+                  Digital Signature Pattern: %VERSION% Program Inspection Pattern: %VERSION% Damage
+                  Cleanup Template: %VERSION% Damage Cleanup Engine Configuration: %VERSION% Virus
+                  Scan Engine: %VERSION% Damage Cleanup Engine: %VERSION% Scanner: %VERSION%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>6006</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Malware detected. Unable to perform scan actions: %PATH% [Details] First action:
+                  %1ST_ACTION% Second action: %2ND_ACTION% Threat type: %TYPE% Threat name: %NAME%
+                  [Components] Virus Pattern: %VERSION% Spyware Pattern: %VERSION% Digital Signature
+                  Pattern: %VERSION% Program Inspection Pattern: %VERSION% Damage Cleanup Template:
+                  %VERSION% Damage Cleanup Engine Configuration: %VERSION% Virus Scan Engine:
+                  %VERSION% Damage Cleanup Engine: %VERSION% Scanner: %VERSION%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>6007</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>Maintenance Mode</p>
+              </entry>
+              <entry>
+                <p>Malware detected in Maintenance Mode (file quarantine successful): %PATH%
+                  [Details] Component versions: Virus Pattern: %VERSION% Spyware Pattern: %VERSION%
+                  Digital Signature Pattern: %VERSION% Program Inspection Pattern: %VERSION% Damage
+                  Cleanup Template: %VERSION% Damage Cleanup Engine Configuration: %VERSION% Virus
+                  Scan Engine: %VERSION% Damage Cleanup Engine: %VERSION% Scanner: %VERSION%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>6008</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>Maintenance Mode</p>
+              </entry>
+              <entry>
+                <p>Malware detected in Maintenance Mode (file quarantine unsuccessful): %PATH%
+                  [Details] Component versions: Virus Pattern: %VERSION% Spyware Pattern: %VERSION%
+                  Digital Signature Pattern: %VERSION% Program Inspection Pattern: %VERSION% Damage
+                  Cleanup Template: %VERSION% Damage Cleanup Engine Configuration: %VERSION% Virus
+                  Scan Engine: %VERSION% Damage Cleanup Engine: %VERSION% Scanner: %VERSION%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>6009</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>Maintenance Mode</p>
+              </entry>
+              <entry>
+                <p>Malware detected in Maintenance Mode: %PATH% [Details] Component versions: Virus
+                  Pattern: %VERSION% Spyware Pattern: %VERSION% Digital Signature Pattern: %VERSION%
+                  Program Inspection Pattern: %VERSION% Damage Cleanup Template: %VERSION% Damage
+                  Cleanup Engine Configuration: %VERSION% Virus Scan Engine: %VERSION% Damage
+                  Cleanup Engine: %VERSION% Scanner: %VERSION%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>7001</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Unable to synchronize group policy</p>
+                <p>[Details]</p>
+                <p>Old Group Name: %GROUP NAME% Old Policy Version: %VERSION% New Group Name: %GROUP
+                  NAME% New Policy Version: %VERSION% Reason: %Reason%</p>
+              </entry>
+            </row>
+            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+            <row>
+              <entry>
+                <p>8001</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Real Time Scan is disabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>8010</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Incoming files were scanned by antivirus. Action was taken according to
+                  settings.</p>
+                <ul id="ul_st1_1y4_zvb">
+                  <li>
+                    <p>File Path: %PATH%</p>
+                  </li>
+                  <li>
+                    <p>File Hash: %HASH%</p>
+                  </li>
+                  <li>
+                    <p>Threat Type: %TYPE%</p>
+                  </li>
+                  <li>
+                    <p>Threat Name: %NAME%</p>
+                  </li>
+                  <li>
+                    <p>Action Result: %INTEGER%</p>
+                  </li>
+                  <li>
+                    <p>Quarantine Path: %PATH%</p>
+                  </li>
+                </ul>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>8011</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Application execution was blocked by antivirus.</p>
+                <ul id="ul_v1s_hy4_zvb">
+                  <li>
+                    <p>Process Image Path: %PATH%</p>
+                  </li>
+                  <li>
+                    <p>File Hash: %HASH%</p>
+                  </li>
+                  <li>
+                    <p>Threat Type: %TYPE%</p>
+                  </li>
+                  <li>
+                    <p>Threat Name: %NAME%</p>
+                  </li>
+                </ul>
+              </entry>
+            </row><?oxy_custom_end?>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

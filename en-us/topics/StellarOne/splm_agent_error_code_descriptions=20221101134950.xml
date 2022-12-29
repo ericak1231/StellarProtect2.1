@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd"[]>
+
+<reference id="GUID-09957805-70E7-401F-A691-F587FCE2CB8B" xml:lang="en-us">
+  <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">Agent Error Code Descriptions for <ph
+      conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/></title>
+  <refbody>
+    <section id="GUID-3A481E02-9073-4F55-B437-517CA325F21D">
+      <p>This list describes the various error codes used in <ph
+          conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> agent.<table frame="all"
+          id="table_hmh_tbz_nvb">
+          <tgroup cols="2">
+            <colspec colname="c1" colnum="1" colwidth="1*"/>
+            <colspec colname="c2" colnum="2" colwidth="1*"/>
+            <thead>
+              <row>
+                <entry>
+                  <p>Code</p>
+                </entry>
+                <entry>
+                  <p>Description</p>
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>
+                  <p>0x00040200</p>
+                </entry>
+                <entry>
+                  <p>Operation successful.</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040201</p>
+                </entry>
+                <entry>
+                  <p>Operation unsuccessful.</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040202</p>
+                </entry>
+                <entry>
+                  <p>Operation unsuccessful.</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x00040202</p>
+                </entry>
+                <entry>
+                  <p>Operation partially successful.</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x00040203</p>
+                </entry>
+                <entry>
+                  <p>Requested function not installed.</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040203</p>
+                </entry>
+                <entry>
+                  <p>Requested function not supported.</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040204</p>
+                </entry>
+                <entry>
+                  <p>Invalid argument.</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040205</p>
+                </entry>
+                <entry>
+                  <p>Invalid status.</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040206</p>
+                </entry>
+                <entry>
+                  <p>Out of memory.</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040207</p>
+                </entry>
+                <entry>
+                  <p>Busy. Request ignored.</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x00040208</p>
+                </entry>
+                <entry>
+                  <p>Retry. (Usually the result of a task taking too long)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040208</p>
+                </entry>
+                <entry>
+                  <p>System Reserved. (Not used)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040209</p>
+                </entry>
+                <entry>
+                  <p>The file path is too long.</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x0004020a</p>
+                </entry>
+                <entry>
+                  <p>System Reserved. (Not used)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x8004020b</p>
+                </entry>
+                <entry>
+                  <p>System Reserved. (Not used)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x0004020c</p>
+                </entry>
+                <entry>
+                  <p>System Reserved. (Not used)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x0004020d</p>
+                </entry>
+                <entry>
+                  <p>System Reserved. (Not used)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x8004020d</p>
+                </entry>
+                <entry>
+                  <p>System Reserved. (Not used)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x0004020e</p>
+                </entry>
+                <entry>
+                  <p>Reboot required.</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x8004020e</p>
+                </entry>
+                <entry>
+                  <p>Reboot required for unexpected reason.</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x0004020f</p>
+                </entry>
+                <entry>
+                  <p>Allowed to perform task.</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x8004020f</p>
+                </entry>
+                <entry>
+                  <p>Permission denied.</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x00040210</p>
+                </entry>
+                <entry>
+                  <p>System Reserved. (Not used)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040210</p>
+                </entry>
+                <entry>
+                  <p>Invalid or unexpected service mode.</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x00040211</p>
+                </entry>
+                <entry>
+                  <p>System Reserved. (Not used)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040211</p>
+                </entry>
+                <entry>
+                  <p>Requested task not permitted in current status. Check license.</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x00040212</p>
+                </entry>
+                <entry>
+                  <p>System Reserved. (Not used)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x00040213</p>
+                </entry>
+                <entry>
+                  <p>System Reserved. (Not used)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040213</p>
+                </entry>
+                <entry>
+                  <p>Passwords do not match.</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x00040214</p>
+                </entry>
+                <entry>
+                  <p>System Reserved. (Not used)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040214</p>
+                </entry>
+                <entry>
+                  <p>System Reserved. (Not used)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x00040215</p>
+                </entry>
+                <entry>
+                  <p>Not found.</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040215</p>
+                </entry>
+                <entry>
+                  <p>"Expected, but not found."</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040216</p>
+                </entry>
+                <entry>
+                  <p>Authentication is locked.</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040217</p>
+                </entry>
+                <entry>
+                  <p>Invalid password length.</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040218</p>
+                </entry>
+                <entry>
+                  <p>Invalid characters in password.</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x00040219</p>
+                </entry>
+                <entry>
+                  <p>Duplicate password. Administrator and Restricted User passwords cannot
+                    match.</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040220</p>
+                </entry>
+                <entry>
+                  <p>System Reserved. (Not used)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040221</p>
+                </entry>
+                <entry>
+                  <p>System Reserved. (Not used)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040222</p>
+                </entry>
+                <entry>
+                  <p>System Reserved. (Not used)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040223</p>
+                </entry>
+                <entry>
+                  <p>File not found (as expected, and not an error).</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040224</p>
+                </entry>
+                <entry>
+                  <p>System Reserved. (Not used)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040225</p>
+                </entry>
+                <entry>
+                  <p>System Reserved. (Not used)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040240</p>
+                </entry>
+                <entry>
+                  <p>Library not found.</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040241</p>
+                </entry>
+                <entry>
+                  <p>Invalid library status or unexpected error in library function.</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040260</p>
+                </entry>
+                <entry>
+                  <p>System Reserved. (Not used)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040261</p>
+                </entry>
+                <entry>
+                  <p>System Reserved. (Not used)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040262</p>
+                </entry>
+                <entry>
+                  <p>System Reserved. (Not used)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040263</p>
+                </entry>
+                <entry>
+                  <p>System Reserved. (Not used)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040264</p>
+                </entry>
+                <entry>
+                  <p>System Reserved. (Not used)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x00040265</p>
+                </entry>
+                <entry>
+                  <p>System Reserved. (Not used)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040265</p>
+                </entry>
+                <entry>
+                  <p>System Reserved. (Not used)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040270</p>
+                </entry>
+                <entry>
+                  <p>System Reserved. (Not used)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040271</p>
+                </entry>
+                <entry>
+                  <p>System Reserved. (Not used)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040272</p>
+                </entry>
+                <entry>
+                  <p>System Reserved. (Not used)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040273</p>
+                </entry>
+                <entry>
+                  <p>System Reserved. (Not used)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040274</p>
+                </entry>
+                <entry>
+                  <p>System Reserved. (Not used)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040275</p>
+                </entry>
+                <entry>
+                  <p>System Reserved. (Not used)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040280</p>
+                </entry>
+                <entry>
+                  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                  <p>Invalid Activation Code.</p><?oxy_custom_end?>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>0x80040281</p>
+                </entry>
+                <entry>
+                  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                  <p>Incorrect Activation Code format.</p><?oxy_custom_end?>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></p>
+    </section>
+  </refbody>
+</reference>

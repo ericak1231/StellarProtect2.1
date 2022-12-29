@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+
+<concept id="GUID-F8FAF1DF-7A1E-4C0A-ADA3-6F6FC6CAD49D" xml:lang="en-us">
+ <title id="GUID-1B4C75D4-D403-4C7D-A980-25FB78E01ED7">Log Descriptions for <ph
+      conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/></title>
+ <conbody>
+  <p>The following tables provides log descriptions for <ph
+        conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>.</p>
+  <p>Topics in this section include:</p>
+  <ul id="ul_yym_glp_n5b" otherprops="PRINT">
+   <li>
+    <p><xref href="splm_agentEventLogDescription=20221101134711.xml"/></p>
+   </li>
+   <li>
+    <p><xref href="splm_agent_error_code_descriptions=20221101134950.xml"/></p>
+   </li>
+   <li otherprops="OLH">
+        <p><xref href="splm_serverEventLogDescription=20221101134818.xml"/></p>
+      </li>
+  </ul>
+ </conbody>
+</concept>
