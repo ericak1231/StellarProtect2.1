@@ -178,7 +178,7 @@
                             <entry>
                                 <p>Interpreter for the specified file extension</p>
                                 <p>For example, specify <filepath>msiexec.exe</filepath> as the
-                                    interpreterfor <filepath>.msi</filepath> files</p>
+                                    interpreter for <filepath>.msi</filepath> files</p>
                             </entry>
                         </row>
                         <row>
@@ -220,7 +220,7 @@
                                 <p><codeph>&lt;uniqu e_rule set_na me></codeph></p>
                             </entry>
                             <entry>
-                                <p>Unique name for the set ofrules</p>
+                                <p>Unique name for the set of rules</p>
                             </entry>
                         </row>
                         <row>
@@ -766,7 +766,7 @@
                                 <p><codeph>Path</codeph></p>
                             </entry>
                             <entry>
-                                <p><codeph>&lt;folde r_path></codeph></p>
+                                <p><codeph>&lt;folder_path></codeph></p>
                             </entry>
                             <entry>
                                 <p>Folder path</p>
@@ -799,7 +799,7 @@
                                 <p><codeph>Key</codeph></p>
                             </entry>
                             <entry>
-                                <p><codeph>&lt;reg_k ey></codeph></p>
+                                <p><codeph>&lt;reg_key></codeph></p>
                             </entry>
                             <entry>
                                 <p>Registry key</p>
@@ -854,7 +854,7 @@
                                 <p><codeph>Key</codeph></p>
                             </entry>
                             <entry>
-                                <p><codeph>&lt;reg_k ey></codeph></p>
+                                <p><codeph>&lt;reg_key></codeph></p>
                             </entry>
                             <entry>
                                 <p>Registry key</p>
@@ -935,7 +935,7 @@
                                 <p><codeph>Path</codeph></p>
                             </entry>
                             <entry>
-                                <p><codeph>folde r_path></codeph></p>
+                                <p><codeph>folder_path></codeph></p>
                             </entry>
                             <entry>
                                 <p>Folder path</p>
@@ -968,7 +968,7 @@
                                 <p><codeph>Key</codeph></p>
                             </entry>
                             <entry>
-                                <p><codeph>&lt;reg_k ey></codeph></p>
+                                <p><codeph>&lt;reg_key></codeph></p>
                             </entry>
                             <entry>
                                 <p>Registry key</p>
@@ -1023,7 +1023,7 @@
                                 <p><codeph>Key</codeph></p>
                             </entry>
                             <entry>
-                                <p><codeph>&lt;reg_k ey></codeph></p>
+                                <p><codeph>&lt;reg_key></codeph></p>
                             </entry>
                             <entry>
                                 <p>Registry key</p>

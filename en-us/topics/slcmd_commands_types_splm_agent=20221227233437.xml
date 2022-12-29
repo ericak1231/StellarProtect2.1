@@ -287,8 +287,8 @@
                                 <p>Display a list of applications blocked by <ph
                                         conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/></p>
                                 <p>For example, type:</p>
-                                <p><codeph>SLCmd.exe -p &lt;admin_password> show
-                                    blockedlog</codeph></p>
+                                <p><userinput>SLCmd.exe -p &lt;admin_password> show
+                                        blockedlog</userinput></p>
                             </entry>
                         </row>
                         <row>
@@ -313,8 +313,8 @@
                                 <p>Display the current status of the vulnerability attack prevention
                                     features</p>
                                 <p>For example, type: </p>
-                                <p><codeph>SLCmd.exe -p &lt;admin_password> show
-                                    settings</codeph></p>
+                                <p><userinput>SLCmd.exe -p &lt;admin_password> show
+                                        settings</userinput></p>
                             </entry>
                         </row>
                         <row>
@@ -855,8 +855,8 @@
                                         </li>
                                     </ul></p>
                                 <p>For example, type:</p>
-                                <p><codeph>SLCmd.exe -p &lt;admin_password> set customaction
-                                        ignore</codeph></p>
+                                <p><userinput>SLCmd.exe -p &lt;admin_password> set customaction
+                                        ignore</userinput></p>
                             </entry>
                         </row>
                         <row>
@@ -877,8 +877,8 @@
                                         </li>
                                     </ul></p>
                                 <p>For example, type:</p>
-                                <p><codeph>SLCmd.exe -p &lt;admin_password> set customaction
-                                        quarantine</codeph></p>
+                                <p><userinput>SLCmd.exe -p &lt;admin_password> set customaction
+                                        quarantine</userinput></p>
                                 <note id="note_nf3_jrg_zvb">
                                     <p><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> does not
                                         support a custom action of “quarantine” on Windows

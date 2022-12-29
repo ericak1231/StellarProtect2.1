@@ -7,4 +7,5 @@
     <prop action="exclude" att="otherprops" val="UMBRACO"/>
     <prop action="exclude" att="otherprops" val="SP"/>
     <prop action="exclude" att="otherprops" val="SE"/>
+    <prop action="exclude" att="otherprops" val="2.2"/>
 </val>

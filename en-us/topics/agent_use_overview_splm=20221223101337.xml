@@ -28,7 +28,7 @@
                     <p>Configure and enable the Restricted User account for later maintenance.</p>
                 </li>
             </ol>
-            <p>If someone tries to run an applicationnot specifically on the Approved List, the
+            <p>If someone tries to run an application not specifically on the Approved List, the
                 following message displays:</p>
             <fig id="fig_wt2_ptw_xvb">
                 <title><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> Blocking Message</title>

@@ -117,7 +117,7 @@
                                 <p otherprops="SP">Manually uninstall</p>
                                 <p otherprops="SPLM_SE">It's necessary to manually add the install
                                     file (<filepath>SL_Install.exe</filepath>) into the trusted HASH
-                                    list before using it.</p>
+                                    list and enable PTU function before using it.</p>
                             </entry>
                             <entry>
                                 <p>No settings retained</p>
@@ -302,8 +302,8 @@
                                                 /> web console</p>
                                         </li>
                                         <li>
-                                            <p>Add the patch file hash as trusted hash and then
-                                                perform local upgrade.</p>
+                                            <p>Add the patch file hash as trusted hash, enable PTU
+                                                function and then perform local upgrade.</p>
                                         </li>
                                     </ul>
                                 </note>

@@ -42,8 +42,7 @@
                         </row>
                         <row>
                             <entry>
-                                <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
-                                <p>Silent manual scan</p><?oxy_custom_end?>
+                                <p>Silent manual scan</p>
                             </entry>
                             <entry>
                                 <p>Users can implement silent manual scan via CLI and send the scan
@@ -93,7 +92,7 @@
                     <tbody>
                         <row>
                             <entry>
-                                <p>Anti-Malware Scanning</p>
+                                <p>Anti-Malware Scanning (Real-Time Scan)</p>
                             </entry>
                             <entry>
                                 <p>With this new feature, the <ph
@@ -101,17 +100,6 @@
                                         otherprops="SPLM_SE"/> can persistently scan new and changed
                                     files, along with system memory, to provide security assessment
                                     for maximum protection against malware.</p>
-                            </entry>
-                        </row>
-                        <row>
-                            <entry>
-                                <p>Agent Component Update Schedule</p>
-                            </entry>
-                            <entry>
-                                <p>Users can implement silent manual scan via CLI and send the scan
-                                    result to the <ph
-                                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>
-                                    management console.</p>
                             </entry>
                         </row>
                         <row>
@@ -126,12 +114,12 @@
                             </entry>
                         </row>
                         <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
-                        <row>
+                        <row otherprops="2.2">
                             <entry>
-                                <p>Silent manual scan</p>
+                                <p>Manual scan GUI</p>
                             </entry>
                             <entry>
-                                <p>Users can implement silent manual scan via CLI and send the scan
+                                <p>Users can implement silent manual scan via GUI and send the scan
                                     result to the <ph
                                         conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>
                                     management console.</p>
