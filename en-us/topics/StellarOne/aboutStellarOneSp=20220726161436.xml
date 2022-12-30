@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_pyd_d3r_c5b">
+    <title>About TXOne Stellar</title>
+    <conbody>
+        <p>TXOne Stellar is a first-of-its-kind OT endpoint protection platform, which includes:</p>
+        <p>
+            <ul id="ul_bbg_sg1_35b">
+                <li>
+                    <p><ph conkeyref="PRODvars/PRODUCT_SERVER_NAME_TM"
+                            >COMPANY_NAME_PRODUCT_LONG_NAME</ph>, the centralized management console
+                        designed to streamline administration of both <ph
+                            conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                            >OFFICIAL_PRODUCT_NAME</ph> for modernized systems and <ph
+                            conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                            >OFFICIAL_PRODUCT_NAME</ph> for legacy systems.</p>
+                </li>
+                <li>
+                    <p><ph conkeyref="PRODvars/PRODUCT_AGENT_SP_NAME_TM">OFFICIAL_PRODUCT_NAME</ph>,
+                        the unified agent with industrial-grade next-generation antivirus and
+                        application lockdown endpoint security deployment for modernized OT/ICS
+                        endpoints.</p>
+                </li>
+                <li>
+                    <p><ph conkeyref="PRODvars/PRODUCT_AGENT_SPLM_NAME_TM">PRODUCT_SHORT_NAME</ph>,
+                        for trust-list based application lockdown of legacy and fixed-use OT/ICS
+                        endpoints with anti-malware or on-demand AV scan.</p>
+                </li>
+            </ul>
+        </p>
+        <p>Together, TXOne Stellar allows protection for modernized and legacy systems running
+            side-by-side to be coordinated and maintained from the same management console, helping
+            protect businesses against security threats and increase productivity.</p>
+    </conbody>
+</concept>
