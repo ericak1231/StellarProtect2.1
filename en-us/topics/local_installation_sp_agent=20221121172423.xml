@@ -7,21 +7,7 @@
         <p><indexterm>installation</indexterm>This section mainly explains the steps for installing
                 <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
                 >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"
-                otherprops="SPLM_SE"/>, including:</p>
-        <ul id="ul_mww_byd_vvb">
-            <li>
-                <p>Invoking the installer by <b>Attended Installation</b> or <b>Silent
-                        Installation</b></p>
-            </li>
-            <li>
-                <p>Setup configurations</p>
-            </li>
-            <li>
-                <p>Replicating installation for multiple standalone agents</p>
-            </li>
-            <li>
-                <p>Encrypting config file for installation</p>
-            </li>
-        </ul>
+                otherprops="SPLM_SE"/> using <b>Attended Installation</b> or <b>Silent
+                Installation</b>.</p>
     </conbody>
 </concept>

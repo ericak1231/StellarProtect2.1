@@ -11,7 +11,11 @@
       <topicref href="../topics/get_standalone_agent_package=20221122155337.xml"/>
     </topicref>
     <topicref href="../topics/local_installation_sp_agent=20221121172423.xml">
-      <topicref href="../topics/install_agent_package=20221121180034.xml"/>
+      <topicref href="../topics/install_agent_package=20221121180034.xml">
+        <topicref
+          href="../topics/gui_installer_copied_link_license=202211230142426.xml"
+        />
+      </topicref>
       <topicref href="../topics/silent_installation_intro_sp_agent=20221122135932.xml">
         <topicref href="../topics/silent_install_configuration=20221122140149.xml">
           <topicref

@@ -29,10 +29,12 @@
                     page.</cmd>
             </step>
             <step>
-                <cmd>Find the file name starting with <filepath otherprops="SP_SPLM"
-                        >txsp-</filepath><filepath otherprops="SE">txse-</filepath> and click it to
-                    download the <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                        otherprops="SP_SPLM">OFFICIAL_PRODUCT_NAMEa</ph>
+                <cmd>Find the file name starting with
+                        <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?><filepath
+                        otherprops="SP_SPLM">txsp-</filepath><filepath otherprops="SE"
+                        >txse-</filepath><?oxy_custom_end?> and click it to download the <ph
+                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP_SPLM"
+                        >OFFICIAL_PRODUCT_NAMEa</ph>
                     <text otherprops="SP_SPLM">single</text><ph
                         conkeyref="PRODvars/PRODUCT_SPLM_PREVIOUS_NAME" otherprops="SE"/> installer
                     package.</cmd>

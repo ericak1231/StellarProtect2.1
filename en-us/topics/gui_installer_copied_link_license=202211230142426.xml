@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_lyr_vqg_pvb">
+    <title>About the Download Link for Getting License File in GUI Installation</title>
+    <taskbody>
+        <context id="context_mm1_bc2_tvb">
+            <p>If needed, users can also copy the URL of TXOne <wintitle>License File
+                    Management</wintitle> web page during the GUI installation process.</p>
+        </context>
+        <steps id="steps_gjx_t5d_m4">
+            <step>
+                <cmd>Launch the agent's GUI Installer and go through the procedures until the
+                        <wintitle>Administrator Password &amp; License Activation</wintitle> window
+                    appears. After specifying the administrator password, click the <uicontrol>New
+                        License</uicontrol> button.</cmd>
+                <stepxmp>
+                    <fig id="fig_sgc_4kx_wvb">
+                        <title>License Activation - New License Button</title>
+                        <image href="../images/license_activation_new_license=20221219221904.png"
+                            id="image_dmp_4kx_wvb"/>
+                    </fig>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>A pop-up <wintitle>License Activation</wintitle> window appears. Select
+                        <uicontrol>License File</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Copy Download Link for getting the License File</uicontrol> at
+                    the bottom of the <wintitle otherprops="IG">License Activation</wintitle>
+                    window.</cmd>
+                <stepxmp>
+                    <fig id="fig_t3c_nkx_wvb">
+                        <title>Copy the Download Link</title>
+                        <image href="../images/copy_download_link_license_file=20221219224745.png"
+                            id="image_thm_nkx_wvb"/>
+                    </fig>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd><uicontrol>The Download Link has been copied</uicontrol> message appears.</cmd>
+                <stepxmp>
+                    <fig id="fig_lvw_zkx_wvb">
+                        <title>Download Link Copied</title>
+                        <image href="../images/download_link_copied=20221219225153.png"
+                            id="image_jp2_1lx_wvb"/>
+                    </fig>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>Open the copied link in a web browser on a computer with Internet connection.
+                    You will be directed to TXOne <wintitle>License File Management</wintitle> web
+                    page.</cmd>
+                <info>
+                    <note id="note_oqg_fyw_zvb">Refer to <xref
+                            href="license_file_standalone_agents=20221122162502.xml"/> for
+                        instructions on how to get the license file from TXOne <wintitle>License
+                            File Management</wintitle> website.</note>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

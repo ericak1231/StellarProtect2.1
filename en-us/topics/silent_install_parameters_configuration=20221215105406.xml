@@ -33,7 +33,7 @@
             <table frame="all" id="table_gfp_tlg_pvb" outputclass="tall-cells">
                 <title>Properties in the <ph conkeyref="PRODvars/SETUP_FILE"/> File</title>
                 <tgroup cols="4">
-                    <colspec colname="c1" colnum="1" colwidth="1.99*"/>
+                    <colspec colname="c1" colnum="1" colwidth="2.56*"/>
                     <colspec colname="c2" colnum="2" colwidth="2.56*"/>
                     <colspec colname="c3" colnum="3" colwidth="1.99*"/>
                     <colspec colname="c4" colnum="4" colwidth="3.26*"/>
@@ -2130,11 +2130,13 @@
                             <entry morerows="2">
                                 <p><codeph>[legacy_MessageRandomization]</codeph></p>
                                 <note id="note_pyx_zpp_yvb">
-                                    <p><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> agents
-                                        respond as soon as possible to direct requests from
-                                        StellarOne. For details, refer to Applying Message Time
-                                        Groups in the <ph
-                                            conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+                                    <p><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+                                        <text otherprops="SP">StellarProtect (Legacy
+                                        Mode)</text>agents respond as soon as possible to direct
+                                        requests from StellarOne. For details, refer to Applying
+                                        Message Time Groups in the <text otherprops="SP"
+                                            >StellarProtect (Legacy Mode)</text>
+                                        <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
                                         Administrator's Guide</p>
                                 </note>
                             </entry>

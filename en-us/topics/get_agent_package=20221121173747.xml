@@ -25,7 +25,7 @@
                 <cmd>Go to <menucascade>
                         <uicontrol>Administration</uicontrol>
                         <uicontrol>Downloads/Updates</uicontrol>
-                        <uicontrol>Agents</uicontrol>
+                        <uicontrol>Agent</uicontrol>
                     </menucascade> to download the agent's Installer Package.</cmd>
                 <stepxmp>
                     <fig>
@@ -58,7 +58,13 @@
                     download the <filepath>Group.ini</filepath> file.</cmd>
                 <substeps id="substeps_xtp_5wd_vvb">
                     <substep>
-                        <cmd>Click the <uicontrol>download Group.ini</uicontrol> link.</cmd>
+                        <cmd>Click the <uicontrol>download Group.ini</uicontrol> link on the <ph
+                                conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>
+                            <menucascade>
+                                <uicontrol>Administration</uicontrol>
+                                <uicontrol>Downloads/Updates</uicontrol>
+                                <uicontrol>Agent</uicontrol>
+                            </menucascade> page.</cmd>
                     </substep>
                     <substep>
                         <cmd>A pop-up windows appears. Select a group for the target agent.</cmd>
