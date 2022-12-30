@@ -189,43 +189,20 @@
                                 <p>None</p>
                             </entry>
                         </row>
+                        <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
                         <row>
                             <entry>
-                                <p><codeph>opcmd.exe -p lock disable [-d DURATION] [-s
-                                        START-TIME]</codeph></p>
+                                <p><codeph>opcmd.exe -p lock disable</codeph></p>
                             </entry>
                             <entry>
                                 <p>Disables the Change Control module to allow file changes on
-                                    protected files. You can also specify a duration and start time
-                                    to schedule a maintenance mode that allows file changes and
-                                    enable protection automatically.</p>
-                                <p>If <codeph>-d</codeph> is not specified, the Change Control
-                                    module remains disabled until it is enabled.</p>
-                                <p>If <codeph>-s</codeph> is not specified, the Change Control
-                                    module should be disabled immediately.</p>
-                                <note id="note_f4h_yhz_tvb">
-                                    <p>Only one maintenance mode can be scheduled at a time; new
-                                        settings configured via the CLI or <ph
-                                            conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>
-                                        policy settings will always overwrite previous settings.</p>
-                                </note>
+                                    protected files.</p>
                             </entry>
                             <entry>
-                                <p><codeph>-d</codeph>, <codeph>--duration</codeph>
-                                    <codeph>DURATION</codeph>: The required argument to specify the
-                                    duration of maintenance mode. The Change Control module is
-                                    restored to its current setting after the duration has elapsed.
-                                    A duration can be specified in hours, minutes, or both. (e.g.,
-                                        <codeph>-d 30m</codeph>, <codeph>-d 2h</codeph>, <codeph>-d
-                                        2h30m</codeph>) The letter 'm' can be omitted if you just
-                                    want to specify a duration in minutes.</p>
-                                <p><codeph>-s</codeph>, <codeph>--start</codeph>
-                                    <codeph>START-TIME</codeph>: The required argument to specify
-                                    the start time of maintenance mode. The
-                                        <codeph>START-TIME</codeph> is in ISO8601 format without
-                                    time zone. (e.g., <codeph>-s 2021-04-14T18:00:00</codeph>)</p>
+                                <p>None</p>
                             </entry>
-                        </row>
+                            <?oxy_comment_start author="erica_txone" timestamp="20221230T091257+0800" comment="removed optional argument in 2.1 (MTM has its own cli now)" mid="3"?>
+                        </row><?oxy_custom_end?><?oxy_comment_end mid="3"?>
                         <row>
                             <entry>
                                 <p><codeph>opcmd.exe -p lockdown approvedlist info</codeph></p>
@@ -308,7 +285,7 @@
                                     <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>ecmascript_regexp<?oxy_custom_end?>).</p>
                                 <p><codeph>-p</codeph>, <codeph>--path</codeph>
                                     <codeph>PATH</codeph>: Specifies exception path or
-                                    <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?><?oxy_comment_start author="erica_txone" timestamp="20221212T150705+0800" comment="Regular expression (abbreviation: regex, regexp, or RE)" mid="4"?>regexp<?oxy_custom_end?><?oxy_comment_end mid="4"?>.</p>
+                                    <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?><?oxy_comment_start author="erica_txone" timestamp="20221212T150705+0800" comment="Regular expression (abbreviation: regex, regexp, or RE)" mid="6"?>regexp<?oxy_custom_end?><?oxy_comment_end mid="6"?>.</p>
                             </entry>
                         </row>
                         <row>
@@ -644,7 +621,9 @@
                         </row>
                         <row>
                             <entry>
-                                <p><codeph>opcmd.exe -p scan-task --now</codeph></p>
+                                <p><?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?><codeph>opcmd.exe
+                                        -p scan task
+                                    --now</codeph><?oxy_custom_end?><?oxy_comment_start author="erica_txone" timestamp="20221230T091629+0800" comment="added in v2.1 (new feature)"?></p><?oxy_comment_end?>
                             </entry>
                             <entry>
                                 <p>Implements silent manual scan and send the scan result to the <ph
