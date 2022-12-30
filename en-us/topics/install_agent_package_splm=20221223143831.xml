@@ -9,6 +9,16 @@
                         installation</indexterm></indexterm>Launch the installer
                         <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><ph
                         conkeyref="PRODvars/INSTALLER"/><?oxy_custom_end?>.</cmd>
+                <info>
+                    <note id="note_sft_ptw_zvb">
+                        <p>The installer package downloaded from <ph
+                                conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> management
+                            console differs slightly from that downloaded from the Software Download
+                            Center. One contains the <ph
+                                conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> data files
+                            while the other one does not.</p>
+                    </note>
+                </info>
                 <stepxmp>
                     <fig id="fig_ord_x3j_vvb">
                         <title>Installer Package Downloaded from <ph

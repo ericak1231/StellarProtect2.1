@@ -38,7 +38,7 @@
             <table frame="all" id="table_gfp_tlg_pvb" outputclass="tall-cells">
                 <title>Properties in the <ph conkeyref="PRODvars/SETUP_FILE"/> File</title>
                 <tgroup cols="4">
-                    <colspec colname="c1" colnum="1" colwidth="2.56*"/>
+                    <colspec colname="c1" colnum="1" colwidth="3*"/>
                     <colspec colname="c2" colnum="2" colwidth="2.56*"/>
                     <colspec colname="c3" colnum="3" colwidth="1.99*"/>
                     <colspec colname="c4" colnum="4" colwidth="3.26*"/>
@@ -2217,298 +2217,285 @@
                     </li>
                 </ul>
             </note>
-            <note id="note_rkf_v2x_zvb" otherprops="SPLM_SE">
-                <ul id="ul_mdy_v2x_zvb">
-                    <li>
-                        <p>For <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>, hidden properties
-                            that require users to manually add in the corresponding section are
-                            listed in the table below:<table frame="all" id="table_r3y_jfx_zvb"
-                                outputclass="tall-cells">
-                                <tgroup cols="4">
-                                    <colspec colname="c1" colnum="1" colwidth="1.35*"/>
-                                    <colspec colname="c2" colnum="2" colwidth="1.35*"/>
-                                    <colspec colname="c3" colnum="3" colwidth="1*"/>
-                                    <colspec colname="c4" colnum="4" colwidth="1.7*"/>
-                                    <thead>
-                                        <row>
-                                            <entry>
-                                                <p>Section</p>
-                                            </entry>
-                                            <entry>
-                                                <p>Property</p>
-                                            </entry>
-                                            <entry>
-                                                <p>Default Value</p>
-                                            </entry>
-                                            <entry>
-                                                <p>Description</p>
-                                            </entry>
-                                        </row>
-                                    </thead>
-                                    <tbody>
-                                        <row>
-                                            <entry morerows="7">
-                                                <p><codeph>[legacy_Property]</codeph></p>
-                                            </entry>
-                                            <entry>
-                                                <p><codeph>CONFIG_PATH</codeph></p>
-                                            </entry>
-                                            <entry>
-                                                <p>empty string</p>
-                                            </entry>
-                                            <entry>
-                                                <p>The file path to the sample config file for agent
-                                                  feature settings</p>
-                                            </entry>
-                                        </row>
-                                        <row>
-                                            <entry>
-                                                <p><codeph>LIST_PATH</codeph></p>
-                                            </entry>
-                                            <entry>
-                                                <p>empty string</p>
-                                            </entry>
-                                            <entry>
-                                                <p>The file path to the Approved List used to import
-                                                  agent feature settings</p>
-                                            </entry>
-                                        </row>
-                                        <row>
-                                            <entry>
-                                                <p><codeph>APPLICATION FOLDER</codeph></p>
-                                            </entry>
-                                            <entry>
-                                                <p>empty string</p>
-                                            </entry>
-                                            <entry>
-                                                <p>The installation path for agent program</p>
-                                            </entry>
-                                        </row>
-                                        <row>
-                                            <entry>
-                                                <p><codeph>QUARANTINE_ FOLDER_PATH</codeph></p>
-                                            </entry>
-                                            <entry>
-                                                <p>empty string</p>
-                                            </entry>
-                                            <entry>
-                                                <p>The quarantine path for agent program</p>
-                                            </entry>
-                                        </row>
-                                        <row>
-                                            <entry>
-                                                <p><codeph>INIT_LIST_PATH</codeph></p>
-                                            </entry>
-                                            <entry>
-                                                <p>empty string</p>
-                                            </entry>
-                                            <entry>
-                                                <p>A folder path to be traversed for the Approved
-                                                  List initialization. Each local disk's root
-                                                  directory will be traversed if empty.</p>
-                                            </entry>
-                                        </row>
-                                        <row>
-                                            <entry>
-                                                <p><codeph>INIT_LIST_PATH_OPTIONAL</codeph></p>
-                                            </entry>
-                                            <entry>
-                                                <p>empty string</p>
-                                            </entry>
-                                            <entry>
-                                                <p>A folder path to be traversed for the Approved
-                                                  List initialization. Each local disk's root
-                                                  directory will be traversed if empty.</p>
-                                            </entry>
-                                        </row>
-                                        <row>
-                                            <entry>
-                                                <p><codeph>INIT_LIST_E XCLUDED_FOLDER</codeph></p>
-                                            </entry>
-                                            <entry>
-                                                <p>empty string</p>
-                                            </entry>
-                                            <entry>
-                                                <p>An absolute folder path to exclude from automatic
-                                                  file enumeration for Approved List
-                                                  initialization.</p>
-                                                <p>The configuration applies to the Approved List
-                                                  first initialized and all subsequent Approved List
-                                                  updates.</p>
-                                                <p>Specify multiple folders by creating new entries
-                                                  with names that start with
-                                                  <filepath>INIT_LIST_EXCLUDED_FOLDER</filepath></p>
-                                                <p>Ensure each entry name is unique. For
-                                                  example:</p>
-                                                <p><filepath>INIT_LIST_EXCLUDED_FOLDER=
-                                                  c:\folder1</filepath></p>
-                                                <p><filepath>INIT_LIST_EXCLUDED_FOLDER2
-                                                  =c:\folder2</filepath></p>
-                                                <p><filepath>INIT_LIST_EXCLUDED_FOLDER3
-                                                  =c:\folder3</filepath></p>
-                                                <p>Possible values</p>
-                                                <ul id="ul_rwd_tjx_zvb">
-                                                  <li>
-                                                  <p>Folder path supports a maximum length of 260
-                                                  characters.</p>
-                                                  </li>
-                                                  <li>
-                                                  <p>Folder paths that do not exist may be
-                                                  specified.</p>
-                                                  </li>
-                                                  <li>
-                                                  <p>The exclusion applies to subfolders.</p>
-                                                  </li>
-                                                </ul>
-                                            </entry>
-                                        </row>
-                                        <row>
-                                            <entry>
-                                                <p><codeph>ALLOW_NON_MASS_STORAGE_USB_DEVICE</codeph></p>
-                                            </entry>
-                                            <entry>
-                                                <p><codeph>0</codeph></p>
-                                            </entry>
-                                            <entry>
-                                                <p>Allow some drivers (e.g., Touch screen/ Infrared
-                                                  sensor/Android mobile phone) from being loaded
-                                                  when those hardware devices are plugged in and
-                                                  storage device blocking is enabled.</p>
-                                                <p>Possible values:</p>
-                                                <ul id="ul_gpx_ckx_zvb">
-                                                  <li>
-                                                  <p>0: Disable (Default)</p>
-                                                  </li>
-                                                  <li>
-                                                  <p>1: Enable</p>
-                                                  </li>
-                                                </ul>
-                                            </entry>
-                                        </row>
-                                        <row>
-                                            <entry>
-                                                <p><codeph>[legacy_AGENT]</codeph></p>
-                                            </entry>
-                                            <entry>
-                                                <p><codeph>FIXED_IP</codeph></p>
-                                            </entry>
-                                            <entry>
-                                                <p>empty string</p>
-                                            </entry>
-                                            <entry>
-                                                <p>Set the agent IP address to communcate with the
-                                                  <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
-                                                  server</p>
-                                                <p>Possible values:</p>
-                                                <ul id="ul_sxy_qkx_zvb">
-                                                  <li>
-                                                  <p>A.B.C.D/E</p>
-                                                  </li>
-                                                  <li>
-                                                  <p>A, B, C, D: 0~255</p>
-                                                  </li>
-                                                  <li>
-                                                  <p>E: 1~32</p>
-                                                  </li>
-                                                </ul>
-                                                <note id="note_qhy_skx_zvb">
-                                                  <p>Ensure that you also input and insert the
-                                                  section title <codeph>[legacy_AGENT]</codeph>
-                                                  above the <codeph>FIXED_IP</codeph> line.</p>
-                                                </note>
-                                            </entry>
-                                        </row>
-                                        <row>
-                                            <entry morerows="3">
-                                                <p><codeph>[legacy_Prescan]</codeph></p>
-                                            </entry>
-                                            <entry><codeph>SPECIFIC_FOLDER</codeph></entry>
-                                            <entry>
-                                                <p>empty string</p>
-                                            </entry>
-                                            <entry>
-                                                <p>An absolute folder path to scan when the scan
-                                                  type is set <codeph>[Specific]</codeph></p>
-                                                <p>Possible values:</p>
-                                                <p>&lt;folder_path></p>
-                                                <p>Multiple folders can be specified by creating new
-                                                  entries whose name starting with
-                                                  <codeph>SPECIFIC_FOLDER</codeph></p>
-                                                <p>Every entry name needs to be unique. For
-                                                  example:</p>
-                                                <p><filepath>SPECIFIC_FOLDER=c:\folder1</filepath></p>
-                                                <p><filepath>SPECIFIC_FOLDER2=c:\folder2</filepath></p>
-                                                <p><filepath>SPECIFIC_FOLDER3=c:\folder3</filepath></p>
-                                            </entry>
-                                        </row>
-                                        <row>
-                                            <entry>
-                                                <p><codeph>EXCLUDED_FILE</codeph></p>
-                                            </entry>
-                                            <entry>
-                                                <p>empty string</p>
-                                            </entry>
-                                            <entry>
-                                                <p>An absolute file path to exclude from
-                                                  scanning</p>
-                                                <p>Possible values:</p>
-                                                <p>&lt;file_path></p>
-                                                <p>Multiple files can be specified by creating new
-                                                  entries whose name starting with
-                                                  <filepath>EXCLUDED_FILE</filepath></p>
-                                                <p>Every entry name needs to be unique.</p>
-                                                <p>For example:</p>
-                                                <p><filepath>EXCLUDED_FILE=c:\file1.exe</filepath></p>
-                                                <p><filepath>EXCLUDED_FILE2=c:\file2.exe</filepath></p>
-                                                <p><filepath>EXCLUDED_FILE3=c:\file3.exe</filepath></p>
-                                            </entry>
-                                        </row>
-                                        <row>
-                                            <entry>
-                                                <p><codeph>EXCLUDED_FOLDER</codeph></p>
-                                            </entry>
-                                            <entry>
-                                                <p>empty string</p>
-                                            </entry>
-                                            <entry>
-                                                <p>An absolute folder path to exclude from
-                                                  scanning</p>
-                                                <p>&lt;folder_path></p>
-                                                <p>Multiple folders can be specified by creating new
-                                                  entries whose name starting with
-                                                  <filepath>EXCLUDED_FOLDER</filepath></p>
-                                                <p>Every entry name needs to be unique</p>
-                                                <p>For example:</p>
-                                                <p><filepath>EXCLUDED_FOLDER=c:\file1</filepath></p>
-                                                <p><filepath>EXCLUDED_FOLDER2=c:\file2</filepath></p>
-                                                <p><filepath>EXCLUDED_FOLDER3=c:\file3</filepath></p>
-                                            </entry>
-                                        </row>
-                                        <row>
-                                            <entry>
-                                                <p><codeph>EXCLUDED_EXTENSION</codeph></p>
-                                            </entry>
-                                            <entry>
-                                                <p>empty string</p>
-                                            </entry>
-                                            <entry>
-                                                <p>A file extensiont o exclude from scanning</p>
-                                                <p>&lt;file_extension></p>
-                                                <p>Multiple extensions can be specified by creating
-                                                  new entries whose name starting with
-                                                  <filepath>EXCLUDED_EXTENSION</filepath></p>
-                                                <p>Every entry name needs to be unique</p>
-                                                <p>For example:</p>
-                                                <p><filepath>EXCLUDED_EXTENSION=bmp</filepath></p>
-                                                <p><filepath>EXCLUDED_EXTENSION2=png</filepath></p>
-                                            </entry>
-                                        </row>
-                                    </tbody>
-                                </tgroup>
-                            </table></p>
-                    </li>
-                </ul>
-            </note>
+        </section>
+        <section id="section_vlf_hny_zvb" otherprops="SPLM_SE">
+            <title><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> Hidden Properties</title>
+            <p>For <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>, hidden properties that require
+                users to manually add in the corresponding section are listed in the table
+                    below:<table frame="all" id="table_r3y_jfx_zvb" outputclass="tall-cells">
+                    <tgroup cols="4">
+                        <colspec colname="c1" colnum="1" colwidth="1.35*"/>
+                        <colspec colname="c2" colnum="2" colwidth="1.35*"/>
+                        <colspec colname="c3" colnum="3" colwidth="1*"/>
+                        <colspec colname="c4" colnum="4" colwidth="1.7*"/>
+                        <thead>
+                            <row>
+                                <entry>
+                                    <p>Section</p>
+                                </entry>
+                                <entry>
+                                    <p>Property</p>
+                                </entry>
+                                <entry>
+                                    <p>Default Value</p>
+                                </entry>
+                                <entry>
+                                    <p>Description</p>
+                                </entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry morerows="7">
+                                    <p><codeph>[legacy_Property]</codeph></p>
+                                </entry>
+                                <entry>
+                                    <p><codeph>CONFIG_PATH</codeph></p>
+                                </entry>
+                                <entry>
+                                    <p>empty string</p>
+                                </entry>
+                                <entry>
+                                    <p>The file path to the sample config file for agent feature
+                                        settings</p>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <p><codeph>LIST_PATH</codeph></p>
+                                </entry>
+                                <entry>
+                                    <p>empty string</p>
+                                </entry>
+                                <entry>
+                                    <p>The file path to the Approved List used to import agent
+                                        feature settings</p>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <p><codeph>APPLICATION FOLDER</codeph></p>
+                                </entry>
+                                <entry>
+                                    <p>empty string</p>
+                                </entry>
+                                <entry>
+                                    <p>The installation path for agent program</p>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <p><codeph>QUARANTINE_ FOLDER_PATH</codeph></p>
+                                </entry>
+                                <entry>
+                                    <p>empty string</p>
+                                </entry>
+                                <entry>
+                                    <p>The quarantine path for agent program</p>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <p><codeph>INIT_LIST_PATH</codeph></p>
+                                </entry>
+                                <entry>
+                                    <p>empty string</p>
+                                </entry>
+                                <entry>
+                                    <p>A folder path to be traversed for the Approved List
+                                        initialization. Each local disk's root directory will be
+                                        traversed if empty.</p>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <p><codeph>INIT_LIST_PATH_OPTIONAL</codeph></p>
+                                </entry>
+                                <entry>
+                                    <p>empty string</p>
+                                </entry>
+                                <entry>
+                                    <p>A folder path to be traversed for the Approved List
+                                        initialization. Each local disk's root directory will be
+                                        traversed if empty.</p>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <p><codeph>INIT_LIST_E XCLUDED_FOLDER</codeph></p>
+                                </entry>
+                                <entry>
+                                    <p>empty string</p>
+                                </entry>
+                                <entry>
+                                    <p>An absolute folder path to exclude from automatic file
+                                        enumeration for Approved List initialization.</p>
+                                    <p>The configuration applies to the Approved List first
+                                        initialized and all subsequent Approved List updates.</p>
+                                    <p>Specify multiple folders by creating new entries with names
+                                        that start with
+                                            <filepath>INIT_LIST_EXCLUDED_FOLDER</filepath></p>
+                                    <p>Ensure each entry name is unique. For example:</p>
+                                    <p><filepath>INIT_LIST_EXCLUDED_FOLDER=
+                                        c:\folder1</filepath></p>
+                                    <p><filepath>INIT_LIST_EXCLUDED_FOLDER2
+                                        =c:\folder2</filepath></p>
+                                    <p><filepath>INIT_LIST_EXCLUDED_FOLDER3
+                                        =c:\folder3</filepath></p>
+                                    <p>Possible values</p>
+                                    <ul id="ul_rwd_tjx_zvb">
+                                        <li>
+                                            <p>Folder path supports a maximum length of 260
+                                                characters.</p>
+                                        </li>
+                                        <li>
+                                            <p>Folder paths that do not exist may be specified.</p>
+                                        </li>
+                                        <li>
+                                            <p>The exclusion applies to subfolders.</p>
+                                        </li>
+                                    </ul>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <p><codeph>ALLOW_NON_MASS_STORAGE_USB_DEVICE</codeph></p>
+                                </entry>
+                                <entry>
+                                    <p><codeph>0</codeph></p>
+                                </entry>
+                                <entry>
+                                    <p>Allow some drivers (e.g., Touch screen/ Infrared
+                                        sensor/Android mobile phone) from being loaded when those
+                                        hardware devices are plugged in and storage device blocking
+                                        is enabled.</p>
+                                    <p>Possible values:</p>
+                                    <ul id="ul_gpx_ckx_zvb">
+                                        <li>
+                                            <p>0: Disable (Default)</p>
+                                        </li>
+                                        <li>
+                                            <p>1: Enable</p>
+                                        </li>
+                                    </ul>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <p><codeph>[legacy_AGENT]</codeph></p>
+                                </entry>
+                                <entry>
+                                    <p><codeph>FIXED_IP</codeph></p>
+                                </entry>
+                                <entry>
+                                    <p>empty string</p>
+                                </entry>
+                                <entry>
+                                    <p>Set the agent IP address to communcate with the <ph
+                                            conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> server</p>
+                                    <p>Possible values:</p>
+                                    <ul id="ul_sxy_qkx_zvb">
+                                        <li>
+                                            <p>A.B.C.D/E</p>
+                                        </li>
+                                        <li>
+                                            <p>A, B, C, D: 0~255</p>
+                                        </li>
+                                        <li>
+                                            <p>E: 1~32</p>
+                                        </li>
+                                    </ul>
+                                    <note id="note_qhy_skx_zvb">
+                                        <p>Ensure that you also input and insert the section title
+                                                <codeph>[legacy_AGENT]</codeph> above the
+                                                <codeph>FIXED_IP</codeph> line.</p>
+                                    </note>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry morerows="3">
+                                    <p><codeph>[legacy_Prescan]</codeph></p>
+                                </entry>
+                                <entry><codeph>SPECIFIC_FOLDER</codeph></entry>
+                                <entry>
+                                    <p>empty string</p>
+                                </entry>
+                                <entry>
+                                    <p>An absolute folder path to scan when the scan type is set
+                                            <codeph>[Specific]</codeph></p>
+                                    <p>Possible values:</p>
+                                    <p>&lt;folder_path></p>
+                                    <p>Multiple folders can be specified by creating new entries
+                                        whose name starting with
+                                        <codeph>SPECIFIC_FOLDER</codeph></p>
+                                    <p>Every entry name needs to be unique. For example:</p>
+                                    <p><filepath>SPECIFIC_FOLDER=c:\folder1</filepath></p>
+                                    <p><filepath>SPECIFIC_FOLDER2=c:\folder2</filepath></p>
+                                    <p><filepath>SPECIFIC_FOLDER3=c:\folder3</filepath></p>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <p><codeph>EXCLUDED_FILE</codeph></p>
+                                </entry>
+                                <entry>
+                                    <p>empty string</p>
+                                </entry>
+                                <entry>
+                                    <p>An absolute file path to exclude from scanning</p>
+                                    <p>Possible values:</p>
+                                    <p>&lt;file_path></p>
+                                    <p>Multiple files can be specified by creating new entries whose
+                                        name starting with <filepath>EXCLUDED_FILE</filepath></p>
+                                    <p>Every entry name needs to be unique.</p>
+                                    <p>For example:</p>
+                                    <p><filepath>EXCLUDED_FILE=c:\file1.exe</filepath></p>
+                                    <p><filepath>EXCLUDED_FILE2=c:\file2.exe</filepath></p>
+                                    <p><filepath>EXCLUDED_FILE3=c:\file3.exe</filepath></p>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <p><codeph>EXCLUDED_FOLDER</codeph></p>
+                                </entry>
+                                <entry>
+                                    <p>empty string</p>
+                                </entry>
+                                <entry>
+                                    <p>An absolute folder path to exclude from scanning</p>
+                                    <p>&lt;folder_path></p>
+                                    <p>Multiple folders can be specified by creating new entries
+                                        whose name starting with
+                                            <filepath>EXCLUDED_FOLDER</filepath></p>
+                                    <p>Every entry name needs to be unique</p>
+                                    <p>For example:</p>
+                                    <p><filepath>EXCLUDED_FOLDER=c:\file1</filepath></p>
+                                    <p><filepath>EXCLUDED_FOLDER2=c:\file2</filepath></p>
+                                    <p><filepath>EXCLUDED_FOLDER3=c:\file3</filepath></p>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <p><codeph>EXCLUDED_EXTENSION</codeph></p>
+                                </entry>
+                                <entry>
+                                    <p>empty string</p>
+                                </entry>
+                                <entry>
+                                    <p>A file extensiont o exclude from scanning</p>
+                                    <p>&lt;file_extension></p>
+                                    <p>Multiple extensions can be specified by creating new entries
+                                        whose name starting with
+                                            <filepath>EXCLUDED_EXTENSION</filepath></p>
+                                    <p>Every entry name needs to be unique</p>
+                                    <p>For example:</p>
+                                    <p><filepath>EXCLUDED_EXTENSION=bmp</filepath></p>
+                                    <p><filepath>EXCLUDED_EXTENSION2=png</filepath></p>
+                                </entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table></p>
         </section>
     </refbody>
 </reference>
