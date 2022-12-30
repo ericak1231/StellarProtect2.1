@@ -4,7 +4,7 @@
 <title id="GUID-A4666C67-E723-48CA-8FFE-922E2F928DF0">Installation</title>
   <topicref href="../topics/ch2_installation_sp_agent=20221121163635.xml">
     <topicref
-      href="../../../../../../../../../OneDrive%20-%20TXOne%20Networks%20Inc/Documents/3.%20Project/2.1/StellarProtect/en-us/topics/s1_managed_or_standalone_intro_splm=20221226131151.xml"/>
+      href="../topics/s1_managed_or_standalone_intro_splm=20221226131151.xml"/>
     <topicref href="../topics/installation_flow_sp_agent=20221121164810.xml"/>
     <topicref href="../topics/get_agent_installer_package_intro=20221122155527.xml">
       <topicref href="../topics/get_agent_package=20221121173747.xml"/>
@@ -26,13 +26,13 @@
       </topicref>
     </topicref>
     <topicref
-      href="../../../../../../../../../OneDrive%20-%20TXOne%20Networks%20Inc/Documents/3.%20Project/2.1/StellarProtect/en-us/topics/install_stanalone_agent_package=20221205150458.xml">
+      href="../topics/install_stanalone_agent_package=20221205150458.xml">
       <topicref
-        href="../../../../../../../../../OneDrive%20-%20TXOne%20Networks%20Inc/Documents/3.%20Project/2.1/StellarProtect/en-us/topics/get_license_file_psn_agent=20221122163604.xml">
+        href="../topics/get_license_file_psn_agent=20221122163604.xml">
         <topicref
-          href="../../../../../../../../../OneDrive%20-%20TXOne%20Networks%20Inc/Documents/3.%20Project/2.1/StellarProtect/en-us/topics/license_file_standalone_agents=20221122162502.xml"/>
+          href="../topics/license_file_standalone_agents=20221122162502.xml"/>
         <topicref
-          href="../../../../../../../../../OneDrive%20-%20TXOne%20Networks%20Inc/Documents/3.%20Project/2.1/StellarProtect/en-us/topics/license_file_update_agents=20221122162307.xml"
+          href="../topics/license_file_update_agents=20221122162307.xml"
         />
       </topicref>
     </topicref>
