@@ -13,7 +13,7 @@
         <p>Topics in this chapter include:</p>
         <ul id="ul_bs4_b1y_fp">
             <li>
-                <p><xref href="system_requirements_sp_agent=20221121165729.xml"/></p>
+                <p><xref href="s1_managed_or_standalone_intro_splm=20221226131151.xml"/></p>
             </li>
             <li>
                 <p><xref href="../topics/installation_flow_sp_agent=20221121164810.xml"/></p>
@@ -33,7 +33,13 @@
                 </ul>
             </li>
             <li>
-                <p><xref href="prepare_upgrade_sp=20221206145440.xml"/></p>
+                <p><xref href="install_stanalone_agent_package=20221205150458.xml"/></p>
+            </li>
+            <li>
+                <p><xref href="license_file_replicate_multi_agents=20221122164139.xml"/></p>
+            </li>
+            <li>
+                <p><xref href="silent_install_encrypt_agent_package=20221206105306.xml"/></p>
             </li>
             <li>
                 <p><xref href="proxy_settings_sp=20221208144133.xml"/></p>

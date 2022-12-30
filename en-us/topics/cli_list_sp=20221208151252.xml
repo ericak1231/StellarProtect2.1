@@ -561,7 +561,7 @@
                         </row>
                         <row>
                             <entry>
-                                <p><codeph>opcmd.exe -p scan-task -s START-TIME --daily --weekly
+                                <p><codeph>opcmd.exe -p scan task -s START-TIME --daily --weekly
                                         --monthly</codeph></p>
                             </entry>
                             <entry>
