@@ -23,6 +23,13 @@
                         conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME" otherprops="SPLM"
                         >OFFICIAL_PRODUCT_NAME</ph><ph
                         conkeyref="PRODvars/PRODUCT_SPLM_PREVIOUS_NAME" otherprops="SE"/>.</cmd>
+                <info otherprops="SPLM">
+                    <note id="note_ssq_rbx_zvb">The <ph
+                            conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                            >OFFICIAL_PRODUCT_NAME</ph> now shares the same installer package with
+                            <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                            >OFFICIAL_PRODUCT_NAMEa</ph>.</note>
+                </info>
             </step>
             <step>
                 <cmd>Be sure you are on the <uicontrol>Product Download/Update</uicontrol> tab

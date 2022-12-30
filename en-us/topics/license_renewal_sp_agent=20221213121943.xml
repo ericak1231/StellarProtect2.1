@@ -51,7 +51,9 @@
                         </ul><fig id="fig_sh1_35x_wvb">
                             <title>Use License Key for Activation</title>
                             <image href="../images/license_activation_key=20221219223414.png"
-                                id="image_nbp_35x_wvb"/>
+                                id="image_nbp_35x_wvb" otherprops="SP"/>
+                            <image href="../images/license_file_gray_out=20221230183430.png"
+                                id="image_msz_cdy_zvb" otherprops="SPLM"/>
                         </fig></choice>
                     <choice>Click <uicontrol>License File</uicontrol><ul id="ul_xz3_dvg_pvb">
                             <li>
@@ -69,7 +71,7 @@
                             </li>
                             <li>
                                 <p>Click <uicontrol>Save</uicontrol>.</p>
-                                <fig id="fig_dc2_j5x_wvb">
+                                <fig id="fig_dc2_j5x_wvb" otherprops="SP">
                                     <title>Use License File for Activation</title>
                                     <image
                                         href="../images/license_activation_file=20221219223259.png"

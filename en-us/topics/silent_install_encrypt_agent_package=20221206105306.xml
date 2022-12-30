@@ -4,28 +4,32 @@
     <title>Encrypting Config File for Installation</title>
     <taskbody>
         <context id="context_ob3_1dg_pvb"><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                >OFFICIAL_PRODUCT_NAME</ph> supports encrypting the configuration file for
-            installation to prevent sensitive data leakage. The encrypted configuration file name is
-            fixed to
-                <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?><filepath>StellarSetup.bin</filepath><?oxy_custom_end?></context>
+                otherprops="SP">OFFICIAL_PRODUCT_NAME</ph><ph
+                conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> supports encrypting the configuration
+            file for installation to prevent sensitive data leakage. The encrypted configuration
+            file name is fixed to <filepath>StellarSetup.bin</filepath>.</context>
         <steps id="steps_yvn_3mg_pvb">
             <step>
                 <cmd>Prepare your <ph conkeyref="PRODvars/SETUP_FILE"/> as mentioned in <xref
-                        href="silent_installation_intro_sp_agent=20221122135932.xml"/></cmd>
+                        href="silent_installation_intro_sp_agent=20221122135932.xml"/>.</cmd>
             </step>
             <step>
                 <cmd>Encrypt <ph conkeyref="PRODvars/SETUP_FILE"/> by using the command prompt:
                         <userinput>StellarSetup.exe -e &lt;CONFIG_FILE></userinput>. The parameter
                         <codeph>-e</codeph> is used for encrypting the configuration file and
-                    generating
-                        <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?><filepath>StellarSetup.bin</filepath><?oxy_custom_end?>
-                    file in the working directory.</cmd>
+                    generating <filepath>StellarSetup.bin</filepath> file in the working
+                    directory.</cmd>
             </step>
             <step>
-                <cmd>After the
-                        <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?><filepath>StellarSetup.bin</filepath><?oxy_custom_end?>
-                    file is generated, place it as the top-level file in the installer
-                    package.</cmd>
+                <cmd>After the <filepath>StellarSetup.bin</filepath> file is generated, place it as
+                    the top-level file in the installer package.</cmd>
+                <info>
+                    <note id="note_db4_vqx_zvb">
+                        <p>For security reasons, the original <ph conkeyref="PRODvars/SETUP_FILE"/>
+                            file can be removed from the installer package since the encrypted setup
+                            file (<filepath>StellarSetup.bin</filepath>) can replace it now.</p>
+                    </note>
+                </info>
             </step>
             <step>
                 <cmd>The installation with encrypted configuration can now be executed.</cmd>

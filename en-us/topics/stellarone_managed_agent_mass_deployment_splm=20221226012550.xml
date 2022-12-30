@@ -6,7 +6,7 @@
         <context>
             <p>Agents installed in <b>Managed</b> mode are managed by a <ph
                     conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> server, which can issue
-                remote commands to all managed agents. To deploy agentconfiguration settings to
+                remote commands to all managed agents. To deploy agent configuration settings to
                 multiple managed agents, launch the <ph
                     conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> web console and use the
                     <uicontrol>Send Command </uicontrol>menu located on the
@@ -30,7 +30,7 @@
                     /> web console. The <wintitle>Agent</wintitle> management screen appears.</cmd>
             </step>
             <step>
-                <cmd>Select a target endpoint.</cmd>
+                <cmd>Select the target endpoint(s).</cmd>
             </step>
             <step>
                 <cmd>Click <uicontrol>Import/ Export</uicontrol> and select one of the

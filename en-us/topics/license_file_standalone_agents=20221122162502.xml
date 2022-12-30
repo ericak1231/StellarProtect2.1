@@ -8,9 +8,10 @@
         </context>
         <steps id="steps_gjx_t5d_m4">
             <step>
-                <cmd>Open the URL:
-                        <filepath>https://mytxone.cs.txone.com/license/activate/txone/stellar</filepath>
-                    in a web browser on a computer with Internet connection.</cmd>
+                <cmd>Open the URL: <xref
+                        href="https://mytxone.cs.txone.com/license/activate/txone/stellar"
+                        format="html" scope="external"/> in a web browser on a computer with
+                    Internet connection.</cmd>
                 <info>
                     <note id="note_uvq_lvw_zvb">
                         <p>This URL can also be obtained during the GUI installation process. Refer

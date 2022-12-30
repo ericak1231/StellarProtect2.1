@@ -176,6 +176,17 @@
                     installation. TXOne Networks recommends you perform this scan.</cmd>
                 <choices id="choices_szz_hdy_xvb">
                     <choice>
+                        <p>To skip scanning, click <uicontrol>Do Not Scan</uicontrol>.</p>
+                        <note id="note_tfx_xfy_xvb">
+                            <p>The <uicontrol>Do Not Scan</uicontrol> and close buttons are not
+                                applicable when you set the <codeph>FORCE_PRESCAN</codeph> value to
+                                    <codeph>1</codeph> in the <filepath>StellarSetup.ini</filepath>
+                                file. Rerfer to <xref
+                                    href="silent_install_parameters_configuration=20221215105406.xml"
+                                />.</p>
+                        </note>
+                    </choice>
+                    <choice>
                         <p>To scan the endpoint for threats, click <uicontrol>Scan</uicontrol>.</p>
                         <ol id="ol_wql_ndy_xvb">
                             <li>
@@ -221,8 +232,8 @@
                                     they are false positives.</p>
                                 <note id="note_gcd_l2y_xvb">
                                     <p>You cannot stop a scan process when you set the
-                                            <codeph>PRESCANCLEANUP</codeph> and
-                                            <codeph>FORCE_PRESCAN</codeph> values in the
+                                            <codeph>FORCE_PRESCAN</codeph> value to
+                                            <codeph>1</codeph> in the
                                             <filepath>StellarSetup.ini</filepath> file. Rerfer to
                                             <xref
                                             href="silent_install_parameters_configuration=20221215105406.xml"
@@ -235,17 +246,6 @@
                                 </note>
                             </li>
                         </ol>
-                    </choice>
-                    <choice>
-                        <p>To skip scanning, click <uicontrol>Do Not Scan</uicontrol>.</p>
-                        <note id="note_tfx_xfy_xvb">
-                            <p>The <uicontrol>Do Not Scan</uicontrol> and close buttons are not
-                                applicable when you set the <codeph>PRESCANCLEANUP</codeph> and
-                                    <codeph>FORCE_PRESCAN</codeph> values in the
-                                    <filepath>StellarSetup.ini</filepath> file. Rerfer to <xref
-                                    href="silent_install_parameters_configuration=20221215105406.xml"
-                                />.</p>
-                        </note>
                     </choice>
                 </choices>
             </step>
@@ -299,7 +299,7 @@
                                 />for more details.</p>
                         </li>
                         <li>
-                            <p>Modifythe TXOne <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"
+                            <p>Modify the TXOne <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"
                                     otherprops="SPLM_SE"/> settings.</p>
                         </li>
                         <li>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="local_installation_sp_agent_20221121172423">
+    <title>Installation Using the Command Line</title>
+    <conbody>
+        <p>Administrators can install <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> from the
+            command line interface (CLI) or using a batch file, allowing for silent installation and
+            mass deployment.</p>
+        <p>For mass deployment, TXOne Networks recommends first installing <ph
+                conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> on a test endpoint since a customized
+            installation may require a valid configuration file and Approved List. See the TXOne <ph
+                conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> Administrator's Guide for more
+            information about the Approved List and configuration file.</p>
+    </conbody>
+</concept>

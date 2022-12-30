@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_ntt_lkg_pvb">
+    <title>Installer Command Line Interface Parameters</title>
+    <refbody>
+        <section id="section_t31_nmq_vvb">
+            <p>The following table lists the commands available for <ph
+                    conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> installation.</p>
+            <table frame="all" id="table_tjw_l4x_zvb">
+                <title><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> Installer Command Line
+                    Options</title>
+                <tgroup cols="3">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1.14*"/>
+                    <colspec colname="c3" colnum="3" colwidth="2.6*"/>
+                    <thead>
+                        <row>
+                            <entry>
+                                <p>Parameter</p>
+                            </entry>
+                            <entry>
+                                <p>Value</p>
+                            </entry>
+                            <entry>
+                                <p>Descripton</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p><codeph>-s</codeph></p>
+                            </entry>
+                            <entry/>
+                            <entry>
+                                <p>Run the installer silently</p>
+                                <note id="note_bvv_r4x_zvb">
+                                    <p>During the installation process, you can view the following
+                                        log files in the folder <filepath>C:\windows\temp</filepath>
+                                        to check the status of the prescan and initial approved
+                                        process:</p>
+                                    <ul id="ul_zcb_54x_zvb">
+                                        <li>
+                                            <p>Prescan process:
+                                                  <filepath>YYYYMMDDHHMMSS_wk_PreScanProgress.log</filepath></p>
+                                        </li>
+                                        <li>
+                                            <p>Initial approved process:
+                                                  <filepath>YYYYMMDDHHMMSS_wk_InitListProgress.log</filepath></p>
+                                        </li>
+                                    </ul>
+                                </note>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>-p</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>&lt;administrator_password></p>
+                            </entry>
+                            <entry>
+                                <p>Specify the administrator password</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>-d</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>&lt;path></p>
+                            </entry>
+                            <entry>
+                                <p>Specify the installation path</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>-nd</codeph></p>
+                            </entry>
+                            <entry/>
+                            <entry>
+                                <p>Do not create a desktop shortcut</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>-fw</codeph></p>
+                            </entry>
+                            <entry/>
+                            <entry>
+                                <p>Enable Network Virus Protection</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>-ns</codeph></p>
+                            </entry>
+                            <entry/>
+                            <entry>
+                                <p>Do not add a shortcut to the <uicontrol>Start</uicontrol>
+                                    menu</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>-ni</codeph></p>
+                            </entry>
+                            <entry/>
+                            <entry>
+                                <p>Hide the task tray icon</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>-cp</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>&lt;path></p>
+                            </entry>
+                            <entry>
+                                <p>Specify the <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+                                    configuration file</p>
+                                <note id="note_brr_fpx_zvb">
+                                    <p>The <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+                                        configuration file can be exported after installing <ph
+                                            conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>.</p>
+                                </note>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>-lp</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>&lt;path></p>
+                            </entry>
+                            <entry>
+                                <p>Specify the Approved List</p>
+                                <note id="note_vpx_kpx_zvb">
+                                    <p>After installing <ph
+                                            conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> and
+                                        creating the Approved List, the list can be exported.</p>
+                                </note>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>-qp</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>&lt;path></p>
+                            </entry>
+                            <entry>
+                                <p>Specify the folder path for quarantined files when custom action
+                                    is set to “quarantine” mode</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>-nps</codeph></p>
+                            </entry>
+                            <entry/>
+                            <entry>
+                                <p>Do not execute Prescan</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><codeph>-ips</codeph></p>
+                            </entry>
+                            <entry/>
+                            <entry>Do not cancel installation when Prescan detects threats</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <p>An example of using CLI for silent installation without creating a desktop shortcut
+                would look like this:</p>
+            <p><codeph>StellarSetup.exe -s -p &lt;administrator_password> -nd</codeph></p>
+        </section>
+    </refbody>
+</reference>

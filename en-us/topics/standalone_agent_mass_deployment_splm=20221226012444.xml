@@ -8,16 +8,14 @@
                     conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> central management
                 console server. To manually deploy a single configuration to multiple
                     <b>Standalone</b> agents, use an agent configuration file.</p>
-            <sectiondiv>
-                <data>
-                    <title><b>Exporting or Importing a Configuration File</b></title>
-                </data>
-                <note id="note_u3p_wzr_yvb">
-                    <p>TXOne <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH" otherprops="SPLM_SE"/>
-                        encrypts the configuration file before export. Users must decrypt the
-                        configuration file before modifying the contents.</p>
-                </note>
-            </sectiondiv>
+            <note id="note_lxy_ksx_zvb">
+                <p>To import a sample config file to multiple agents without using the GUI, add the
+                        <codeph>CONFIG_PATH</codeph> property with its value specified (the file
+                    path to the sample config file) in the <ph conkeyref="PRODvars/SETUP_FILE"
+                    > </ph> file. Refer to <xref
+                        href="silent_install_parameters_configuration=20221215105406.xml"/> for more
+                    details.</p>
+            </note>
         </context>
         <steps>
             <step>
@@ -48,6 +46,12 @@
                                 <p>Provide a filename, and click <uicontrol>Save</uicontrol>.</p>
                             </li>
                         </ol>
+                        <note id="note_zc2_gzx_zvb">
+                            <p>TXOne <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"
+                                    otherprops="SPLM_SE"/> encrypts the configuration file before
+                                export. Users must decrypt the configuration file before modifying
+                                the contents.</p>
+                        </note>
                     </choice>
                     <choice>
                         <p>To import the configuration file as a database

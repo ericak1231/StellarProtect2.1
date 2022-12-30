@@ -15,6 +15,12 @@
         <topicref
           href="../topics/set_up_approved_list_splm=20221223154638.xml"
         />
+        <topicref
+          href="../topics/local_installation_cli_splm_agent=20221230163803.xml">
+          <topicref
+            href="../topics/install_cli_parameters_splm_agent=20221230164221.xml"
+          />
+        </topicref>
       </topicref>
       <topicref href="../topics/silent_installation_intro_sp_agent=20221122135932.xml">
         <topicref href="../topics/silent_install_download_from_s1_configuration=20221215104938.xml"/>
