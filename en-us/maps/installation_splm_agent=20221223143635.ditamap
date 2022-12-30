@@ -33,7 +33,11 @@
     </topicref>
     <topicref href="../topics/install_stanalone_agent_package=20221205150458.xml">
       <topicref href="../topics/get_license_file_psn_agent=20221122163604.xml">
-        <topicref href="../topics/license_file_standalone_agents=20221122162502.xml"/>
+        <topicref href="../topics/license_file_standalone_agents=20221122162502.xml">
+          <topicref
+            href="../topics/gui_installer_copied_link_license=202211230142426.xml"
+          />
+        </topicref>
         <topicref href="../topics/license_file_update_agents=20221122162307.xml"/>
       </topicref>
     </topicref>
