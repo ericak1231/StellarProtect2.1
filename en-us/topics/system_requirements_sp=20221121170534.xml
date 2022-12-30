@@ -79,10 +79,18 @@
         <section id="section_pjk_jc1_pvb">
             <p>By default, <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
                     >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
-                uses port 14336, which is sometimes blocked by firewalls. Please make sure this port
-                is kept open for <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                    otherprops="SP">OFFICIAL_PRODUCT_NAME</ph><ph
-                    conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>'s use.</p>
+                uses port 14336 as the listening port for <ph
+                    conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>, which is sometimes
+                blocked by firewalls. Please make sure this port is kept open for <ph
+                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                    >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>'s
+                use.</p>
+            <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+            <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
+                    >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
+                changes its Active Update server link to <b>ttau.cs.txone.com</b>. Please enusre
+                that you whitelist this URL in your
+                firewall.<?oxy_comment_start author="erica_txone" timestamp="20221230T101259+0800" comment="added &amp; AU link changed in 2.1" mid="1"?></p><?oxy_custom_end?><?oxy_comment_end mid="1"?>
             <note id="note_wbw_lc1_pvb" type="important">
                 <p>
                     <ul id="ul_q3w_kxq_xvb">

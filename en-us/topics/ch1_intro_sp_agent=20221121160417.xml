@@ -24,6 +24,15 @@
             <li>
                 <p><xref href="what_new_sp_agent=20221121161048.xml"/></p>
             </li>
+            <li>
+                <p><xref href="system_requirements_sp_agent=20221121165729.xml"/></p>
+            </li>
+            <li>
+                <p><xref href="prepare_upgrade_sp=20221206145440.xml"/></p>
+            </li>
+            <li otherprops="SPLM_SE">
+                <p><xref href="agent_use_overview_splm=20221223101337.xml"/></p>
+            </li>
         </ul>
     </conbody>
 </concept>

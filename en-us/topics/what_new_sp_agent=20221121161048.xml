@@ -45,10 +45,9 @@
                                 <p>Silent manual scan</p>
                             </entry>
                             <entry>
-                                <p>Users can implement silent manual scan via CLI and send the scan
-                                    result to the <ph
-                                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>
-                                    management console.</p>
+                                <p>Users can implement silent manual scan and send the scan result
+                                    to the <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"
+                                    /> management console via CLI .</p>
                             </entry>
                         </row>
                         <row>

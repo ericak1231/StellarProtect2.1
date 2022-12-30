@@ -30,13 +30,13 @@
             </note>
         </section>
         <section id="section_ngd_krc_tvb">
-            <table frame="all" id="table_gfp_tlg_pvb">
+            <table frame="all" id="table_gfp_tlg_pvb" outputclass="tall-cells">
                 <title>Properties in the <ph conkeyref="PRODvars/SETUP_FILE"/> File</title>
                 <tgroup cols="4">
-                    <colspec colname="c1" colnum="1" colwidth="1.89*"/>
-                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c1" colnum="1" colwidth="2.33*"/>
+                    <colspec colname="c2" colnum="2" colwidth="3*"/>
                     <colspec colname="c3" colnum="3" colwidth="1*"/>
-                    <colspec colname="c4" colnum="4" colwidth="2*"/>
+                    <colspec colname="c4" colnum="4" colwidth="3.87*"/>
                     <thead>
                         <row>
                             <entry>
@@ -2180,7 +2180,7 @@
                     </tbody>
                 </tgroup>
             </table>
-            <note id="note_gjh_5yc_tvb">
+            <note id="note_gjh_5yc_tvb" otherprops="SP">
                 <ul id="ul_atr_5yc_tvb">
                     <li>
                         <p>When <codeph>ENABLE_PRESCAN</codeph> is set to <codeph>0</codeph>,

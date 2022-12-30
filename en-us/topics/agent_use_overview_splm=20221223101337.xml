@@ -32,9 +32,8 @@
                 following message displays:</p>
             <fig id="fig_wt2_ptw_xvb">
                 <title><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> Blocking Message</title>
-                <image
-                    href="../images/agent_use_overview=20221223102749.png"
-                    id="image_zb4_ptw_xvb"/>
+                <image href="../images/agent_use_overview=20221223102749.png" id="image_zb4_ptw_xvb"
+                />
             </fig>
         </section>
     </refbody>

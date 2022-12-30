@@ -43,7 +43,7 @@
                                         >OFFICIAL_PRODUCT_NAME</ph>.</p>
                             </entry>
                         </row>
-                        <row>
+                        <row otherprops="SPLM_SE">
                             <entry colname="1">
                                 <p>Installation Guide</p>
                             </entry>
@@ -51,7 +51,7 @@
                                 procedures for installing and managing <ph
                                     conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>.</entry>
                         </row>
-                        <row>
+                        <row otherprops="SPLM_SE">
                             <entry colname="1">
                                 <p>Administrator's Guide</p>
                             </entry>
