@@ -108,7 +108,7 @@
                         </row>
                         <row>
                             <entry morerows="1">
-                                <p><codeph>ShowDeta ils</codeph></p>
+                                <p><codeph>ShowDetails</codeph></p>
                             </entry>
                             <entry>
                                 <p><codeph>yes</codeph></p>
@@ -127,7 +127,7 @@
                         </row>
                         <row>
                             <entry morerows="1">
-                                <p><codeph>AlwaysOn Top</codeph></p>
+                                <p><codeph>AlwaysOnTop</codeph></p>
                             </entry>
                             <entry>
                                 <p><codeph>yes</codeph></p>

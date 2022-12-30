@@ -1887,7 +1887,7 @@
                 </tgroup>
             </table>
             <p>The following table lists the commands, parameters, and values available.</p>
-            <table frame="all" id="table_jxl_qbh_zvb">
+            <table frame="all" id="table_jxl_qbh_zvb" outputclass="tall-cells">
                 <title>Application Lockdown Commands</title>
                 <tgroup cols="3">
                     <colspec colname="c1" colnum="1" colwidth="1*"/>
@@ -2004,9 +2004,9 @@
                                                 regexp</userinput></p>
                                     </li>
                                     <li>
-                                        <p><userinput>SLCmd.exe -p add exceptionpath -e
-                                                \\\\computer\\folder\\.*\\fil e\.exe -t
-                                                regexp</userinput></p>
+                                        <p><userinput>SLCmd.exe -p &lt;admin_password> add
+                                                exceptionpath -e \\computer\\folder\ \.*\\file.exe
+                                                -t regexp</userinput></p>
                                     </li>
                                 </ul>
                             </entry>
@@ -2021,8 +2021,8 @@
                             <entry>
                                 <p>Add an exception for the specified file</p>
                                 <p>For example, type:</p>
-                                <p><userinput>SLCmd.exe -p &lt;admin_password> add exceptionpath –e
-                                        c:\sample.bat –t file</userinput></p>
+                                <p><userinput>SLCmd.exe -p &lt;admin_password> remove exceptionpath
+                                        –e c:\sample.bat –t file</userinput></p>
                             </entry>
                         </row>
                         <row>
@@ -2082,8 +2082,8 @@
                             <entry>
                                 <p>Check if the regular expression matches the string</p>
                                 <p>For example, type:</p>
-                                <p><userinput>SLCmd.exe -p &lt;admin_password> test exceptionpath
-                                        C:\\test\\.* C:\test \sample.exe -t regexp</userinput></p>
+                                <p><userinput>LCmd.exe -p &lt;admin_password> test exceptionpath
+                                        C:\\test\\.* C:\\test \\sample.exe -t regexp</userinput></p>
                             </entry>
                         </row>
                     </tbody>
@@ -2097,7 +2097,7 @@
             <p><userinput>SLCmd.exe -p &lt;admin_password> &lt;command> &lt;parameter>
                     &lt;value></userinput></p>
             <p>The following table lists the available abbreviated forms of parameters.</p>
-            <table frame="all" id="table_rkc_ffh_zvb">
+            <table frame="all" id="table_rkc_ffh_zvb" outputclass="tall-cells">
                 <title>Abbreviations and Uses</title>
                 <tgroup cols="3">
                     <colspec colname="c1" colnum="1" colwidth="1*"/>
@@ -2222,7 +2222,7 @@
                 </tgroup>
             </table>
             <p>The following table lists the commands, parameters, and values available.</p>
-            <table frame="all" id="table_skc_ffh_zvb">
+            <table frame="all" id="table_skc_ffh_zvb" outputclass="tall-cells">
                 <title>Write Protection List “File” Commands</title>
                 <tgroup cols="4">
                     <colspec colname="c1" colnum="1" colwidth="1*"/>
@@ -2665,7 +2665,7 @@
                     </tbody>
                 </tgroup>
             </table>
-            <table frame="all" id="table_olm_zb3_zvb">
+            <table frame="all" id="table_olm_zb3_zvb" outputclass="tall-cells">
                 <title>Write Protection List “Registry” Commands</title>
                 <tgroup cols="4">
                     <colspec colname="c1" colnum="1" colwidth="1*"/>
@@ -3119,12 +3119,12 @@
                                 <p><codeph>add trustedcertification</codeph></p>
                             </entry>
                             <entry>
-                                <p><codeph>-c &lt;file_path> [-/&lt;label>] [-u]</codeph></p>
+                                <p><codeph>-c &lt;file_path> [-l&lt;label>] [-u]</codeph></p>
                             </entry>
                             <entry>
                                 <p>Add the specified certificate file to the Trusted Certifications
                                     List</p>
-                                <p>Using the optional <codeph>-/</codeph> value specifies the unique
+                                <p>Using the optional <codeph>-l</codeph> value specifies the unique
                                     label for this certificate file</p>
                                 <p>Using the optional <codeph>-u</codeph> value treats the file
                                     signed by this certificate file as a Trusted Updater</p>
@@ -3135,7 +3135,7 @@
                                 <p><codeph>remove trustedcertification</codeph></p>
                             </entry>
                             <entry>
-                                <p><codeph>-/&lt;label> </codeph></p>
+                                <p><codeph>-l&lt;label> </codeph></p>
                             </entry>
                             <entry>
                                 <p>Remove a certificate file from the Trusted Certifications List by
@@ -3279,7 +3279,7 @@
                 </tgroup>
             </table>
             <p>The following table lists the commands, parameters, and values available.</p>
-            <table frame="all" id="table_aps_4j3_zvb">
+            <table frame="all" id="table_aps_4j3_zvb" outputclass="tall-cells">
                 <title>Intelligent Runtime Learning Commands</title>
                 <tgroup cols="3">
                     <colspec colname="c1" colnum="1" colwidth="1*"/>
@@ -3340,7 +3340,7 @@
                                 <p><codeph>add trustedhash</codeph></p>
                             </entry>
                             <entry>
-                                <p><codeph>-v &lt;hash> [-/&lt;label>] [-u][-a/] [-t
+                                <p><codeph>-v &lt;hash> [-l&lt;label>] [-u][-al] [-t
                                         &lt;file_path>][-n &lt;note>]</codeph></p>
                             </entry>
                             <entry>
@@ -3349,7 +3349,7 @@
                                     Trusted Hash List, type:</p>
                                 <p><userinput>SLCmd.exe -p &lt;admin_password> add trustedhash -v
                                         xxx</userinput></p>
-                                <p>Using the optional <codeph>-/</codeph> value specifies the unique
+                                <p>Using the optional <codeph>-l</codeph> value specifies the unique
                                     label for this hash value.</p>
                                 <p>Using the optional <codeph>-u</codeph> value treats the file of
                                     the specified hash value as a Trusted Updater.</p>
@@ -3357,7 +3357,7 @@
                                     <p>The <codeph>-u</codeph> value requires the Predefined Trusted
                                         Updater List enabled.</p>
                                 </note>
-                                <p>Using the optional <codeph>-a/</codeph> value adds the file of
+                                <p>Using the optional <codeph>-al</codeph> value adds the file of
                                     the specified hash value to Approved List</p>
                                 <p>Using the optional <codeph>-t</codeph> value specifies a file
                                     path to check for the hash value</p>
@@ -3377,7 +3377,7 @@
                                 <p><codeph>remove trustedhash</codeph></p>
                             </entry>
                             <entry>
-                                <p><codeph>-/ &lt;label></codeph></p>
+                                <p><codeph>-l &lt;label></codeph></p>
                             </entry>
                             <entry>
                                 <p>Remove a file from the Trusted Hash List by specifying its
@@ -3745,7 +3745,7 @@
                 </tgroup>
             </table>
             <p>The following table lists the commands, parameters, and values available.</p>
-            <table frame="all" id="table_dlz_gm3_zvb">
+            <table frame="all" id="table_dlz_gm3_zvb" outputclass="tall-cells">
                 <title>Predefined Trusted Updater Commands</title>
                 <tgroup cols="3">
                     <colspec colname="c1" colnum="1" colwidth="1*"/>
@@ -3862,14 +3862,14 @@
                                 <p><codeph>remove predefinedtrustedupdater</codeph></p>
                             </entry>
                             <entry>
-                                <p><codeph>-/ &lt;label_name></codeph></p>
+                                <p><codeph>-l &lt;label_name></codeph></p>
                             </entry>
                             <entry>
                                 <p>Remove the specified labeled rule from the Predefined Trusted
                                     Updater List</p>
                                 <p>For example, to remove the “Notepad” rule, type:</p>
                                 <p><userinput>SLCmd.exe -p &lt;admin_password> remove
-                                        predefinedtrustedupdater -/ Notepad</userinput></p>
+                                        predefinedtrustedupdater -l Notepad</userinput></p>
                             </entry>
                         </row>
                         <row>
@@ -4006,7 +4006,7 @@
                 </tgroup>
             </table>
             <p>Append the following additional values at the end of the command:</p>
-            <table frame="all" id="table_r13_crk_zvb">
+            <table frame="all" id="table_r13_crk_zvb" outputclass="tall-cells">
                 <title>Predefined Trusted Updater “Add” Additional Values</title>
                 <tgroup cols="4">
                     <colspec colname="c1" colnum="1" colwidth="1*"/>
@@ -4108,7 +4108,7 @@
                         </row>
                         <row>
                             <entry>
-                                <p><codeph>-/ &lt;label_name></codeph></p>
+                                <p><codeph>-l &lt;label_name></codeph></p>
                             </entry>
                             <entry>
                                 <p>Optional</p>
@@ -4125,7 +4125,7 @@
                             <entry>
                                 <p><userinput>SLCmd.exe -p &lt;admin_password> add
                                         predefinedtrustedupdater -u C:\Windows\notepad.exe -t
-                                        process -/ EDITOR</userinput></p>
+                                        process -l EDITOR</userinput></p>
                             </entry>
                         </row>
                         <row>
@@ -4552,7 +4552,7 @@
                 </tgroup>
             </table>
             <p>The following table lists the commands, parameters, and values available.</p>
-            <table frame="all" id="table_cm4_1vk_zvb">
+            <table frame="all" id="table_cm4_1vk_zvb" outputclass="tall-cells">
                 <title>Configuration File Commands</title>
                 <tgroup cols="3">
                     <colspec colname="c1" colnum="1" colwidth="1*"/>
@@ -4761,7 +4761,7 @@
                 </tgroup>
             </table>
             <p>The following table lists the commands, parameters, and values available.</p>
-            <table frame="all" id="table_im5_wwk_zvb">
+            <table frame="all" id="table_im5_wwk_zvb" outputclass="tall-cells">
                 <title>Maintenance Mode Commands</title>
                 <tgroup cols="3">
                     <colspec colname="c1" colnum="1" colwidth="1*"/>
@@ -5101,7 +5101,7 @@
                 </ul>
             </note>
             <p>The following table lists the commands, parameters, and values available.</p>
-            <table frame="all" id="table_ptt_5zk_zvb">
+            <table frame="all" id="table_ptt_5zk_zvb" outputclass="tall-cells">
                 <title>Manual Scan Commands</title>
                 <tgroup cols="3">
                     <colspec colname="c1" colnum="1" colwidth="1*"/>

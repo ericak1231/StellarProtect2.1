@@ -92,7 +92,7 @@
                                 <p><codeph>TrustList</codeph></p>
                             </entry>
                             <entry>
-                                <p>RecentHisto ryUnapprove dFilesLimit</p>
+                                <p><codeph>RecentHistoryUnapprovedFilesLimit</codeph></p>
                             </entry>
                             <entry>
                                 <p><codeph>0 - 65535</codeph></p>
@@ -120,7 +120,7 @@
                                 <p><codeph>Extension</codeph></p>
                             </entry>
                             <entry>
-                                <p><codeph>&lt;file_ extension></codeph></p>
+                                <p><codeph>&lt;file_extension></codeph></p>
                             </entry>
                             <entry>
                                 <p>Exclusion file extension</p>
@@ -159,7 +159,7 @@
                                 <p><codeph>ID</codeph></p>
                             </entry>
                             <entry>
-                                <p><codeph>&lt;file_ extension></codeph></p>
+                                <p><codeph>&lt;file_extension></codeph></p>
                             </entry>
                             <entry>
                                 <p>File extension for Script Lockdown to block</p>
@@ -173,7 +173,7 @@
                             </entry>
                             <entry/>
                             <entry>
-                                <p><codeph>&lt;file_ name></codeph></p>
+                                <p><codeph>&lt;file_name></codeph></p>
                             </entry>
                             <entry>
                                 <p>Interpreter for the specified file extension</p>
@@ -217,7 +217,7 @@
                                 <p><codeph>ID</codeph></p>
                             </entry>
                             <entry>
-                                <p><codeph>&lt;uniqu e_rule set_na me></codeph></p>
+                                <p><codeph>&lt;unique_rule set_name></codeph></p>
                             </entry>
                             <entry>
                                 <p>Unique name for the set of rules</p>
@@ -249,13 +249,13 @@
                         </row>
                         <row>
                             <entry>
-                                <p><codeph>ParentPr ocess</codeph></p>
+                                <p><codeph>ParentProcess</codeph></p>
                             </entry>
                             <entry>
                                 <p><codeph>Enable</codeph></p>
                             </entry>
                             <entry>
-                                <p><codeph>proce ss_path></codeph></p>
+                                <p><codeph>process_path></codeph></p>
                             </entry>
                             <entry>
                                 <p>Path of the parent process to add to the Trusted Updater List</p>
@@ -269,7 +269,7 @@
                                 <p><codeph>Path </codeph></p>
                             </entry>
                             <entry>
-                                <p><codeph>proce ss_path></codeph></p>
+                                <p><codeph>process_path></codeph></p>
                             </entry>
                             <entry>
                                 <p>Path to exclude from the Trusted Updater List</p>
@@ -283,7 +283,7 @@
                                 <p><codeph>Label</codeph></p>
                             </entry>
                             <entry>
-                                <p><codeph>uniqu e_rule_name></codeph></p>
+                                <p><codeph>unique_rule_name></codeph></p>
                             </entry>
                             <entry>
                                 <p>Unique name for this rule</p>
@@ -336,7 +336,7 @@
                                 <p><codeph>path</codeph></p>
                             </entry>
                             <entry>
-                                <p><codeph>&lt;updat er_path></codeph></p>
+                                <p><codeph>&lt;updater_path></codeph></p>
                             </entry>
                             <entry>
                                 <p>Trusted Update path</p>
@@ -347,7 +347,7 @@
                                 <p><codeph>ConditionRef</codeph></p>
                             </entry>
                             <entry>
-                                <p><codeph>&lt;condi tion_ID></codeph></p>
+                                <p><codeph>&lt;condition_ID></codeph></p>
                             </entry>
                             <entry>
                                 <p>Condition ID to provide a more detailed rule for the Trusted
@@ -659,7 +659,7 @@
                                 <p><codeph>Path</codeph></p>
                             </entry>
                             <entry>
-                                <p><codeph>&lt;file_ path></codeph></p>
+                                <p><codeph>&lt;file_path></codeph></p>
                             </entry>
                             <entry>
                                 <p>File path</p>
@@ -752,7 +752,7 @@
                                 <p><codeph>Path</codeph></p>
                             </entry>
                             <entry>
-                                <p><codeph>&lt;file_ path></codeph></p>
+                                <p><codeph>&lt;file_path></codeph></p>
                             </entry>
                             <entry>
                                 <p>File path</p>
@@ -806,23 +806,24 @@
                                 <p>&lt;reg_key> can be abbreviated or expanded as shown below:</p>
                                 <ul id="ul_gb1_pl4_zvb">
                                     <li>
-                                        <p><filepath>HKEY_LOCAL_MACH
-                                                INE\test</filepath><filepath>HKLM\test</filepath></p>
+                                        <p><filepath>HKEY_LOCAL_MACHINE\test</filepath></p>
+                                        <p><filepath>HKLM\test</filepath></p>
                                     </li>
                                     <li>
-                                        <p><filepath>HKEY_CURRENT_CO
-                                                NFIG\test</filepath><filepath>HKCC\test</filepath></p>
+                                        <p><filepath>HKEY_CURRENT_CONFIG\test</filepath></p>
+                                        <p><filepath>HKCC\test</filepath></p>
                                     </li>
                                     <li>
-                                        <p><filepath>HKEY_CLASSES_RO
-                                                OT\test</filepath><filepath>HKCR\test</filepath></p>
+                                        <p><filepath>HKEY_CLASSES_ROOT\test</filepath></p>
+                                        <p><filepath>HKCR\test</filepath></p>
                                     </li>
                                     <li>
-                                        <p><filepath>HKEY_CURRENT_US
-                                                ER\test</filepath><filepath>HKCU\test</filepath></p>
+                                        <p><filepath>HKEY_CURRENT_USER\test</filepath></p>
+                                        <p><filepath>HKCU\test</filepath></p>
                                     </li>
                                     <li>
-                                        <p><filepath>HKEY_USERS\test</filepath><filepath>HKU\test</filepath></p>
+                                        <p><filepath>HKEY_USERS\test</filepath></p>
+                                        <p><filepath>HKU\test</filepath></p>
                                     </li>
                                 </ul>
                             </entry>
@@ -861,23 +862,24 @@
                                 <p>&lt;reg_key> can be abbreviated or expanded as shown below:</p>
                                 <ul id="ul_mnt_vm4_zvb">
                                     <li>
-                                        <p><filepath>HKEY_LOCAL_MACH
-                                                INE\test</filepath><filepath>HKLM\test</filepath></p>
+                                        <p><filepath>HKEY_LOCAL_MACHINE\test</filepath></p>
+                                        <p><filepath>HKLM\test</filepath></p>
                                     </li>
                                     <li>
-                                        <p><filepath>HKEY_CURRENT_CO
-                                                NFIG\test</filepath><filepath>HKCC\test</filepath></p>
+                                        <p><filepath>HKEY_CURRENT_CONFIG\test</filepath></p>
+                                        <p><filepath>HKCC\test</filepath></p>
                                     </li>
                                     <li>
-                                        <p><filepath>HKEY_CLASSES_RO
-                                                OT\test</filepath><filepath>HKCR\test</filepath></p>
+                                        <p><filepath>HKEY_CLASSES_ROOT\test</filepath></p>
+                                        <p><filepath>HKCR\test</filepath></p>
                                     </li>
                                     <li>
-                                        <p><filepath>HKEY_CURRENT_US
-                                                ER\test</filepath><filepath>HKCU\test</filepath></p>
+                                        <p><filepath>HKEY_CURRENT_USER\test</filepath></p>
+                                        <p><filepath>HKCU\test</filepath></p>
                                     </li>
                                     <li>
-                                        <p><filepath>HKEY_USERS\test</filepath><filepath>HKU\test</filepath></p>
+                                        <p><filepath>HKEY_USERS\test</filepath></p>
+                                        <p><filepath>HKU\test</filepath></p>
                                     </li>
                                 </ul>
                             </entry>
@@ -887,7 +889,7 @@
                                 <p><codeph>Name</codeph></p>
                             </entry>
                             <entry>
-                                <p><codeph>reg_v alue_name></codeph></p>
+                                <p><codeph>reg_value_name></codeph></p>
                             </entry>
                             <entry>
                                 <p>Registry value name</p>
@@ -907,7 +909,7 @@
                                 <p><codeph>Path</codeph></p>
                             </entry>
                             <entry>
-                                <p><codeph>&lt;proce ss_path></codeph></p>
+                                <p><codeph>&lt;process_path></codeph></p>
                             </entry>
                             <entry>
                                 <p>Path of the process</p>
@@ -921,7 +923,7 @@
                                 <p><codeph>Path</codeph></p>
                             </entry>
                             <entry>
-                                <p><codeph>file_ path></codeph></p>
+                                <p><codeph>&lt;file_path></codeph></p>
                             </entry>
                             <entry>
                                 <p>File path</p>
@@ -935,7 +937,7 @@
                                 <p><codeph>Path</codeph></p>
                             </entry>
                             <entry>
-                                <p><codeph>folder_path></codeph></p>
+                                <p><codeph>&lt;folder_path></codeph></p>
                             </entry>
                             <entry>
                                 <p>Folder path</p>
@@ -975,23 +977,24 @@
                                 <p>&lt;reg_key> can be abbreviated or expanded as shown below:</p>
                                 <ul id="ul_a5w_mn4_zvb">
                                     <li>
-                                        <p><filepath>HKEY_LOCAL_MACH
-                                                INE\test</filepath><filepath>HKLM\test</filepath></p>
+                                        <p><filepath>HKEY_LOCAL_MACHINE\test</filepath></p>
+                                        <p><filepath>HKLM\test</filepath></p>
                                     </li>
                                     <li>
-                                        <p><filepath>HKEY_CURRENT_CO
-                                                NFIG\test</filepath><filepath>HKCC\test</filepath></p>
+                                        <p><filepath>HKEY_CURRENT_CONFIG\test</filepath></p>
+                                        <p><filepath>HKCC\test</filepath></p>
                                     </li>
                                     <li>
-                                        <p><filepath>HKEY_CLASSES_RO
-                                                OT\test</filepath><filepath>HKCR\test</filepath></p>
+                                        <p><filepath>HKEY_CLASSES_ROOT\test</filepath></p>
+                                        <p><filepath>HKCR\test</filepath></p>
                                     </li>
                                     <li>
-                                        <p><filepath>HKEY_CURRENT_US
-                                                ER\test</filepath><filepath>HKCU\test</filepath></p>
+                                        <p><filepath>HKEY_CURRENT_USER\test</filepath></p>
+                                        <p><filepath>HKCU\test</filepath></p>
                                     </li>
                                     <li>
-                                        <p><filepath>HKEY_USERS\test</filepath><filepath>HKU\test</filepath></p>
+                                        <p><filepath>HKEY_USERS\test</filepath></p>
+                                        <p><filepath>HKU\test</filepath></p>
                                     </li>
                                 </ul>
                             </entry>
@@ -1056,7 +1059,7 @@
                                 <p><codeph>Name</codeph></p>
                             </entry>
                             <entry>
-                                <p><codeph>&lt;reg_v alue_name></codeph></p>
+                                <p><codeph>&lt;reg_value_name></codeph></p>
                             </entry>
                             <entry>
                                 <p>Registry value name</p>
@@ -1419,7 +1422,7 @@
                         <row>
                             <entry/>
                             <entry namest="newCol2" nameend="c3">
-                                <p><codeph>name </codeph>: Unique name of the device list</p>
+                                <p><codeph>name</codeph>: Unique name of the device list</p>
                             </entry>
                         </row>
                         <row>
@@ -1496,7 +1499,7 @@
                                 <p><codeph>Target</codeph></p>
                             </entry>
                             <entry>
-                                <p><codeph>&lt;monit ored process></codeph></p>
+                                <p><codeph>&lt;monitored process></codeph></p>
                             </entry>
                             <entry>
                                 <p>Specify <filepath>powershell.exe</filepath>,

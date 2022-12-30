@@ -5,9 +5,8 @@
     <refbody>
         <section id="section_q2x_4kg_pvb">
             <p>The following table lists the parameters to configure individual log types. Refer to
-                    <xref
-                    href="../SharedResources/StellarOne/en-us/topics/splm_agentEventLogDescription=20221101134711.xml"
-                /> for more information about log descriptions.</p>
+                    <xref href="StellarOne/splm_agentEventLogDescription=20221101134711.xml"/> for
+                more information about log descriptions.</p>
         </section>
         <section id="section_xlt_rf4_zvb">
             <table frame="all" id="table_izd_mrd_zvb">

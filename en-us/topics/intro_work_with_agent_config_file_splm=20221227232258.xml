@@ -5,7 +5,7 @@
     <conbody>
         <p>The configuration file allows administrators to create and deploy a single configuration
             across multiple machines.</p>
-        <p>Refer to <xref href="export_import_config_file_splm_agent=20221227232526.xml"/>for more
+        <p>Refer to <xref href="export_import_config_file_splm_agent=20221227232526.xml"/> for more
             information.</p>
     </conbody>
 </concept>

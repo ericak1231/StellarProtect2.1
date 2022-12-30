@@ -1189,22 +1189,39 @@
               <entry>
                 <p>Event Log settings changed.</p>
                 <p>[Details]</p>
-                <p>Windows Event Log: %ON|off% Level: Warning Log: %ON|off% Information Log:
-                  %ON|off% System Log: %ON|off% Exception Path Log: %ON|off% Write Protection Log:
-                  %ON|off% List Log: %ON|off% Approved Access Log: DllDriver Log: %ON|off% Trusted
-                  Updater Log: %ON|off% Exception Path Log: %ON|off% Trusted Certification Log:
-                  %ON|off% Trusted Hash Log: %ON|off% Write Protection Log: %ON|off% Blocked Access
-                  Log: %ON|off% USB Malware Protection Log: %ON|off% Execution Prevention Log:
-                  %ON|off% Network Virus Protection Log: %ON|off%</p>
+                <p>Windows Event Log: %ON|off%</p>
+                <p>Level: Warning Log: %ON|off%</p>
+                <p>Information Log: %ON|off%</p>
+                <p>System Log: %ON|off%</p>
+                <p>Exception Path Log: %ON|off%</p>
+                <p>Write Protection Log: %ON|off%</p>
+                <p>List Log: %ON|off%</p>
+                <p>Approved Access Log: DllDriver Log: %ON|off%</p>
+                <p>Trusted Updater Log: %ON|off% </p>
+                <p>Exception Path Log: %ON|off% </p>
+                <p>Trusted Certification Log: %ON|off%</p>
+                <p>Trusted Hash Log: %ON|off%</p>
+                <p>Write Protection Log: %ON|off%</p>
+                <p>Blocked Access Log: %ON|off%</p>
+                <p>USB Malware Protection Log: %ON|off%</p>
+                <p>Execution Prevention Log: %ON|off%</p>
+                <p>Network Virus Protection Log: %ON|off%</p>
               </entry>
             </row>
             <row>
               <entry>
                 <p>Integrity Monitoring Log</p>
-                <p> File Created Log: %ON|off% File Modified Log: %ON|off% File Deleted Log:
-                  %ON|off% File Renamed Log: %ON|off% RegValue Modified Log: %ON|off% RegValue
-                  Deleted Log: %ON|off% RegKey Created Log: %ON|off% RegKey Deleted Log: %ON|off%
-                  RegKey Renamed Log: %ON|off% Device Control Log: %ON|off% Debug Log: %ON|off%</p>
+                <p> File Created Log: %ON|off%</p>
+                <p>File Modified Log: %ON|off%</p>
+                <p>File Deleted Log: %ON|off%</p>
+                <p>File Renamed Log: %ON|off%</p>
+                <p>RegValue Modified Log: %ON|off%</p>
+                <p>RegValue Deleted Log: %ON|off%</p>
+                <p>RegKey Created Log: %ON|off%</p>
+                <p>RegKey Deleted Log: %ON|off%</p>
+                <p>RegKey Renamed Log: %ON|off%</p>
+                <p>Device Control Log: %ON|off%</p>
+                <p>Debug Log: %ON|off%</p>
               </entry>
             </row>
             <row>
@@ -1552,11 +1569,15 @@
                 <p>System</p>
               </entry>
               <entry>
-                <p>Added Fileless Attack Prevention exception. [Details] </p>
+                <p>Added Fileless Attack Prevention exception.</p>
+                <p>[Details]</p>
                 <p>Label : %label% </p>
-                <p>Target Process: %process_name% Arguments: %arguments% %regex_flag% Parent Process
-                  1 Image Path: %path% Parent Process 2 Image Path: %path% Parent Process 3 Image
-                  Path: %path% Parent Process 4 Image Path: %path%</p>
+                <p>Target Process: %process_name%</p>
+                <p>Arguments: %arguments% %regex_flag%</p>
+                <p>Parent Process 1 Image Path: %path%</p>
+                <p>Parent Process 2 Image Path: %path%</p>
+                <p>Parent Process 3 Image Path: %path%</p>
+                <p>Parent Process 4 Image Path: %path%</p>
               </entry>
             </row>
             <row>
@@ -1573,9 +1594,12 @@
                 <p>Removed Fileless Attack Prevention exception. </p>
                 <p>[Details]</p>
                 <p>Label : %label%</p>
-                <p>Target Process: %process_name% Arguments: %arguments% %regex_flag% Parent Process
-                  1 Image Path: %path% Parent Process 2 Image Path: %path% Parent Process 3 Image
-                  Path: %path% Parent Process 4 Image Path: %path%</p>
+                <p>Target Process: %process_name% </p>
+                <p>Arguments: %arguments% %regex_flag%</p>
+                <p>Parent Process 1 Image Path: %path%</p>
+                <p>Parent Process 2 Image Path: %path%</p>
+                <p>Parent Process 3 Image Path: %path%</p>
+                <p>Parent Process 4 Image Path: %path%</p>
               </entry>
             </row>
             <row>
@@ -1665,7 +1689,10 @@
               <entry>
                 <p>File access allowed: %path% </p>
                 <p>[Details]</p>
-                <p>Access Image Path: %path% Access User: %username% Mode: %mode% List: %list%</p>
+                <p>Access Image Path: %path% </p>
+                <p>Access User: %username%</p>
+                <p>Mode: %mode%</p>
+                <p>List: %list%</p>
               </entry>
             </row>
             <row>
@@ -1681,7 +1708,9 @@
               <entry>
                 <p>File access allowed: %path%</p>
                 <p>[Details]</p>
-                <p>Access Image Path: %path% Access User: %username% Mode: %mode%</p>
+                <p>Access Image Path: %path%</p>
+                <p>Access User: %username%</p>
+                <p>Mode: %mode%</p>
               </entry>
             </row>
             <row>
@@ -1695,9 +1724,13 @@
                 <p>Access Approved</p>
               </entry>
               <entry>
-                <p>Registry access allowed. Registry Key: %regkey% Registry Value Name: %regvalue% </p>
+                <p>Registry access allowed.</p>
+                <p>Registry Key: %regkey%</p>
+                <p>Registry Value Name: %regvalue% </p>
                 <p>[Details]</p>
-                <p>Access Image Path: %path% Access User: %username% Mode: %mode%</p>
+                <p>Access Image Path: %path%</p>
+                <p>Access User: %username%</p>
+                <p>Mode: %mode%</p>
               </entry>
             </row>
             <row>
@@ -1711,9 +1744,12 @@
                 <p>Access Approved</p>
               </entry>
               <entry>
-                <p>Registry access allowed. Registry Key: %regkey%</p>
+                <p>Registry access allowed.</p>
+                <p>Registry Key: %regkey%</p>
                 <p>[Details]</p>
-                <p>Access Image Path: %path% Access User: %username% Mode: %mode%</p>
+                <p>Access Image Path: %path%</p>
+                <p>Access User: %username%</p>
+                <p>Mode: %mode%</p>
               </entry>
             </row>
             <row>
@@ -1729,7 +1765,8 @@
               <entry>
                 <p>Change of File/Folder allowed by Exception List: %path% </p>
                 <p>[Details]</p>
-                <p>Access Image Path: Access User: %username% Mode: %mode%</p>
+                <p>Access Image Path: Access User: %username%</p>
+                <p>Mode: %mode%</p>
               </entry>
             </row>
             <row>
@@ -1743,10 +1780,13 @@
                 <p>Access Approved</p>
               </entry>
               <entry>
-                <p>Change of Registry Value allowed by Exception List. Registry Key: %regkey%
-                  Registry Value Name: %regvalue%</p>
+                <p>Change of Registry Value allowed by Exception List.</p>
+                <p>Registry Key: %regkey%</p>
+                <p>Registry Value Name: %regvalue%</p>
                 <p>[Details]</p>
-                <p>Access Image Path: %path% Access User: %username% Mode: %mode%</p>
+                <p>Access Image Path: %path%</p>
+                <p>Access User: %username%</p>
+                <p>Mode: %mode%</p>
               </entry>
             </row>
             <row>
@@ -1760,9 +1800,12 @@
                 <p>Access Approved</p>
               </entry>
               <entry>
-                <p>Change of Registry Key allowed by Exception List. Registry Key: %regkey%</p>
+                <p>Change of Registry Key allowed by Exception List.</p>
+                <p>Registry Key: %regkey%</p>
                 <p>[Details]</p>
-                <p>Access Image Path: %path% Access User: %username% Mode: %mode%</p>
+                <p>Access Image Path: %path%</p>
+                <p>Access User: %username%</p>
+                <p>Mode: %mode%</p>
               </entry>
             </row>
             <row>
@@ -1776,8 +1819,10 @@
                 <p>Access Blocked</p>
               </entry>
               <entry>
-                <p>Action completed successfully: %path% [Details] Action: %action% Source:
-                  %source%</p>
+                <p>Action completed successfully: %path% </p>
+                <p>[Details]</p>
+                <p>Action: %action%</p>
+                <p>Source: %source%</p>
               </entry>
             </row>
             <row>
@@ -1793,7 +1838,9 @@
               <entry>
                 <p>Change of File/Folder blocked: %path%</p>
                 <p>[Details]</p>
-                <p>Access Image Path: %path% Access User: %username% Mode: %mode%</p>
+                <p>Access Image Path: %path%</p>
+                <p>Access User: %username%</p>
+                <p>Mode: %mode%</p>
               </entry>
             </row>
             <row>

@@ -248,7 +248,7 @@
                     </tbody>
                 </tgroup>
             </table>
-            <table frame="all" id="table_cxs_lmr_xvb" otherprops="SPLM_SE">
+            <table frame="all" id="table_cxs_lmr_xvb" otherprops="SPLM_SE" outputclass="tall-cells">
                 <title>Post-Installation Agent Upgrade (Modern OS – Supports SHA2)</title>
                 <tgroup cols="4">
                     <colspec colname="c1" colnum="1" colwidth="1*"/>

@@ -238,7 +238,7 @@
                                 <p><codeph>OwnGroupIndex</codeph></p>
                             </entry>
                             <entry>
-                                <p>Zero or Positive Integer, &lt; <codeph>TotalGroupNum</codeph></p>
+                                <p>Zero or Positive Integer, <codeph>&lt;TotalGroupNum></codeph></p>
                             </entry>
                             <entry>
                                 <p>Specify the message time group ID number of this <ph
@@ -299,7 +299,7 @@
                             </entry>
                             <entry/>
                             <entry>
-                                <p><codeph>proxy_hostname></codeph></p>
+                                <p><codeph>&lt;proxy_hostname></codeph></p>
                             </entry>
                             <entry>
                                 <p>Specify the proxy host name</p>

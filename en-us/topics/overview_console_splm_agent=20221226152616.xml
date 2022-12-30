@@ -19,7 +19,7 @@
             <p><indexterm>About the Agent Console<indexterm>Overview</indexterm></indexterm>The
                 following table describes the features available on the
                     <uicontrol>Overview</uicontrol> of the agent console:<table frame="all"
-                    id="table_gjw_gj5_yvb">
+                    id="table_gjw_gj5_yvb" outputclass="tall-cells">
                     <title>Overview Item Descriptions</title>
                     <tgroup cols="3">
                         <colspec colname="newCol1" colnum="1" colwidth="1*"/>
@@ -147,7 +147,7 @@
                                     <note id="note_c5m_syz_yvb">
                                         <p>After disabling Lockdown mode, <ph
                                                 conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
-                                            switches to a “detect´´” mode. In this mode, <ph
+                                            switches to a “unlock” mode. In this mode, <ph
                                                 conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> does
                                             not block any applications from running, but logs when
                                             applications that are not in the Approved List run. You
@@ -253,20 +253,6 @@
                         </tbody>
                     </tgroup>
                 </table></p>
-            <p>For <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> agent with <b>StellarICS</b>
-                license edition, below the green check or red cross icon, a shield-shape icon with a
-                toggle on the left indicates whether the endpoint is currently protected by <ph
-                    conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>'s Real-time Scan; and a lock-shape
-                icon with a toggle on the right indicates whether the Application Lockdown is
-                enabled</p>
-            <p>For <ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> agent with <b>StellarKiosk</b>
-                or <b>StellarOEM</b> license edition, below the green check or red cross icon, below
-                the green check or red cross icon, a lock-shape icon with a toggle on the right
-                indicates whether the Application Lockdown is enabled.</p>
-            <note id="note_kgg_nbb_zvb">
-                <p>The <b>StellarKiosk</b> license edition supports on-demand scanning; the
-                        <b>StellarOEM</b> license edition does not support any scan function.</p>
-            </note>
         </section>
         <section id="section_gpy_n5s_tvb">
             <title>Approved List</title>
@@ -479,6 +465,17 @@
                         </row>
                     </thead>
                     <tbody>
+                        <row>
+                            <entry>
+                                <p>Application Lockdown</p>
+                            </entry>
+                            <entry>
+                                <p>When Application Lockdown is turned on, the agent will only be
+                                    able to access applications that are in the Approved List; the
+                                    applications not in the Approved List will be blocked.</p>
+                            </entry>
+                            <entry/>
+                        </row>
                         <row>
                             <entry>
                                 <p>DLL/Driver Lockdown</p>
@@ -711,9 +708,8 @@
                                 <p>Storage Device Blocking</p>
                             </entry>
                             <entry>
-                                <p>Blocks storage devices, including USB drives, CD/DVD drives,
-                                    floppy disks, and network drives from accessing the managed
-                                    endpoint.</p>
+                                <p>Blocks storage devices, including USB drives, CD/DVD drives, and
+                                    floppy disks from accessing the managed endpoint.</p>
                             </entry>
                         </row>
                         <row>

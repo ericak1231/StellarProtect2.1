@@ -334,6 +334,28 @@
                                 <p>No</p>
                             </entry>
                         </row>
+                        <row>
+                            <entry>
+                                <p>On-demand Scan</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                            <entry>
+                                <p>No</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Real-Time Scan</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                            <entry>
+                                <p>Yes</p>
+                            </entry>
+                        </row>
                     </tbody>
                 </tgroup>
             </table>
