@@ -5,7 +5,7 @@
     <refbody>
         <section id="section_d2s_jb1_pvb">
             <p>TXOne <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP_SPLM"
-                    >OFFICIAL_PRODUCT_NAME</ph><text otherprops="SP_SPLM">Single
+                    >OFFICIAL_PRODUCT_NAME</ph><text otherprops="SP_SPLM"> Single
                     Installer</text><text otherprops="SE">StellarEnforce</text> does not have
                 specific hardware requirements beyond those specified by the operating system, with
                 the following exceptions:</p>
@@ -20,7 +20,7 @@
                 <thead>
                     <row>
                         <entry>
-                            <p>Software</p>
+                            <p>Hardware</p>
                         </entry>
                         <entry>
                             <p>Description</p>
