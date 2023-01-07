@@ -6,5 +6,6 @@
     <prop action="exclude" att="otherprops" val="UMBRACO"/>
     <prop action="exclude" att="otherprops" val="SP"/>
     <prop action="exclude" att="otherprops" val="SPLM"/>
+    <prop action="exclude" att="otherprops" val="SP_SPLM"/>
 
 </val>

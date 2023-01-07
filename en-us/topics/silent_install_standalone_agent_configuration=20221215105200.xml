@@ -175,7 +175,7 @@
             <p><codeph>SCAN = 0</codeph></p>
             <p><codeph>[legacy_Message]</codeph></p>
             <p><codeph>INITIAL_RETRY_INTERVAL = 120</codeph></p>
-            <p>MAX_RETRY_INTERVAL = 7680</p>
+            <p><codeph>MAX_RETRY_INTERVAL = 7680</codeph></p>
             <p><codeph>[legacy_MessageRandomization]</codeph></p>
             <p><codeph>TOTAL_GROUP_NUM = 1</codeph></p>
             <p><codeph>OWN_GROUP_INDEX = 0</codeph></p>

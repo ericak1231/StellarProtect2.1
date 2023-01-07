@@ -10,11 +10,19 @@
         </section>
         <section id="section_vbr_s1b_zvb">
             <title>Overview</title>
-            <fig id="fig_fld_hss_tvb">
+            <fig id="fig_fld_hss_tvb" otherprops="SPLM">
                 <title>Overview of the<ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH">\</ph> Agent
-                    Console</title>
-                <image href="../images/splm_2.1_overview_agent_console=20221226151033.png"
+                    Console - Protection Enabled</title>
+                <image
+                    href="../images/overview_protection_enabled_2.1_splm_agent=20220103142707.png"
                     id="image_l5v_yxs_vvb"/>
+            </fig>
+            <fig id="fig_jlp_vd1_bwb" otherprops="SPLM">
+                <title>Overview of the<ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH">\</ph> Agent
+                    Console - Protection Disabled</title>
+                <image
+                    href="../images/overview_protection_disabled_2.1_splm_agent=20220103142744.png"
+                    id="image_klc_sd1_bwb"/>
             </fig>
             <p><indexterm>About the Agent Console<indexterm>Overview</indexterm></indexterm>The
                 following table describes the features available on the
@@ -102,9 +110,8 @@
                                 <entry>
                                     <ul id="ul_dvp_kl5_yvb">
                                         <li>
-                                            <p>The green check indicates the endpoint is under the
-                                                protection of Real-time Scan and/or Application
-                                                Lockdown</p>
+                                            <p>The green check indicates the Real-time Scan and/or
+                                                Application Lockdown are/is enabled.</p>
                                         </li>
                                         <li>
                                             <p>The red cross indicates the endpoint is vulnerable to
@@ -256,7 +263,7 @@
         </section>
         <section id="section_gpy_n5s_tvb">
             <title>Approved List</title>
-            <fig id="fig_tyg_45s_tvb">
+            <fig id="fig_tyg_45s_tvb" otherprops="SPLM">
                 <title>The Approved List Window</title>
                 <image href="../images/splm_agent_approved_list=20220927172127.png"
                     id="image_n1n_q1c_zvb"/>
@@ -360,7 +367,7 @@
         </section>
         <section id="section_f4j_3vs_tvb">
             <title>Password</title>
-            <fig id="fig_qqp_jvs_tvb">
+            <fig id="fig_qqp_jvs_tvb" otherprops="SPLM">
                 <title>Password Setting</title>
                 <image href="../images/account_types_password=20221227174410.png"
                     id="image_byk_kjt_wvb"/>
@@ -439,7 +446,7 @@
         </section>
         <section id="section_rgx_mxs_tvb">
             <title>About Feature Settings</title>
-            <fig id="fig_u2h_nxs_tvb">
+            <fig id="fig_u2h_nxs_tvb" otherprops="SPLM">
                 <title><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> Settings Screen</title>
                 <image href="../images/settings_splm_agent=20221227180316.png"
                     id="image_db1_njt_wvb"/>
@@ -737,7 +744,7 @@
         </section>
         <section id="section_rld_txs_tvb">
             <title>About</title>
-            <fig id="fig_agn_txs_tvb">
+            <fig id="fig_agn_txs_tvb" otherprops="SPLM">
                 <title>The About Page</title>
                 <image href="../images/about_1.4_splm_agent=20221227224928.png"
                     id="image_lhj_tkt_wvb"/>

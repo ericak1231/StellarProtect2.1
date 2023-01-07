@@ -7,18 +7,24 @@
         <section id="section_q2x_4kg_pvb">
             <fig id="fig_fld_hss_tvb">
                 <title>Overview of <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                        >OFFICIAL_PRODUCT_NAME</ph> Console</title>
-                <image href="../images/overview_sp_console=20221215181148.png"
+                        >OFFICIAL_PRODUCT_NAME</ph> Console - Protection Enabled</title>
+                <image href="../images/overview_protection_enabled_2.1_sp_agent=20220103142456.png"
                     id="image_l5v_yxs_vvb"/>
+            </fig>
+            <fig id="fig_x2q_xg1_bwb">
+                <title>Overview of <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                        >OFFICIAL_PRODUCT_NAME</ph> Console - Protection Disabled</title>
+                <image href="../images/overview_protection_disabled_2.1_sp_agent=20220103142428.png"
+                    id="image_y2q_xg1_bwb"/>
             </fig>
             <p><indexterm>Side Navigation Menu<indexterm>Overview</indexterm></indexterm>The
                     <uicontrol>Overview</uicontrol> serves as the portal as well as one of the side
                 navigation options on <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
                     >OFFICIAL_PRODUCT_NAME</ph> console. It displays the current status of the <ph
                     conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
-                system. The green check indicates the endpoint is under the protection of Real-time
-                Malware Scan and/or Application Lockdown, while the red cross indicates the endpoint
-                is at risk.</p>
+                system. The green check indicates the Real-time Malware Scan and/or Application
+                Lockdown are/is enabled, while the red cross indicates the endpoint is vulnerable to
+                security threats.</p>
             <p>For <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
                 agent with <b>StellarICS</b> license edition, below the green check or red cross
                 icon, a shield-shape icon with a toggle on the left indicates whether the endpoint

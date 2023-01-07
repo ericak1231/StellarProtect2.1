@@ -4,11 +4,102 @@
     <title>Software and Hardware Requirements</title>
     <refbody>
         <section id="section_d2s_jb1_pvb">
-            <p>TXOne <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
-                    >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>
-                does not have specific hardware requirements beyond those specified by the operating
-                system, with the following exceptions:</p>
+            <p>TXOne <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP_SPLM"
+                    >OFFICIAL_PRODUCT_NAME</ph><text otherprops="SP_SPLM">Single
+                    Installer</text><text otherprops="SE">StellarEnforce</text> does not have
+                specific hardware requirements beyond those specified by the operating system, with
+                the following exceptions:</p>
         </section>
+        <table frame="all" otherprops="SP_SPLM" id="table_b3c_q2d_cwb">
+            <title>Required Hardware for <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                    otherprops="SP_SPLM">OFFICIAL_PRODUCT_NAME</ph><text otherprops="SP_SPLM">
+                    Single Installer</text></title>
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="2.51*"/>
+                <thead>
+                    <row>
+                        <entry>
+                            <p>Software</p>
+                        </entry>
+                        <entry>
+                            <p>Description</p>
+                        </entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>
+                            <p>Available free disk space</p>
+                        </entry>
+                        <entry>
+                            <p>1GB</p>
+                            <note id="note_k5c_vfd_cwb">
+                                <ul id="ul_yqf_4gd_cwb">
+                                    <li>
+                                        <p>After being invoked, the single installer can identify
+                                            the version of Windows installed on the endpoint and
+                                            launch the suitable installer. Free disk space required
+                                            for each Agent:<ul id="ul_uwr_xfd_cwb">
+                                                <li>
+                                                  <p><ph
+                                                  conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                                  >OFFICIAL_PRODUCT_NAME</ph>: 350MB minimum, 400MB
+                                                  recommended</p>
+                                                </li>
+                                                <li>
+                                                  <p><ph
+                                                  conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                                  >OFFICIAL_PRODUCT_NAME</ph>: 350MB</p>
+                                                </li>
+                                            </ul></p>
+                                    </li>
+                                    <li>
+                                        <p>Minimum memory required when Application Lockdown and
+                                            Real-Time Scan are both enabled:<ul id="ul_jcq_rgd_cwb">
+                                                <li>
+                                                  <p><ph
+                                                  conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                                  >OFFICIAL_PRODUCT_NAME</ph>: 350MB </p>
+                                                </li>
+                                                <li>
+                                                  <p><ph
+                                                  conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                                  >OFFICIAL_PRODUCT_NAME</ph>: 300MB</p>
+                                                </li>
+                                            </ul></p>
+                                    </li>
+                                    <li>
+                                        <p>Minimum memory required when Application Lockdown is
+                                            enabled and Real-Time Scan is disabled:<ul
+                                                id="ul_nyj_vgd_cwb">
+                                                <li>
+                                                  <p><ph
+                                                  conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                                  >OFFICIAL_PRODUCT_NAME</ph>: 120MB </p>
+                                                </li>
+                                                <li>
+                                                  <p><ph
+                                                  conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                                  >OFFICIAL_PRODUCT_NAME</ph>: 100MB</p>
+                                                </li>
+                                            </ul></p>
+                                    </li>
+                                </ul>
+                            </note>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <p>Monitor and resolution</p>
+                        </entry>
+                        <entry>
+                            <p>VGA (640 x 480), 16 colors</p>
+                        </entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
         <table frame="all" id="table_nrw_vb1_pvb" otherprops="SP">
             <title>Required Software for <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
                     otherprops="SP">OFFICIAL_PRODUCT_NAME</ph></title>
@@ -37,10 +128,8 @@
                 </tbody>
             </tgroup>
         </table>
-        <table frame="all" id="table_ijd_dc1_pvb">
-            <title>Required Hardware for <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                    >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"
-                /></title>
+        <table frame="all" id="table_ijd_dc1_pvb" otherprops="SE">
+            <title>Required Hardware for <text otherprops="SE">StellarEnforce</text></title>
             <tgroup cols="2">
                 <colspec colname="c1" colnum="1" colwidth="1*"/>
                 <colspec colname="c2" colnum="2" colwidth="1*"/>
@@ -57,20 +146,18 @@
                 <tbody>
                     <row>
                         <entry>
-                            <p>Available disk space</p>
+                            <p>Available free disk space</p>
                         </entry>
                         <entry>
                             <p>350MB minimum</p>
-                            <p otherprops="SP">400MB recommended</p>
                         </entry>
                     </row>
                     <row>
                         <entry>
-                            <p>Monitor resolution</p>
+                            <p>Monitor and resolution</p>
                         </entry>
                         <entry>
-                            <p otherprops="SP">640 x 480</p>
-                            <p otherprops="SPLM_SE">VGA (640 x 480), 16 colors</p>
+                            <p>VGA (640 x 480), 16 colors</p>
                         </entry>
                     </row>
                 </tbody>
@@ -89,7 +176,7 @@
             <p>The Active Update server link for <ph
                     conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
                     >OFFICIAL_PRODUCT_NAME</ph><ph conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> has
-                been changed to <b>https://ttau.cs.txone.com</b>. Please enusre that you whitelist
+                been changed to <b>https://ttau.cs.txone.com</b>. Please ensure that you whitelist
                 this URL in your
                 firewall.<?oxy_comment_start author="erica_txone" timestamp="20221230T101259+0800" comment="added &amp; AU link changed in 2.1" mid="1"?></p><?oxy_custom_end?><?oxy_comment_end mid="1"?>
             <note id="note_wbw_lc1_pvb" type="important">

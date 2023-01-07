@@ -12,7 +12,7 @@
                 types.</p>
         </section>
         <section id="section_xlt_rf4_zvb">
-            <table frame="all" id="table_izd_mrd_zvb">
+            <table frame="all" id="table_izd_mrd_zvb" outputclass="tall-cells">
                 <title>Configuration File - <codeph>AccountRef</codeph> Section Parameters</title>
                 <tgroup cols="4">
                     <colspec colname="c1" colnum="1" colwidth="1*"/>
