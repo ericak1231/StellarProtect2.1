@@ -766,7 +766,7 @@
                 </tgroup>
             </table>
             <p>The following table lists the commands, parameters, and values available.</p>
-            <table frame="all" id="table_od3_v12_zvb">
+            <table frame="all" id="table_od3_v12_zvb" outputclass="tall-cells">
                 <title>Optional Feature Commands</title>
                 <tgroup cols="3">
                     <colspec colname="c1" colnum="1" colwidth="1*"/>
