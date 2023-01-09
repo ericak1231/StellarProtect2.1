@@ -5,15 +5,16 @@
     <refbody>
         <section id="section_d2s_jb1_pvb">
             <p>TXOne <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP_SPLM"
-                    >OFFICIAL_PRODUCT_NAME</ph><text otherprops="SP_SPLM"> Single
-                    Installer</text><text otherprops="SE">StellarEnforce</text> does not have
-                specific hardware requirements beyond those specified by the operating system, with
-                the following exceptions:</p>
+                    >OFFICIAL_PRODUCT_NAME </ph><text otherprops="SP_SPLM"> and </text><ph
+                    conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/> does not have specific hardware
+                requirements beyond those specified by the operating system, with the following
+                exceptions:</p>
         </section>
-        <table frame="all" otherprops="SP_SPLM" id="table_b3c_q2d_cwb">
+        <table frame="all" otherprops="SP_SPLM" id="table_scg_thr_cwb">
             <title>Required Hardware for <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                    otherprops="SP_SPLM">OFFICIAL_PRODUCT_NAME</ph><text otherprops="SP_SPLM">
-                    Single Installer</text></title>
+                    otherprops="SP_SPLM">OFFICIAL_PRODUCT_NAME</ph> and <ph
+                    conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                >OFFICIAL_PRODUCT_NAME</ph></title>
             <tgroup cols="2">
                 <colspec colname="c1" colnum="1" colwidth="1*"/>
                 <colspec colname="c2" colnum="2" colwidth="2.51*"/>
@@ -33,30 +34,22 @@
                             <p>Available free disk space</p>
                         </entry>
                         <entry>
-                            <p>1GB</p>
-                            <note id="note_k5c_vfd_cwb">
-                                <ul id="ul_yqf_4gd_cwb">
+                            <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                    >OFFICIAL_PRODUCT_NAME</ph>: 400MB</p>
+                            <p><ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                    >OFFICIAL_PRODUCT_NAME</ph>: 400MB</p>
+                            <note id="note_tcg_thr_cwb">
+                                <ul id="ul_ucg_thr_cwb">
                                     <li>
-                                        <p>After being invoked, the single installer can identify
-                                            the version of Windows installed on the endpoint and
-                                            launch the suitable installer. Free disk space required
-                                            for each Agent:<ul id="ul_uwr_xfd_cwb">
-                                                <li>
-                                                  <p><ph
-                                                  conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-                                                  >OFFICIAL_PRODUCT_NAME</ph>: 350MB minimum, 400MB
-                                                  recommended</p>
-                                                </li>
-                                                <li>
-                                                  <p><ph
-                                                  conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
-                                                  >OFFICIAL_PRODUCT_NAME</ph>: 350MB</p>
-                                                </li>
-                                            </ul></p>
+                                        <p>Recommended free disk space for <ph
+                                                conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                                >OFFICIAL_PRODUCT_NAME</ph> Single Installer
+                                            required during the installation process - 1.5GB</p>
                                     </li>
                                     <li>
-                                        <p>Minimum memory required when Application Lockdown and
-                                            Real-Time Scan are both enabled:<ul id="ul_jcq_rgd_cwb">
+                                        <p>Minimum memory usage required when Application Lockdown
+                                            and Real-Time Scan are both enabled:<ul
+                                                id="ul_wcg_thr_cwb">
                                                 <li>
                                                   <p><ph
                                                   conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
@@ -70,9 +63,9 @@
                                             </ul></p>
                                     </li>
                                     <li>
-                                        <p>Minimum memory required when Application Lockdown is
-                                            enabled and Real-Time Scan is disabled:<ul
-                                                id="ul_nyj_vgd_cwb">
+                                        <p>Minimum memory usage required when Application Lockdown
+                                            is enabled and Real-Time Scan is disabled:<ul
+                                                id="ul_xcg_thr_cwb">
                                                 <li>
                                                   <p><ph
                                                   conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"

@@ -59,47 +59,57 @@
                     </fig>
                 </stepxmp>
             </step>
-            <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
             <step>
                 <cmd>Click <uicontrol>Next</uicontrol> to continue.</cmd>
                 <stepxmp otherprops="SPLM">
-                    <fig id="fig_qt1_dzw_xvb">
+                    <fig id="fig_qt1_dzw_xvb" otherprops="SPLM">
                         <title><ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
                                 >OFFICIAL_PRODUCT_NAME</ph> Installation Wizard</title>
                         <image href="../images/installing_started=20221223110918.png"
                             id="image_mv3_dzw_xvb"/>
                     </fig>
+                    <fig id="fig_ysn_x2q_cwb" otherprops="SE">
+                        <title><ph conkeyref="PRODvars/PRODUCT_SPLM_PREVIOUS_NAME"/> Installation
+                            Wizard</title>
+                        <image href="../images/se_1.4/welcome_message_install_se=20230109095011.png"
+                            id="image_zsn_x2q_cwb"/>
+                    </fig>
                 </stepxmp>
-            </step><?oxy_custom_end?>
+            </step>
             <step>
                 <cmd>The <wintitle>End-User License Agreement</wintitle> (EULA) window appears.
                     Please read the content carefully, and then check <uicontrol>I accept the terms
                         in the License Agreement</uicontrol> and click
                     <uicontrol>Next</uicontrol>.</cmd>
                 <info>
-                    <fig id="fig_ajf_jqs_vvb">
+                    <fig id="fig_ajf_jqs_vvb" otherprops="SPLM">
                         <title>End-User License Agreement</title>
-                        <image href="../images/eula=20221215171353.png" id="image_ytn_jqs_vvb"/>
+                        <image href="../images/eula_changed_to_txone=20230109132225.png"
+                            id="image_ytn_jqs_vvb"/>
+                    </fig>
+                    <fig id="fig_t32_dfq_cwb" otherprops="SE">
+                        <title>End-User License Agreement</title>
+                        <image href="../images/se_1.4/eula_se=20230109095230.png"
+                            id="image_u32_dfq_cwb"/>
                     </fig>
                 </info>
             </step>
             <step>
                 <cmd>Confirm the installation settings including installation directory and optional
                     component settings.</cmd>
-                <stepxmp otherprops="SP">
-                    <fig id="fig_hvq_mrs_vvb">
-                        <title><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME" otherprops="SP"
-                                >OFFICIAL_PRODUCT_NAME</ph> Installation Settings</title>
-                        <image href="../images/installation_settings=20221215172222.png"
-                            id="image_el3_nrs_vvb"/>
-                    </fig>
-                </stepxmp>
+                <stepxmp otherprops="SP"/>
                 <stepxmp otherprops="SPLM">
                     <fig id="fig_vkr_11x_xvb">
                         <title><ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
                                 >OFFICIAL_PRODUCT_NAME</ph> Installation Settings</title>
                         <image href="../images/installation_settings_splm=20221223111649.png"
                             id="image_kty_11x_xvb"/>
+                    </fig>
+                    <fig id="fig_hvq_mrs_vvb" otherprops="SE">
+                        <title><ph conkeyref="PRODvars/PRODUCT_SPLM_PREVIOUS_NAME"/> Installation
+                            Settings</title>
+                        <image href="../images/se_1.4/installation_settings_se=20230109095422.png"
+                            id="image_el3_nrs_vvb"/>
                     </fig>
                 </stepxmp>
                 <info>
@@ -146,10 +156,15 @@
                 <cmd>A success message indicating valid license appears. Click
                         <uicontrol>Next</uicontrol> to continue.</cmd>
                 <stepxmp>
-                    <fig id="fig_qgh_pqs_vvb">
+                    <fig id="fig_qgh_pqs_vvb" otherprops="SPLM">
                         <title>Admin Password &amp; License Activation</title>
                         <image href="../images/password_license_activate=20221215171528.png"
                             id="image_lfp_pqs_vvb"/>
+                    </fig>
+                    <fig id="fig_blk_4fq_cwb" otherprops="SE">
+                        <title>Admin Password &amp; License Activation</title>
+                        <image href="../images/password_license_activate=20221215171528.png"
+                            id="image_clk_4fq_cwb"/>
                     </fig>
                 </stepxmp>
                 <info>
@@ -284,7 +299,7 @@
                             /></title>
                     </fig>
                     <fig id="fig_yky_txs_vvb">
-                        <image href="../images/log_on_splm_console=20221225211756.png"
+                        <image href="../images/log_on_new_license_splm_console=20221226150101.png"
                             id="image_j3g_5xs_vvb"/>
                     </fig>
                 </stepxmp>

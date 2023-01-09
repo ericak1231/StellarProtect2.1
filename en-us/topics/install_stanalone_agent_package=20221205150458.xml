@@ -16,10 +16,15 @@
                     appears. After inputing and confirming the administrator password, click the
                         <uicontrol>New License</uicontrol> button.</cmd>
                 <info>
-                    <fig id="fig_blg_whx_wvb">
+                    <fig id="fig_blg_whx_wvb" otherprops="SPLM">
                         <title>License Activation - New License Button</title>
                         <image href="../images/license_activation_new_license=20221219221904.png"
                             id="image_ls5_whx_wvb"/>
+                    </fig>
+                    <fig id="fig_ubz_shq_cwb" otherprops="SE">
+                        <title>License Activation - New License Button</title>
+                        <image href="../images/se_1.4/stand_alone_password_license_activation=20230109100604.png"
+                            id="image_m1f_c3q_cwb"/>
                     </fig>
                 </info>
             </step>
@@ -28,11 +33,16 @@
                     the ways to activate the license based on the license data available from your
                     support provider:</cmd>
                 <info>
-                    <fig id="fig_gxt_d3x_wvb">
+                    <fig id="fig_gxt_d3x_wvb" otherprops="SPLM">
                         <title>License Activation - License Key or License File</title>
                         <image
                             href="../images/license_activation_new_license_key_or_file=20221219223001.png"
                             id="image_lsb_23x_wvb"/>
+                    </fig>
+                    <fig otherprops="SE" id="fig_nrl_j3q_cwb">
+                        <title>License Activation - License Key or License File</title>
+                        <image href="../images/se_1.4/license_key_se=20230109100659.png"
+                            id="image_orl_j3q_cwb"/>
                     </fig>
                 </info>
                 <choices id="choices_c5m_ltg_pvb">
@@ -50,10 +60,15 @@
                             <li>
                                 <p>Click <uicontrol>Save</uicontrol>.</p>
                             </li>
-                        </ul><fig id="fig_ity_s3x_wvb">
+                        </ul><fig id="fig_ity_s3x_wvb" otherprops="SPLM">
                             <title>License Activation - License Key</title>
                             <image href="../images/license_activation_key=20221219223414.png"
                                 id="image_rsn_t3x_wvb"/>
+                        </fig><fig id="fig_flj_4jq_cwb" otherprops="SE">
+                            <title>License Activation - License Key</title>
+                            <image
+                                href="../images/se_1.4/license_type_blurred_se=20230109102614.png"
+                                id="image_glj_4jq_cwb"/>
                         </fig></choice>
                     <choice>Click <uicontrol>License File</uicontrol><ul id="ul_xz3_dvg_pvb">
                             <li>
@@ -70,11 +85,17 @@
                                 </note>
                             </li>
                             <li>
-                                <p>Click <uicontrol>Save</uicontrol>.<fig id="fig_u1v_w3x_wvb">
+                                <p>Click <uicontrol>Save</uicontrol>.<fig id="fig_u1v_w3x_wvb"
+                                        otherprops="SPLM">
                                         <title>License Activation - License File</title>
                                         <image
                                             href="../images/license_activation_file=20221219223259.png"
                                             id="image_cnd_x3x_wvb"/>
+                                    </fig><fig otherprops="SE" id="fig_mdn_xjq_cwb">
+                                        <title>License Activation - License File</title>
+                                        <image
+                                            href="../images/se_1.4/license_file_se=20230109100801.png"
+                                            id="image_ndn_xjq_cwb"/>
                                     </fig></p>
                                 <note id="note_bxt_dhh_pvb">
                                     <p>If a license file expiration error message appears and the

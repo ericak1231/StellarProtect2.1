@@ -17,11 +17,16 @@
             <step>
                 <cmd>Provide the password and click <uicontrol>Log On</uicontrol>.</cmd>
                 <stepxmp>
-                    <fig id="fig_c5b_5hd_vvb">
+                    <fig id="fig_c5b_5hd_vvb" otherprops="SPLM">
                         <title><ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
                                 >OFFICIAL_PRODUCT_NAME</ph> Log On Screen</title>
                         <image href="../images/log_on_new_license_splm_console=20221226150101.png"
                             id="image_uh5_4hd_vvb" scalefit="yes"/>
+                    </fig>
+                    <fig otherprops="SE" id="fig_knr_zdq_cwb">
+                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                        <title><ph conkeyref="PRODvars/PRODUCT_SPLM_PREVIOUS_NAME"/> Log On
+                            Screen</title><?oxy_custom_end?>
                     </fig>
                 </stepxmp>
             </step>

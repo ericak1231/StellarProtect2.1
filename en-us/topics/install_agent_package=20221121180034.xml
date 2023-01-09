@@ -59,18 +59,17 @@
                     </fig>
                 </stepxmp>
             </step>
-            <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
             <step>
                 <cmd>Click <uicontrol>Next</uicontrol> to continue.</cmd>
                 <stepxmp otherprops="SPLM">
                     <fig id="fig_qt1_dzw_xvb">
-                        <title><ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                        <title><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
                                 >OFFICIAL_PRODUCT_NAME</ph> Installation Wizard</title>
-                        <image href="../images/installing_started=20221223110918.png"
+                        <image href="../images/setup_message_sp=20230109132550.png"
                             id="image_mv3_dzw_xvb"/>
                     </fig>
                 </stepxmp>
-            </step><?oxy_custom_end?>
+            </step>
             <step>
                 <cmd>The <wintitle>End-User License Agreement</wintitle> (EULA) window appears.
                     Please read the content carefully, and then check <uicontrol>I accept the terms
@@ -79,7 +78,8 @@
                 <info>
                     <fig id="fig_ajf_jqs_vvb">
                         <title>End-User License Agreement</title>
-                        <image href="../images/eula=20221215171353.png" id="image_ytn_jqs_vvb"/>
+                        <image href="../images/eula_changed_to_txone=20230109132225.png"
+                            id="image_ytn_jqs_vvb"/>
                     </fig>
                 </info>
             </step>
