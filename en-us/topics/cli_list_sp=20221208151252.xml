@@ -61,7 +61,7 @@
                             </entry>
                             <entry>
                                 <p>You can browse the list of detected OT/ICS applications from the
-                                    GUI program oy use this command to get the list in YAML
+                                    GUI program or use this command to get the list in YAML
                                     format.</p>
                             </entry>
                             <entry>
@@ -346,7 +346,7 @@
                         </row>
                         <row>
                             <entry>
-                                <p><codeph>opcmd.exe -p lockdown subfeature -f SUBFEATURE
+                                <p><codeph>opcmd.exe -p lockdown subfeature -f SUB-FEATURE
                                         (--enable|-- disable)</codeph></p>
                             </entry>
                             <entry>
@@ -354,7 +354,7 @@
                             </entry>
                             <entry>
                                 <p><codeph>-f</codeph>, <codeph>--feature</codeph><codeph>
-                                        SUBFEATURE</codeph>: Specifies sub-feature (dll_driver,
+                                        SUB-FEATURE</codeph>: Specifies sub-feature (dll_driver,
                                     script, intelligent_runtime_learning)</p>
                             </entry>
                         </row>
